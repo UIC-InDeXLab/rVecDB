@@ -15,27 +15,11 @@ Example query: *"animals that live where a swan lives, ranked by family-tree clo
 
 How the embedding is built: frozen **CLIP ViT-L/14** (768-d) → small learned projector → SSE vector.
 
-## What's left to do (as of 2026-11-09)
+## What's left to do
 
-Main items from the PI/author:
-
-1. **Use CLIP for text too, not only images.** Today MovieLens uses `BAAI/bge-base-en-v1.5`
-   (CLIP text truncates at ~77 tokens). Goal: CLIP text side, e.g. text queries against image SSEs
-   and/or a CLIP-text MovieLens run. Talk to the user about the exact setup before running.
-2. **Remove baselines that don't make sense.** Current set: B1 classifier labels (+ filtered ANN),
-   B2 CLIP soft attributes, B3 separate vectors (multi-vector), B4 CSN, B5 VLM (Qwen2.5-VL-7B),
-   B6 plain CLIP, plus MRL / PCA prefixes (ablations only, not query baselines).
-   **Ask the user which to drop; do not decide alone.**
-3. **Find benchmarks in other domains** (not just animals) where facets + a hierarchy make sense
-   (e.g. products with category trees + attributes, scientific/medical images with ontologies,
-   geography, documents with topic trees). Propose candidates with license, size, facets, hierarchy.
-
-Smaller open items:
-- **E7 (storage + query speed) is ON HOLD. Do not start it until the user says so.**
-- AwA2 hierarchy (Q2) row still uses SSE-tree; rerun with the combined loss (SSE-treeSC) for consistency.
-- Small CSN + stronger sparsity penalty (~20 min) to compare total size, not only per-attribute size.
-- Optional: MovieLens partial-correlation check per block.
-- Hand-check `data/movielens/tag_groups.csv` (genre/tone/theme/style groups) with the user.
+See **[WHAT_IS_NEXT.md](WHAT_IS_NEXT.md)**: (1) CLIP for text too, (2) remove baselines that don't
+make sense, (3) benchmarks in non-animal domains, plus smaller open items. E7 is on hold.
+Keep that file updated as tasks start/finish.
 
 ## Key results so far (short)
 
