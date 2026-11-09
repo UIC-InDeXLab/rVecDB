@@ -24,10 +24,3 @@ Current baselines:
 ### 3. Find benchmarks in other domains (not just animals)
 - Look for datasets where facets plus a hierarchy make sense. Examples: products with category trees and attributes, scientific or medical images with ontologies, geography, documents with topic trees.
 - For each candidate, give: license, size, facets (blocks), hierarchy (prefix levels), and whether it has graded scores or only yes/no labels.
-
-## Smaller open items
-- **E7 (storage + query speed) is ON HOLD.** Don't start it until the user says so.
-- The AwA2 hierarchy (Q2) row still uses SSE-tree. Rerun it with the combined loss (SSE-treeSC) so it matches iNat.
-- Train a small CSN with a stronger sparsity penalty (~20 min), to compare total size and not only per-attribute size.
-- Optional: MovieLens partial-correlation check per block.
-- Hand-check `data/movielens/tag_groups.csv` (genre / tone / theme / style groups) with the user.

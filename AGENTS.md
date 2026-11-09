@@ -18,7 +18,7 @@ How the embedding is built: frozen **CLIP ViT-L/14** (768-d) → small learned p
 ## What's left to do
 
 See **[WHAT_IS_NEXT.md](WHAT_IS_NEXT.md)**: (1) CLIP for text too, (2) remove baselines that don't
-make sense, (3) benchmarks in non-animal domains, plus smaller open items. E7 is on hold.
+make sense, (3) benchmarks in non-animal domains. E7 (cost/speed) is on hold until the user says.
 Keep that file updated as tasks start/finish.
 
 ## Key results so far (short)
