@@ -1,0 +1,4 @@
+/home/mohsen/rVecDB/sse/movielens.py:159: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  print("saved", method, seed, "final loss", float(loss))
+saved b3 1 final loss 0.09310773015022278

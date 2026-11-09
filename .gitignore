@@ -1,0 +1,17 @@
+# Large / regenerable
+data/*
+!data/movielens/
+data/movielens/*
+!data/movielens/tag_groups.csv
+cache/
+.venv/
+__pycache__/
+*.pyc
+
+# Paper lives on Overleaf only (repo is public) — never commit it here
+overleaf/
+*.pdf
+
+# Old backups
+REPORT.backup-*.md
+.claude/

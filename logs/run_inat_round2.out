@@ -1,0 +1,26 @@
+[08:13:00] ALL: started (treeSC for SSE, B3, CSN)
+[08:13:00] train_treesc_s0: started
+[08:13:07] train_treesc_s0: done (7 s)
+[08:13:07] train_b3sc_s0: started
+[08:13:14] train_b3sc_s0: done (7 s)
+[08:13:14] train_csnsc_s0: started
+[08:13:24] train_csnsc_s0: done (10 s)
+[08:13:24] train_treesc_s1: started
+[08:13:31] train_treesc_s1: done (7 s)
+[08:13:31] train_b3sc_s1: started
+[08:13:39] train_b3sc_s1: done (8 s)
+[08:13:39] train_csnsc_s1: started
+[08:13:49] train_csnsc_s1: done (10 s)
+[08:13:49] train_treesc_s2: started
+[08:13:56] train_treesc_s2: done (7 s)
+[08:13:56] train_b3sc_s2: started
+[08:14:03] train_b3sc_s2: done (7 s)
+[08:14:03] train_csnsc_s2: started
+[08:14:13] train_csnsc_s2: done (10 s)
+[08:14:13] eval_s1: started
+[08:14:13] eval_s0: started
+[08:14:13] eval_s2: started
+[08:20:27] eval_s0: done (374 s)
+[08:20:38] eval_s1: done (385 s)
+[08:20:44] eval_s2: done (391 s)
+[08:20:44] ALL: finished — results/inat/seed*/results.md

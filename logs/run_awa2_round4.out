@@ -1,0 +1,22 @@
+[13:56:10] ALL: started (round 4: B3 separate vectors + B4 CSN vs SSE=tree)
+[13:56:10] train_b3_s0: started
+[13:56:19] train_b3_s0: done (9 s)
+[13:56:19] train_csn_s0: started
+[13:56:26] train_csn_s0: done (7 s)
+[13:56:26] train_b3_s1: started
+[13:56:34] train_b3_s1: done (8 s)
+[13:56:34] train_csn_s1: started
+[13:56:40] train_csn_s1: done (6 s)
+[13:56:40] train_b3_s2: started
+[13:56:49] train_b3_s2: done (9 s)
+[13:56:49] train_csn_s2: started
+[13:56:55] train_csn_s2: done (6 s)
+[13:56:55] evaluate_s1: started
+[13:56:55] evaluate_s0: started
+[13:56:55] evaluate_s2: started
+[14:04:53] evaluate_s1: done (478 s)
+[14:04:53] evaluate_s2: done (478 s)
+[14:04:54] evaluate_s0: done (479 s)
+[14:04:54] summarize: started
+[14:04:54] summarize: done (0 s)
+[14:04:54] ALL: finished — results: results/awa2/round4_summary.md

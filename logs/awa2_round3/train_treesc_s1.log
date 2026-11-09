@@ -1,0 +1,6 @@
+ep   0  loss 10.6872  ret 0.0023  facet 0.1770  prefix 21.0158
+ep  10  loss 6.9687  ret 0.0002  facet 0.0146  prefix 13.9078
+ep  20  loss 6.8670  ret 0.0001  facet 0.0107  prefix 13.7124
+ep  30  loss 6.9109  ret 0.0001  facet 0.0117  prefix 13.7983
+ep  39  loss 6.9140  ret 0.0001  facet 0.0117  prefix 13.8045
+saved emb_treesc_s1 torch.Size([37322, 768])

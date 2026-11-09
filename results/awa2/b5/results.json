@@ -1,0 +1,172 @@
+{
+ "rows": [
+  {
+   "method": "SSE",
+   "slice": "all",
+   "n": 50,
+   "predicate_F1": 0.7473870355944123,
+   "predicate_AP": 0.839939738418177,
+   "P@10_feasible": 0.7100000000000002,
+   "NDCG@10": 0.7202233256180934
+  },
+  {
+   "method": "SSE",
+   "slice": "x unseen",
+   "n": 21,
+   "predicate_F1": 0.7343045034055667,
+   "predicate_AP": 0.8327428959821483,
+   "P@10_feasible": 0.7000000000000001,
+   "NDCG@10": 0.7250946122585051
+  },
+  {
+   "method": "B1 labels",
+   "slice": "all",
+   "n": 50,
+   "predicate_F1": 0.4423779864885431,
+   "predicate_AP": 0.4986731101809442,
+   "P@10_feasible": 0.43199999999999994,
+   "NDCG@10": 0.49434807735318187
+  },
+  {
+   "method": "B1 labels",
+   "slice": "x unseen",
+   "n": 21,
+   "predicate_F1": 0.35999228646543113,
+   "predicate_AP": 0.41480692030321287,
+   "P@10_feasible": 0.4,
+   "NDCG@10": 0.5161316393064772
+  },
+  {
+   "method": "B1-soft",
+   "slice": "all",
+   "n": 50,
+   "predicate_F1": 0.6581169314874091,
+   "predicate_AP": 0.7507434704492009,
+   "P@10_feasible": 0.652,
+   "NDCG@10": 0.687909493016391
+  },
+  {
+   "method": "B1-soft",
+   "slice": "x unseen",
+   "n": 21,
+   "predicate_F1": 0.711279931777186,
+   "predicate_AP": 0.7833089168518965,
+   "P@10_feasible": 0.7761904761904762,
+   "NDCG@10": 0.7732535169240555
+  },
+  {
+   "method": "B2 CLIP+text",
+   "slice": "all",
+   "n": 50,
+   "predicate_F1": 0.4427333367331523,
+   "predicate_AP": 0.4784444666568474,
+   "P@10_feasible": 0.43799999999999994,
+   "NDCG@10": 0.40312076387972023
+  },
+  {
+   "method": "B2 CLIP+text",
+   "slice": "x unseen",
+   "n": 21,
+   "predicate_F1": 0.46835201849809305,
+   "predicate_AP": 0.5146594582526621,
+   "P@10_feasible": 0.4666666666666667,
+   "NDCG@10": 0.37320935828823393
+  },
+  {
+   "method": "B6 plain CLIP",
+   "slice": "all",
+   "n": 50,
+   "predicate_F1": 0.5445636538425496,
+   "predicate_AP": 0.6204753443058225,
+   "P@10_feasible": 0.47200000000000003,
+   "NDCG@10": 0.4868673357447134
+  },
+  {
+   "method": "B6 plain CLIP",
+   "slice": "x unseen",
+   "n": 21,
+   "predicate_F1": 0.6587436363007171,
+   "predicate_AP": 0.7377246419267126,
+   "P@10_feasible": 0.5904761904761906,
+   "NDCG@10": 0.5725785382984042
+  },
+  {
+   "method": "B3 separate",
+   "slice": "all",
+   "n": 50,
+   "predicate_F1": 0.7552434253749106,
+   "predicate_AP": 0.8498329763964091,
+   "P@10_feasible": 0.7219999999999999,
+   "NDCG@10": 0.7441156141697092
+  },
+  {
+   "method": "B3 separate",
+   "slice": "x unseen",
+   "n": 21,
+   "predicate_F1": 0.7523762667718605,
+   "predicate_AP": 0.849936871941816,
+   "P@10_feasible": 0.7476190476190476,
+   "NDCG@10": 0.7650846154497664
+  },
+  {
+   "method": "B4 CSN",
+   "slice": "all",
+   "n": 50,
+   "predicate_F1": 0.7520740405939838,
+   "predicate_AP": 0.8418260284284458,
+   "P@10_feasible": 0.7119999999999999,
+   "NDCG@10": 0.6875108666370094
+  },
+  {
+   "method": "B4 CSN",
+   "slice": "x unseen",
+   "n": 21,
+   "predicate_F1": 0.7450417922271529,
+   "predicate_AP": 0.8468703183389389,
+   "P@10_feasible": 0.7380952380952381,
+   "NDCG@10": 0.694045521460686
+  },
+  {
+   "method": "B5 VLM (Qwen2.5-VL-7B)",
+   "slice": "all",
+   "n": 50,
+   "predicate_F1": 0.47535563757212407,
+   "predicate_AP": 0.5165483354759003,
+   "P@10_feasible": 0.40399999999999997,
+   "NDCG@10": 0.307125969826614
+  },
+  {
+   "method": "B5 VLM (Qwen2.5-VL-7B)",
+   "slice": "x unseen",
+   "n": 21,
+   "predicate_F1": 0.5290784101194032,
+   "predicate_AP": 0.584415808646309,
+   "P@10_feasible": 0.4904761904761904,
+   "NDCG@10": 0.37558757758457006
+  },
+  {
+   "method": "B5 VLM rating 0-10",
+   "slice": "all",
+   "n": 50,
+   "predicate_F1": 0.5342645717723774,
+   "predicate_AP": 0.5968659130587286,
+   "P@10_feasible": 0.602,
+   "NDCG@10": 0.5696839068870752
+  },
+  {
+   "method": "B5 VLM rating 0-10",
+   "slice": "x unseen",
+   "n": 21,
+   "predicate_F1": 0.588435658495644,
+   "predicate_AP": 0.6468583363648285,
+   "P@10_feasible": 0.6904761904761905,
+   "NDCG@10": 0.6677576570144615
+  }
+ ],
+ "timing": {
+  "pairs": 20000,
+  "seconds": 1227.4667263031006,
+  "pairs_per_s": 16.293720694357432,
+  "no_answer_found": 462
+ }
+}

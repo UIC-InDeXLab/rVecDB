@@ -1,0 +1,6 @@
+ep   0  loss 31.8259  ret 0.0018  facet 0.1843  prefix 15.8199
+ep  10  loss 26.7512  ret 0.0002  facet 0.0121  prefix 13.3695
+ep  20  loss 26.6384  ret 0.0001  facet 0.0098  prefix 13.3142
+ep  30  loss 26.5185  ret 0.0001  facet 0.0100  prefix 13.2542
+ep  39  loss 26.6336  ret 0.0001  facet 0.0104  prefix 13.3115
+saved emb_main_wp2_s0 torch.Size([37322, 768])

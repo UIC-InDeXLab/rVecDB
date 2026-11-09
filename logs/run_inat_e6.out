@@ -1,0 +1,14 @@
+[08:20:50] ALL: started
+[08:20:50] Aves_s0: started
+[08:20:50] Aves_s1: started
+[08:20:50] Aves_s2: started
+[08:22:33] Aves_s2: done (103 s)
+[08:22:33] Aves_s1: done (103 s)
+[08:22:34] Aves_s0: done (104 s)
+[08:22:34] Insecta_s1: started
+[08:22:34] Insecta_s0: started
+[08:22:34] Insecta_s2: started
+[08:24:21] Insecta_s1: done (107 s)
+[08:24:21] Insecta_s0: done (107 s)
+[08:24:22] Insecta_s2: done (108 s)
+[08:24:22] ALL: finished — results/inat/seed*/e6_<class>.md

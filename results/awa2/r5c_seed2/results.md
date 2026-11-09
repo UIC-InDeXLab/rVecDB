@@ -1,0 +1,228 @@
+# AwA2 results r5c_seed2
+
+args: `{'sse': 'SSE-768=tree_s2,SSE-256=tree256_s2,SSE-128=tree128_s2', 'mrl': '', 'out': 'r5c_seed2', 'no_baselines': True, 'extra': 'B3 separate (920)=b3tree_s2', 'seed': 2}`
+
+### E1 — Spearman of each view vs. each true facet (higher on own facet = good)
+
+| method | view | habitat | diet | taxonomy |
+|---|---|---|---|---|
+| SSE-768 | habitat | 0.903 | 0.416 | 0.310 |
+| SSE-768 | diet | 0.453 | 0.868 | 0.434 |
+| SSE-768 | family | 0.274 | 0.374 | 0.721 |
+| SSE-768 | tax | 0.292 | 0.378 | 0.703 |
+| SSE-768 | rest | 0.155 | 0.122 | 0.138 |
+| SSE-256 | habitat | 0.904 | 0.413 | 0.304 |
+| SSE-256 | diet | 0.456 | 0.866 | 0.424 |
+| SSE-256 | family | 0.282 | 0.368 | 0.725 |
+| SSE-256 | tax | 0.288 | 0.377 | 0.708 |
+| SSE-256 | rest | 0.117 | 0.109 | 0.131 |
+| SSE-128 | habitat | 0.903 | 0.412 | 0.306 |
+| SSE-128 | diet | 0.450 | 0.865 | 0.437 |
+| SSE-128 | family | 0.280 | 0.381 | 0.725 |
+| SSE-128 | tax | 0.277 | 0.376 | 0.703 |
+| SSE-128 | rest | 0.014 | 0.061 | 0.087 |
+| B3 separate (920) | habitat | 0.905 | 0.424 | 0.310 |
+| B3 separate (920) | diet | 0.448 | 0.865 | 0.448 |
+| B3 separate (920) | family | 0.276 | 0.362 | 0.725 |
+
+### E3 — general search preserved
+
+| method | overlap@10_with_CLIP | species_mAP_CLIP | species_mAP_SSE |
+|---|---|---|---|
+| SSE-768 | 0.855 | 0.819 | 0.824 |
+| SSE-256 | 0.715 | 0.836 | 0.834 |
+| SSE-128 | 0.462 | 0.831 | 0.823 |
+
+### E4/E5a — Q1 queries: habitat filter (ref x) + Family ranking (ref q)
+
+| method | slice | n | predicate_F1 | predicate_AP | P@10_feasible | NDCG@10 |
+|---|---|---|---|---|---|---|
+| SSE-768 | all | 1000 | 0.754 | 0.840 | 0.562 | 0.567 |
+| SSE-768 | x unseen | 548 | 0.728 | 0.824 | 0.538 | 0.521 |
+| SSE-768 | x seen | 452 | 0.785 | 0.858 | 0.590 | 0.628 |
+| SSE-768 | q unseen | 576 | 0.747 | 0.831 | 0.544 | 0.527 |
+| SSE-256 | all | 1000 | 0.755 | 0.839 | 0.567 | 0.578 |
+| SSE-256 | x unseen | 548 | 0.728 | 0.821 | 0.545 | 0.535 |
+| SSE-256 | x seen | 452 | 0.787 | 0.860 | 0.592 | 0.635 |
+| SSE-256 | q unseen | 576 | 0.746 | 0.829 | 0.547 | 0.542 |
+| SSE-128 | all | 1000 | 0.749 | 0.833 | 0.556 | 0.573 |
+| SSE-128 | x unseen | 548 | 0.721 | 0.815 | 0.533 | 0.531 |
+| SSE-128 | x seen | 452 | 0.782 | 0.855 | 0.584 | 0.627 |
+| SSE-128 | q unseen | 576 | 0.740 | 0.824 | 0.540 | 0.540 |
+| B3 separate (920) | all | 1000 | 0.757 | 0.842 | 0.559 | 0.582 |
+| B3 separate (920) | x unseen | 548 | 0.730 | 0.825 | 0.534 | 0.535 |
+| B3 separate (920) | x seen | 452 | 0.790 | 0.862 | 0.590 | 0.643 |
+| B3 separate (920) | q unseen | 576 | 0.749 | 0.833 | 0.542 | 0.554 |
+
+### E4 — no-mixing test (lower error = better)
+
+| pair_type | method | n_class_pairs | true_jaccard | abs_error |
+|---|---|---|---|---|
+| A same-habitat/diff-order | SSE-768 | 144 | 0.632 | 0.167 |
+| A same-habitat/diff-order | SSE-256 | 144 | 0.632 | 0.157 |
+| A same-habitat/diff-order | SSE-128 | 144 | 0.632 | 0.165 |
+| A same-habitat/diff-order | B3 separate (920) | 144 | 0.632 | 0.162 |
+| B same-family/diff-habitat | SSE-768 | 24 | 0.158 | 0.146 |
+| B same-family/diff-habitat | SSE-256 | 24 | 0.158 | 0.144 |
+| B same-family/diff-habitat | SSE-128 | 24 | 0.158 | 0.151 |
+| B same-family/diff-habitat | B3 separate (920) | 24 | 0.158 | 0.146 |
+
+### E2b — does each prefix keep its own AND coarser levels? (pair AUC)
+
+| method | prefix | same-order AUC | same-family AUC | same-genus AUC |
+|---|---|---|---|---|
+| SSE-768 | order@8 | 0.959 | 0.942 | 0.932 |
+| SSE-768 | family@32 | 0.954 | 0.996 | 0.985 |
+| SSE-768 | genus@64 | 0.941 | 0.997 | 0.995 |
+| SSE-256 | order@8 | 0.959 | 0.939 | 0.929 |
+| SSE-256 | family@32 | 0.956 | 0.997 | 0.985 |
+| SSE-256 | genus@64 | 0.944 | 0.997 | 0.995 |
+| SSE-128 | order@8 | 0.961 | 0.941 | 0.929 |
+| SSE-128 | family@32 | 0.956 | 0.996 | 0.985 |
+| SSE-128 | genus@64 | 0.941 | 0.997 | 0.995 |
+| B3 separate (920) | order@8 | 0.961 | 0.941 | 0.931 |
+| B3 separate (920) | family@32 | 0.956 | 0.997 | 0.986 |
+| B3 separate (920) | genus@64 | 0.943 | 0.997 | 0.996 |
+
+### E5b — in-between similarity among pairs labels call 'different'
+
+| method | spearman_on_label-different_pairs |
+|---|---|
+| SSE-768 | 0.889 |
+| SSE-256 | 0.890 |
+| SSE-128 | 0.889 |
+| B3 separate (920) | 0.892 |
+
+### E5c — stricter threshold -> closer matches?
+
+| method | monotonic_spearman | low_bin_true_sim | high_bin_true_sim |
+|---|---|---|---|
+| SSE-768 | 1.000 | 0.093 | 0.908 |
+| SSE-256 | 1.000 | 0.098 | 0.923 |
+| SSE-128 | 1.000 | 0.101 | 0.915 |
+| B3 separate (920) | 1.000 | 0.093 | 0.916 |
+
+### E2 — taxonomy prefix length vs. level
+
+| split | method | prefix_len | level | mAP |
+|---|---|---|---|---|
+| seen_test | SSE-768 | 4 | order | 0.990 |
+| seen_test | SSE-768 | 4 | family | 0.520 |
+| seen_test | SSE-768 | 4 | genus | 0.386 |
+| seen_test | SSE-768 | 8 | order | 0.998 |
+| seen_test | SSE-768 | 8 | family | 0.535 |
+| seen_test | SSE-768 | 8 | genus | 0.400 |
+| seen_test | SSE-768 | 16 | order | 0.997 |
+| seen_test | SSE-768 | 16 | family | 0.966 |
+| seen_test | SSE-768 | 16 | genus | 0.749 |
+| seen_test | SSE-768 | 32 | order | 0.994 |
+| seen_test | SSE-768 | 32 | family | 0.990 |
+| seen_test | SSE-768 | 32 | genus | 0.783 |
+| seen_test | SSE-768 | 64 | order | 0.989 |
+| seen_test | SSE-768 | 64 | family | 0.989 |
+| seen_test | SSE-768 | 64 | genus | 0.981 |
+| seen_test | SSE-256 | 4 | order | 0.969 |
+| seen_test | SSE-256 | 4 | family | 0.513 |
+| seen_test | SSE-256 | 4 | genus | 0.378 |
+| seen_test | SSE-256 | 8 | order | 0.998 |
+| seen_test | SSE-256 | 8 | family | 0.534 |
+| seen_test | SSE-256 | 8 | genus | 0.399 |
+| seen_test | SSE-256 | 16 | order | 0.997 |
+| seen_test | SSE-256 | 16 | family | 0.948 |
+| seen_test | SSE-256 | 16 | genus | 0.747 |
+| seen_test | SSE-256 | 32 | order | 0.994 |
+| seen_test | SSE-256 | 32 | family | 0.991 |
+| seen_test | SSE-256 | 32 | genus | 0.787 |
+| seen_test | SSE-256 | 64 | order | 0.990 |
+| seen_test | SSE-256 | 64 | family | 0.989 |
+| seen_test | SSE-256 | 64 | genus | 0.983 |
+| seen_test | SSE-128 | 4 | order | 0.863 |
+| seen_test | SSE-128 | 4 | family | 0.473 |
+| seen_test | SSE-128 | 4 | genus | 0.353 |
+| seen_test | SSE-128 | 8 | order | 0.998 |
+| seen_test | SSE-128 | 8 | family | 0.534 |
+| seen_test | SSE-128 | 8 | genus | 0.402 |
+| seen_test | SSE-128 | 16 | order | 0.997 |
+| seen_test | SSE-128 | 16 | family | 0.956 |
+| seen_test | SSE-128 | 16 | genus | 0.739 |
+| seen_test | SSE-128 | 32 | order | 0.994 |
+| seen_test | SSE-128 | 32 | family | 0.992 |
+| seen_test | SSE-128 | 32 | genus | 0.787 |
+| seen_test | SSE-128 | 64 | order | 0.990 |
+| seen_test | SSE-128 | 64 | family | 0.989 |
+| seen_test | SSE-128 | 64 | genus | 0.981 |
+| seen_test | CLIP-PCA | 4 | order | 0.514 |
+| seen_test | CLIP-PCA | 4 | family | 0.504 |
+| seen_test | CLIP-PCA | 4 | genus | 0.555 |
+| seen_test | CLIP-PCA | 8 | order | 0.600 |
+| seen_test | CLIP-PCA | 8 | family | 0.630 |
+| seen_test | CLIP-PCA | 8 | genus | 0.684 |
+| seen_test | CLIP-PCA | 16 | order | 0.649 |
+| seen_test | CLIP-PCA | 16 | family | 0.725 |
+| seen_test | CLIP-PCA | 16 | genus | 0.788 |
+| seen_test | CLIP-PCA | 32 | order | 0.665 |
+| seen_test | CLIP-PCA | 32 | family | 0.758 |
+| seen_test | CLIP-PCA | 32 | genus | 0.837 |
+| seen_test | CLIP-PCA | 64 | order | 0.659 |
+| seen_test | CLIP-PCA | 64 | family | 0.752 |
+| seen_test | CLIP-PCA | 64 | genus | 0.838 |
+| unseen | SSE-768 | 4 | order | 0.894 |
+| unseen | SSE-768 | 4 | family | 0.715 |
+| unseen | SSE-768 | 4 | genus | 0.703 |
+| unseen | SSE-768 | 8 | order | 0.944 |
+| unseen | SSE-768 | 8 | family | 0.849 |
+| unseen | SSE-768 | 8 | genus | 0.846 |
+| unseen | SSE-768 | 16 | order | 0.940 |
+| unseen | SSE-768 | 16 | family | 0.971 |
+| unseen | SSE-768 | 16 | genus | 0.945 |
+| unseen | SSE-768 | 32 | order | 0.941 |
+| unseen | SSE-768 | 32 | family | 0.986 |
+| unseen | SSE-768 | 32 | genus | 0.976 |
+| unseen | SSE-768 | 64 | order | 0.939 |
+| unseen | SSE-768 | 64 | family | 0.991 |
+| unseen | SSE-768 | 64 | genus | 0.990 |
+| unseen | SSE-256 | 4 | order | 0.857 |
+| unseen | SSE-256 | 4 | family | 0.733 |
+| unseen | SSE-256 | 4 | genus | 0.677 |
+| unseen | SSE-256 | 8 | order | 0.948 |
+| unseen | SSE-256 | 8 | family | 0.819 |
+| unseen | SSE-256 | 8 | genus | 0.824 |
+| unseen | SSE-256 | 16 | order | 0.967 |
+| unseen | SSE-256 | 16 | family | 0.957 |
+| unseen | SSE-256 | 16 | genus | 0.945 |
+| unseen | SSE-256 | 32 | order | 0.955 |
+| unseen | SSE-256 | 32 | family | 0.990 |
+| unseen | SSE-256 | 32 | genus | 0.980 |
+| unseen | SSE-256 | 64 | order | 0.949 |
+| unseen | SSE-256 | 64 | family | 0.992 |
+| unseen | SSE-256 | 64 | genus | 0.990 |
+| unseen | SSE-128 | 4 | order | 0.650 |
+| unseen | SSE-128 | 4 | family | 0.570 |
+| unseen | SSE-128 | 4 | genus | 0.561 |
+| unseen | SSE-128 | 8 | order | 0.949 |
+| unseen | SSE-128 | 8 | family | 0.833 |
+| unseen | SSE-128 | 8 | genus | 0.826 |
+| unseen | SSE-128 | 16 | order | 0.949 |
+| unseen | SSE-128 | 16 | family | 0.969 |
+| unseen | SSE-128 | 16 | genus | 0.953 |
+| unseen | SSE-128 | 32 | order | 0.946 |
+| unseen | SSE-128 | 32 | family | 0.986 |
+| unseen | SSE-128 | 32 | genus | 0.979 |
+| unseen | SSE-128 | 64 | order | 0.937 |
+| unseen | SSE-128 | 64 | family | 0.991 |
+| unseen | SSE-128 | 64 | genus | 0.988 |
+| unseen | CLIP-PCA | 4 | order | 0.607 |
+| unseen | CLIP-PCA | 4 | family | 0.630 |
+| unseen | CLIP-PCA | 4 | genus | 0.702 |
+| unseen | CLIP-PCA | 8 | order | 0.651 |
+| unseen | CLIP-PCA | 8 | family | 0.697 |
+| unseen | CLIP-PCA | 8 | genus | 0.775 |
+| unseen | CLIP-PCA | 16 | order | 0.703 |
+| unseen | CLIP-PCA | 16 | family | 0.802 |
+| unseen | CLIP-PCA | 16 | genus | 0.865 |
+| unseen | CLIP-PCA | 32 | order | 0.738 |
+| unseen | CLIP-PCA | 32 | family | 0.858 |
+| unseen | CLIP-PCA | 32 | genus | 0.915 |
+| unseen | CLIP-PCA | 64 | order | 0.757 |
+| unseen | CLIP-PCA | 64 | family | 0.881 |
+| unseen | CLIP-PCA | 64 | genus | 0.941 |

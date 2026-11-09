@@ -1,0 +1,54 @@
+[16:51:44] ALL: started (round 5: compactness + validation pick + Q2)
+[16:51:44] train_tree256_s0: started
+[16:51:49] train_tree256_s0: done (5 s)
+[16:51:49] train_tree128_s0: started
+[16:51:54] train_tree128_s0: done (5 s)
+[16:51:54] train_VAL_main_s0: started
+[16:51:59] train_VAL_main_s0: done (5 s)
+[16:51:59] train_VAL_tree_s0: started
+[16:52:03] train_VAL_tree_s0: done (4 s)
+[16:52:03] train_VAL_treesc_s0: started
+[16:52:09] train_VAL_treesc_s0: done (6 s)
+[16:52:09] train_tree256_s1: started
+[16:52:13] train_tree256_s1: done (4 s)
+[16:52:13] train_tree128_s1: started
+[16:52:18] train_tree128_s1: done (5 s)
+[16:52:18] train_VAL_main_s1: started
+[16:52:23] train_VAL_main_s1: done (5 s)
+[16:52:23] train_VAL_tree_s1: started
+[16:52:27] train_VAL_tree_s1: done (4 s)
+[16:52:27] train_VAL_treesc_s1: started
+[16:52:33] train_VAL_treesc_s1: done (6 s)
+[16:52:33] train_tree256_s2: started
+[16:52:37] train_tree256_s2: done (4 s)
+[16:52:37] train_tree128_s2: started
+[16:52:42] train_tree128_s2: done (5 s)
+[16:52:42] train_VAL_main_s2: started
+[16:52:47] train_VAL_main_s2: done (5 s)
+[16:52:47] train_VAL_tree_s2: started
+[16:52:51] train_VAL_tree_s2: done (4 s)
+[16:52:51] train_VAL_treesc_s2: started
+[16:52:57] train_VAL_treesc_s2: done (6 s)
+[16:52:57] eval_compact_s0: started
+[16:52:57] eval_compact_s1: started
+[16:52:57] eval_compact_s2: started
+[16:54:48] eval_compact_s0: done (111 s)
+[16:54:53] eval_compact_s2: done (116 s)
+[16:54:53] eval_compact_s1: done (116 s)
+[16:54:53] summarize_compact: started
+[16:54:53] summarize_compact: done (0 s)
+[16:54:53] eval_VAL_s0: started
+[16:54:53] eval_VAL_s2: started
+[16:54:53] eval_VAL_s1: started
+[16:55:52] eval_VAL_s2: done (59 s)
+[16:55:54] eval_VAL_s1: done (61 s)
+[16:55:56] eval_VAL_s0: done (63 s)
+[16:55:56] summarize_val: started
+[16:55:56] summarize_val: done (0 s)
+[16:55:56] q2_s0: started
+[16:55:56] q2_s1: started
+[16:55:56] q2_s2: started
+[17:03:28] q2_s2: done (452 s)
+[17:03:37] q2_s1: done (461 s)
+[17:03:40] q2_s0: done (464 s)
+[17:03:40] ALL: finished — results/awa2/round5_compact_summary.md, round5_val_summary.md, r5_seed*/q2.md

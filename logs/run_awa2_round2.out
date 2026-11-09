@@ -1,0 +1,46 @@
+[13:34:17] ALL: started (round 2: hardj + taxonomy weight + 3 seeds)
+[13:34:17] train_main_wp0.5_s0: started
+[13:34:23] train_main_wp0.5_s0: done (6 s)
+[13:34:23] train_main_wp1_s0: started
+[13:34:28] train_main_wp1_s0: done (5 s)
+[13:34:28] train_main_wp2_s0: started
+[13:34:34] train_main_wp2_s0: done (6 s)
+[13:34:34] train_hard_s0: started
+[13:34:40] train_hard_s0: done (6 s)
+[13:34:40] train_hardj_s0: started
+[13:34:46] train_hardj_s0: done (6 s)
+[13:34:46] train_mrl_s0: started
+[13:34:51] train_mrl_s0: done (5 s)
+[13:34:51] train_main_wp0.5_s1: started
+[13:34:57] train_main_wp0.5_s1: done (6 s)
+[13:34:57] train_main_wp1_s1: started
+[13:35:03] train_main_wp1_s1: done (6 s)
+[13:35:03] train_main_wp2_s1: started
+[13:35:08] train_main_wp2_s1: done (5 s)
+[13:35:08] train_hard_s1: started
+[13:35:14] train_hard_s1: done (6 s)
+[13:35:14] train_hardj_s1: started
+[13:35:20] train_hardj_s1: done (6 s)
+[13:35:20] train_mrl_s1: started
+[13:35:25] train_mrl_s1: done (5 s)
+[13:35:25] train_main_wp0.5_s2: started
+[13:35:31] train_main_wp0.5_s2: done (6 s)
+[13:35:31] train_main_wp1_s2: started
+[13:35:37] train_main_wp1_s2: done (6 s)
+[13:35:37] train_main_wp2_s2: started
+[13:35:43] train_main_wp2_s2: done (6 s)
+[13:35:43] train_hard_s2: started
+[13:35:48] train_hard_s2: done (5 s)
+[13:35:48] train_hardj_s2: started
+[13:35:54] train_hardj_s2: done (6 s)
+[13:35:54] train_mrl_s2: started
+[13:36:00] train_mrl_s2: done (6 s)
+[13:36:00] evaluate_s0: started
+[13:36:00] evaluate_s2: started
+[13:36:00] evaluate_s1: started
+[13:41:58] evaluate_s2: done (358 s)
+[13:41:58] evaluate_s0: done (358 s)
+[13:41:58] evaluate_s1: done (358 s)
+[13:41:58] summarize: started
+[13:41:58] summarize: done (0 s)
+[13:41:58] ALL: finished — results: results/awa2/round2_summary.md

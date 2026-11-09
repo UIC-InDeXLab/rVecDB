@@ -1,0 +1,540 @@
+{
+ "E1": [
+  {
+   "method": "SSE",
+   "view": "genre",
+   "genre": 0.34731138824496743,
+   "tone": 0.2132582396714955,
+   "theme": 0.3098647621374595,
+   "style": 0.19413918834075986
+  },
+  {
+   "method": "SSE",
+   "view": "tone",
+   "genre": 0.2713385636743048,
+   "tone": 0.2737838871928168,
+   "theme": 0.28505533117117104,
+   "style": 0.21325051528527203
+  },
+  {
+   "method": "SSE",
+   "view": "theme",
+   "genre": 0.2771404892763697,
+   "tone": 0.1944909175197539,
+   "theme": 0.31253795774122917,
+   "style": 0.17715543609029377
+  },
+  {
+   "method": "SSE",
+   "view": "style",
+   "genre": 0.2502508139357601,
+   "tone": 0.22862327087409515,
+   "theme": 0.2736350485080628,
+   "style": 0.25292087006873637
+  },
+  {
+   "method": "SSE-hard",
+   "view": "genre",
+   "genre": 0.22641734936199656,
+   "tone": 0.14111132201784218,
+   "theme": 0.21952701097260682,
+   "style": 0.1253295825434184
+  },
+  {
+   "method": "SSE-hard",
+   "view": "tone",
+   "genre": 0.20406065579249885,
+   "tone": 0.14648239689191103,
+   "theme": 0.20577253960779557,
+   "style": 0.11914901167709373
+  },
+  {
+   "method": "SSE-hard",
+   "view": "theme",
+   "genre": 0.1978426948764922,
+   "tone": 0.1229219567542039,
+   "theme": 0.2097940874396398,
+   "style": 0.10578602686360249
+  },
+  {
+   "method": "SSE-hard",
+   "view": "style",
+   "genre": 0.18986380758055343,
+   "tone": 0.14256181392563563,
+   "theme": 0.2005678218170075,
+   "style": 0.14316543214008348
+  },
+  {
+   "method": "B3 separate",
+   "view": "genre",
+   "genre": 0.3456320530255587,
+   "tone": 0.2143648575439634,
+   "theme": 0.3109885447988934,
+   "style": 0.1934989721770791
+  },
+  {
+   "method": "B3 separate",
+   "view": "tone",
+   "genre": 0.27128901365117725,
+   "tone": 0.27469404000586195,
+   "theme": 0.2873336275674773,
+   "style": 0.21385627087721013
+  },
+  {
+   "method": "B3 separate",
+   "view": "theme",
+   "genre": 0.28080478187486896,
+   "tone": 0.19454665030514445,
+   "theme": 0.3151016861457783,
+   "style": 0.17442245096473577
+  },
+  {
+   "method": "B3 separate",
+   "view": "style",
+   "genre": 0.2556473155107063,
+   "tone": 0.22912064468445234,
+   "theme": 0.2787602464491919,
+   "style": 0.2518904598959123
+  },
+  {
+   "method": "B4 CSN",
+   "view": "genre",
+   "genre": 0.3924180271215337,
+   "tone": 0.23477096691983845,
+   "theme": 0.33531440657857375,
+   "style": 0.21486374350171802
+  },
+  {
+   "method": "B4 CSN",
+   "view": "tone",
+   "genre": 0.2942211942110732,
+   "tone": 0.3080655396958961,
+   "theme": 0.2993548634880632,
+   "style": 0.2358857338639331
+  },
+  {
+   "method": "B4 CSN",
+   "view": "theme",
+   "genre": 0.3118061270034686,
+   "tone": 0.22222153211377935,
+   "theme": 0.3494977805905113,
+   "style": 0.20586047512551892
+  },
+  {
+   "method": "B4 CSN",
+   "view": "style",
+   "genre": 0.2665792530892953,
+   "tone": 0.24924721376002562,
+   "theme": 0.28705573322423067,
+   "style": 0.28611811986863
+  },
+  {
+   "method": "B1 labels",
+   "view": "genre",
+   "genre": 0.006658286269427734,
+   "tone": 0.00792445595349487,
+   "theme": 0.01051393676978343,
+   "style": 0.007394748601014012
+  },
+  {
+   "method": "B1 labels",
+   "view": "tone",
+   "genre": -0.003942690754455828,
+   "tone": 0.033886737356404614,
+   "theme": 0.010412841106986504,
+   "style": 0.02140252301196004
+  },
+  {
+   "method": "B1 labels",
+   "view": "theme",
+   "genre": 0.04176348420357232,
+   "tone": 0.040208164775640175,
+   "theme": 0.050832587705316123,
+   "style": 0.033240650690652934
+  },
+  {
+   "method": "B1 labels",
+   "view": "style",
+   "genre": 0.07441883593683471,
+   "tone": 0.015215493425676619,
+   "theme": 0.05546152764126036,
+   "style": 0.04051212120923401
+  },
+  {
+   "method": "B1-soft",
+   "view": "genre",
+   "genre": 0.3341343419292933,
+   "tone": 0.16665124542492155,
+   "theme": 0.2686490374140994,
+   "style": 0.14316094799219478
+  },
+  {
+   "method": "B1-soft",
+   "view": "tone",
+   "genre": 0.2818499682976603,
+   "tone": 0.21520900543996416,
+   "theme": 0.2579323019668967,
+   "style": 0.16139115371152488
+  },
+  {
+   "method": "B1-soft",
+   "view": "theme",
+   "genre": 0.27438631649949746,
+   "tone": 0.1536770239918967,
+   "theme": 0.27977145953430294,
+   "style": 0.1389801175142778
+  },
+  {
+   "method": "B1-soft",
+   "view": "style",
+   "genre": 0.25830348958586424,
+   "tone": 0.16288629816783637,
+   "theme": 0.24989309320450767,
+   "style": 0.2001010074947165
+  },
+  {
+   "method": "B2 text prompts",
+   "view": "genre",
+   "genre": 0.10473899633457776,
+   "tone": 0.05926178050960019,
+   "theme": 0.10294007189274727,
+   "style": 0.05391659343258742
+  },
+  {
+   "method": "B2 text prompts",
+   "view": "tone",
+   "genre": 0.08171666041696038,
+   "tone": 0.06695215147551006,
+   "theme": 0.08198825953087155,
+   "style": 0.04268510075348166
+  },
+  {
+   "method": "B2 text prompts",
+   "view": "theme",
+   "genre": 0.08910130057440274,
+   "tone": 0.053931089586640266,
+   "theme": 0.09864259242165276,
+   "style": 0.048955817586756906
+  },
+  {
+   "method": "B2 text prompts",
+   "view": "style",
+   "genre": 0.048965680468748815,
+   "tone": 0.03610166426844402,
+   "theme": 0.05278256190139959,
+   "style": 0.035068583784195584
+  },
+  {
+   "method": "B6 plain bge",
+   "view": "genre",
+   "genre": 0.17380619314940426,
+   "tone": 0.1060056369544667,
+   "theme": 0.19035708105531984,
+   "style": 0.09798843734395898
+  },
+  {
+   "method": "B6 plain bge",
+   "view": "tone",
+   "genre": 0.17380619314940426,
+   "tone": 0.1060056369544667,
+   "theme": 0.19035708105531984,
+   "style": 0.09798843734395898
+  },
+  {
+   "method": "B6 plain bge",
+   "view": "theme",
+   "genre": 0.17380619314940426,
+   "tone": 0.1060056369544667,
+   "theme": 0.19035708105531984,
+   "style": 0.09798843734395898
+  },
+  {
+   "method": "B6 plain bge",
+   "view": "style",
+   "genre": 0.17380619314940426,
+   "tone": 0.1060056369544667,
+   "theme": 0.19035708105531984,
+   "style": 0.09798843734395898
+  }
+ ],
+ "E3": [
+  {
+   "method": "SSE",
+   "overlap@10_with_bge": 0.7496666666666667
+  },
+  {
+   "method": "B4 CSN",
+   "overlap@10_with_bge": 0.6326666666666667
+  }
+ ],
+ "E4": [
+  {
+   "method": "SSE",
+   "predicate_F1": 0.35220840177104906,
+   "predicate_AP": 0.34494255733830703,
+   "P@10_feasible": 0.3162,
+   "NDCG@10": 0.12436232089909023
+  },
+  {
+   "method": "SSE-hard",
+   "predicate_F1": 0.3043274012711562,
+   "predicate_AP": 0.2928478335626259,
+   "P@10_feasible": 0.28179999999999994,
+   "NDCG@10": 0.09708555509934884
+  },
+  {
+   "method": "B3 separate",
+   "predicate_F1": 0.35359630079268733,
+   "predicate_AP": 0.3466887513486206,
+   "P@10_feasible": 0.3173,
+   "NDCG@10": 0.11919394609637175
+  },
+  {
+   "method": "B4 CSN",
+   "predicate_F1": 0.36402158108976646,
+   "predicate_AP": 0.36066216469657997,
+   "P@10_feasible": 0.3196,
+   "NDCG@10": 0.12906572588517592
+  },
+  {
+   "method": "B1 labels",
+   "predicate_F1": 0.18378455688066841,
+   "predicate_AP": 0.18490154234938042,
+   "P@10_feasible": 0.17020000000000002,
+   "NDCG@10": 0.0364889240748159
+  },
+  {
+   "method": "B1-soft",
+   "predicate_F1": 0.3314466471470399,
+   "predicate_AP": 0.3239098242863491,
+   "P@10_feasible": 0.278,
+   "NDCG@10": 0.09092847957318269
+  },
+  {
+   "method": "B2 text prompts",
+   "predicate_F1": 0.2507779725773049,
+   "predicate_AP": 0.24842685222861724,
+   "P@10_feasible": 0.2965,
+   "NDCG@10": 0.08599353469589292
+  },
+  {
+   "method": "B6 plain bge",
+   "predicate_F1": 0.29275267799757193,
+   "predicate_AP": 0.2803343691201774,
+   "P@10_feasible": 0.2487,
+   "NDCG@10": 0.09185809205894793
+  }
+ ],
+ "E5b": [
+  {
+   "facet": "genre",
+   "method": "SSE",
+   "spearman": 0.34586416915926105
+  },
+  {
+   "facet": "genre",
+   "method": "SSE-hard",
+   "spearman": 0.22557101460662934
+  },
+  {
+   "facet": "genre",
+   "method": "B3 separate",
+   "spearman": 0.3441620403382857
+  },
+  {
+   "facet": "genre",
+   "method": "B4 CSN",
+   "spearman": 0.3911187195984175
+  },
+  {
+   "facet": "genre",
+   "method": "B1 labels",
+   "spearman": 0.006563496173505843
+  },
+  {
+   "facet": "genre",
+   "method": "B1-soft",
+   "spearman": 0.3328954018425007
+  },
+  {
+   "facet": "genre",
+   "method": "B2 text prompts",
+   "spearman": 0.10465550219004824
+  },
+  {
+   "facet": "genre",
+   "method": "B6 plain bge",
+   "spearman": 0.17287833188178514
+  },
+  {
+   "facet": "tone",
+   "method": "SSE",
+   "spearman": 0.2738855226429704
+  },
+  {
+   "facet": "tone",
+   "method": "SSE-hard",
+   "spearman": 0.14712522705899572
+  },
+  {
+   "facet": "tone",
+   "method": "B3 separate",
+   "spearman": 0.27473358882328314
+  },
+  {
+   "facet": "tone",
+   "method": "B4 CSN",
+   "spearman": 0.3083022195993392
+  },
+  {
+   "facet": "tone",
+   "method": "B1 labels",
+   "spearman": 0.03324529122918972
+  },
+  {
+   "facet": "tone",
+   "method": "B1-soft",
+   "spearman": 0.21486430958328248
+  },
+  {
+   "facet": "tone",
+   "method": "B2 text prompts",
+   "spearman": 0.06734319460054096
+  },
+  {
+   "facet": "tone",
+   "method": "B6 plain bge",
+   "spearman": 0.1061158173418486
+  },
+  {
+   "facet": "theme",
+   "method": "SSE",
+   "spearman": 0.31251508659923677
+  },
+  {
+   "facet": "theme",
+   "method": "SSE-hard",
+   "spearman": 0.20977499882576864
+  },
+  {
+   "facet": "theme",
+   "method": "B3 separate",
+   "spearman": 0.31510372493801053
+  },
+  {
+   "facet": "theme",
+   "method": "B4 CSN",
+   "spearman": 0.3495041570723257
+  },
+  {
+   "facet": "theme",
+   "method": "B1 labels",
+   "spearman": 0.05084420813028042
+  },
+  {
+   "facet": "theme",
+   "method": "B1-soft",
+   "spearman": 0.2797766478137501
+  },
+  {
+   "facet": "theme",
+   "method": "B2 text prompts",
+   "spearman": 0.09861716020305906
+  },
+  {
+   "facet": "theme",
+   "method": "B6 plain bge",
+   "spearman": 0.19038087522291192
+  },
+  {
+   "facet": "style",
+   "method": "SSE",
+   "spearman": 0.2507695782665096
+  },
+  {
+   "facet": "style",
+   "method": "SSE-hard",
+   "spearman": 0.14245779702654918
+  },
+  {
+   "facet": "style",
+   "method": "B3 separate",
+   "spearman": 0.2501044535167385
+  },
+  {
+   "facet": "style",
+   "method": "B4 CSN",
+   "spearman": 0.2838136882924488
+  },
+  {
+   "facet": "style",
+   "method": "B1 labels",
+   "spearman": 0.038817197814408275
+  },
+  {
+   "facet": "style",
+   "method": "B1-soft",
+   "spearman": 0.19936281215411294
+  },
+  {
+   "facet": "style",
+   "method": "B2 text prompts",
+   "spearman": 0.03527380331158416
+  },
+  {
+   "facet": "style",
+   "method": "B6 plain bge",
+   "spearman": 0.09855259527767073
+  }
+ ],
+ "E5c": [
+  {
+   "method": "SSE",
+   "monotonic": 0.9999999999999999,
+   "low": -0.12062272429466248,
+   "high": 0.17280904948711395
+  },
+  {
+   "method": "SSE-hard",
+   "monotonic": 0.9999999999999999,
+   "low": -0.05766596645116806,
+   "high": 0.10647986084222794
+  },
+  {
+   "method": "B3 separate",
+   "monotonic": 0.9999999999999999,
+   "low": -0.10819558054208755,
+   "high": 0.1570730209350586
+  },
+  {
+   "method": "B4 CSN",
+   "monotonic": 0.9999999999999999,
+   "low": -0.12980851531028748,
+   "high": 0.1676473617553711
+  },
+  {
+   "method": "B1 labels",
+   "monotonic": 0.04242424242424241,
+   "low": -0.0005527180037461221,
+   "high": 0.0070298523642122746
+  },
+  {
+   "method": "B1-soft",
+   "monotonic": 0.9999999999999999,
+   "low": -0.08260271698236465,
+   "high": 0.14394205808639526
+  },
+  {
+   "method": "B2 text prompts",
+   "monotonic": 0.9636363636363635,
+   "low": -0.04793450981378555,
+   "high": 0.0876002386212349
+  },
+  {
+   "method": "B6 plain bge",
+   "monotonic": 0.9999999999999999,
+   "low": -0.03540605679154396,
+   "high": 0.09333088248968124
+  }
+ ]
+}

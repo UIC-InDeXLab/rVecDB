@@ -1,0 +1,80 @@
+# iNat results (seed 1)
+
+### E2 — taxonomy prefix length vs level (mAP)
+
+**seen_test**
+
+|                                          |     8 |    16 |    32 |    64 |   128 |
+|:-----------------------------------------|------:|------:|------:|------:|------:|
+| ('CLIP-PCA', 'family')                   | 0.058 | 0.092 | 0.125 | 0.156 | 0.171 |
+| ('CLIP-PCA', 'genus')                    | 0.011 | 0.032 | 0.06  | 0.093 | 0.112 |
+| ('CLIP-PCA', 'order')                    | 0.215 | 0.264 | 0.3   | 0.323 | 0.331 |
+| ('SSE (yes/no levels)', 'family')        | 0.125 | 0.189 | 0.263 | 0.315 | 0.278 |
+| ('SSE (yes/no levels)', 'genus')         | 0.038 | 0.078 | 0.128 | 0.167 | 0.214 |
+| ('SSE (yes/no levels)', 'order')         | 0.414 | 0.516 | 0.493 | 0.495 | 0.411 |
+| ('SSE-MRL (genus everywhere)', 'family') | 0.129 | 0.224 | 0.247 | 0.268 | 0.27  |
+| ('SSE-MRL (genus everywhere)', 'genus')  | 0.062 | 0.147 | 0.178 | 0.209 | 0.211 |
+| ('SSE-MRL (genus everywhere)', 'order')  | 0.259 | 0.37  | 0.381 | 0.397 | 0.398 |
+| ('SSE-tree', 'family')                   | 0.118 | 0.167 | 0.2   | 0.235 | 0.237 |
+| ('SSE-tree', 'genus')                    | 0.032 | 0.07  | 0.097 | 0.138 | 0.164 |
+| ('SSE-tree', 'order')                    | 0.387 | 0.466 | 0.475 | 0.479 | 0.447 |
+| ('SSE-treeSC', 'family')                 | 0.125 | 0.19  | 0.261 | 0.313 | 0.283 |
+| ('SSE-treeSC', 'genus')                  | 0.039 | 0.078 | 0.133 | 0.176 | 0.22  |
+| ('SSE-treeSC', 'order')                  | 0.403 | 0.511 | 0.509 | 0.502 | 0.436 |
+
+**unseen**
+
+|                                          |     8 |    16 |    32 |    64 |   128 |
+|:-----------------------------------------|------:|------:|------:|------:|------:|
+| ('CLIP-PCA', 'family')                   | 0.062 | 0.109 | 0.157 | 0.196 | 0.217 |
+| ('CLIP-PCA', 'genus')                    | 0.023 | 0.058 | 0.108 | 0.148 | 0.174 |
+| ('CLIP-PCA', 'order')                    | 0.212 | 0.272 | 0.322 | 0.349 | 0.36  |
+| ('SSE (yes/no levels)', 'family')        | 0.141 | 0.214 | 0.301 | 0.358 | 0.352 |
+| ('SSE (yes/no levels)', 'genus')         | 0.062 | 0.119 | 0.189 | 0.257 | 0.323 |
+| ('SSE (yes/no levels)', 'order')         | 0.413 | 0.517 | 0.504 | 0.512 | 0.455 |
+| ('SSE-MRL (genus everywhere)', 'family') | 0.147 | 0.289 | 0.326 | 0.344 | 0.347 |
+| ('SSE-MRL (genus everywhere)', 'genus')  | 0.095 | 0.234 | 0.29  | 0.317 | 0.323 |
+| ('SSE-MRL (genus everywhere)', 'order')  | 0.267 | 0.414 | 0.431 | 0.447 | 0.447 |
+| ('SSE-tree', 'family')                   | 0.133 | 0.19  | 0.233 | 0.272 | 0.282 |
+| ('SSE-tree', 'genus')                    | 0.055 | 0.095 | 0.145 | 0.193 | 0.229 |
+| ('SSE-tree', 'order')                    | 0.39  | 0.474 | 0.486 | 0.492 | 0.469 |
+| ('SSE-treeSC', 'family')                 | 0.139 | 0.214 | 0.296 | 0.358 | 0.356 |
+| ('SSE-treeSC', 'genus')                  | 0.057 | 0.118 | 0.196 | 0.263 | 0.327 |
+| ('SSE-treeSC', 'order')                  | 0.403 | 0.512 | 0.517 | 0.521 | 0.479 |
+
+### E2b — does each level's view keep its own and coarser levels? (pair AUC)
+
+| method | view | same-order AUC | same-family AUC | same-genus AUC |
+|---|---|---|---|---|
+| SSE-tree | order | 0.952 | 0.912 | 0.948 |
+| SSE-tree | family | 0.930 | 0.884 | 0.945 |
+| SSE-tree | genus | 0.914 | 0.870 | 0.930 |
+| SSE (yes/no levels) | order | 0.970 | 0.949 | 0.961 |
+| SSE (yes/no levels) | family | 0.928 | 0.959 | 0.981 |
+| SSE (yes/no levels) | genus | 0.855 | 0.906 | 0.987 |
+| SSE-treeSC | order | 0.970 | 0.935 | 0.962 |
+| SSE-treeSC | family | 0.946 | 0.944 | 0.978 |
+| SSE-treeSC | genus | 0.890 | 0.895 | 0.985 |
+| B3 separate (graded) | order | 0.951 | 0.912 | 0.948 |
+| B3 separate (graded) | family | 0.937 | 0.900 | 0.949 |
+| B3 separate (graded) | genus | 0.917 | 0.874 | 0.935 |
+| B4 CSN (graded) | order | 0.932 | 0.876 | 0.926 |
+| B4 CSN (graded) | family | 0.926 | 0.867 | 0.926 |
+| B4 CSN (graded) | genus | 0.922 | 0.859 | 0.923 |
+| B3 separate (graded+contrastive) | order | 0.972 | 0.940 | 0.962 |
+| B3 separate (graded+contrastive) | family | 0.950 | 0.946 | 0.977 |
+| B3 separate (graded+contrastive) | genus | 0.883 | 0.900 | 0.985 |
+| B4 CSN (graded+contrastive) | order | 0.971 | 0.933 | 0.962 |
+| B4 CSN (graded+contrastive) | family | 0.950 | 0.944 | 0.977 |
+| B4 CSN (graded+contrastive) | genus | 0.882 | 0.891 | 0.985 |
+| B1 labels | all levels | 0.884 | 0.918 | 0.932 |
+| B6 plain CLIP | full | 0.822 | 0.877 | 0.909 |
+
+### E3 — general search preserved
+
+| method | overlap@10_with_CLIP | species_mAP_CLIP | species_mAP_SSE |
+|---|---|---|---|
+| SSE-tree | 0.871 | 0.105 | 0.107 |
+| SSE (yes/no levels) | 0.672 | 0.105 | 0.126 |
+| SSE-treeSC | 0.772 | 0.105 | 0.120 |
+| SSE-MRL (genus everywhere) | 0.687 | 0.105 | 0.123 |

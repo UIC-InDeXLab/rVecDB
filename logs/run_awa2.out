@@ -1,0 +1,11 @@
+[13:18:05] download: waiting for AwA2 zip
+[13:21:05] download: done (size OK)
+[13:21:05] extract: started
+[13:22:13] extract: done (68 s) — log: logs/awa2/extract.log
+[13:22:13] train_main: started
+[13:22:18] train_main: done (5 s) — log: logs/awa2/train_main.log
+[13:22:18] train_hard: started
+[13:22:24] train_hard: done (6 s) — log: logs/awa2/train_hard.log
+[13:22:24] train_mrl: started
+[13:22:30] train_mrl: done (6 s) — log: logs/awa2/train_mrl.log
+[13:22:30] evaluate: started

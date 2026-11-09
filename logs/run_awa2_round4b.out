@@ -1,0 +1,22 @@
+[14:05:27] ALL: started (round 4b (B3, CSN with the same graded family-tree training as SSE): B3 separate vectors + B4 CSN vs SSE=tree)
+[14:05:27] train_b3_s0: started
+[14:05:34] train_b3_s0: done (7 s)
+[14:05:34] train_csn_s0: started
+[14:05:40] train_csn_s0: done (6 s)
+[14:05:40] train_b3_s1: started
+[14:05:47] train_b3_s1: done (7 s)
+[14:05:47] train_csn_s1: started
+[14:05:52] train_csn_s1: done (5 s)
+[14:05:52] train_b3_s2: started
+[14:05:59] train_b3_s2: done (7 s)
+[14:05:59] train_csn_s2: started
+[14:06:05] train_csn_s2: done (6 s)
+[14:06:05] evaluate_s1: started
+[14:06:05] evaluate_s0: started
+[14:06:05] evaluate_s2: started
+[14:13:53] evaluate_s0: done (468 s)
+[14:13:55] evaluate_s1: done (470 s)
+[14:13:56] evaluate_s2: done (471 s)
+[14:13:56] summarize: started
+[14:13:56] summarize: done (0 s)
+[14:13:56] ALL: finished — results: results/awa2/round4b_summary.md

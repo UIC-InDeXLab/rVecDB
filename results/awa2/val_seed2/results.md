@@ -1,0 +1,215 @@
+# AwA2 results val_seed2
+
+args: `{'sse': 'SSE=val_main_s2,SSE-tree=val_tree_s2,SSE-treeSC=val_treesc_s2', 'mrl': '', 'out': 'val_seed2', 'no_baselines': True, 'extra': '', 'seed': 2}`
+
+### E1 — Spearman of each view vs. each true facet (higher on own facet = good)
+
+| method | view | habitat | diet | taxonomy |
+|---|---|---|---|---|
+| SSE | habitat | 0.667 | 0.353 | 0.317 |
+| SSE | diet | 0.476 | 0.832 | 0.504 |
+| SSE | family | 0.368 | 0.292 | 0.560 |
+| SSE | tax | 0.388 | 0.319 | 0.497 |
+| SSE | rest | 0.140 | 0.163 | 0.198 |
+| SSE | full | 0.259 | 0.311 | 0.333 |
+| SSE-tree | habitat | 0.672 | 0.356 | 0.317 |
+| SSE-tree | diet | 0.480 | 0.835 | 0.503 |
+| SSE-tree | family | 0.275 | 0.364 | 0.718 |
+| SSE-tree | tax | 0.275 | 0.357 | 0.706 |
+| SSE-tree | rest | 0.142 | 0.165 | 0.189 |
+| SSE-treeSC | habitat | 0.672 | 0.356 | 0.317 |
+| SSE-treeSC | diet | 0.477 | 0.833 | 0.503 |
+| SSE-treeSC | family | 0.275 | 0.360 | 0.709 |
+| SSE-treeSC | tax | 0.279 | 0.362 | 0.695 |
+| SSE-treeSC | rest | 0.150 | 0.166 | 0.191 |
+
+### E3 — general search preserved
+
+| method | overlap@10_with_CLIP | species_mAP_CLIP | species_mAP_SSE |
+|---|---|---|---|
+| SSE | 0.857 | 0.801 | 0.820 |
+| SSE-tree | 0.865 | 0.790 | 0.811 |
+| SSE-treeSC | 0.864 | 0.793 | 0.818 |
+
+### E4/E5a — Q1 queries: habitat filter (ref x) + Family ranking (ref q)
+
+| method | slice | n | predicate_F1 | predicate_AP | P@10_feasible | NDCG@10 |
+|---|---|---|---|---|---|---|
+| SSE | all | 1000 | 0.707 | 0.785 | 0.541 | 0.570 |
+| SSE | x unseen | 344 | 0.689 | 0.773 | 0.512 | 0.552 |
+| SSE | x seen | 656 | 0.717 | 0.792 | 0.556 | 0.578 |
+| SSE | q unseen | 355 | 0.708 | 0.783 | 0.466 | 0.516 |
+| SSE-tree | all | 1000 | 0.709 | 0.786 | 0.531 | 0.607 |
+| SSE-tree | x unseen | 344 | 0.687 | 0.771 | 0.505 | 0.583 |
+| SSE-tree | x seen | 656 | 0.720 | 0.794 | 0.544 | 0.618 |
+| SSE-tree | q unseen | 355 | 0.709 | 0.784 | 0.456 | 0.532 |
+| SSE-treeSC | all | 1000 | 0.708 | 0.786 | 0.538 | 0.604 |
+| SSE-treeSC | x unseen | 344 | 0.688 | 0.772 | 0.513 | 0.578 |
+| SSE-treeSC | x seen | 656 | 0.719 | 0.794 | 0.551 | 0.615 |
+| SSE-treeSC | q unseen | 355 | 0.709 | 0.784 | 0.462 | 0.527 |
+
+### E4 — no-mixing test (lower error = better)
+
+| pair_type | method | n_class_pairs | true_jaccard | abs_error |
+|---|---|---|---|---|
+| A same-habitat/diff-order | SSE | 144 | 0.572 | 0.243 |
+| A same-habitat/diff-order | SSE-tree | 144 | 0.572 | 0.242 |
+| A same-habitat/diff-order | SSE-treeSC | 144 | 0.572 | 0.242 |
+| B same-family/diff-habitat | SSE | 24 | 0.160 | 0.158 |
+| B same-family/diff-habitat | SSE-tree | 24 | 0.160 | 0.157 |
+| B same-family/diff-habitat | SSE-treeSC | 24 | 0.160 | 0.157 |
+
+### E2b — does each prefix keep its own AND coarser levels? (pair AUC)
+
+| method | prefix | same-order AUC | same-family AUC | same-genus AUC |
+|---|---|---|---|---|
+| SSE | order@8 | 0.947 | 0.921 | 0.899 |
+| SSE | family@32 | 0.848 | 0.920 | 0.978 |
+| SSE | genus@64 | 0.806 | 0.885 | 0.991 |
+| SSE-tree | order@8 | 0.970 | 0.931 | 0.916 |
+| SSE-tree | family@32 | 0.961 | 0.962 | 0.981 |
+| SSE-tree | genus@64 | 0.952 | 0.957 | 0.992 |
+| SSE-treeSC | order@8 | 0.966 | 0.927 | 0.912 |
+| SSE-treeSC | family@32 | 0.954 | 0.963 | 0.981 |
+| SSE-treeSC | genus@64 | 0.945 | 0.950 | 0.993 |
+
+### E5b — in-between similarity among pairs labels call 'different'
+
+| method | spearman_on_label-different_pairs |
+|---|---|
+| SSE | 0.565 |
+| SSE-tree | 0.573 |
+| SSE-treeSC | 0.573 |
+
+### E5c — stricter threshold -> closer matches?
+
+| method | monotonic_spearman | low_bin_true_sim | high_bin_true_sim |
+|---|---|---|---|
+| SSE | 1.000 | 0.240 | 0.878 |
+| SSE-tree | 1.000 | 0.241 | 0.875 |
+| SSE-treeSC | 1.000 | 0.241 | 0.874 |
+
+### E2 — taxonomy prefix length vs. level
+
+| split | method | prefix_len | level | mAP |
+|---|---|---|---|---|
+| seen_test | SSE | 4 | order | 0.998 |
+| seen_test | SSE | 4 | family | 0.518 |
+| seen_test | SSE | 4 | genus | 0.418 |
+| seen_test | SSE | 8 | order | 1.000 |
+| seen_test | SSE | 8 | family | 0.529 |
+| seen_test | SSE | 8 | genus | 0.428 |
+| seen_test | SSE | 16 | order | 0.950 |
+| seen_test | SSE | 16 | family | 0.989 |
+| seen_test | SSE | 16 | genus | 0.802 |
+| seen_test | SSE | 32 | order | 0.830 |
+| seen_test | SSE | 32 | family | 0.992 |
+| seen_test | SSE | 32 | genus | 0.809 |
+| seen_test | SSE | 64 | order | 0.773 |
+| seen_test | SSE | 64 | family | 0.946 |
+| seen_test | SSE | 64 | genus | 0.993 |
+| seen_test | SSE-tree | 4 | order | 0.995 |
+| seen_test | SSE-tree | 4 | family | 0.528 |
+| seen_test | SSE-tree | 4 | genus | 0.425 |
+| seen_test | SSE-tree | 8 | order | 1.000 |
+| seen_test | SSE-tree | 8 | family | 0.538 |
+| seen_test | SSE-tree | 8 | genus | 0.433 |
+| seen_test | SSE-tree | 16 | order | 0.999 |
+| seen_test | SSE-tree | 16 | family | 0.976 |
+| seen_test | SSE-tree | 16 | genus | 0.806 |
+| seen_test | SSE-tree | 32 | order | 0.998 |
+| seen_test | SSE-tree | 32 | family | 0.991 |
+| seen_test | SSE-tree | 32 | genus | 0.836 |
+| seen_test | SSE-tree | 64 | order | 0.993 |
+| seen_test | SSE-tree | 64 | family | 0.992 |
+| seen_test | SSE-tree | 64 | genus | 0.988 |
+| seen_test | SSE-treeSC | 4 | order | 0.996 |
+| seen_test | SSE-treeSC | 4 | family | 0.523 |
+| seen_test | SSE-treeSC | 4 | genus | 0.420 |
+| seen_test | SSE-treeSC | 8 | order | 1.000 |
+| seen_test | SSE-treeSC | 8 | family | 0.534 |
+| seen_test | SSE-treeSC | 8 | genus | 0.429 |
+| seen_test | SSE-treeSC | 16 | order | 0.999 |
+| seen_test | SSE-treeSC | 16 | family | 0.986 |
+| seen_test | SSE-treeSC | 16 | genus | 0.799 |
+| seen_test | SSE-treeSC | 32 | order | 0.995 |
+| seen_test | SSE-treeSC | 32 | family | 0.993 |
+| seen_test | SSE-treeSC | 32 | genus | 0.810 |
+| seen_test | SSE-treeSC | 64 | order | 0.988 |
+| seen_test | SSE-treeSC | 64 | family | 0.987 |
+| seen_test | SSE-treeSC | 64 | genus | 0.993 |
+| seen_test | CLIP-PCA | 4 | order | 0.537 |
+| seen_test | CLIP-PCA | 4 | family | 0.535 |
+| seen_test | CLIP-PCA | 4 | genus | 0.567 |
+| seen_test | CLIP-PCA | 8 | order | 0.597 |
+| seen_test | CLIP-PCA | 8 | family | 0.656 |
+| seen_test | CLIP-PCA | 8 | genus | 0.681 |
+| seen_test | CLIP-PCA | 16 | order | 0.654 |
+| seen_test | CLIP-PCA | 16 | family | 0.763 |
+| seen_test | CLIP-PCA | 16 | genus | 0.809 |
+| seen_test | CLIP-PCA | 32 | order | 0.663 |
+| seen_test | CLIP-PCA | 32 | family | 0.786 |
+| seen_test | CLIP-PCA | 32 | genus | 0.841 |
+| seen_test | CLIP-PCA | 64 | order | 0.656 |
+| seen_test | CLIP-PCA | 64 | family | 0.781 |
+| seen_test | CLIP-PCA | 64 | genus | 0.839 |
+| unseen | SSE | 4 | order | 0.856 |
+| unseen | SSE | 4 | family | 0.853 |
+| unseen | SSE | 4 | genus | 0.853 |
+| unseen | SSE | 8 | order | 0.860 |
+| unseen | SSE | 8 | family | 0.895 |
+| unseen | SSE | 8 | genus | 0.895 |
+| unseen | SSE | 16 | order | 0.881 |
+| unseen | SSE | 16 | family | 0.912 |
+| unseen | SSE | 16 | genus | 0.912 |
+| unseen | SSE | 32 | order | 0.895 |
+| unseen | SSE | 32 | family | 0.914 |
+| unseen | SSE | 32 | genus | 0.914 |
+| unseen | SSE | 64 | order | 0.912 |
+| unseen | SSE | 64 | family | 0.922 |
+| unseen | SSE | 64 | genus | 0.922 |
+| unseen | SSE-tree | 4 | order | 0.862 |
+| unseen | SSE-tree | 4 | family | 0.856 |
+| unseen | SSE-tree | 4 | genus | 0.856 |
+| unseen | SSE-tree | 8 | order | 0.883 |
+| unseen | SSE-tree | 8 | family | 0.895 |
+| unseen | SSE-tree | 8 | genus | 0.895 |
+| unseen | SSE-tree | 16 | order | 0.894 |
+| unseen | SSE-tree | 16 | family | 0.907 |
+| unseen | SSE-tree | 16 | genus | 0.907 |
+| unseen | SSE-tree | 32 | order | 0.907 |
+| unseen | SSE-tree | 32 | family | 0.916 |
+| unseen | SSE-tree | 32 | genus | 0.916 |
+| unseen | SSE-tree | 64 | order | 0.910 |
+| unseen | SSE-tree | 64 | family | 0.919 |
+| unseen | SSE-tree | 64 | genus | 0.919 |
+| unseen | SSE-treeSC | 4 | order | 0.858 |
+| unseen | SSE-treeSC | 4 | family | 0.855 |
+| unseen | SSE-treeSC | 4 | genus | 0.855 |
+| unseen | SSE-treeSC | 8 | order | 0.878 |
+| unseen | SSE-treeSC | 8 | family | 0.894 |
+| unseen | SSE-treeSC | 8 | genus | 0.894 |
+| unseen | SSE-treeSC | 16 | order | 0.886 |
+| unseen | SSE-treeSC | 16 | family | 0.905 |
+| unseen | SSE-treeSC | 16 | genus | 0.905 |
+| unseen | SSE-treeSC | 32 | order | 0.909 |
+| unseen | SSE-treeSC | 32 | family | 0.920 |
+| unseen | SSE-treeSC | 32 | genus | 0.920 |
+| unseen | SSE-treeSC | 64 | order | 0.915 |
+| unseen | SSE-treeSC | 64 | family | 0.919 |
+| unseen | SSE-treeSC | 64 | genus | 0.919 |
+| unseen | CLIP-PCA | 4 | order | 0.797 |
+| unseen | CLIP-PCA | 4 | family | 0.802 |
+| unseen | CLIP-PCA | 4 | genus | 0.802 |
+| unseen | CLIP-PCA | 8 | order | 0.881 |
+| unseen | CLIP-PCA | 8 | family | 0.861 |
+| unseen | CLIP-PCA | 8 | genus | 0.861 |
+| unseen | CLIP-PCA | 16 | order | 0.876 |
+| unseen | CLIP-PCA | 16 | family | 0.853 |
+| unseen | CLIP-PCA | 16 | genus | 0.853 |
+| unseen | CLIP-PCA | 32 | order | 0.889 |
+| unseen | CLIP-PCA | 32 | family | 0.869 |
+| unseen | CLIP-PCA | 32 | genus | 0.869 |
+| unseen | CLIP-PCA | 64 | order | 0.898 |
+| unseen | CLIP-PCA | 64 | family | 0.885 |
+| unseen | CLIP-PCA | 64 | genus | 0.885 |

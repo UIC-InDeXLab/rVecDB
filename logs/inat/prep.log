@@ -1,0 +1,15 @@
+images 100000 {'train': 56000, 'seen_test': 24000, 'unseen': 20000} {'kingdom': 3, 'class': 51, 'order': 273, 'family': 1103, 'genus': 4884}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/home/mohsen/rVecDB/.venv/lib/python3.12/site-packages/open_clip/factory.py:450: UserWarning: QuickGELU mismatch between final model config (quick_gelu=False) and pretrained tag 'openai' (quick_gelu=True).
+  warnings.warn(
+| 11-06 08:02:23 | evaluate/inat-clip | 10240/100000 images |
+| 11-06 08:02:44 | evaluate/inat-clip | 20480/100000 images |
+| 11-06 08:03:05 | evaluate/inat-clip | 30720/100000 images |
+| 11-06 08:03:26 | evaluate/inat-clip | 40960/100000 images |
+| 11-06 08:03:47 | evaluate/inat-clip | 51200/100000 images |
+| 11-06 08:04:09 | evaluate/inat-clip | 61440/100000 images |
+| 11-06 08:04:30 | evaluate/inat-clip | 71680/100000 images |
+| 11-06 08:04:52 | evaluate/inat-clip | 81920/100000 images |
+| 11-06 08:05:13 | evaluate/inat-clip | 92160/100000 images |
+| 11-06 08:05:30 | evaluate/inat-clip | done 100000/100000 images |

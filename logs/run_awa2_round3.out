@@ -1,0 +1,22 @@
+[13:49:30] ALL: started (round 3: graded family-tree training)
+[13:49:30] train_tree_s0: started
+[13:49:35] train_tree_s0: done (5 s)
+[13:49:35] train_treesc_s0: started
+[13:49:41] train_treesc_s0: done (6 s)
+[13:49:41] train_tree_s1: started
+[13:49:46] train_tree_s1: done (5 s)
+[13:49:46] train_treesc_s1: started
+[13:49:53] train_treesc_s1: done (7 s)
+[13:49:53] train_tree_s2: started
+[13:49:57] train_tree_s2: done (4 s)
+[13:49:57] train_treesc_s2: started
+[13:50:04] train_treesc_s2: done (7 s)
+[13:50:04] evaluate_s0: started
+[13:50:04] evaluate_s1: started
+[13:50:04] evaluate_s2: started
+[13:55:49] evaluate_s0: done (345 s)
+[13:55:50] evaluate_s1: done (346 s)
+[13:55:52] evaluate_s2: done (348 s)
+[13:55:52] summarize: started
+[13:55:52] summarize: done (0 s)
+[13:55:52] ALL: finished — results: results/awa2/round3_summary.md

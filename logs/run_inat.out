@@ -1,0 +1,46 @@
+[08:01:56] ALL: started
+[08:01:56] prep: started
+[08:05:30] prep: done (214 s)
+[08:05:30] train_tree_s0: started
+[08:05:36] train_tree_s0: done (6 s)
+[08:05:36] train_main_s0: started
+[08:05:42] train_main_s0: done (6 s)
+[08:05:42] train_mrl_s0: started
+[08:05:49] train_mrl_s0: done (7 s)
+[08:05:49] train_b3_s0: started
+[08:05:54] train_b3_s0: done (5 s)
+[08:05:54] train_csn_s0: started
+[08:06:01] train_csn_s0: done (7 s)
+[08:06:01] train_tree_s1: started
+[08:06:07] train_tree_s1: done (6 s)
+[08:06:07] train_main_s1: started
+[08:06:13] train_main_s1: done (6 s)
+[08:06:13] train_mrl_s1: started
+[08:06:20] train_mrl_s1: done (7 s)
+[08:06:20] train_b3_s1: started
+[08:06:25] train_b3_s1: done (5 s)
+[08:06:25] train_csn_s1: started
+[08:06:32] train_csn_s1: done (7 s)
+[08:06:32] train_tree_s2: started
+[08:06:38] train_tree_s2: done (6 s)
+[08:06:38] train_main_s2: started
+[08:06:44] train_main_s2: done (6 s)
+[08:06:44] train_mrl_s2: started
+[08:06:51] train_mrl_s2: done (7 s)
+[08:06:51] train_b3_s2: started
+[08:06:56] train_b3_s2: done (5 s)
+[08:06:56] train_csn_s2: started
+[08:07:03] train_csn_s2: done (7 s)
+[08:07:03] eval_s0: started
+[08:07:03] eval_s2: started
+[08:07:03] eval_s1: started
+[08:11:36] eval_s0: done (273 s)
+[08:11:37] eval_s2: done (274 s)
+[08:11:37] eval_s1: done (274 s)
+[08:11:37] e6_s0: started
+[08:11:37] e6_s1: started
+[08:11:37] e6_s2: started
+[08:12:42] e6_s0: done (65 s)
+[08:12:42] e6_s2: done (65 s)
+[08:12:42] e6_s1: done (65 s)
+[08:12:42] ALL: finished — results/inat/seed*/results.md, e6.md

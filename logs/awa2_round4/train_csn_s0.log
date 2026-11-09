@@ -1,0 +1,4 @@
+CSN final loss 7.2100
+CSN active dims per mask: {'habitat': 363, 'diet': 380, 'order': 400, 'family': 398, 'genus': 386}
+CSN mask overlap (share of the smaller mask): {'habitat/diet': 0.5, 'habitat/order': 0.51, 'habitat/family': 0.53, 'habitat/genus': 0.49, 'diet/order': 0.54, 'diet/family': 0.53, 'diet/genus': 0.5, 'order/family': 0.53, 'order/genus': 0.53, 'family/genus': 0.49}
+saved /home/mohsen/rVecDB/cache/awa2/csn_s0.npz

@@ -1,0 +1,84 @@
+# MovieLens results (seed 0)
+
+### E1 — Spearman of each view vs each true facet
+
+| method | view | genre | tone | theme | style |
+|---|---|---|---|---|---|
+| SSE | genre | 0.344 | 0.209 | 0.307 | 0.188 |
+| SSE | tone | 0.279 | 0.275 | 0.290 | 0.216 |
+| SSE | theme | 0.276 | 0.197 | 0.316 | 0.183 |
+| SSE | style | 0.253 | 0.227 | 0.277 | 0.252 |
+| SSE-hard | genre | 0.224 | 0.137 | 0.216 | 0.120 |
+| SSE-hard | tone | 0.204 | 0.143 | 0.204 | 0.116 |
+| SSE-hard | theme | 0.198 | 0.125 | 0.212 | 0.109 |
+| SSE-hard | style | 0.189 | 0.139 | 0.201 | 0.141 |
+| B3 separate | genre | 0.350 | 0.209 | 0.308 | 0.190 |
+| B3 separate | tone | 0.276 | 0.275 | 0.288 | 0.213 |
+| B3 separate | theme | 0.284 | 0.190 | 0.313 | 0.178 |
+| B3 separate | style | 0.249 | 0.226 | 0.272 | 0.252 |
+| B4 CSN | genre | 0.388 | 0.236 | 0.334 | 0.208 |
+| B4 CSN | tone | 0.293 | 0.310 | 0.302 | 0.235 |
+| B4 CSN | theme | 0.312 | 0.224 | 0.348 | 0.203 |
+| B4 CSN | style | 0.273 | 0.253 | 0.291 | 0.285 |
+| B1 labels | genre | 0.008 | 0.008 | 0.011 | 0.009 |
+| B1 labels | tone | -0.003 | 0.033 | 0.010 | 0.018 |
+| B1 labels | theme | 0.041 | 0.041 | 0.051 | 0.033 |
+| B1 labels | style | 0.072 | 0.015 | 0.054 | 0.039 |
+| B1-soft | genre | 0.334 | 0.167 | 0.269 | 0.143 |
+| B1-soft | tone | 0.282 | 0.215 | 0.258 | 0.161 |
+| B1-soft | theme | 0.274 | 0.154 | 0.280 | 0.139 |
+| B1-soft | style | 0.258 | 0.163 | 0.250 | 0.201 |
+| B2 text prompts | genre | 0.105 | 0.059 | 0.103 | 0.054 |
+| B2 text prompts | tone | 0.082 | 0.067 | 0.082 | 0.043 |
+| B2 text prompts | theme | 0.089 | 0.054 | 0.099 | 0.049 |
+| B2 text prompts | style | 0.049 | 0.036 | 0.053 | 0.035 |
+| B6 plain bge | genre | 0.174 | 0.106 | 0.190 | 0.098 |
+| B6 plain bge | tone | 0.174 | 0.106 | 0.190 | 0.098 |
+| B6 plain bge | theme | 0.174 | 0.106 | 0.190 | 0.098 |
+| B6 plain bge | style | 0.174 | 0.106 | 0.190 | 0.098 |
+
+### E3 — general search preserved
+
+| method | overlap@10_with_bge |
+|---|---|
+| SSE | 0.739 |
+| B4 CSN | 0.647 |
+
+### E4 — filter on one facet (ref x), rank on another (ref q); graded truth
+
+| method | predicate_F1 | predicate_AP | P@10_feasible | NDCG@10 |
+|---|---|---|---|---|
+| SSE | 0.351 | 0.343 | 0.308 | 0.114 |
+| SSE-hard | 0.301 | 0.290 | 0.275 | 0.096 |
+| B3 separate | 0.354 | 0.347 | 0.312 | 0.124 |
+| B4 CSN | 0.364 | 0.361 | 0.320 | 0.128 |
+| B1 labels | 0.184 | 0.185 | 0.172 | 0.037 |
+| B1-soft | 0.332 | 0.324 | 0.281 | 0.092 |
+| B2 text prompts | 0.251 | 0.248 | 0.296 | 0.086 |
+| B6 plain bge | 0.293 | 0.280 | 0.249 | 0.092 |
+
+### E5b — in-between similarity among pairs whose yes/no tags differ
+
+| method | genre | tone | theme | style |
+|---|---|---|---|---|
+| B1 labels | 0.008 | 0.032 | 0.051 | 0.037 |
+| B1-soft | 0.333 | 0.214 | 0.280 | 0.200 |
+| B2 text prompts | 0.105 | 0.067 | 0.099 | 0.035 |
+| B3 separate | 0.348 | 0.275 | 0.313 | 0.250 |
+| B4 CSN | 0.387 | 0.310 | 0.348 | 0.282 |
+| B6 plain bge | 0.173 | 0.106 | 0.190 | 0.099 |
+| SSE | 0.343 | 0.276 | 0.316 | 0.250 |
+| SSE-hard | 0.223 | 0.143 | 0.212 | 0.140 |
+
+### E5c — tone threshold as a dial
+
+| method | monotonic | low | high |
+|---|---|---|---|
+| SSE | 1.000 | -0.121 | 0.174 |
+| SSE-hard | 1.000 | -0.058 | 0.108 |
+| B3 separate | 1.000 | -0.109 | 0.156 |
+| B4 CSN | 1.000 | -0.132 | 0.170 |
+| B1 labels | 0.176 | -0.002 | 0.007 |
+| B1-soft | 1.000 | -0.082 | 0.144 |
+| B2 text prompts | 0.964 | -0.048 | 0.088 |
+| B6 plain bge | 1.000 | -0.035 | 0.093 |

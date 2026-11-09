@@ -1,0 +1,53 @@
+habitat truth: 4 groups (silhouette 0.51)
+  group 0: [water, ocean, arctic] ['killer+whale', 'beaver', 'blue+whale', 'hippopotamus', 'humpback+whale', 'seal', 'otter', 'polar+bear', 'walrus', 'dolphin']
+  group 1: [jungle, ground, bush] ['tiger', 'leopard', 'spider+monkey', 'elephant', 'gorilla', 'chimpanzee', 'rhinoceros', 'giant+panda', 'lion']
+  group 2: [forest, tree, cave] ['grizzly+bear', 'squirrel', 'bat', 'raccoon']
+  group 3: [ground, fields, plains] ['antelope', 'dalmatian', 'persian+cat', 'horse', 'german+shepherd', 'siamese+cat', 'skunk', 'mole', 'moose', 'ox', 'fox', 'sheep', 'hamster', 'rabbit', 'giraffe', 'wolf', 'chihuahua', 'rat', 'weasel', 'buffalo', 'zebra', 'deer', 'bobcat', 'pig', 'mouse', 'collie', 'cow']
+connected SSE done
+connected B6 plain CLIP done
+connected B3 separate done
+connected B4 CSN done
+center SSE done
+center B6 plain CLIP done
+center B3 separate done
+center B4 CSN done
+### E6 — GROUP BY and roll-up/drill-down (kappa tuned on training images)
+
+Main groups = groups holding >= 1% of items; coverage = share of items in main groups.
+
+Policy 'connected' = paper's range-connected components; 'center' = center-based ranges (no chaining).
+
+| policy | method | grouping | kappa | groups found | main groups | true groups | coverage | NMI | NMI (main) | ARI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| connected | SSE | habitat | 0.92 | 66 | 2 | 4 | 0.98 | 0.168 | 0.144 | 0.062 |
+| connected | SSE | nested order | 0.96 | 145 | 9 | 10 | 0.97 | 0.901 | 0.950 | 0.918 |
+| connected | SSE | nested family | 0.92 | 548 | 17 | 27 | 0.90 | 0.842 | 0.917 | 0.716 |
+| connected | SSE | nested genus | 0.90 | 789 | 23 | 40 | 0.85 | 0.856 | 0.953 | 0.791 |
+| connected | B6 plain CLIP | habitat | 0.90 | 1522 | 19 | 4 | 0.70 | 0.402 | 0.586 | 0.136 |
+| connected | B6 plain CLIP | nested order | 0.90 | 1522 | 19 | 10 | 0.70 | 0.486 | 0.669 | 0.153 |
+| connected | B6 plain CLIP | nested family | 0.90 | 1522 | 19 | 27 | 0.70 | 0.726 | 0.916 | 0.551 |
+| connected | B6 plain CLIP | nested genus | 0.90 | 1522 | 19 | 40 | 0.70 | 0.776 | 0.946 | 0.695 |
+| connected | B3 separate | habitat | 0.94 | 88 | 3 | 4 | 0.98 | 0.194 | 0.174 | 0.077 |
+| connected | B3 separate | nested order | 0.98 | 474 | 10 | 10 | 0.91 | 0.789 | 0.941 | 0.839 |
+| connected | B3 separate | nested family | 0.90 | 546 | 16 | 27 | 0.90 | 0.846 | 0.926 | 0.737 |
+| connected | B3 separate | nested genus | 0.90 | 725 | 23 | 40 | 0.84 | 0.875 | 0.967 | 0.827 |
+| connected | B4 CSN | habitat | 0.94 | 99 | 10 | 4 | 0.98 | 0.718 | 0.748 | 0.741 |
+| connected | B4 CSN | nested order | 0.92 | 247 | 7 | 10 | 0.95 | 0.813 | 0.893 | 0.867 |
+| connected | B4 CSN | nested family | 0.86 | 292 | 12 | 27 | 0.94 | 0.833 | 0.872 | 0.677 |
+| connected | B4 CSN | nested genus | 0.90 | 781 | 23 | 40 | 0.83 | 0.868 | 0.967 | 0.818 |
+| center | SSE | habitat | 0.70 | 15 | 6 | 4 | 0.99 | 0.486 | 0.496 | 0.448 |
+| center | SSE | nested order | 0.82 | 53 | 9 | 10 | 0.96 | 0.842 | 0.898 | 0.877 |
+| center | SSE | nested family | 0.86 | 425 | 21 | 27 | 0.85 | 0.867 | 0.964 | 0.857 |
+| center | SSE | nested genus | 0.86 | 815 | 25 | 40 | 0.72 | 0.835 | 0.969 | 0.716 |
+| center | B6 plain CLIP | habitat | 0.86 | 1217 | 22 | 4 | 0.58 | 0.392 | 0.599 | 0.096 |
+| center | B6 plain CLIP | nested order | 0.84 | 874 | 20 | 10 | 0.65 | 0.495 | 0.643 | 0.142 |
+| center | B6 plain CLIP | nested family | 0.84 | 874 | 20 | 27 | 0.65 | 0.732 | 0.872 | 0.529 |
+| center | B6 plain CLIP | nested genus | 0.86 | 1462 | 14 | 40 | 0.47 | 0.747 | 0.969 | 0.573 |
+| center | B3 separate | habitat | 0.70 | 14 | 5 | 4 | 0.98 | 0.497 | 0.507 | 0.427 |
+| center | B3 separate | nested order | 0.82 | 49 | 9 | 10 | 0.95 | 0.842 | 0.900 | 0.877 |
+| center | B3 separate | nested family | 0.84 | 278 | 19 | 27 | 0.87 | 0.885 | 0.956 | 0.858 |
+| center | B3 separate | nested genus | 0.86 | 592 | 22 | 40 | 0.72 | 0.861 | 0.976 | 0.774 |
+| center | B4 CSN | habitat | 0.82 | 35 | 10 | 4 | 0.95 | 0.659 | 0.701 | 0.665 |
+| center | B4 CSN | nested order | 0.78 | 84 | 9 | 10 | 0.95 | 0.858 | 0.923 | 0.888 |
+| center | B4 CSN | nested family | 0.84 | 364 | 20 | 27 | 0.88 | 0.892 | 0.977 | 0.896 |
+| center | B4 CSN | nested genus | 0.84 | 584 | 23 | 40 | 0.76 | 0.866 | 0.979 | 0.786 |

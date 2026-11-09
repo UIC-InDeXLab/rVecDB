@@ -1,0 +1,11 @@
+orders used: ['Artiodactyla', 'Carnivora', 'Cetacea', 'Perissodactyla', 'Primates', 'Rodentia']
+### Q2 — Order prototype filter + habitat BAND + general ranking
+
+| method | order_F1 | band_F1 | feasible_F1 | P@10 |
+|---|---|---|---|---|
+| SSE | 0.959 | 0.602 | 0.377 | 0.349 |
+| B6 plain CLIP | 0.667 | 0.335 | 0.164 | 0.141 |
+| B3 separate | 0.958 | 0.600 | 0.377 | 0.360 |
+| B4 CSN | 0.959 | 0.606 | 0.386 | 0.309 |
+| B1 labels | 0.831 | 0.349 | 0.180 | 0.216 |
+| B1-soft | 0.970 | 0.437 | 0.235 | 0.271 |

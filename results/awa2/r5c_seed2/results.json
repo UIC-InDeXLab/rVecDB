@@ -1,0 +1,1379 @@
+{
+ "args": {
+  "sse": "SSE-768=tree_s2,SSE-256=tree256_s2,SSE-128=tree128_s2",
+  "mrl": "",
+  "out": "r5c_seed2",
+  "no_baselines": true,
+  "extra": "B3 separate (920)=b3tree_s2",
+  "seed": 2
+ },
+ "E1": [
+  {
+   "method": "SSE-768",
+   "view": "habitat",
+   "habitat": 0.9032303963134655,
+   "diet": 0.41550603031836436,
+   "taxonomy": 0.30983994166027967
+  },
+  {
+   "method": "SSE-768",
+   "view": "diet",
+   "habitat": 0.45314456999328,
+   "diet": 0.8678920623702215,
+   "taxonomy": 0.4341681792571714
+  },
+  {
+   "method": "SSE-768",
+   "view": "family",
+   "habitat": 0.2741174747753707,
+   "diet": 0.37350215308754176,
+   "taxonomy": 0.7207609196017576
+  },
+  {
+   "method": "SSE-768",
+   "view": "tax",
+   "habitat": 0.2920852419450826,
+   "diet": 0.37757541180521054,
+   "taxonomy": 0.7027659740777633
+  },
+  {
+   "method": "SSE-768",
+   "view": "rest",
+   "habitat": 0.15522127953402784,
+   "diet": 0.12210308740220203,
+   "taxonomy": 0.13761349572660445
+  },
+  {
+   "method": "SSE-256",
+   "view": "habitat",
+   "habitat": 0.9036058640211806,
+   "diet": 0.41274951297211765,
+   "taxonomy": 0.30399635507970774
+  },
+  {
+   "method": "SSE-256",
+   "view": "diet",
+   "habitat": 0.45597684707768804,
+   "diet": 0.8663509871121057,
+   "taxonomy": 0.42414312667870774
+  },
+  {
+   "method": "SSE-256",
+   "view": "family",
+   "habitat": 0.2818488294192107,
+   "diet": 0.3683749155979015,
+   "taxonomy": 0.7254948304335141
+  },
+  {
+   "method": "SSE-256",
+   "view": "tax",
+   "habitat": 0.2882281892540454,
+   "diet": 0.37660793796125774,
+   "taxonomy": 0.7076995611332998
+  },
+  {
+   "method": "SSE-256",
+   "view": "rest",
+   "habitat": 0.11721807902106919,
+   "diet": 0.10903741071487244,
+   "taxonomy": 0.13124583395390965
+  },
+  {
+   "method": "SSE-128",
+   "view": "habitat",
+   "habitat": 0.9033451766009868,
+   "diet": 0.41235962043751323,
+   "taxonomy": 0.3063140931380318
+  },
+  {
+   "method": "SSE-128",
+   "view": "diet",
+   "habitat": 0.450314038252639,
+   "diet": 0.8648931122217977,
+   "taxonomy": 0.43650394812080767
+  },
+  {
+   "method": "SSE-128",
+   "view": "family",
+   "habitat": 0.27960468824579604,
+   "diet": 0.3806797912929459,
+   "taxonomy": 0.724889073667891
+  },
+  {
+   "method": "SSE-128",
+   "view": "tax",
+   "habitat": 0.27727415594988936,
+   "diet": 0.37583375589982054,
+   "taxonomy": 0.7026127613772246
+  },
+  {
+   "method": "SSE-128",
+   "view": "rest",
+   "habitat": 0.013684072092279837,
+   "diet": 0.06134250042646271,
+   "taxonomy": 0.08735083583460558
+  },
+  {
+   "method": "B3 separate (920)",
+   "view": "habitat",
+   "habitat": 0.9053049954875114,
+   "diet": 0.42375924325919667,
+   "taxonomy": 0.30991186967010076
+  },
+  {
+   "method": "B3 separate (920)",
+   "view": "diet",
+   "habitat": 0.4482889451130533,
+   "diet": 0.8653770851634617,
+   "taxonomy": 0.44753111511171967
+  },
+  {
+   "method": "B3 separate (920)",
+   "view": "family",
+   "habitat": 0.27586777009432706,
+   "diet": 0.3622229914099057,
+   "taxonomy": 0.7248572848775703
+  }
+ ],
+ "E3": {
+  "SSE-768": {
+   "overlap@10_with_CLIP": 0.8546000000000001,
+   "species_mAP_CLIP": 0.8189734721447841,
+   "species_mAP_SSE": 0.8235832888766483
+  },
+  "SSE-256": {
+   "overlap@10_with_CLIP": 0.7153999999999999,
+   "species_mAP_CLIP": 0.8363203152138852,
+   "species_mAP_SSE": 0.8337035576492423
+  },
+  "SSE-128": {
+   "overlap@10_with_CLIP": 0.4624,
+   "species_mAP_CLIP": 0.8311457622153006,
+   "species_mAP_SSE": 0.8233017612589862
+  }
+ },
+ "E4": [
+  {
+   "method": "SSE-768",
+   "slice": "all",
+   "n": 1000,
+   "predicate_F1": 0.7537738760484187,
+   "predicate_AP": 0.8396962233109762,
+   "P@10_feasible": 0.5619,
+   "NDCG@10": 0.5671542443622672
+  },
+  {
+   "method": "SSE-768",
+   "slice": "x unseen",
+   "n": 548,
+   "predicate_F1": 0.7279215173954054,
+   "predicate_AP": 0.8242800678282247,
+   "P@10_feasible": 0.5383211678832117,
+   "NDCG@10": 0.5207553541251867
+  },
+  {
+   "method": "SSE-768",
+   "slice": "x seen",
+   "n": 452,
+   "predicate_F1": 0.7851170011410102,
+   "predicate_AP": 0.8583866065068783,
+   "P@10_feasible": 0.5904867256637167,
+   "NDCG@10": 0.6282967071980463
+  },
+  {
+   "method": "SSE-768",
+   "slice": "q unseen",
+   "n": 576,
+   "predicate_F1": 0.746592506721378,
+   "predicate_AP": 0.8314481313102585,
+   "P@10_feasible": 0.5437500000000001,
+   "NDCG@10": 0.5267532735666529
+  },
+  {
+   "method": "SSE-256",
+   "slice": "all",
+   "n": 1000,
+   "predicate_F1": 0.7545095389650773,
+   "predicate_AP": 0.838893728811811,
+   "P@10_feasible": 0.5665999999999999,
+   "NDCG@10": 0.5779564630599845
+  },
+  {
+   "method": "SSE-256",
+   "slice": "x unseen",
+   "n": 548,
+   "predicate_F1": 0.727969110426667,
+   "predicate_AP": 0.8213646228958937,
+   "P@10_feasible": 0.5454379562043795,
+   "NDCG@10": 0.5345282492412171
+  },
+  {
+   "method": "SSE-256",
+   "slice": "x seen",
+   "n": 452,
+   "predicate_F1": 0.7866868726797872,
+   "predicate_AP": 0.8601458306744717,
+   "P@10_feasible": 0.5922566371681416,
+   "NDCG@10": 0.635184296223033
+  },
+  {
+   "method": "SSE-256",
+   "slice": "q unseen",
+   "n": 576,
+   "predicate_F1": 0.7461989270608392,
+   "predicate_AP": 0.8293933395110149,
+   "P@10_feasible": 0.546875,
+   "NDCG@10": 0.5422576705443268
+  },
+  {
+   "method": "SSE-128",
+   "slice": "all",
+   "n": 1000,
+   "predicate_F1": 0.7486578147653674,
+   "predicate_AP": 0.8331742245467244,
+   "P@10_feasible": 0.5562,
+   "NDCG@10": 0.5725227179713535
+  },
+  {
+   "method": "SSE-128",
+   "slice": "x unseen",
+   "n": 548,
+   "predicate_F1": 0.7208054751829385,
+   "predicate_AP": 0.8149000789499126,
+   "P@10_feasible": 0.5330291970802921,
+   "NDCG@10": 0.5310319282923838
+  },
+  {
+   "method": "SSE-128",
+   "slice": "x seen",
+   "n": 452,
+   "predicate_F1": 0.7824256954980467,
+   "predicate_AP": 0.8553296046065756,
+   "P@10_feasible": 0.5842920353982302,
+   "NDCG@10": 0.6271974968941079
+  },
+  {
+   "method": "SSE-128",
+   "slice": "q unseen",
+   "n": 576,
+   "predicate_F1": 0.7404971368282258,
+   "predicate_AP": 0.8240282063281289,
+   "P@10_feasible": 0.5402777777777777,
+   "NDCG@10": 0.5396465942656943
+  },
+  {
+   "method": "B3 separate (920)",
+   "slice": "all",
+   "n": 1000,
+   "predicate_F1": 0.7571577432628039,
+   "predicate_AP": 0.8415743732640867,
+   "P@10_feasible": 0.5595,
+   "NDCG@10": 0.5815846887295786
+  },
+  {
+   "method": "B3 separate (920)",
+   "slice": "x unseen",
+   "n": 548,
+   "predicate_F1": 0.7299154273385847,
+   "predicate_AP": 0.824595680727778,
+   "P@10_feasible": 0.5339416058394161,
+   "NDCG@10": 0.5353288740815603
+  },
+  {
+   "method": "B3 separate (920)",
+   "slice": "x seen",
+   "n": 452,
+   "predicate_F1": 0.7901860377903973,
+   "predicate_AP": 0.8621591597904077,
+   "P@10_feasible": 0.5904867256637167,
+   "NDCG@10": 0.6425386127050045
+  },
+  {
+   "method": "B3 separate (920)",
+   "slice": "q unseen",
+   "n": 576,
+   "predicate_F1": 0.7494465823902563,
+   "predicate_AP": 0.8329906504886012,
+   "P@10_feasible": 0.5418402777777778,
+   "NDCG@10": 0.5539187877676105
+  }
+ ],
+ "leakage": [
+  {
+   "pair_type": "A same-habitat/diff-order",
+   "method": "SSE-768",
+   "n_class_pairs": 144,
+   "true_jaccard": 0.6320295057070603,
+   "abs_error": 0.16663772005758393
+  },
+  {
+   "pair_type": "A same-habitat/diff-order",
+   "method": "SSE-256",
+   "n_class_pairs": 144,
+   "true_jaccard": 0.6320295057070603,
+   "abs_error": 0.1571555098804022
+  },
+  {
+   "pair_type": "A same-habitat/diff-order",
+   "method": "SSE-128",
+   "n_class_pairs": 144,
+   "true_jaccard": 0.6320295057070603,
+   "abs_error": 0.16497611070250395
+  },
+  {
+   "pair_type": "A same-habitat/diff-order",
+   "method": "B3 separate (920)",
+   "n_class_pairs": 144,
+   "true_jaccard": 0.6320295057070603,
+   "abs_error": 0.16205964240615214
+  },
+  {
+   "pair_type": "B same-family/diff-habitat",
+   "method": "SSE-768",
+   "n_class_pairs": 24,
+   "true_jaccard": 0.1578048725458844,
+   "abs_error": 0.14582700587456743
+  },
+  {
+   "pair_type": "B same-family/diff-habitat",
+   "method": "SSE-256",
+   "n_class_pairs": 24,
+   "true_jaccard": 0.1578048725458844,
+   "abs_error": 0.14394461027568467
+  },
+  {
+   "pair_type": "B same-family/diff-habitat",
+   "method": "SSE-128",
+   "n_class_pairs": 24,
+   "true_jaccard": 0.1578048725458844,
+   "abs_error": 0.15050400915707363
+  },
+  {
+   "pair_type": "B same-family/diff-habitat",
+   "method": "B3 separate (920)",
+   "n_class_pairs": 24,
+   "true_jaccard": 0.1578048725458844,
+   "abs_error": 0.1457385842805578
+  }
+ ],
+ "E2b": [
+  {
+   "method": "SSE-768",
+   "prefix": "order@8",
+   "same-order AUC": 0.9590897126869324,
+   "same-family AUC": 0.9416821349704668,
+   "same-genus AUC": 0.9319959445354815
+  },
+  {
+   "method": "SSE-768",
+   "prefix": "family@32",
+   "same-order AUC": 0.9538161559426392,
+   "same-family AUC": 0.995965692731354,
+   "same-genus AUC": 0.9846577248020203
+  },
+  {
+   "method": "SSE-768",
+   "prefix": "genus@64",
+   "same-order AUC": 0.9407902794359904,
+   "same-family AUC": 0.9967044622205161,
+   "same-genus AUC": 0.9950322174960444
+  },
+  {
+   "method": "SSE-256",
+   "prefix": "order@8",
+   "same-order AUC": 0.9587763052316731,
+   "same-family AUC": 0.93886822354721,
+   "same-genus AUC": 0.9288539938684969
+  },
+  {
+   "method": "SSE-256",
+   "prefix": "family@32",
+   "same-order AUC": 0.9564317840095329,
+   "same-family AUC": 0.9966707648376653,
+   "same-genus AUC": 0.9854749252915247
+  },
+  {
+   "method": "SSE-256",
+   "prefix": "genus@64",
+   "same-order AUC": 0.9441994656653816,
+   "same-family AUC": 0.9968729140462455,
+   "same-genus AUC": 0.9953916700719523
+  },
+  {
+   "method": "SSE-128",
+   "prefix": "order@8",
+   "same-order AUC": 0.9610570824708338,
+   "same-family AUC": 0.9407755223908716,
+   "same-genus AUC": 0.9293001588385382
+  },
+  {
+   "method": "SSE-128",
+   "prefix": "family@32",
+   "same-order AUC": 0.95618468251994,
+   "same-family AUC": 0.9960942879572715,
+   "same-genus AUC": 0.9846992195661418
+  },
+  {
+   "method": "SSE-128",
+   "prefix": "genus@64",
+   "same-order AUC": 0.9405213367420195,
+   "same-family AUC": 0.9969711295261987,
+   "same-genus AUC": 0.9949296185707733
+  },
+  {
+   "method": "B3 separate (920)",
+   "prefix": "order@8",
+   "same-order AUC": 0.9605428241896119,
+   "same-family AUC": 0.9408531546554126,
+   "same-genus AUC": 0.9310728153096953
+  },
+  {
+   "method": "B3 separate (920)",
+   "prefix": "family@32",
+   "same-order AUC": 0.9561881644871953,
+   "same-family AUC": 0.9967246698368879,
+   "same-genus AUC": 0.9856243387995881
+  },
+  {
+   "method": "B3 separate (920)",
+   "prefix": "genus@64",
+   "same-order AUC": 0.9426806936022678,
+   "same-family AUC": 0.99709250216729,
+   "same-genus AUC": 0.9960707637238624
+  }
+ ],
+ "E5b": [
+  {
+   "method": "SSE-768",
+   "spearman_on_label-different_pairs": 0.8891268566330205
+  },
+  {
+   "method": "SSE-256",
+   "spearman_on_label-different_pairs": 0.8898318089462
+  },
+  {
+   "method": "SSE-128",
+   "spearman_on_label-different_pairs": 0.8892109512501202
+  },
+  {
+   "method": "B3 separate (920)",
+   "spearman_on_label-different_pairs": 0.8921382846720981
+  }
+ ],
+ "E5c": [
+  {
+   "method": "SSE-768",
+   "monotonic_spearman": 0.9999999999999999,
+   "low_bin_true_sim": 0.0926339854642126,
+   "high_bin_true_sim": 0.9076134158454514,
+   "curve": [
+    0.093,
+    0.228,
+    0.372,
+    0.456,
+    0.503,
+    0.544,
+    0.6,
+    0.659,
+    0.789,
+    0.908
+   ]
+  },
+  {
+   "method": "SSE-256",
+   "monotonic_spearman": 0.9999999999999999,
+   "low_bin_true_sim": 0.09778255168652819,
+   "high_bin_true_sim": 0.9231203275325243,
+   "curve": [
+    0.098,
+    0.228,
+    0.368,
+    0.449,
+    0.498,
+    0.539,
+    0.597,
+    0.657,
+    0.799,
+    0.923
+   ]
+  },
+  {
+   "method": "SSE-128",
+   "monotonic_spearman": 0.9999999999999999,
+   "low_bin_true_sim": 0.10088689327867409,
+   "high_bin_true_sim": 0.9149014863684655,
+   "curve": [
+    0.101,
+    0.237,
+    0.376,
+    0.468,
+    0.521,
+    0.564,
+    0.623,
+    0.673,
+    0.79,
+    0.915
+   ]
+  },
+  {
+   "method": "B3 separate (920)",
+   "monotonic_spearman": 0.9999999999999999,
+   "low_bin_true_sim": 0.09345217332385843,
+   "high_bin_true_sim": 0.9162305250313016,
+   "curve": [
+    0.093,
+    0.23,
+    0.375,
+    0.463,
+    0.51,
+    0.553,
+    0.613,
+    0.672,
+    0.792,
+    0.916
+   ]
+  }
+ ],
+ "E2": [
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.9899177322623492
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.5201346175335785
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.38579381350482733
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.9980312183531782
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.5352264447557598
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.4000553014414821
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.9966242195350149
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.9663971613812622
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.7488449081963315
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.9940196435865261
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.9903027309151949
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.7832549362229497
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.9891467324452731
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.9888599617646697
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-768",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9809210149416643
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.9691644545538218
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.5131433394800535
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.37849095078624195
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.9982284490081871
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.5339414042386127
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.3990901585438407
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.9971208851882687
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.9475981607295313
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.7469923021185442
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.9941923252531673
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.9910799633070906
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.7872655324181099
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.9895321857434596
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.9886105995050307
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-256",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9825519557389035
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.8632279272353955
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.47349366359098044
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.3526025260798922
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.998038897775248
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.5341668546179932
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.40204515354425985
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.9967673459622798
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.9559989816966951
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.7387161148536262
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.9942703227557145
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.9916800384615196
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.7871091752045271
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.9896835108565571
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.9894656702873266
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-128",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9806885522335955
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.5136689344600842
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.5039655469473641
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.5552937335273608
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.5995577555902628
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.6302613231699822
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.6837404331959821
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.6486190190997303
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.7246498572394942
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.7883388601573168
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.6651232986612794
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.757611709113503
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.8373130780590828
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.6588042127247951
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.7517204329460183
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.8379060510604959
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.8939659849150056
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.714982391689405
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.7031327528650609
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.9444907743765961
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.8488753786135603
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.8458063176702296
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.9404109918832504
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.9710279462281097
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.9446571566446942
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.9408081085790468
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.9860051117855846
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.9756371578031622
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.9387460351484651
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.9908215974624076
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-768",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9898908949631979
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.8567512191095537
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.7329435735380782
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.6773868632500479
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.9482737044904539
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.8191205735343471
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.8243789631096728
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.9668958644186916
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.9574322973091174
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.9453159908376975
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.9552864835142085
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.989926296009605
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.9796468240733828
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.9487165392535107
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.9917197860252932
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-256",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9901649949484331
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.6495154151134369
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.5697328553727989
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.5611604085195111
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.9492432757774076
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.833056293184587
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.8256115292607282
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.9487517364345763
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.9685872333012355
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.9531313603663384
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.9457431970307204
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.9861256169753265
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.9791991987942952
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.9365444225882067
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.9906139786500491
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-128",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9881760070479365
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.6069820830264638
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.6300097791207052
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.7017045302920336
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.651155825083
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.6966410867517406
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.7751748114696355
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.7032730479957578
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.8017974216595275
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.8647023322891072
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.7382311660846684
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.8575821149824242
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.914859091130819
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.7573268940712131
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.8808104773668524
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9407567946754363
+  }
+ ]
+}
