@@ -33,8 +33,10 @@ Keep that file updated as tasks start/finish.
 - VLM (B5) is not an upper bound and is far too slow (~9–16 pairs/s).
 - MovieLens: works (~2× plain text embedding) but movie facets overlap in reality, so it shows
   generality, not facet separation.
+- OpenAlex (papers, SPECTER2; v2 tree = domain/field/subfield): zoom levels work; first **VecJOIN** result —
+  Papers ⋈ Authors P@10 at subfield 0.36 vs labels 0.20, random 0.009. SSE ≈ B3 ≈ CSN again. GROUP BY weak.
 
-Full numbers: `REPORT.md`, `results/*/SUMMARY.md`, `results/awa2/WHAT_WE_KNOW.md`.
+Full numbers: `REPORT.md`, `results/*/SUMMARY.md` (incl. `results/openalex`), `results/awa2/WHAT_WE_KNOW.md`.
 
 ## Repo layout
 
@@ -42,7 +44,7 @@ Full numbers: `REPORT.md`, `results/*/SUMMARY.md`, `results/awa2/WHAT_WE_KNOW.md
 |---|---|
 | `experiment-plan.md` | Plan + **Status table at the top (keep updated)** |
 | `REPORT.md` | Full write-up of all results |
-| `sse/` | Code. `awa2.py`, `inat.py`, `movielens.py` (dataset pipelines), `train_sse.py`, `train_baselines.py`, `evaluate.py`, `e6_grouping.py`, `q2.py`, `b5_vlm.py`, `extract.py` (CLIP features) |
+| `sse/` | Code. `awa2.py`, `inat.py`, `movielens.py`, `openalex.py` (dataset pipelines), `train_sse.py`, `train_baselines.py`, `evaluate.py`, `e6_grouping.py`, `q2.py`, `b5_vlm.py`, `extract.py` (CLIP features) |
 | `scripts/run_*.sh` | One script per round; each logs every step |
 | `logs/PROGRESS.md` | One line per step: started / done / FAILED with times |
 | `logs/<round>/<step>.log` | Full output per step |
@@ -56,6 +58,9 @@ public: never commit the paper source or paper-draft PDFs.
 ## Setup from scratch
 
 Hardware used: 1× RTX 5090 (32 GB), 64 cores, 123 GB RAM.
+GPU server = ssh alias `newLab` (repo at `~/Projects/rVecDB`, CUDA 12.8, python3.12). Drive it from the
+local machine with `bash scripts/newlab.sh setup|push|run|status|pull`. The GPU is **shared** — never stop
+other users' jobs. The server refuses rapid repeated ssh connections; the helper reuses one connection.
 
 ```bash
 python -m venv .venv && .venv/bin/pip install -r requirements.txt

@@ -114,6 +114,28 @@ Legend: ✅ done · 🔄 running · ⏳ next · ⬜ not started · ⏸️ on hol
 | E6 v2: within one class (birds, insects), κ tuned by ARI | ✅ | Center rule: Order 0.66 birds / 0.85 insects (CLIP 0.21 / 0.28); connected rule chains again. SSE ≈ B3 ≈ CSN |
 | Round 2: combined loss (graded + contrastive) for SSE, B3, CSN × 3 seeds | ✅ | **treeSC fixes it**: 0.51 / 0.36 / 0.33 (unseen), ties the best; keeps Order in the Family prefix. Recommended recipe for both datasets |
 
+**OpenAlex (research papers, text) — authors / institutions / joins** ✅ v2 → `results/openalex/SUMMARY.md` (v1 → `results/openalex_v1/`) → `sse/openalex.py`, `scripts/run_openalex.sh`
+
+| Step | Status | Notes |
+|---|---|---|
+| Choose dataset + encoder | ✅ | OpenAlex (CC0), ~100k papers, even over 26 fields (all 4 domains). Encoder: SPECTER2 (768, title + abstract); needs `pip install adapters` |
+| Layout | ✅ | `[ topic 128 | rest 640 ]`, prefixes 8 / 32 / 64 / 128 = domain / field / subfield / topic. 20% of topics unseen |
+| Authors + institutions tables | ✅ (design) | ~300 institutions × ≤20 authors (≥10 works); each author's other papers (not in the 100k) → author vector = mean of their SSEs; institution = mean of its authors |
+| API calls checked against live OpenAlex | ✅ | Filters / sample+page / author works / batched author lookup all work. ~$0.0001 per request, ~6.5k requests total |
+| Fetch + build (locally) | ✅ | **99,873 papers** (train 56k / seen_test 24k / unseen 19k; 4 domains, 26 fields, 250 subfields, 4,016 topics; median 9 papers per topic, abstract ~190 words). **5,120 authors** (median 28 of their other papers, 106k papers total), **300 institutions** (227 universities, 32 healthcare, 20 facilities, …). Raw 1.4 GB in `data/openalex/`, tables in `cache/openalex/` |
+| GPU server (newLab) set up + data pushed | ✅ | `.venv` = requirements.txt; `.venv-specter` = torch + adapters (SPECTER2 adapter pins older transformers). `bash scripts/newlab.sh run|status|pull` |
+| Encode (SPECTER2) → train (treesc, tree, main, mrl, b3sc, csnsc) × 3 seeds | ✅ | newLab, 16 min total (encode 3 min, each training run ~10 s) |
+| E2 zoom levels · E3 search | ✅ | Each level peaks at its own prefix. Domain@8 0.76 vs MRL 0.52 / PCA 0.54; field@32 0.43 vs 0.29 / 0.24. Search 0.253 vs SPECTER2 0.237 |
+| E8a Papers VecJOIN Authors | ✅ | Join F1 domain 0.75 / field 0.33 / subfield 0.23 / topic 0.21 vs labels 0.66 / 0.31 / 0.13 / **0.01** vs SPECTER2 0.43 / 0.15 / 0.09 / 0.11 |
+| E8b institution similarity | ✅ ⚠️ | Spearman domain 0.94 (labels 0.88, SPECTER2 0.63); field tie with labels (0.83 vs 0.84); topic SPECTER2 as good |
+| E6 GROUP BY in Physical Sciences | ✅ ⚠️ | Center rule ARI 0.23 / 0.16 / 0.17 vs SPECTER2 0.04–0.06; connected rule chains again. Low absolute numbers |
+| Semantic credit (subfield) | ✅ | Text + co-activity relatedness answer keys (`related`). Papers: SSE 0.62 vs labels 0.52 vs random 0.07; authors 0.41 / 0.32 / 0.07. SUMMARY §5 |
+| Caveats | ⚠️ | Truth = OpenAlex's own (model-assigned) topics. Author/institution vectors aligned by construction (averaging) — the separately-trained shared-join-key case is not tested |
+| v1 diagnosis: why fine levels scored low | ✅ | Topic level too sparse (4,016 topics × ~9 papers; **58% of papers had no matching author**). "≥50% of the author's papers" too strict (only 39% of authors have a majority subfield). 38% of labels have confidence < 0.9 |
+| v2: tree = domain > field > subfield (16/64/128, as iNat); join truth = paper's area is the author's **main** area, + P@10 vs random | ✅ | Join P@10 domain / field / subfield **0.81 / 0.53 / 0.36** vs labels 0.75 / 0.48 / 0.20, SPECTER2 0.78 / 0.45 / 0.30, random 0.27 / 0.04 / 0.009 (subfield: 40× random). Zoom: each level peaks at its own prefix. Institutions Spearman 0.94 / 0.83 / 0.82 |
+| v2 GROUP BY (Physical Sciences) | ⚠️ | Center rule ARI field 0.22 / subfield 0.16 (SPECTER2 0.04 / 0.05) — still low |
+| E2 / E2b / E3 · E8 (Papers VecJOIN Authors, institution similarity) · E6 (inside Physical Sciences) | ⬜ | E8 is the first experiment for the paper's `VecJOIN` |
+
 **Final report** ✅ → `REPORT.md` (complete draft, for discussion and edits)
 
 **Next**

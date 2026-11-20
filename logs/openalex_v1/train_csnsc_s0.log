@@ -1,0 +1,5 @@
+CSN active dims per mask: {'domain': 457, 'field': 449, 'subfield': 457, 'topic': 469}
+/home/mahdi/Projects/rVecDB/sse/openalex.py:447: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  print("saved", method, seed, "final loss", float(loss), flush=True)
+saved csnsc 0 final loss 13.005697250366211

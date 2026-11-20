@@ -1,0 +1,114 @@
+| 11-20 11:07:13 | openalex-E8 | level domain done |
+| 11-20 11:07:20 | openalex-E8 | level field done |
+| 11-20 11:07:27 | openalex-E8 | level subfield done |
+| 11-20 11:07:35 | openalex-E8 | level topic done |
+# OpenAlex E8 — joins and institutions (seed 1)
+
+5120 authors (106075 of their papers, none in the 100k sample), 300 institutions.
+
+### E8a — Papers VecJOIN Authors on the topic prefix (truth: share of the author's papers in the paper's area)
+
+| method | level | query_split | Spearman | NDCG@10 | join_F1 | authors_per_paper | tau |
+|---|---|---|---|---|---|---|---|
+| B6 plain encoder | domain | seen_test | 0.298 | 0.712 | 0.427 | 2605.733 | 0.851 |
+| B6 plain encoder | domain | unseen | 0.302 | 0.727 | 0.436 | 2621.824 | 0.851 |
+| SSE-treeSC | domain | seen_test | 0.722 | 0.745 | 0.745 | 1474.082 | 0.694 |
+| SSE-treeSC | domain | unseen | 0.715 | 0.731 | 0.723 | 1519.793 | 0.694 |
+| SSE-tree | domain | seen_test | 0.705 | 0.744 | 0.743 | 1424.956 | 0.577 |
+| SSE-tree | domain | unseen | 0.695 | 0.737 | 0.721 | 1468.495 | 0.577 |
+| SSE (yes/no levels) | domain | seen_test | 0.702 | 0.746 | 0.726 | 1569.910 | 0.891 |
+| SSE (yes/no levels) | domain | unseen | 0.697 | 0.736 | 0.710 | 1614.365 | 0.891 |
+| SSE-MRL (topic everywhere) | domain | seen_test | 0.428 | 0.711 | 0.528 | 2067.331 | 0.089 |
+| SSE-MRL (topic everywhere) | domain | unseen | 0.420 | 0.712 | 0.527 | 2079.965 | 0.089 |
+| B3 separate (graded+contrastive) | domain | seen_test | 0.721 | 0.744 | 0.746 | 1483.469 | 0.679 |
+| B3 separate (graded+contrastive) | domain | unseen | 0.713 | 0.739 | 0.728 | 1533.820 | 0.679 |
+| B4 CSN (graded+contrastive) | domain | seen_test | 0.729 | 0.746 | 0.744 | 1423.855 | 0.568 |
+| B4 CSN (graded+contrastive) | domain | unseen | 0.717 | 0.746 | 0.721 | 1477.710 | 0.568 |
+| B1 labels | domain | seen_test | 0.612 | 0.691 | 0.663 | 1431.780 | 0.517 |
+| B1 labels | domain | unseen | 0.570 | 0.659 | 0.632 | 1495.122 | 0.517 |
+| B6 plain encoder | field | seen_test | 0.315 | 0.404 | 0.152 | 298.419 | 0.899 |
+| B6 plain encoder | field | unseen | 0.314 | 0.456 | 0.179 | 305.005 | 0.899 |
+| SSE-treeSC | field | seen_test | 0.430 | 0.469 | 0.325 | 171.806 | 0.726 |
+| SSE-treeSC | field | unseen | 0.414 | 0.482 | 0.341 | 171.738 | 0.726 |
+| SSE-tree | field | seen_test | 0.369 | 0.428 | 0.246 | 175.073 | 0.708 |
+| SSE-tree | field | unseen | 0.365 | 0.470 | 0.276 | 165.119 | 0.708 |
+| SSE (yes/no levels) | field | seen_test | 0.450 | 0.473 | 0.341 | 179.392 | 0.799 |
+| SSE (yes/no levels) | field | unseen | 0.437 | 0.482 | 0.350 | 176.842 | 0.799 |
+| SSE-MRL (topic everywhere) | field | seen_test | 0.336 | 0.444 | 0.257 | 177.691 | 0.466 |
+| SSE-MRL (topic everywhere) | field | unseen | 0.329 | 0.484 | 0.288 | 187.294 | 0.466 |
+| B3 separate (graded+contrastive) | field | seen_test | 0.432 | 0.464 | 0.325 | 177.844 | 0.721 |
+| B3 separate (graded+contrastive) | field | unseen | 0.426 | 0.484 | 0.343 | 171.110 | 0.721 |
+| B4 CSN (graded+contrastive) | field | seen_test | 0.427 | 0.466 | 0.316 | 173.289 | 0.675 |
+| B4 CSN (graded+contrastive) | field | unseen | 0.413 | 0.494 | 0.338 | 171.394 | 0.675 |
+| B1 labels | field | seen_test | 0.433 | 0.446 | 0.313 | 144.011 | 0.500 |
+| B1 labels | field | unseen | 0.429 | 0.466 | 0.335 | 144.068 | 0.500 |
+| B6 plain encoder | subfield | seen_test | 0.236 | 0.301 | 0.094 | 41.007 | 0.921 |
+| B6 plain encoder | subfield | unseen | 0.238 | 0.341 | 0.112 | 47.097 | 0.921 |
+| SSE-treeSC | subfield | seen_test | 0.288 | 0.360 | 0.225 | 46.815 | 0.714 |
+| SSE-treeSC | subfield | unseen | 0.283 | 0.358 | 0.214 | 51.687 | 0.714 |
+| SSE-tree | subfield | seen_test | 0.249 | 0.306 | 0.158 | 44.941 | 0.669 |
+| SSE-tree | subfield | unseen | 0.255 | 0.342 | 0.177 | 44.596 | 0.669 |
+| SSE (yes/no levels) | subfield | seen_test | 0.292 | 0.358 | 0.227 | 48.810 | 0.745 |
+| SSE (yes/no levels) | subfield | unseen | 0.285 | 0.348 | 0.219 | 52.988 | 0.745 |
+| SSE-MRL (topic everywhere) | subfield | seen_test | 0.249 | 0.354 | 0.197 | 47.309 | 0.585 |
+| SSE-MRL (topic everywhere) | subfield | unseen | 0.252 | 0.369 | 0.216 | 53.031 | 0.585 |
+| B3 separate (graded+contrastive) | subfield | seen_test | 0.293 | 0.361 | 0.230 | 47.546 | 0.692 |
+| B3 separate (graded+contrastive) | subfield | unseen | 0.284 | 0.359 | 0.215 | 52.528 | 0.692 |
+| B4 CSN (graded+contrastive) | subfield | seen_test | 0.287 | 0.357 | 0.226 | 47.536 | 0.696 |
+| B4 CSN (graded+contrastive) | subfield | unseen | 0.281 | 0.362 | 0.217 | 51.864 | 0.696 |
+| B1 labels | subfield | seen_test | 0.259 | 0.200 | 0.125 | 47.035 | 0.880 |
+| B1 labels | subfield | unseen | 0.258 | 0.197 | 0.144 | 51.467 | 0.880 |
+| B6 plain encoder | topic | seen_test | 0.114 | 0.322 | 0.113 | 2.847 | 0.939 |
+| B6 plain encoder | topic | unseen | 0.120 | 0.364 | 0.107 | 5.026 | 0.939 |
+| SSE-treeSC | topic | seen_test | 0.121 | 0.376 | 0.211 | 4.778 | 0.770 |
+| SSE-treeSC | topic | unseen | 0.123 | 0.369 | 0.208 | 5.982 | 0.770 |
+| SSE-tree | topic | seen_test | 0.112 | 0.327 | 0.136 | 4.310 | 0.693 |
+| SSE-tree | topic | unseen | 0.119 | 0.365 | 0.150 | 5.266 | 0.693 |
+| SSE (yes/no levels) | topic | seen_test | 0.119 | 0.372 | 0.215 | 5.059 | 0.776 |
+| SSE (yes/no levels) | topic | unseen | 0.123 | 0.364 | 0.211 | 6.466 | 0.776 |
+| SSE-MRL (topic everywhere) | topic | seen_test | 0.120 | 0.372 | 0.218 | 5.054 | 0.764 |
+| SSE-MRL (topic everywhere) | topic | unseen | 0.125 | 0.367 | 0.212 | 6.698 | 0.764 |
+| B3 separate (graded+contrastive) | topic | seen_test | 0.120 | 0.377 | 0.217 | 5.114 | 0.755 |
+| B3 separate (graded+contrastive) | topic | unseen | 0.122 | 0.370 | 0.212 | 6.577 | 0.755 |
+| B4 CSN (graded+contrastive) | topic | seen_test | 0.123 | 0.371 | 0.213 | 4.800 | 0.769 |
+| B4 CSN (graded+contrastive) | topic | unseen | 0.125 | 0.365 | 0.209 | 6.156 | 0.769 |
+| B1 labels | topic | seen_test | 0.075 | 0.110 | 0.007 | 84.255 | 1.000 |
+| B1 labels | topic | unseen | 0.069 | 0.041 | 0.009 | 91.044 | 1.000 |
+
+### E8b — institution vs institution similarity (truth: cosine of research profiles)
+
+| method | level | Spearman | NDCG@10 |
+|---|---|---|---|
+| B6 plain encoder | domain | 0.626 | 0.938 |
+| SSE-treeSC | domain | 0.944 | 0.980 |
+| SSE-tree | domain | 0.949 | 0.978 |
+| SSE (yes/no levels) | domain | 0.924 | 0.978 |
+| SSE-MRL (topic everywhere) | domain | 0.656 | 0.931 |
+| B3 separate (graded+contrastive) | domain | 0.941 | 0.978 |
+| B4 CSN (graded+contrastive) | domain | 0.943 | 0.980 |
+| B1 labels | domain | 0.878 | 0.959 |
+| B6 plain encoder | field | 0.774 | 0.885 |
+| SSE-treeSC | field | 0.822 | 0.930 |
+| SSE-tree | field | 0.760 | 0.909 |
+| SSE (yes/no levels) | field | 0.852 | 0.930 |
+| SSE-MRL (topic everywhere) | field | 0.726 | 0.906 |
+| B3 separate (graded+contrastive) | field | 0.839 | 0.928 |
+| B4 CSN (graded+contrastive) | field | 0.823 | 0.928 |
+| B1 labels | field | 0.839 | 0.925 |
+| B6 plain encoder | subfield | 0.789 | 0.777 |
+| SSE-treeSC | subfield | 0.819 | 0.815 |
+| SSE-tree | subfield | 0.760 | 0.789 |
+| SSE (yes/no levels) | subfield | 0.831 | 0.811 |
+| SSE-MRL (topic everywhere) | subfield | 0.717 | 0.823 |
+| B3 separate (graded+contrastive) | subfield | 0.823 | 0.818 |
+| B4 CSN (graded+contrastive) | subfield | 0.818 | 0.816 |
+| B1 labels | subfield | 0.757 | 0.741 |
+| B6 plain encoder | topic | 0.715 | 0.559 |
+| SSE-treeSC | topic | 0.683 | 0.598 |
+| SSE-tree | topic | 0.649 | 0.569 |
+| SSE (yes/no levels) | topic | 0.683 | 0.601 |
+| SSE-MRL (topic everywhere) | topic | 0.652 | 0.604 |
+| B3 separate (graded+contrastive) | topic | 0.683 | 0.602 |
+| B4 CSN (graded+contrastive) | topic | 0.687 | 0.601 |
+| B1 labels | topic | 0.486 | 0.389 |
+

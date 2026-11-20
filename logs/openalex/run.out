@@ -1,0 +1,14 @@
+[13:42:56] ALL: started (encoder specter2)
+[13:42:56] eval_s0: started
+[13:42:56] eval_s2: started
+[13:42:56] eval_s1: started
+[13:51:40] eval_s0: done (524 s)
+[13:51:49] eval_s2: done (533 s)
+[13:51:59] eval_s1: done (543 s)
+[13:51:59] join_s0: started
+[13:51:59] join_s2: started
+[13:51:59] join_s1: started
+[13:52:34] join_s1: done (35 s)
+[13:52:34] join_s0: done (35 s)
+[13:52:34] join_s2: done (35 s)
+[13:52:34] ALL: finished — results/openalex/seed*/results.md, e8.md, e6_physical.md

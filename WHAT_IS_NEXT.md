@@ -22,5 +22,9 @@ Current baselines:
 **Ask the user which ones to drop. Don't decide alone.**
 
 ### 3. Find benchmarks in other domains (not just animals)
+- **Started (2026-11-20): OpenAlex research papers** — papers + authors + institutions, 4-level topic tree,
+  SPECTER2 encoder. **v2 done** → `results/openalex/SUMMARY.md` (no topic level, join scored by P@10 vs random; semantic subfield credit added, §5). GROUP BY still weak. First VecJOIN result (Papers ⋈ Authors). Open: the separately-trained
+  shared-join-key case. See the
+  OpenAlex section in `experiment-plan.md`.
 - Look for datasets where facets plus a hierarchy make sense. Examples: products with category trees and attributes, scientific or medical images with ontologies, geography, documents with topic trees.
 - For each candidate, give: license, size, facets (blocks), hierarchy (prefix levels), and whether it has graded scores or only yes/no labels.

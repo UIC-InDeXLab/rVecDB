@@ -879,3 +879,206 @@
 | 11-06 08:24:21 | evaluate/inat-E6 | Insecta center B4 CSN (graded+contrastive) done |
 | 11-06 08:24:22 | inat-e6/Insecta_s2 | done (108 s) |
 | 11-06 08:24:22 | inat-e6/ALL | finished — results/inat/seed*/e6_<class>.md |
+| 11-20 12:22:10 | openalex/ALL | started (encoder specter2) |
+| 11-20 12:22:10 | openalex/fetch_papers | started |
+| 11-20 12:22:29 | openalex-fetch | Social Sciences: 4000 papers |
+| 11-20 12:22:48 | openalex-fetch | Physics and Astronomy: 4000 papers |
+| 11-20 12:23:10 | openalex-fetch | Medicine: 4000 papers |
+| 11-20 12:23:26 | openalex-fetch | Arts and Humanities: 4000 papers |
+| 11-20 12:23:44 | openalex-fetch | Agricultural and Biological Sciences: 4000 papers |
+| 11-20 12:24:02 | openalex-fetch | Engineering: 4000 papers |
+| 11-20 12:24:19 | openalex-fetch | Computer Science: 4000 papers |
+| 11-20 12:24:38 | openalex-fetch | Environmental Science: 4000 papers |
+| 11-20 12:24:54 | openalex-fetch | Business, Management and Accounting: 4000 papers |
+| 11-20 12:25:17 | openalex-fetch | Biochemistry, Genetics and Molecular Biology: 4000 papers |
+| 11-20 12:25:38 | openalex-fetch | Earth and Planetary Sciences: 4000 papers |
+| 11-20 12:25:55 | openalex-fetch | Economics, Econometrics and Finance: 4000 papers |
+| 11-20 12:26:17 | openalex-fetch | Materials Science: 4000 papers |
+| 11-20 12:26:36 | openalex-fetch | Chemistry: 4000 papers |
+| 11-20 12:26:55 | openalex-fetch | Psychology: 4000 papers |
+| 11-20 12:27:11 | openalex-fetch | Mathematics: 4000 papers |
+| 11-20 12:27:35 | openalex-fetch | Neuroscience: 4000 papers |
+| 11-20 12:27:59 | openalex-fetch | Immunology and Microbiology: 4000 papers |
+| 11-20 12:28:17 | openalex-fetch | Health Professions: 4000 papers |
+| 11-20 12:28:35 | openalex-fetch | Energy: 4000 papers |
+| 11-20 12:28:52 | openalex-fetch | Decision Sciences: 4000 papers |
+| 11-20 12:29:11 | openalex-fetch | Nursing: 4000 papers |
+| 11-20 12:29:29 | openalex-fetch | Dentistry: 4000 papers |
+| 11-20 12:29:48 | openalex-fetch | Pharmacology, Toxicology and Pharmaceutics: 4000 papers |
+| 11-20 12:30:06 | openalex-fetch | Chemical Engineering: 4000 papers |
+| 11-20 12:30:28 | openalex-fetch | Veterinary: 4000 papers |
+| 11-20 12:30:29 | openalex/fetch_papers | done (499 s) |
+| 11-20 12:30:29 | openalex/fetch_authors | started |
+| 11-20 12:33:19 | openalex-authors | 500/5343 authors |
+| 11-20 12:33:52 | openalex-authors | 1000/5343 authors |
+| 11-20 12:35:18 | openalex-authors | 1500/5343 authors |
+| 11-20 12:38:15 | openalex/fetch_authors | **FAILED** — see logs/openalex/fetch_authors.log |
+| 11-20 12:38:37 | openalex/ALL | started (encoder specter2) |
+| 11-20 12:38:37 | openalex/fetch_authors | started |
+| 11-20 12:38:52 | openalex-authors | 2000/5343 authors |
+| 11-20 12:40:01 | openalex-authors | 2500/5343 authors |
+| 11-20 12:40:50 | openalex-authors | 3000/5343 authors |
+| 11-20 12:41:53 | openalex-authors | 3500/5343 authors |
+| 11-20 12:44:13 | openalex-authors | 4000/5343 authors |
+| 11-20 12:46:44 | openalex-authors | 4500/5343 authors |
+| 11-20 12:49:13 | openalex-authors | 5000/5343 authors |
+| 11-20 12:51:07 | openalex-authors | done 5343/5343 authors |
+| 11-20 12:51:07 | openalex/fetch_authors | done (750 s) |
+| 11-20 12:51:14 | openalex/ALL | started (encoder specter2) |
+| 11-20 12:51:14 | openalex/build | started |
+| 11-20 12:52:02 | openalex/build | done (48 s) |
+| 11-20 12:52:02 | openalex/ALL | stopped after build (tables in cache/openalex/) |
+| 11-20 10:53:15 | openalex/ALL | started (encoder specter2) |
+| 11-20 10:53:15 | openalex/encode | started |
+| 11-20 10:56:18 | openalex/encode | done (183 s) |
+| 11-20 10:56:18 | openalex/train_treesc_s0 | started |
+| 11-20 10:56:28 | openalex/train_treesc_s0 | done (10 s) |
+| 11-20 10:56:28 | openalex/train_tree_s0 | started |
+| 11-20 10:56:35 | openalex/train_tree_s0 | done (7 s) |
+| 11-20 10:56:35 | openalex/train_main_s0 | started |
+| 11-20 10:56:43 | openalex/train_main_s0 | done (8 s) |
+| 11-20 10:56:43 | openalex/train_mrl_s0 | started |
+| 11-20 10:56:51 | openalex/train_mrl_s0 | done (8 s) |
+| 11-20 10:56:51 | openalex/train_b3sc_s0 | started |
+| 11-20 10:57:01 | openalex/train_b3sc_s0 | done (10 s) |
+| 11-20 10:57:01 | openalex/train_csnsc_s0 | started |
+| 11-20 10:57:15 | openalex/train_csnsc_s0 | done (14 s) |
+| 11-20 10:57:15 | openalex/train_treesc_s1 | started |
+| 11-20 10:57:25 | openalex/train_treesc_s1 | done (10 s) |
+| 11-20 10:57:25 | openalex/train_tree_s1 | started |
+| 11-20 10:57:32 | openalex/train_tree_s1 | done (7 s) |
+| 11-20 10:57:32 | openalex/train_main_s1 | started |
+| 11-20 10:57:40 | openalex/train_main_s1 | done (8 s) |
+| 11-20 10:57:40 | openalex/train_mrl_s1 | started |
+| 11-20 10:57:48 | openalex/train_mrl_s1 | done (8 s) |
+| 11-20 10:57:48 | openalex/train_b3sc_s1 | started |
+| 11-20 10:57:58 | openalex/train_b3sc_s1 | done (10 s) |
+| 11-20 10:57:58 | openalex/train_csnsc_s1 | started |
+| 11-20 10:58:12 | openalex/train_csnsc_s1 | done (14 s) |
+| 11-20 10:58:12 | openalex/train_treesc_s2 | started |
+| 11-20 10:58:22 | openalex/train_treesc_s2 | done (10 s) |
+| 11-20 10:58:22 | openalex/train_tree_s2 | started |
+| 11-20 10:58:29 | openalex/train_tree_s2 | done (7 s) |
+| 11-20 10:58:29 | openalex/train_main_s2 | started |
+| 11-20 10:58:37 | openalex/train_main_s2 | done (8 s) |
+| 11-20 10:58:37 | openalex/train_mrl_s2 | started |
+| 11-20 10:58:45 | openalex/train_mrl_s2 | done (8 s) |
+| 11-20 10:58:45 | openalex/train_b3sc_s2 | started |
+| 11-20 10:58:55 | openalex/train_b3sc_s2 | done (10 s) |
+| 11-20 10:58:55 | openalex/train_csnsc_s2 | started |
+| 11-20 10:59:08 | openalex/train_csnsc_s2 | done (13 s) |
+| 11-20 10:59:08 | openalex/eval_s1 | started |
+| 11-20 10:59:08 | openalex/eval_s0 | started |
+| 11-20 10:59:08 | openalex/eval_s2 | started |
+| 11-20 11:06:42 | openalex/eval_s2 | done (454 s) |
+| 11-20 11:06:48 | openalex/eval_s1 | done (460 s) |
+| 11-20 11:06:51 | openalex/eval_s0 | done (463 s) |
+| 11-20 11:06:51 | openalex/join_s0 | started |
+| 11-20 11:06:51 | openalex/join_s2 | started |
+| 11-20 11:06:51 | openalex/join_s1 | started |
+| 11-20 11:07:36 | openalex/join_s0 | done (45 s) |
+| 11-20 11:07:36 | openalex/join_s1 | done (45 s) |
+| 11-20 11:07:36 | openalex/join_s2 | done (45 s) |
+| 11-20 11:07:36 | openalex/e6_s0 | started |
+| 11-20 11:07:36 | openalex/e6_s1 | started |
+| 11-20 11:07:36 | openalex/e6_s2 | started |
+| 11-20 11:09:19 | openalex/e6_s0 | done (103 s) |
+| 11-20 11:09:21 | openalex/e6_s2 | done (105 s) |
+| 11-20 11:09:22 | openalex/e6_s1 | done (106 s) |
+| 11-20 11:09:22 | openalex/ALL | finished — results/openalex/seed*/results.md, e8.md, e6_physical.md |
+| 11-20 11:35:17 | openalex/ALL | started (encoder specter2) |
+| 11-20 11:35:17 | openalex/train_treesc_s0 | started |
+| 11-20 11:35:25 | openalex/train_treesc_s0 | done (8 s) |
+| 11-20 11:35:25 | openalex/train_tree_s0 | started |
+| 11-20 11:35:32 | openalex/train_tree_s0 | done (7 s) |
+| 11-20 11:35:32 | openalex/train_main_s0 | started |
+| 11-20 11:35:39 | openalex/train_main_s0 | done (7 s) |
+| 11-20 11:35:39 | openalex/train_mrl_s0 | started |
+| 11-20 11:35:47 | openalex/train_mrl_s0 | done (8 s) |
+| 11-20 11:35:47 | openalex/train_b3sc_s0 | started |
+| 11-20 11:35:55 | openalex/train_b3sc_s0 | done (8 s) |
+| 11-20 11:35:55 | openalex/train_csnsc_s0 | started |
+| 11-20 11:36:07 | openalex/train_csnsc_s0 | done (12 s) |
+| 11-20 11:36:07 | openalex/train_treesc_s1 | started |
+| 11-20 11:36:15 | openalex/train_treesc_s1 | done (8 s) |
+| 11-20 11:36:15 | openalex/train_tree_s1 | started |
+| 11-20 11:36:22 | openalex/train_tree_s1 | done (7 s) |
+| 11-20 11:36:22 | openalex/train_main_s1 | started |
+| 11-20 11:36:29 | openalex/train_main_s1 | done (7 s) |
+| 11-20 11:36:29 | openalex/train_mrl_s1 | started |
+| 11-20 11:36:36 | openalex/train_mrl_s1 | done (7 s) |
+| 11-20 11:36:36 | openalex/train_b3sc_s1 | started |
+| 11-20 11:36:45 | openalex/train_b3sc_s1 | done (9 s) |
+| 11-20 11:36:45 | openalex/train_csnsc_s1 | started |
+| 11-20 11:36:56 | openalex/train_csnsc_s1 | done (11 s) |
+| 11-20 11:36:56 | openalex/train_treesc_s2 | started |
+| 11-20 11:37:05 | openalex/train_treesc_s2 | done (9 s) |
+| 11-20 11:37:05 | openalex/train_tree_s2 | started |
+| 11-20 11:37:11 | openalex/train_tree_s2 | done (6 s) |
+| 11-20 11:37:11 | openalex/train_main_s2 | started |
+| 11-20 11:37:19 | openalex/train_main_s2 | done (8 s) |
+| 11-20 11:37:19 | openalex/train_mrl_s2 | started |
+| 11-20 11:37:26 | openalex/train_mrl_s2 | done (7 s) |
+| 11-20 11:37:26 | openalex/train_b3sc_s2 | started |
+| 11-20 11:37:34 | openalex/train_b3sc_s2 | done (8 s) |
+| 11-20 11:37:34 | openalex/train_csnsc_s2 | started |
+| 11-20 11:37:46 | openalex/train_csnsc_s2 | done (12 s) |
+| 11-20 11:37:46 | openalex/eval_s0 | started |
+| 11-20 11:37:46 | openalex/eval_s2 | started |
+| 11-20 11:37:46 | openalex/eval_s1 | started |
+| 11-20 11:43:50 | openalex/eval_s1 | done (364 s) |
+| 11-20 11:43:53 | openalex/eval_s0 | done (367 s) |
+| 11-20 11:44:07 | openalex/eval_s2 | done (381 s) |
+| 11-20 11:44:07 | openalex/join_s0 | started |
+| 11-20 11:44:07 | openalex/join_s1 | started |
+| 11-20 11:44:07 | openalex/join_s2 | started |
+| 11-20 11:44:44 | openalex/join_s1 | done (37 s) |
+| 11-20 11:44:44 | openalex/join_s2 | done (37 s) |
+| 11-20 11:44:44 | openalex/join_s0 | done (37 s) |
+| 11-20 11:44:44 | openalex/e6_s1 | started |
+| 11-20 11:44:44 | openalex/e6_s0 | started |
+| 11-20 11:44:44 | openalex/e6_s2 | started |
+| 11-20 11:45:59 | openalex/e6_s2 | done (75 s) |
+| 11-20 11:45:59 | openalex/e6_s0 | done (75 s) |
+| 11-20 11:46:00 | openalex/e6_s1 | done (76 s) |
+| 11-20 11:46:00 | openalex/ALL | finished — results/openalex/seed*/results.md, e8.md, e6_physical.md |
+| 11-20 13:54:27 | openalex-meta | subfields: 252 |
+| 11-20 13:54:41 | openalex-meta | topics: 4516 |
+| 11-20 11:50:52 | openalex/ALL | started (encoder specter2) |
+| 11-20 11:50:52 | openalex/eval_s0 | started |
+| 11-20 11:50:52 | openalex/eval_s2 | started |
+| 11-20 11:50:52 | openalex/eval_s1 | started |
+| 11-20 12:00:02 | openalex/eval_s2 | done (550 s) |
+| 11-20 12:00:11 | openalex/eval_s0 | done (559 s) |
+| 11-20 12:00:14 | openalex/eval_s1 | done (562 s) |
+| 11-20 12:00:14 | openalex/join_s0 | started |
+| 11-20 12:00:14 | openalex/join_s2 | started |
+| 11-20 12:00:14 | openalex/join_s1 | started |
+| 11-20 12:00:50 | openalex/join_s1 | done (36 s) |
+| 11-20 12:00:50 | openalex/join_s0 | done (36 s) |
+| 11-20 12:00:50 | openalex/join_s2 | done (36 s) |
+| 11-20 12:00:50 | openalex/ALL | finished — results/openalex/seed*/results.md, e8.md, e6_physical.md |
+| 11-20 12:01:24 | openalex/ALL | started (encoder specter2) |
+| 11-20 12:01:24 | openalex/related | started |
+| 11-20 12:01:48 | openalex/related | done (24 s) |
+| 11-20 12:01:48 | openalex/eval_s0 | started |
+| 11-20 12:01:48 | openalex/eval_s1 | started |
+| 11-20 12:01:48 | openalex/eval_s2 | started |
+| 11-20 12:05:16 | openalex/eval_s2 | **FAILED** — see logs/openalex/eval_s2.log |
+| 11-20 12:05:23 | openalex/eval_s1 | **FAILED** — see logs/openalex/eval_s1.log |
+| 11-20 12:05:30 | openalex/eval_s0 | **FAILED** — see logs/openalex/eval_s0.log |
+| 11-20 12:05:30 | openalex/ALL | **FAILED** in eval |
+| 11-20 13:42:56 | openalex/ALL | started (encoder specter2) |
+| 11-20 13:42:56 | openalex/eval_s0 | started |
+| 11-20 13:42:56 | openalex/eval_s2 | started |
+| 11-20 13:42:56 | openalex/eval_s1 | started |
+| 11-20 13:51:40 | openalex/eval_s0 | done (524 s) |
+| 11-20 13:51:49 | openalex/eval_s2 | done (533 s) |
+| 11-20 13:51:59 | openalex/eval_s1 | done (543 s) |
+| 11-20 13:51:59 | openalex/join_s0 | started |
+| 11-20 13:51:59 | openalex/join_s2 | started |
+| 11-20 13:51:59 | openalex/join_s1 | started |
+| 11-20 13:52:34 | openalex/join_s1 | done (35 s) |
+| 11-20 13:52:34 | openalex/join_s0 | done (35 s) |
+| 11-20 13:52:34 | openalex/join_s2 | done (35 s) |
+| 11-20 13:52:34 | openalex/ALL | finished — results/openalex/seed*/results.md, e8.md, e6_physical.md |

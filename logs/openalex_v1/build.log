@@ -1,0 +1,2 @@
+papers 99873 {'train': 56446, 'seen_test': 24157, 'unseen': 19270} {'domain': 4, 'field': 26, 'subfield': 250, 'topic': 4016}
+authors 5120, their papers 106075, links 116835, institutions 300 ({'education': 227, 'healthcare': 32, 'facility': 20, 'government': 9, 'nonprofit': 7, 'other': 2, 'company': 2, 'archive': 1})

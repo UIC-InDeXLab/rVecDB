@@ -1,0 +1,25 @@
+| 11-20 10:53:17 | openalex-encode | started (specter2, 205948 texts) |
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 3904.40it/s]
+There are adapters available but none are activated for the forward pass.
+active adapters: Stack[proximity]
+  encoded 128/99873
+  encoded 12928/99873
+  encoded 25728/99873
+  encoded 38528/99873
+  encoded 51328/99873
+  encoded 64128/99873
+  encoded 76928/99873
+  encoded 89728/99873
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 2561.41it/s]
+There are adapters available but none are activated for the forward pass.
+active adapters: Stack[proximity]
+  encoded 128/106075
+  encoded 12928/106075
+  encoded 25728/106075
+  encoded 38528/106075
+  encoded 51328/106075
+  encoded 64128/106075
+  encoded 76928/106075
+  encoded 89728/106075
+  encoded 102528/106075
+| 11-20 10:56:17 | openalex-encode | done |

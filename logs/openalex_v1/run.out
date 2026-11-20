@@ -1,0 +1,58 @@
+[10:53:15] ALL: started (encoder specter2)
+[10:53:15] encode: started
+[10:56:18] encode: done (183 s)
+[10:56:18] train_treesc_s0: started
+[10:56:28] train_treesc_s0: done (10 s)
+[10:56:28] train_tree_s0: started
+[10:56:35] train_tree_s0: done (7 s)
+[10:56:35] train_main_s0: started
+[10:56:43] train_main_s0: done (8 s)
+[10:56:43] train_mrl_s0: started
+[10:56:51] train_mrl_s0: done (8 s)
+[10:56:51] train_b3sc_s0: started
+[10:57:01] train_b3sc_s0: done (10 s)
+[10:57:01] train_csnsc_s0: started
+[10:57:15] train_csnsc_s0: done (14 s)
+[10:57:15] train_treesc_s1: started
+[10:57:25] train_treesc_s1: done (10 s)
+[10:57:25] train_tree_s1: started
+[10:57:32] train_tree_s1: done (7 s)
+[10:57:32] train_main_s1: started
+[10:57:40] train_main_s1: done (8 s)
+[10:57:40] train_mrl_s1: started
+[10:57:48] train_mrl_s1: done (8 s)
+[10:57:48] train_b3sc_s1: started
+[10:57:58] train_b3sc_s1: done (10 s)
+[10:57:58] train_csnsc_s1: started
+[10:58:12] train_csnsc_s1: done (14 s)
+[10:58:12] train_treesc_s2: started
+[10:58:22] train_treesc_s2: done (10 s)
+[10:58:22] train_tree_s2: started
+[10:58:29] train_tree_s2: done (7 s)
+[10:58:29] train_main_s2: started
+[10:58:37] train_main_s2: done (8 s)
+[10:58:37] train_mrl_s2: started
+[10:58:45] train_mrl_s2: done (8 s)
+[10:58:45] train_b3sc_s2: started
+[10:58:55] train_b3sc_s2: done (10 s)
+[10:58:55] train_csnsc_s2: started
+[10:59:08] train_csnsc_s2: done (13 s)
+[10:59:08] eval_s1: started
+[10:59:08] eval_s0: started
+[10:59:08] eval_s2: started
+[11:06:42] eval_s2: done (454 s)
+[11:06:48] eval_s1: done (460 s)
+[11:06:51] eval_s0: done (463 s)
+[11:06:51] join_s0: started
+[11:06:51] join_s2: started
+[11:06:51] join_s1: started
+[11:07:36] join_s0: done (45 s)
+[11:07:36] join_s1: done (45 s)
+[11:07:36] join_s2: done (45 s)
+[11:07:36] e6_s1: started
+[11:07:36] e6_s0: started
+[11:07:36] e6_s2: started
+[11:09:19] e6_s0: done (103 s)
+[11:09:21] e6_s2: done (105 s)
+[11:09:22] e6_s1: done (106 s)
+[11:09:22] ALL: finished — results/openalex/seed*/results.md, e8.md, e6_physical.md

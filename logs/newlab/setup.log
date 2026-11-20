@@ -1,0 +1,6 @@
+No broken requirements found.
+torch 2.11.0+cu128 cuda True
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 2529.74it/s]
+There are adapters available but none are activated for the forward pass.
+specter2 + proximity adapter OK, active: Stack[proximity]
+exit 0

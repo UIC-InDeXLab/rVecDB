@@ -1,0 +1,838 @@
+{
+ "E8a": [
+  {
+   "method": "B6 plain encoder",
+   "level": "domain",
+   "query_split": "seen_test",
+   "Spearman": 0.2981672111524748,
+   "NDCG@10": 0.712230678565049,
+   "join_F1": 0.4270111767671572,
+   "authors_per_paper": 2605.733,
+   "tau": 0.8505216836929321
+  },
+  {
+   "method": "B6 plain encoder",
+   "level": "domain",
+   "query_split": "unseen",
+   "Spearman": 0.3022667580753319,
+   "NDCG@10": 0.7274080400704088,
+   "join_F1": 0.4357383020594644,
+   "authors_per_paper": 2621.824,
+   "tau": 0.8505216836929321
+  },
+  {
+   "method": "SSE-treeSC",
+   "level": "domain",
+   "query_split": "seen_test",
+   "Spearman": 0.7165615339486194,
+   "NDCG@10": 0.7415814069105577,
+   "join_F1": 0.7452279507948704,
+   "authors_per_paper": 1481.019,
+   "tau": 0.6886910796165466
+  },
+  {
+   "method": "SSE-treeSC",
+   "level": "domain",
+   "query_split": "unseen",
+   "Spearman": 0.7123800418063949,
+   "NDCG@10": 0.7369891551601758,
+   "join_F1": 0.7276599792531409,
+   "authors_per_paper": 1520.448,
+   "tau": 0.6886910796165466
+  },
+  {
+   "method": "SSE-tree",
+   "level": "domain",
+   "query_split": "seen_test",
+   "Spearman": 0.7058463867849006,
+   "NDCG@10": 0.7394743433094647,
+   "join_F1": 0.7420203790941883,
+   "authors_per_paper": 1391.829,
+   "tau": 0.607318752438335
+  },
+  {
+   "method": "SSE-tree",
+   "level": "domain",
+   "query_split": "unseen",
+   "Spearman": 0.6969018056447094,
+   "NDCG@10": 0.7369359768314792,
+   "join_F1": 0.7195035406368095,
+   "authors_per_paper": 1431.459,
+   "tau": 0.607318752438335
+  },
+  {
+   "method": "SSE (yes/no levels)",
+   "level": "domain",
+   "query_split": "seen_test",
+   "Spearman": 0.6995978525767221,
+   "NDCG@10": 0.7396109071072745,
+   "join_F1": 0.7240103650798497,
+   "authors_per_paper": 1583.335,
+   "tau": 0.8926992416381836
+  },
+  {
+   "method": "SSE (yes/no levels)",
+   "level": "domain",
+   "query_split": "unseen",
+   "Spearman": 0.6994887625018441,
+   "NDCG@10": 0.7331324960822359,
+   "join_F1": 0.7118271097672422,
+   "authors_per_paper": 1617.485,
+   "tau": 0.8926992416381836
+  },
+  {
+   "method": "SSE-MRL (topic everywhere)",
+   "level": "domain",
+   "query_split": "seen_test",
+   "Spearman": 0.4229253907696239,
+   "NDCG@10": 0.7116195128726013,
+   "join_F1": 0.5226749387979182,
+   "authors_per_paper": 2107.565,
+   "tau": 0.08699149604836254
+  },
+  {
+   "method": "SSE-MRL (topic everywhere)",
+   "level": "domain",
+   "query_split": "unseen",
+   "Spearman": 0.4073041175000343,
+   "NDCG@10": 0.712163354575076,
+   "join_F1": 0.5158054587950841,
+   "authors_per_paper": 2140.638,
+   "tau": 0.08699149604836254
+  },
+  {
+   "method": "B3 separate (graded+contrastive)",
+   "level": "domain",
+   "query_split": "seen_test",
+   "Spearman": 0.7273403205716037,
+   "NDCG@10": 0.7449550466587109,
+   "join_F1": 0.7470930924043537,
+   "authors_per_paper": 1485.201,
+   "tau": 0.7095244144484147
+  },
+  {
+   "method": "B3 separate (graded+contrastive)",
+   "level": "domain",
+   "query_split": "unseen",
+   "Spearman": 0.7233328958895074,
+   "NDCG@10": 0.7388384661819125,
+   "join_F1": 0.7296891372806508,
+   "authors_per_paper": 1538.301,
+   "tau": 0.7095244144484147
+  },
+  {
+   "method": "B4 CSN (graded+contrastive)",
+   "level": "domain",
+   "query_split": "seen_test",
+   "Spearman": 0.7294072943998349,
+   "NDCG@10": 0.7465804514000117,
+   "join_F1": 0.7453891756877605,
+   "authors_per_paper": 1467.451,
+   "tau": 0.5713818406907178
+  },
+  {
+   "method": "B4 CSN (graded+contrastive)",
+   "level": "domain",
+   "query_split": "unseen",
+   "Spearman": 0.7195267959505304,
+   "NDCG@10": 0.7465390780587834,
+   "join_F1": 0.724690229966718,
+   "authors_per_paper": 1532.561,
+   "tau": 0.5713818406907178
+  },
+  {
+   "method": "B1 labels",
+   "level": "domain",
+   "query_split": "seen_test",
+   "Spearman": 0.6175647254899126,
+   "NDCG@10": 0.7223951536435509,
+   "join_F1": 0.6650766413826581,
+   "authors_per_paper": 1379.616,
+   "tau": 0.5517241379310345
+  },
+  {
+   "method": "B1 labels",
+   "level": "domain",
+   "query_split": "unseen",
+   "Spearman": 0.5734821590520607,
+   "NDCG@10": 0.6867860767557774,
+   "join_F1": 0.631747587777502,
+   "authors_per_paper": 1443.236,
+   "tau": 0.5517241379310345
+  },
+  {
+   "method": "B6 plain encoder",
+   "level": "field",
+   "query_split": "seen_test",
+   "Spearman": 0.31465763730538027,
+   "NDCG@10": 0.40440909221117294,
+   "join_F1": 0.15187662478336222,
+   "authors_per_paper": 298.419,
+   "tau": 0.8992933034896851
+  },
+  {
+   "method": "B6 plain encoder",
+   "level": "field",
+   "query_split": "unseen",
+   "Spearman": 0.31356308430729296,
+   "NDCG@10": 0.4562065591840486,
+   "join_F1": 0.17936849682756018,
+   "authors_per_paper": 305.005,
+   "tau": 0.8992933034896851
+  },
+  {
+   "method": "SSE-treeSC",
+   "level": "field",
+   "query_split": "seen_test",
+   "Spearman": 0.43320830614139977,
+   "NDCG@10": 0.4668278529595382,
+   "join_F1": 0.3310644670958512,
+   "authors_per_paper": 213.171,
+   "tau": 0.6987773524583396
+  },
+  {
+   "method": "SSE-treeSC",
+   "level": "field",
+   "query_split": "unseen",
+   "Spearman": 0.418717127207742,
+   "NDCG@10": 0.4835179347965294,
+   "join_F1": 0.34479548753864736,
+   "authors_per_paper": 210.318,
+   "tau": 0.6987773524583396
+  },
+  {
+   "method": "SSE-tree",
+   "level": "field",
+   "query_split": "seen_test",
+   "Spearman": 0.37372990549361507,
+   "NDCG@10": 0.4319042939292407,
+   "join_F1": 0.25011577647422045,
+   "authors_per_paper": 218.051,
+   "tau": 0.6932366955886451
+  },
+  {
+   "method": "SSE-tree",
+   "level": "field",
+   "query_split": "unseen",
+   "Spearman": 0.3671027547978733,
+   "NDCG@10": 0.47285194711474593,
+   "join_F1": 0.2847134182958564,
+   "authors_per_paper": 209.05,
+   "tau": 0.6932366955886451
+  },
+  {
+   "method": "SSE (yes/no levels)",
+   "level": "field",
+   "query_split": "seen_test",
+   "Spearman": 0.4513905571269909,
+   "NDCG@10": 0.46935617808866864,
+   "join_F1": 0.34101826949828434,
+   "authors_per_paper": 178.773,
+   "tau": 0.79718284726648
+  },
+  {
+   "method": "SSE (yes/no levels)",
+   "level": "field",
+   "query_split": "unseen",
+   "Spearman": 0.4454557611535519,
+   "NDCG@10": 0.48362514894246167,
+   "join_F1": 0.35683867349517134,
+   "authors_per_paper": 173.884,
+   "tau": 0.79718284726648
+  },
+  {
+   "method": "SSE-MRL (topic everywhere)",
+   "level": "field",
+   "query_split": "seen_test",
+   "Spearman": 0.3466974603610183,
+   "NDCG@10": 0.44564657147074477,
+   "join_F1": 0.2540258673280135,
+   "authors_per_paper": 181.486,
+   "tau": 0.46468378586536746
+  },
+  {
+   "method": "SSE-MRL (topic everywhere)",
+   "level": "field",
+   "query_split": "unseen",
+   "Spearman": 0.34271576532877596,
+   "NDCG@10": 0.48506528415162303,
+   "join_F1": 0.28549378187559055,
+   "authors_per_paper": 190.14,
+   "tau": 0.46468378586536746
+  },
+  {
+   "method": "B3 separate (graded+contrastive)",
+   "level": "field",
+   "query_split": "seen_test",
+   "Spearman": 0.43556076014081446,
+   "NDCG@10": 0.4701891458607532,
+   "join_F1": 0.3408658779733932,
+   "authors_per_paper": 179.786,
+   "tau": 0.7174033415368047
+  },
+  {
+   "method": "B3 separate (graded+contrastive)",
+   "level": "field",
+   "query_split": "unseen",
+   "Spearman": 0.4284472725634537,
+   "NDCG@10": 0.4834203457585551,
+   "join_F1": 0.3544182145950595,
+   "authors_per_paper": 176.089,
+   "tau": 0.7174033415368047
+  },
+  {
+   "method": "B4 CSN (graded+contrastive)",
+   "level": "field",
+   "query_split": "seen_test",
+   "Spearman": 0.4273797470618418,
+   "NDCG@10": 0.4690456119267272,
+   "join_F1": 0.32016065592642573,
+   "authors_per_paper": 168.001,
+   "tau": 0.659881968164848
+  },
+  {
+   "method": "B4 CSN (graded+contrastive)",
+   "level": "field",
+   "query_split": "unseen",
+   "Spearman": 0.4124503248791689,
+   "NDCG@10": 0.49624679902075564,
+   "join_F1": 0.34266615117917765,
+   "authors_per_paper": 170.094,
+   "tau": 0.659881968164848
+  },
+  {
+   "method": "B1 labels",
+   "level": "field",
+   "query_split": "seen_test",
+   "Spearman": 0.4301099369961461,
+   "NDCG@10": 0.4387923402977208,
+   "join_F1": 0.3085297438124186,
+   "authors_per_paper": 143.158,
+   "tau": 0.5
+  },
+  {
+   "method": "B1 labels",
+   "level": "field",
+   "query_split": "unseen",
+   "Spearman": 0.42469693554937266,
+   "NDCG@10": 0.4567771512104768,
+   "join_F1": 0.33073137216887916,
+   "authors_per_paper": 143.371,
+   "tau": 0.5
+  },
+  {
+   "method": "B6 plain encoder",
+   "level": "subfield",
+   "query_split": "seen_test",
+   "Spearman": 0.23597685734044857,
+   "NDCG@10": 0.3014774065810817,
+   "join_F1": 0.09387196850919038,
+   "authors_per_paper": 41.007,
+   "tau": 0.9212106071569144
+  },
+  {
+   "method": "B6 plain encoder",
+   "level": "subfield",
+   "query_split": "unseen",
+   "Spearman": 0.23799250620412463,
+   "NDCG@10": 0.34101334659464927,
+   "join_F1": 0.11235955056179775,
+   "authors_per_paper": 47.097,
+   "tau": 0.9212106071569144
+  },
+  {
+   "method": "SSE-treeSC",
+   "level": "subfield",
+   "query_split": "seen_test",
+   "Spearman": 0.2902505366465825,
+   "NDCG@10": 0.36004632416903765,
+   "join_F1": 0.22335999010038826,
+   "authors_per_paper": 45.702,
+   "tau": 0.7113953010732841
+  },
+  {
+   "method": "SSE-treeSC",
+   "level": "subfield",
+   "query_split": "unseen",
+   "Spearman": 0.2869282976447373,
+   "NDCG@10": 0.3596065354786656,
+   "join_F1": 0.2111154208455699,
+   "authors_per_paper": 51.289,
+   "tau": 0.7113953010732841
+  },
+  {
+   "method": "SSE-tree",
+   "level": "subfield",
+   "query_split": "seen_test",
+   "Spearman": 0.2503773773598996,
+   "NDCG@10": 0.3129737192810877,
+   "join_F1": 0.15891209017366664,
+   "authors_per_paper": 44.22,
+   "tau": 0.676286576899428
+  },
+  {
+   "method": "SSE-tree",
+   "level": "subfield",
+   "query_split": "unseen",
+   "Spearman": 0.25649549353403095,
+   "NDCG@10": 0.34395905833300683,
+   "join_F1": 0.17107258125046912,
+   "authors_per_paper": 45.716,
+   "tau": 0.676286576899428
+  },
+  {
+   "method": "SSE (yes/no levels)",
+   "level": "subfield",
+   "query_split": "seen_test",
+   "Spearman": 0.29506093758183,
+   "NDCG@10": 0.35723316690912643,
+   "join_F1": 0.22167813260432,
+   "authors_per_paper": 47.627,
+   "tau": 0.7511285547401934
+  },
+  {
+   "method": "SSE (yes/no levels)",
+   "level": "subfield",
+   "query_split": "unseen",
+   "Spearman": 0.28958184535731785,
+   "NDCG@10": 0.34967455097806727,
+   "join_F1": 0.21083034467654063,
+   "authors_per_paper": 52.155,
+   "tau": 0.7511285547401934
+  },
+  {
+   "method": "SSE-MRL (topic everywhere)",
+   "level": "subfield",
+   "query_split": "seen_test",
+   "Spearman": 0.2514708028321522,
+   "NDCG@10": 0.3557854732401024,
+   "join_F1": 0.1932991605378501,
+   "authors_per_paper": 48.358,
+   "tau": 0.5838180204165124
+  },
+  {
+   "method": "SSE-MRL (topic everywhere)",
+   "level": "subfield",
+   "query_split": "unseen",
+   "Spearman": 0.2533379096939636,
+   "NDCG@10": 0.3662793473633662,
+   "join_F1": 0.21189866060814203,
+   "authors_per_paper": 54.807,
+   "tau": 0.5838180204165124
+  },
+  {
+   "method": "B3 separate (graded+contrastive)",
+   "level": "subfield",
+   "query_split": "seen_test",
+   "Spearman": 0.2922990929823815,
+   "NDCG@10": 0.3606608060946237,
+   "join_F1": 0.2300106250841776,
+   "authors_per_paper": 47.876,
+   "tau": 0.6934201926619288
+  },
+  {
+   "method": "B3 separate (graded+contrastive)",
+   "level": "subfield",
+   "query_split": "unseen",
+   "Spearman": 0.28194394092077324,
+   "NDCG@10": 0.3606757129078883,
+   "join_F1": 0.22061088470607476,
+   "authors_per_paper": 52.47,
+   "tau": 0.6934201926619288
+  },
+  {
+   "method": "B4 CSN (graded+contrastive)",
+   "level": "subfield",
+   "query_split": "seen_test",
+   "Spearman": 0.2900767696896235,
+   "NDCG@10": 0.3637592190358718,
+   "join_F1": 0.23139262102793773,
+   "authors_per_paper": 46.699,
+   "tau": 0.6836837439375383
+  },
+  {
+   "method": "B4 CSN (graded+contrastive)",
+   "level": "subfield",
+   "query_split": "unseen",
+   "Spearman": 0.2823378687406948,
+   "NDCG@10": 0.36353267344742607,
+   "join_F1": 0.22023291474988602,
+   "authors_per_paper": 51.488,
+   "tau": 0.6836837439375383
+  },
+  {
+   "method": "B1 labels",
+   "level": "subfield",
+   "query_split": "seen_test",
+   "Spearman": 0.25931232889768985,
+   "NDCG@10": 0.2137549427827725,
+   "join_F1": 0.12662415067350102,
+   "authors_per_paper": 48.165,
+   "tau": 0.875
+  },
+  {
+   "method": "B1 labels",
+   "level": "subfield",
+   "query_split": "unseen",
+   "Spearman": 0.2573908314194563,
+   "NDCG@10": 0.21349049888202826,
+   "join_F1": 0.1460034510400674,
+   "authors_per_paper": 52.702,
+   "tau": 0.875
+  },
+  {
+   "method": "B6 plain encoder",
+   "level": "topic",
+   "query_split": "seen_test",
+   "Spearman": 0.1136642097245169,
+   "NDCG@10": 0.3218611833846783,
+   "join_F1": 0.11295527893038267,
+   "authors_per_paper": 2.847,
+   "tau": 0.9394590875506404
+  },
+  {
+   "method": "B6 plain encoder",
+   "level": "topic",
+   "query_split": "unseen",
+   "Spearman": 0.12047269358111827,
+   "NDCG@10": 0.3643170292784875,
+   "join_F1": 0.10706018518518519,
+   "authors_per_paper": 5.026,
+   "tau": 0.9394590875506404
+  },
+  {
+   "method": "SSE-treeSC",
+   "level": "topic",
+   "query_split": "seen_test",
+   "Spearman": 0.12235896337577211,
+   "NDCG@10": 0.3748758468036698,
+   "join_F1": 0.21320277953253317,
+   "authors_per_paper": 4.841,
+   "tau": 0.7643597152233128
+  },
+  {
+   "method": "SSE-treeSC",
+   "level": "topic",
+   "query_split": "unseen",
+   "Spearman": 0.12387579455527084,
+   "NDCG@10": 0.36983732953894355,
+   "join_F1": 0.20719844357976655,
+   "authors_per_paper": 6.338,
+   "tau": 0.7643597152233128
+  },
+  {
+   "method": "SSE-tree",
+   "level": "topic",
+   "query_split": "seen_test",
+   "Spearman": 0.11238037521208953,
+   "NDCG@10": 0.3283140045626188,
+   "join_F1": 0.13385686239514547,
+   "authors_per_paper": 4.112,
+   "tau": 0.6987134271860131
+  },
+  {
+   "method": "SSE-tree",
+   "level": "topic",
+   "query_split": "unseen",
+   "Spearman": 0.1195360858943756,
+   "NDCG@10": 0.3650101638159003,
+   "join_F1": 0.14933864315175652,
+   "authors_per_paper": 5.145,
+   "tau": 0.6987134271860131
+  },
+  {
+   "method": "SSE (yes/no levels)",
+   "level": "topic",
+   "query_split": "seen_test",
+   "Spearman": 0.1202274393668776,
+   "NDCG@10": 0.3727376986986845,
+   "join_F1": 0.2136157337367625,
+   "authors_per_paper": 5.119,
+   "tau": 0.7754086301326759
+  },
+  {
+   "method": "SSE (yes/no levels)",
+   "level": "topic",
+   "query_split": "unseen",
+   "Spearman": 0.12484714267201646,
+   "NDCG@10": 0.36311541608951664,
+   "join_F1": 0.2064130559705781,
+   "authors_per_paper": 6.815,
+   "tau": 0.7754086301326759
+  },
+  {
+   "method": "SSE-MRL (topic everywhere)",
+   "level": "topic",
+   "query_split": "seen_test",
+   "Spearman": 0.12195864991489737,
+   "NDCG@10": 0.37176948469342525,
+   "join_F1": 0.21890547263681592,
+   "authors_per_paper": 5.142,
+   "tau": 0.763855298995975
+  },
+  {
+   "method": "SSE-MRL (topic everywhere)",
+   "level": "topic",
+   "query_split": "unseen",
+   "Spearman": 0.12575671837742883,
+   "NDCG@10": 0.3624070794967955,
+   "join_F1": 0.20909400158748156,
+   "authors_per_paper": 6.933,
+   "tau": 0.763855298995975
+  },
+  {
+   "method": "B3 separate (graded+contrastive)",
+   "level": "topic",
+   "query_split": "seen_test",
+   "Spearman": 0.12049912814278607,
+   "NDCG@10": 0.377319231302511,
+   "join_F1": 0.21196893558702604,
+   "authors_per_paper": 5.076,
+   "tau": 0.7540826233029371
+  },
+  {
+   "method": "B3 separate (graded+contrastive)",
+   "level": "topic",
+   "query_split": "unseen",
+   "Spearman": 0.12164239576392878,
+   "NDCG@10": 0.3661050806498088,
+   "join_F1": 0.20662535748331745,
+   "authors_per_paper": 6.506,
+   "tau": 0.7540826233029371
+  },
+  {
+   "method": "B4 CSN (graded+contrastive)",
+   "level": "topic",
+   "query_split": "seen_test",
+   "Spearman": 0.12274554525553853,
+   "NDCG@10": 0.37664876544799514,
+   "join_F1": 0.21281891723708773,
+   "authors_per_paper": 4.937,
+   "tau": 0.7548118994236019
+  },
+  {
+   "method": "B4 CSN (graded+contrastive)",
+   "level": "topic",
+   "query_split": "unseen",
+   "Spearman": 0.12579597816178675,
+   "NDCG@10": 0.37246818044745733,
+   "join_F1": 0.21104294478527608,
+   "authors_per_paper": 6.264,
+   "tau": 0.7548118994236019
+  },
+  {
+   "method": "B1 labels",
+   "level": "topic",
+   "query_split": "seen_test",
+   "Spearman": 0.07505230418788397,
+   "NDCG@10": 0.11024820478837269,
+   "join_F1": 0.006954318966650336,
+   "authors_per_paper": 82.198,
+   "tau": 1.0
+  },
+  {
+   "method": "B1 labels",
+   "level": "topic",
+   "query_split": "unseen",
+   "Spearman": 0.0683337398981433,
+   "NDCG@10": 0.0445130578427435,
+   "join_F1": 0.008964981906042616,
+   "authors_per_paper": 89.581,
+   "tau": 1.0
+  }
+ ],
+ "E8b": [
+  {
+   "method": "B6 plain encoder",
+   "level": "domain",
+   "Spearman": 0.6258116832871244,
+   "NDCG@10": 0.9384612148141537
+  },
+  {
+   "method": "SSE-treeSC",
+   "level": "domain",
+   "Spearman": 0.9421463018964571,
+   "NDCG@10": 0.9800503003288106
+  },
+  {
+   "method": "SSE-tree",
+   "level": "domain",
+   "Spearman": 0.9463073691731249,
+   "NDCG@10": 0.9780625602739315
+  },
+  {
+   "method": "SSE (yes/no levels)",
+   "level": "domain",
+   "Spearman": 0.9202708914928388,
+   "NDCG@10": 0.9773431268824507
+  },
+  {
+   "method": "SSE-MRL (topic everywhere)",
+   "level": "domain",
+   "Spearman": 0.651175628784025,
+   "NDCG@10": 0.9341232891614472
+  },
+  {
+   "method": "B3 separate (graded+contrastive)",
+   "level": "domain",
+   "Spearman": 0.9442860468498788,
+   "NDCG@10": 0.9800484659956169
+  },
+  {
+   "method": "B4 CSN (graded+contrastive)",
+   "level": "domain",
+   "Spearman": 0.9430448321110027,
+   "NDCG@10": 0.9796131501830025
+  },
+  {
+   "method": "B1 labels",
+   "level": "domain",
+   "Spearman": 0.8804622938442467,
+   "NDCG@10": 0.9591129140869703
+  },
+  {
+   "method": "B6 plain encoder",
+   "level": "field",
+   "Spearman": 0.7744103283961437,
+   "NDCG@10": 0.8849383470848712
+  },
+  {
+   "method": "SSE-treeSC",
+   "level": "field",
+   "Spearman": 0.8394000278323038,
+   "NDCG@10": 0.9287027810158043
+  },
+  {
+   "method": "SSE-tree",
+   "level": "field",
+   "Spearman": 0.755173901344118,
+   "NDCG@10": 0.9122713031589413
+  },
+  {
+   "method": "SSE (yes/no levels)",
+   "level": "field",
+   "Spearman": 0.8661909969815544,
+   "NDCG@10": 0.9309655576415904
+  },
+  {
+   "method": "SSE-MRL (topic everywhere)",
+   "level": "field",
+   "Spearman": 0.745298975638652,
+   "NDCG@10": 0.9056455200362195
+  },
+  {
+   "method": "B3 separate (graded+contrastive)",
+   "level": "field",
+   "Spearman": 0.8441464077931213,
+   "NDCG@10": 0.9317139778303685
+  },
+  {
+   "method": "B4 CSN (graded+contrastive)",
+   "level": "field",
+   "Spearman": 0.8290690246911907,
+   "NDCG@10": 0.9288241595409253
+  },
+  {
+   "method": "B1 labels",
+   "level": "field",
+   "Spearman": 0.8391186021367422,
+   "NDCG@10": 0.9245947892774531
+  },
+  {
+   "method": "B6 plain encoder",
+   "level": "subfield",
+   "Spearman": 0.7888651452657802,
+   "NDCG@10": 0.7768893959941816
+  },
+  {
+   "method": "SSE-treeSC",
+   "level": "subfield",
+   "Spearman": 0.8329950190250267,
+   "NDCG@10": 0.8161496208277371
+  },
+  {
+   "method": "SSE-tree",
+   "level": "subfield",
+   "Spearman": 0.7575658054052354,
+   "NDCG@10": 0.7904353440347371
+  },
+  {
+   "method": "SSE (yes/no levels)",
+   "level": "subfield",
+   "Spearman": 0.8359530261866484,
+   "NDCG@10": 0.8107539910103193
+  },
+  {
+   "method": "SSE-MRL (topic everywhere)",
+   "level": "subfield",
+   "Spearman": 0.7340596248160662,
+   "NDCG@10": 0.8252195533752913
+  },
+  {
+   "method": "B3 separate (graded+contrastive)",
+   "level": "subfield",
+   "Spearman": 0.821240956588796,
+   "NDCG@10": 0.8176204513368294
+  },
+  {
+   "method": "B4 CSN (graded+contrastive)",
+   "level": "subfield",
+   "Spearman": 0.824667586968074,
+   "NDCG@10": 0.8192145528824902
+  },
+  {
+   "method": "B1 labels",
+   "level": "subfield",
+   "Spearman": 0.7582326196782454,
+   "NDCG@10": 0.7409195218585032
+  },
+  {
+   "method": "B6 plain encoder",
+   "level": "topic",
+   "Spearman": 0.7150644446776727,
+   "NDCG@10": 0.5592922467817623
+  },
+  {
+   "method": "SSE-treeSC",
+   "level": "topic",
+   "Spearman": 0.712523088294514,
+   "NDCG@10": 0.5980619873151698
+  },
+  {
+   "method": "SSE-tree",
+   "level": "topic",
+   "Spearman": 0.6448633975361966,
+   "NDCG@10": 0.5699387110009324
+  },
+  {
+   "method": "SSE (yes/no levels)",
+   "level": "topic",
+   "Spearman": 0.7270493780577361,
+   "NDCG@10": 0.5995445751919626
+  },
+  {
+   "method": "SSE-MRL (topic everywhere)",
+   "level": "topic",
+   "Spearman": 0.6703097184950155,
+   "NDCG@10": 0.6051474122605853
+  },
+  {
+   "method": "B3 separate (graded+contrastive)",
+   "level": "topic",
+   "Spearman": 0.6769016046984471,
+   "NDCG@10": 0.6049702926044427
+  },
+  {
+   "method": "B4 CSN (graded+contrastive)",
+   "level": "topic",
+   "Spearman": 0.6815238390274823,
+   "NDCG@10": 0.606065874028323
+  },
+  {
+   "method": "B1 labels",
+   "level": "topic",
+   "Spearman": 0.4910092507941189,
+   "NDCG@10": 0.3882266583038163
+  }
+ ]
+}
