@@ -1,0 +1,67 @@
+### E10 — join threshold sweep (1540 held-out authors, 1000 papers)
+
+| method | level | tau | out_per_paper | precision | recall | F1 |
+|---|---|---|---|---|---|---|
+| SSE aligned | domain | 0.000 | 1392.376 | 0.306 | 0.999 | 0.468 |
+| SSE aligned | domain | 0.050 | 1318.654 | 0.322 | 0.997 | 0.487 |
+| SSE aligned | domain | 0.100 | 1232.695 | 0.344 | 0.995 | 0.511 |
+| SSE aligned | domain | 0.150 | 1140.177 | 0.371 | 0.992 | 0.540 |
+| SSE aligned | domain | 0.200 | 1046.979 | 0.402 | 0.988 | 0.572 |
+| SSE aligned | domain | 0.250 | 958.207 | 0.437 | 0.982 | 0.604 |
+| SSE aligned | domain | 0.300 | 876.386 | 0.473 | 0.973 | 0.637 |
+| SSE aligned | domain | 0.350 | 800.905 | 0.511 | 0.960 | 0.667 |
+| SSE aligned | domain | 0.400 | 731.023 | 0.549 | 0.942 | 0.694 |
+| SSE aligned | domain | 0.450 | 666.311 | 0.588 | 0.919 | 0.717 |
+| SSE aligned | domain | 0.500 | 606.402 | 0.626 | 0.891 | 0.735 |
+| SSE aligned | domain | 0.550 | 550.678 | 0.664 | 0.858 | 0.748 |
+| SSE aligned | domain | 0.600 | 497.535 | 0.701 | 0.818 | 0.755 |
+| SSE aligned | domain | 0.650 | 444.276 | 0.739 | 0.771 | 0.755 |
+| SSE aligned | domain | 0.700 | 389.347 | 0.780 | 0.712 | 0.745 |
+| SSE aligned | domain | 0.750 | 328.692 | 0.824 | 0.636 | 0.718 |
+| SSE aligned | domain | 0.800 | 259.962 | 0.877 | 0.535 | 0.664 |
+| SSE aligned | domain | 0.850 | 187.427 | 0.934 | 0.411 | 0.571 |
+| SSE aligned | domain | 0.900 | 113.002 | 0.977 | 0.259 | 0.409 |
+| SSE aligned | domain | 0.950 | 25.445 | 0.991 | 0.059 | 0.112 |
+| B1 labels (equality) | domain | nan | 423.028 | 0.737 | 0.731 | 0.734 |
+| SSE aligned | field | 0.000 | 1363.128 | 0.043 | 0.997 | 0.082 |
+| SSE aligned | field | 0.050 | 1242.455 | 0.047 | 0.993 | 0.089 |
+| SSE aligned | field | 0.100 | 1101.092 | 0.053 | 0.988 | 0.100 |
+| SSE aligned | field | 0.150 | 956.622 | 0.060 | 0.981 | 0.113 |
+| SSE aligned | field | 0.200 | 822.427 | 0.069 | 0.970 | 0.129 |
+| SSE aligned | field | 0.250 | 703.261 | 0.079 | 0.954 | 0.147 |
+| SSE aligned | field | 0.300 | 596.149 | 0.092 | 0.933 | 0.167 |
+| SSE aligned | field | 0.350 | 498.964 | 0.106 | 0.902 | 0.189 |
+| SSE aligned | field | 0.400 | 410.524 | 0.123 | 0.860 | 0.215 |
+| SSE aligned | field | 0.450 | 329.773 | 0.143 | 0.806 | 0.243 |
+| SSE aligned | field | 0.500 | 257.424 | 0.167 | 0.735 | 0.272 |
+| SSE aligned | field | 0.550 | 193.641 | 0.196 | 0.648 | 0.301 |
+| SSE aligned | field | 0.600 | 138.378 | 0.229 | 0.541 | 0.322 |
+| SSE aligned | field | 0.650 | 91.824 | 0.268 | 0.421 | 0.328 |
+| SSE aligned | field | 0.700 | 54.722 | 0.320 | 0.299 | 0.309 |
+| SSE aligned | field | 0.750 | 27.850 | 0.388 | 0.185 | 0.250 |
+| SSE aligned | field | 0.800 | 11.036 | 0.475 | 0.089 | 0.151 |
+| SSE aligned | field | 0.850 | 2.634 | 0.597 | 0.027 | 0.051 |
+| SSE aligned | field | 0.900 | 0.136 | 0.824 | 0.002 | 0.004 |
+| SSE aligned | field | 0.950 | 0.000 | 0.000 | 0.000 | 0.000 |
+| B1 labels (equality) | field | nan | 51.206 | 0.448 | 0.392 | 0.418 |
+| SSE aligned | subfield | 0.000 | 1202.455 | 0.011 | 0.998 | 0.021 |
+| SSE aligned | subfield | 0.050 | 1032.016 | 0.012 | 0.997 | 0.024 |
+| SSE aligned | subfield | 0.100 | 862.830 | 0.015 | 0.994 | 0.029 |
+| SSE aligned | subfield | 0.150 | 712.434 | 0.018 | 0.990 | 0.035 |
+| SSE aligned | subfield | 0.200 | 583.668 | 0.022 | 0.982 | 0.042 |
+| SSE aligned | subfield | 0.250 | 473.089 | 0.026 | 0.972 | 0.051 |
+| SSE aligned | subfield | 0.300 | 377.181 | 0.032 | 0.950 | 0.062 |
+| SSE aligned | subfield | 0.350 | 294.217 | 0.040 | 0.918 | 0.077 |
+| SSE aligned | subfield | 0.400 | 223.524 | 0.050 | 0.870 | 0.094 |
+| SSE aligned | subfield | 0.450 | 164.089 | 0.063 | 0.808 | 0.117 |
+| SSE aligned | subfield | 0.500 | 114.929 | 0.081 | 0.730 | 0.146 |
+| SSE aligned | subfield | 0.550 | 75.852 | 0.105 | 0.624 | 0.180 |
+| SSE aligned | subfield | 0.600 | 46.302 | 0.138 | 0.498 | 0.216 |
+| SSE aligned | subfield | 0.650 | 25.457 | 0.183 | 0.363 | 0.243 |
+| SSE aligned | subfield | 0.700 | 12.369 | 0.249 | 0.241 | 0.245 |
+| SSE aligned | subfield | 0.750 | 4.938 | 0.331 | 0.128 | 0.184 |
+| SSE aligned | subfield | 0.800 | 1.442 | 0.447 | 0.050 | 0.090 |
+| SSE aligned | subfield | 0.850 | 0.197 | 0.624 | 0.010 | 0.019 |
+| SSE aligned | subfield | 0.900 | 0.009 | 1.000 | 0.001 | 0.001 |
+| SSE aligned | subfield | 0.950 | 0.000 | 0.000 | 0.000 | 0.000 |
+| B1 labels (equality) | subfield | nan | 25.189 | 0.171 | 0.337 | 0.227 |

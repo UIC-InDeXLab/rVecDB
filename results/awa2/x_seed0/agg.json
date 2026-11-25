@@ -1,0 +1,44 @@
+[
+ {
+  "method": "SSE",
+  "Spearman AVG": 0.7689444444444444,
+  "Spearman MAX": 0.8331111111111111,
+  "top Order correct (AVG)": 0.68,
+  "Order membership acc": 0.9318333333333333
+ },
+ {
+  "method": "SSE-treeSC",
+  "Spearman AVG": 0.7739999999999999,
+  "Spearman MAX": 0.8495555555555556,
+  "top Order correct (AVG)": 0.68,
+  "Order membership acc": 0.9345
+ },
+ {
+  "method": "B3 separate",
+  "Spearman AVG": 0.7643888888888889,
+  "Spearman MAX": 0.8348333333333335,
+  "top Order correct (AVG)": 0.67,
+  "Order membership acc": 0.93
+ },
+ {
+  "method": "B4 CSN",
+  "Spearman AVG": 0.7735000000000001,
+  "Spearman MAX": 0.8660555555555556,
+  "top Order correct (AVG)": 0.64,
+  "Order membership acc": 0.9346666666666666
+ },
+ {
+  "method": "B6 plain CLIP",
+  "Spearman AVG": 0.5301111111111112,
+  "Spearman MAX": 0.6949444444444445,
+  "top Order correct (AVG)": 0.57,
+  "Order membership acc": 0.8468333333333333
+ },
+ {
+  "method": "B1 labels",
+  "Spearman AVG": 0.5548628861158077,
+  "Spearman MAX": 0.6936315460689445,
+  "top Order correct (AVG)": 0.65,
+  "Order membership acc": 0.9388333333333333
+ }
+]

@@ -1,6 +1,6 @@
 # rVecDB — Experiment Plan
 
-Last updated: 2026-11-09
+Last updated: 2026-11-25
 
 ---
 
@@ -138,10 +138,22 @@ Legend: ✅ done · 🔄 running · ⏳ next · ⬜ not started · ⏸️ on hol
 
 **Final report** ✅ → `REPORT.md` (complete draft, for discussion and edits)
 
-**Next**
+**Submission round (2026-11-25, newLab)** ✅ — all planned paper experiments; written into the paper (`exp.tex`). Summary: `results/SUBMISSION_EXPERIMENTS.md`
 
-| Step | Status |
-|---|---|
+| Step | Status | Result |
+|---|---|---|
+| Rebuild AwA2 (data re-downloaded) + iNat on newLab, 3 seeds | ✅ | Reproduces the paper (habitat 0.90, filter F1 0.75, mixing 0.15) |
+| GROUP BY_k (paper definition = spherical k-means): AwA2, iNat, OpenAlex | ✅ | AwA2 habitat NMI 0.68 (CLIP 0.51, labels 0.41); unseen classes SSE ≫ labels; labels win only on seen AwA2 Orders |
+| Q4 `REP(g,5)` figure + Q5 aggregates per Order | ✅ | Aggregates Spearman 0.77 (labels 0.55, CLIP 0.53); figure `results/awa2/x_rep/rep.png` |
+| Text references (CLIP text → SSE projector) | ✅ | Habitat filter F1 0.71 text vs 0.79 image vs 0.49 raw CLIP text |
+| Block-size allocation (validation) | ✅ | Habitat plateaus at 4–6 dims, diet at 3; exponential search ≈ dense |
+| EVA-CLIP encoder | ✅ | Same picture (habitat 0.93, F1 0.76 vs labels 0.44) |
+| Trained shared join keys (Papers SPECTER2 ⋈ Authors bge, L_align) | ✅ | Field P@10 0.47 vs labels 0.41; without L_align 0.04 (= random) |
+| Join threshold sweep | ✅ ⚠️ | Subfield best F1 = labels with half the output; field: global τ worse than labels (calibration) |
+| E7 cost at 1M objects | ✅ | SSE-128 block-columnar Q1 31 ms, 0.52 GB; B3 24 ms, 3.68 GB; CSN 280 ms, 768-d index 9× larger |
+| Remove baselines (ask user) | ⬜ | |
+
+---|---|
 | E7 cost (storage + query speed) | ⏸️ on hold — start only when you say so |
 | Use CLIP for text too (not only images) — e.g. CLIP text encoder for MovieLens / text queries | ⬜ |
 | Remove baselines that don't make sense (decide which with the user first) | ⬜ |

@@ -18,7 +18,7 @@ How the embedding is built: frozen **CLIP ViT-L/14** (768-d) → small learned p
 ## What's left to do
 
 See **[WHAT_IS_NEXT.md](WHAT_IS_NEXT.md)**: (1) CLIP for text too, (2) remove baselines that don't
-make sense, (3) benchmarks in non-animal domains. E7 (cost/speed) is on hold until the user says.
+make sense, (3) benchmarks in non-animal domains. E7 (cost) done 2026-11-25.
 Keep that file updated as tasks start/finish.
 
 ## Key results so far (short)
@@ -34,7 +34,10 @@ Keep that file updated as tasks start/finish.
 - MovieLens: works (~2× plain text embedding) but movie facets overlap in reality, so it shows
   generality, not facet separation.
 - OpenAlex (papers, SPECTER2; v2 tree = domain/field/subfield): zoom levels work; first **VecJOIN** result —
-  Papers ⋈ Authors P@10 at subfield 0.36 vs labels 0.20, random 0.009. SSE ≈ B3 ≈ CSN again. GROUP BY weak.
+  Papers ⋈ Authors P@10 at subfield 0.36 vs labels 0.20, random 0.009. SSE ≈ B3 ≈ CSN again.
+- 2026-11-25 submission round (`results/SUBMISSION_EXPERIMENTS.md`): GROUP BY_k (paper's k-means definition) works;
+  trained shared join keys work (no alignment = random); text references; block sizes plateau at 3–6 dims;
+  EVA encoder same picture; cost at 1M: SSE-128 7× smaller than B3, 9× faster than CSN.
 
 Full numbers: `REPORT.md`, `results/*/SUMMARY.md` (incl. `results/openalex`), `results/awa2/WHAT_WE_KNOW.md`.
 

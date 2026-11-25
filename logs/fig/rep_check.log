@@ -1,0 +1,39 @@
+habitat truth: 4 groups (silhouette 0.51)
+  group 0: [water, ocean, arctic] ['killer+whale', 'beaver', 'blue+whale', 'hippopotamus', 'humpback+whale', 'seal', 'otter', 'polar+bear', 'walrus', 'dolphin']
+  group 1: [jungle, ground, bush] ['tiger', 'leopard', 'spider+monkey', 'elephant', 'gorilla', 'chimpanzee', 'rhinoceros', 'giant+panda', 'lion']
+  group 2: [forest, tree, cave] ['grizzly+bear', 'squirrel', 'bat', 'raccoon']
+  group 3: [ground, fields, plains] ['antelope', 'dalmatian', 'persian+cat', 'horse', 'german+shepherd', 'siamese+cat', 'skunk', 'mole', 'moose', 'ox', 'fox', 'sheep', 'hamster', 'rabbit', 'giraffe', 'wolf', 'chihuahua', 'rat', 'weasel', 'buffalo', 'zebra', 'deer', 'bobcat', 'pig', 'mouse', 'collie', 'cow']
+
+6000 test images, 50 species, true habitat groups: 4
+
+figure: k-means k=4 (nredo 3)              k= 4  NMI 0.711  ARI 0.761  silhouette 0.482  objective 0.8971  species split (>10% elsewhere) 5
+truth: species habitat-score groups        k= 4  NMI 1.000  ARI 1.000  silhouette 0.442  objective 0.8869  species split (>10% elsewhere) 0
+k-means k=4, best of 10x10 restarts (seed 6) k= 4  NMI 0.699  ARI 0.743  silhouette 0.481  objective 0.8973  species split (>10% elsewhere) 7
+agglomerative average, k=4                 k= 4  NMI 0.539  ARI 0.542  silhouette 0.482  objective 0.8720  species split (>10% elsewhere) 2
+agglomerative complete, k=4                k= 4  NMI 0.625  ARI 0.618  silhouette 0.448  objective 0.8902  species split (>10% elsewhere) 3
+k-means on species centroids, k=3          k= 3  NMI 0.804  ARI 0.810  silhouette 0.450  objective 0.8749  species split (>10% elsewhere) 0
+k-means on species centroids, k=4          k= 4  NMI 0.608  ARI 0.534  silhouette 0.399  objective 0.8900  species split (>10% elsewhere) 0
+k-means on species centroids, k=5          k= 5  NMI 0.673  ARI 0.565  silhouette 0.409  objective 0.9004  species split (>10% elsewhere) 0
+k-means on species centroids, k=6          k= 6  NMI 0.668  ARI 0.532  silhouette 0.396  objective 0.9137  species split (>10% elsewhere) 0
+k-means images, k=3                        k= 3  NMI 0.717  ARI 0.764  silhouette 0.460  objective 0.8782  species split (>10% elsewhere) 8
+k-means images, k=5                        k= 5  NMI 0.680  ARI 0.658  silhouette 0.474  objective 0.9093  species split (>10% elsewhere) 12
+k-means images, k=6                        k= 6  NMI 0.679  ARI 0.654  silhouette 0.480  objective 0.9201  species split (>10% elsewhere) 8
+
+Species spread over >1 group in the figure's grouping (share in the main group):
+  beaver               [2, 2, 2, 13]  true group 0
+  hippopotamus         [254, 0, 5, 67]  true group 0
+  weasel               [2, 3, 28, 0]  true group 3
+  bobcat               [0, 44, 13, 0]  true group 3
+  raccoon              [1, 141, 108, 0]  true group 2
+
+True habitat groups (species):
+  0: ['killer+whale', 'beaver', 'blue+whale', 'hippopotamus', 'humpback+whale', 'seal', 'otter', 'polar+bear', 'walrus', 'dolphin']
+  1: ['tiger', 'leopard', 'spider+monkey', 'elephant', 'gorilla', 'chimpanzee', 'rhinoceros', 'giant+panda', 'lion']
+  2: ['grizzly+bear', 'squirrel', 'bat', 'raccoon']
+  3: ['antelope', 'dalmatian', 'persian+cat', 'horse', 'german+shepherd', 'siamese+cat', 'skunk', 'mole', 'moose', 'ox', 'fox', 'sheep', 'hamster', 'rabbit', 'giraffe', 'wolf', 'chihuahua', 'rat', 'weasel', 'buffalo', 'zebra', 'deer', 'bobcat', 'pig', 'mouse', 'collie', 'cow']
+
+Figure groups (species with >=10% of their images):
+  G0: giant+panda(407), leopard(323), hippopotamus(254), elephant(94), lion(87), tiger(82), rhinoceros(67), beaver(2)
+  G1: chimpanzee(334), raccoon(141), squirrel(113), gorilla(80), grizzly+bear(60), bobcat(44), bat(38), spider+monkey(23), beaver(2)
+  G2: pig(329), persian+cat(329), rat(153), horse(150), sheep(131), deer(115), antelope(115), raccoon(108), cow(106), giraffe(101), zebra(98), rabbit(96), german+shepherd(95), collie(94), buffalo(82), hamster(69), fox(61), wolf(60), ox(58), moose(57), chihuahua(53), dalmatian(46), siamese+cat(34), weasel(28), skunk(17), mouse(16), bobcat(13), mole(12), beaver(2)
+  G3: seal(461), humpback+whale(314), dolphin(95), polar+bear(85), hippopotamus(67), otter(62), killer+whale(34), walrus(23), beaver(13), blue+whale(13)

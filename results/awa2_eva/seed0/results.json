@@ -1,0 +1,1760 @@
+{
+ "args": {
+  "sse": "SSE-treeSC=treesc_s0,SSE-tree=tree_s0",
+  "mrl": "mrl_s0",
+  "out": "seed0",
+  "no_baselines": false,
+  "extra": "B3 separate=b3tree_s0,B4 CSN=csntree_s0",
+  "seed": 0
+ },
+ "E1": [
+  {
+   "method": "SSE-treeSC",
+   "view": "habitat",
+   "habitat": 0.9230022100242747,
+   "diet": 0.4192921938391423,
+   "taxonomy": 0.2903961336072067
+  },
+  {
+   "method": "SSE-treeSC",
+   "view": "diet",
+   "habitat": 0.47635282213117686,
+   "diet": 0.8635455779965062,
+   "taxonomy": 0.39937465612037315
+  },
+  {
+   "method": "SSE-treeSC",
+   "view": "family",
+   "habitat": 0.31374662923639657,
+   "diet": 0.3896830842733425,
+   "taxonomy": 0.6693216907534517
+  },
+  {
+   "method": "SSE-treeSC",
+   "view": "tax",
+   "habitat": 0.32780951413200343,
+   "diet": 0.37187336277202804,
+   "taxonomy": 0.6083066876449025
+  },
+  {
+   "method": "SSE-treeSC",
+   "view": "rest",
+   "habitat": 0.17830822929214984,
+   "diet": 0.1630630658784152,
+   "taxonomy": 0.16148304745835815
+  },
+  {
+   "method": "SSE-tree",
+   "view": "habitat",
+   "habitat": 0.9248043677456191,
+   "diet": 0.418926977377932,
+   "taxonomy": 0.29021080546657013
+  },
+  {
+   "method": "SSE-tree",
+   "view": "diet",
+   "habitat": 0.47834434125376346,
+   "diet": 0.8630525568915158,
+   "taxonomy": 0.3999677554960026
+  },
+  {
+   "method": "SSE-tree",
+   "view": "family",
+   "habitat": 0.28226517831875175,
+   "diet": 0.40879083648418196,
+   "taxonomy": 0.689523611390492
+  },
+  {
+   "method": "SSE-tree",
+   "view": "tax",
+   "habitat": 0.2887892409721955,
+   "diet": 0.40268202743319725,
+   "taxonomy": 0.648266591366834
+  },
+  {
+   "method": "SSE-tree",
+   "view": "rest",
+   "habitat": 0.18242441542995003,
+   "diet": 0.16572571322510252,
+   "taxonomy": 0.1567908404629188
+  },
+  {
+   "method": "B1 labels",
+   "view": "habitat",
+   "habitat": 0.49779431989261136,
+   "diet": 0.2021801652557953,
+   "taxonomy": 0.285416446042756
+  },
+  {
+   "method": "B1 labels",
+   "view": "diet",
+   "habitat": 0.20798597746120318,
+   "diet": 0.5717582075179012,
+   "taxonomy": 0.20366313504228822
+  },
+  {
+   "method": "B1 labels",
+   "view": "family",
+   "habitat": 0.31257069006057514,
+   "diet": 0.39557677875260006,
+   "taxonomy": 0.7170794435595884
+  },
+  {
+   "method": "B1-soft",
+   "view": "habitat",
+   "habitat": 0.6832256268356923,
+   "diet": 0.3265355377045444,
+   "taxonomy": 0.38640564817062256
+  },
+  {
+   "method": "B1-soft",
+   "view": "diet",
+   "habitat": 0.3710974615408399,
+   "diet": 0.7595367852411491,
+   "taxonomy": 0.32606136715143813
+  },
+  {
+   "method": "B1-soft",
+   "view": "family",
+   "habitat": 0.29262213882939303,
+   "diet": 0.3638137841088413,
+   "taxonomy": 0.5094003452675243
+  },
+  {
+   "method": "B2 CLIP+text",
+   "view": "habitat",
+   "habitat": 0.24411834933581494,
+   "diet": 0.1614833685696813,
+   "taxonomy": 0.09847074806512429
+  },
+  {
+   "method": "B2 CLIP+text",
+   "view": "diet",
+   "habitat": 0.202825648052893,
+   "diet": 0.16915379764088612,
+   "taxonomy": 0.061444129136728254
+  },
+  {
+   "method": "B2 CLIP+text",
+   "view": "family",
+   "habitat": 0.2162297449587643,
+   "diet": 0.20669318328858544,
+   "taxonomy": 0.22151709957190743
+  },
+  {
+   "method": "B6 plain CLIP",
+   "view": "habitat",
+   "habitat": 0.2850966171343154,
+   "diet": 0.2812368144868536,
+   "taxonomy": 0.2290185666065422
+  },
+  {
+   "method": "B6 plain CLIP",
+   "view": "diet",
+   "habitat": 0.2850966171343154,
+   "diet": 0.2812368144868536,
+   "taxonomy": 0.2290185666065422
+  },
+  {
+   "method": "B6 plain CLIP",
+   "view": "family",
+   "habitat": 0.2850966171343154,
+   "diet": 0.2812368144868536,
+   "taxonomy": 0.2290185666065422
+  },
+  {
+   "method": "B3 separate",
+   "view": "habitat",
+   "habitat": 0.9193971344805043,
+   "diet": 0.42310948293816253,
+   "taxonomy": 0.2836744614540298
+  },
+  {
+   "method": "B3 separate",
+   "view": "diet",
+   "habitat": 0.46896539830596434,
+   "diet": 0.865268364449145,
+   "taxonomy": 0.41282714816796307
+  },
+  {
+   "method": "B3 separate",
+   "view": "family",
+   "habitat": 0.31261998783904427,
+   "diet": 0.4439756395796976,
+   "taxonomy": 0.686855386761614
+  },
+  {
+   "method": "B4 CSN",
+   "view": "habitat",
+   "habitat": 0.9166248203972398,
+   "diet": 0.42374354100833217,
+   "taxonomy": 0.3046344047087368
+  },
+  {
+   "method": "B4 CSN",
+   "view": "diet",
+   "habitat": 0.48665870573498377,
+   "diet": 0.8702500941921267,
+   "taxonomy": 0.4189035437280485
+  },
+  {
+   "method": "B4 CSN",
+   "view": "family",
+   "habitat": 0.2738666222899838,
+   "diet": 0.38061945488280724,
+   "taxonomy": 0.6995830798632783
+  }
+ ],
+ "E3": {
+  "SSE-treeSC": {
+   "overlap@10_with_CLIP": 0.8902,
+   "species_mAP_CLIP": 0.8130374386046755,
+   "species_mAP_SSE": 0.8117301172632347
+  },
+  "SSE-tree": {
+   "overlap@10_with_CLIP": 0.8924000000000001,
+   "species_mAP_CLIP": 0.8264807143156024,
+   "species_mAP_SSE": 0.8223714580924342
+  }
+ },
+ "E4": [
+  {
+   "method": "SSE-treeSC",
+   "slice": "all",
+   "n": 1000,
+   "predicate_F1": 0.7576213008955327,
+   "predicate_AP": 0.8501474703324599,
+   "P@10_feasible": 0.5892999999999999,
+   "NDCG@10": 0.5831110621094401
+  },
+  {
+   "method": "SSE-treeSC",
+   "slice": "x unseen",
+   "n": 555,
+   "predicate_F1": 0.7190659698270637,
+   "predicate_AP": 0.8230218582120012,
+   "P@10_feasible": 0.5753153153153153,
+   "NDCG@10": 0.5461868980689681
+  },
+  {
+   "method": "SSE-treeSC",
+   "slice": "x seen",
+   "n": 445,
+   "predicate_F1": 0.8057071632393537,
+   "predicate_AP": 0.8839782899433688,
+   "P@10_feasible": 0.6067415730337079,
+   "NDCG@10": 0.6334728174937547
+  },
+  {
+   "method": "SSE-treeSC",
+   "slice": "q unseen",
+   "n": 572,
+   "predicate_F1": 0.7527061422236794,
+   "predicate_AP": 0.8443254329664591,
+   "P@10_feasible": 0.5879370629370628,
+   "NDCG@10": 0.5713646957734632
+  },
+  {
+   "method": "SSE-tree",
+   "slice": "all",
+   "n": 1000,
+   "predicate_F1": 0.7591532486313984,
+   "predicate_AP": 0.8515104679716737,
+   "P@10_feasible": 0.5954,
+   "NDCG@10": 0.58793239645368
+  },
+  {
+   "method": "SSE-tree",
+   "slice": "x unseen",
+   "n": 555,
+   "predicate_F1": 0.7206861357386785,
+   "predicate_AP": 0.8247601458854601,
+   "P@10_feasible": 0.5762162162162162,
+   "NDCG@10": 0.5450414306155748
+  },
+  {
+   "method": "SSE-tree",
+   "slice": "x seen",
+   "n": 445,
+   "predicate_F1": 0.8071290860593976,
+   "predicate_AP": 0.8848732292252662,
+   "P@10_feasible": 0.6193258426966293,
+   "NDCG@10": 0.6464324163151465
+  },
+  {
+   "method": "SSE-tree",
+   "slice": "q unseen",
+   "n": 572,
+   "predicate_F1": 0.7542311254973939,
+   "predicate_AP": 0.845674032741558,
+   "P@10_feasible": 0.5891608391608392,
+   "NDCG@10": 0.5704412872761678
+  },
+  {
+   "method": "B1 labels",
+   "slice": "all",
+   "n": 1000,
+   "predicate_F1": 0.44372347193817646,
+   "predicate_AP": 0.4776623460292584,
+   "P@10_feasible": 0.32180000000000003,
+   "NDCG@10": 0.3567795955818918
+  },
+  {
+   "method": "B1 labels",
+   "slice": "x unseen",
+   "n": 555,
+   "predicate_F1": 0.4249208035413441,
+   "predicate_AP": 0.4347353775150221,
+   "P@10_feasible": 0.2954954954954955,
+   "NDCG@10": 0.32313098216516967
+  },
+  {
+   "method": "B1 labels",
+   "slice": "x seen",
+   "n": 445,
+   "predicate_F1": 0.46717399094995604,
+   "predicate_AP": 0.5312004752998226,
+   "P@10_feasible": 0.3546067415730337,
+   "NDCG@10": 0.40267374869140854
+  },
+  {
+   "method": "B1 labels",
+   "slice": "q unseen",
+   "n": 572,
+   "predicate_F1": 0.4304932023113957,
+   "predicate_AP": 0.4660617306436446,
+   "P@10_feasible": 0.311013986013986,
+   "NDCG@10": 0.338851005026783
+  },
+  {
+   "method": "B1-soft",
+   "slice": "all",
+   "n": 1000,
+   "predicate_F1": 0.6313213813541645,
+   "predicate_AP": 0.7099845902912926,
+   "P@10_feasible": 0.4182,
+   "NDCG@10": 0.450952419413456
+  },
+  {
+   "method": "B1-soft",
+   "slice": "x unseen",
+   "n": 555,
+   "predicate_F1": 0.6402553291890152,
+   "predicate_AP": 0.7205666064657658,
+   "P@10_feasible": 0.43909909909909906,
+   "NDCG@10": 0.4445419996347425
+  },
+  {
+   "method": "B1-soft",
+   "slice": "x seen",
+   "n": 445,
+   "predicate_F1": 0.6201790419196874,
+   "predicate_AP": 0.696786794837736,
+   "P@10_feasible": 0.3921348314606742,
+   "NDCG@10": 0.4596957451242961
+  },
+  {
+   "method": "B1-soft",
+   "slice": "q unseen",
+   "n": 572,
+   "predicate_F1": 0.6208646323376984,
+   "predicate_AP": 0.6987844844104288,
+   "P@10_feasible": 0.395979020979021,
+   "NDCG@10": 0.4397571909717522
+  },
+  {
+   "method": "B2 CLIP+text",
+   "slice": "all",
+   "n": 1000,
+   "predicate_F1": 0.4756952198328363,
+   "predicate_AP": 0.5190109582612707,
+   "P@10_feasible": 0.3574,
+   "NDCG@10": 0.4045813355836071
+  },
+  {
+   "method": "B2 CLIP+text",
+   "slice": "x unseen",
+   "n": 555,
+   "predicate_F1": 0.5082151803095548,
+   "predicate_AP": 0.5609128879431914,
+   "P@10_feasible": 0.36360360360360355,
+   "NDCG@10": 0.40143307938234274
+  },
+  {
+   "method": "B2 CLIP+text",
+   "slice": "x seen",
+   "n": 445,
+   "predicate_F1": 0.4351366174405244,
+   "predicate_AP": 0.46675124820853825,
+   "P@10_feasible": 0.3496629213483146,
+   "NDCG@10": 0.40887531793406573
+  },
+  {
+   "method": "B2 CLIP+text",
+   "slice": "q unseen",
+   "n": 572,
+   "predicate_F1": 0.4628987447597306,
+   "predicate_AP": 0.5040518130747152,
+   "P@10_feasible": 0.361013986013986,
+   "NDCG@10": 0.4180434618601944
+  },
+  {
+   "method": "B6 plain CLIP",
+   "slice": "all",
+   "n": 1000,
+   "predicate_F1": 0.5321836848957421,
+   "predicate_AP": 0.60617505961518,
+   "P@10_feasible": 0.3265,
+   "NDCG@10": 0.38178229676032016
+  },
+  {
+   "method": "B6 plain CLIP",
+   "slice": "x unseen",
+   "n": 555,
+   "predicate_F1": 0.5916881124295236,
+   "predicate_AP": 0.6826248081093997,
+   "P@10_feasible": 0.34342342342342347,
+   "NDCG@10": 0.39177295823668823
+  },
+  {
+   "method": "B6 plain CLIP",
+   "slice": "x seen",
+   "n": 445,
+   "predicate_F1": 0.4579702977468683,
+   "predicate_AP": 0.51082762048194,
+   "P@10_feasible": 0.30539325842696624,
+   "NDCG@10": 0.36815579329096987
+  },
+  {
+   "method": "B6 plain CLIP",
+   "slice": "q unseen",
+   "n": 572,
+   "predicate_F1": 0.5222798750812111,
+   "predicate_AP": 0.595317378344095,
+   "P@10_feasible": 0.3337412587412587,
+   "NDCG@10": 0.3975192510894824
+  },
+  {
+   "method": "B3 separate",
+   "slice": "all",
+   "n": 1000,
+   "predicate_F1": 0.7618737344443036,
+   "predicate_AP": 0.8522118693320346,
+   "P@10_feasible": 0.591,
+   "NDCG@10": 0.5947767746919805
+  },
+  {
+   "method": "B3 separate",
+   "slice": "x unseen",
+   "n": 555,
+   "predicate_F1": 0.71939127363148,
+   "predicate_AP": 0.8220594626558057,
+   "P@10_feasible": 0.565045045045045,
+   "NDCG@10": 0.5542657732359265
+  },
+  {
+   "method": "B3 separate",
+   "slice": "x seen",
+   "n": 445,
+   "predicate_F1": 0.8148574777052413,
+   "predicate_AP": 0.8898176799057583,
+   "P@10_feasible": 0.6233707865168538,
+   "NDCG@10": 0.6500307038931176
+  },
+  {
+   "method": "B3 separate",
+   "slice": "q unseen",
+   "n": 572,
+   "predicate_F1": 0.7556735004889069,
+   "predicate_AP": 0.8460255508322795,
+   "P@10_feasible": 0.5762237762237762,
+   "NDCG@10": 0.5708390740824667
+  },
+  {
+   "method": "B4 CSN",
+   "slice": "all",
+   "n": 1000,
+   "predicate_F1": 0.7559076576845644,
+   "predicate_AP": 0.8498590083284874,
+   "P@10_feasible": 0.5762,
+   "NDCG@10": 0.5725413337229099
+  },
+  {
+   "method": "B4 CSN",
+   "slice": "x unseen",
+   "n": 555,
+   "predicate_F1": 0.7217366141321473,
+   "predicate_AP": 0.8271777913328103,
+   "P@10_feasible": 0.5571171171171172,
+   "NDCG@10": 0.5432313778041411
+  },
+  {
+   "method": "B4 CSN",
+   "slice": "x seen",
+   "n": 445,
+   "predicate_F1": 0.7985254760476912,
+   "predicate_AP": 0.878146818289388,
+   "P@10_feasible": 0.6,
+   "NDCG@10": 0.6125178875235091
+  },
+  {
+   "method": "B4 CSN",
+   "slice": "q unseen",
+   "n": 572,
+   "predicate_F1": 0.75296363648638,
+   "predicate_AP": 0.8463489078026637,
+   "P@10_feasible": 0.5631118881118881,
+   "NDCG@10": 0.5440910891339087
+  }
+ ],
+ "leakage": [
+  {
+   "pair_type": "A same-habitat/diff-order",
+   "method": "SSE-treeSC",
+   "n_class_pairs": 144,
+   "true_jaccard": 0.6261938566536135,
+   "abs_error": 0.14272133423262548
+  },
+  {
+   "pair_type": "A same-habitat/diff-order",
+   "method": "SSE-tree",
+   "n_class_pairs": 144,
+   "true_jaccard": 0.6261938566536135,
+   "abs_error": 0.1421117707585463
+  },
+  {
+   "pair_type": "A same-habitat/diff-order",
+   "method": "B1 labels",
+   "n_class_pairs": 144,
+   "true_jaccard": 0.6261938566536135,
+   "abs_error": 0.345179442887231
+  },
+  {
+   "pair_type": "A same-habitat/diff-order",
+   "method": "B1-soft",
+   "n_class_pairs": 144,
+   "true_jaccard": 0.6261938566536135,
+   "abs_error": 0.2710399567427433
+  },
+  {
+   "pair_type": "A same-habitat/diff-order",
+   "method": "B2 CLIP+text",
+   "n_class_pairs": 144,
+   "true_jaccard": 0.6261938566536135,
+   "abs_error": 0.3820600131384382
+  },
+  {
+   "pair_type": "A same-habitat/diff-order",
+   "method": "B6 plain CLIP",
+   "n_class_pairs": 144,
+   "true_jaccard": 0.6261938566536135,
+   "abs_error": 0.3377898872005043
+  },
+  {
+   "pair_type": "A same-habitat/diff-order",
+   "method": "B3 separate",
+   "n_class_pairs": 144,
+   "true_jaccard": 0.6261938566536135,
+   "abs_error": 0.14185664667324197
+  },
+  {
+   "pair_type": "A same-habitat/diff-order",
+   "method": "B4 CSN",
+   "n_class_pairs": 144,
+   "true_jaccard": 0.6261938566536135,
+   "abs_error": 0.1438655328386856
+  },
+  {
+   "pair_type": "B same-family/diff-habitat",
+   "method": "SSE-treeSC",
+   "n_class_pairs": 24,
+   "true_jaccard": 0.15101721766522577,
+   "abs_error": 0.11258380669544951
+  },
+  {
+   "pair_type": "B same-family/diff-habitat",
+   "method": "SSE-tree",
+   "n_class_pairs": 24,
+   "true_jaccard": 0.15101721766522577,
+   "abs_error": 0.11232861865253649
+  },
+  {
+   "pair_type": "B same-family/diff-habitat",
+   "method": "B1 labels",
+   "n_class_pairs": 24,
+   "true_jaccard": 0.15101721766522577,
+   "abs_error": 0.6019010612884717
+  },
+  {
+   "pair_type": "B same-family/diff-habitat",
+   "method": "B1-soft",
+   "n_class_pairs": 24,
+   "true_jaccard": 0.15101721766522577,
+   "abs_error": 0.2688406465406507
+  },
+  {
+   "pair_type": "B same-family/diff-habitat",
+   "method": "B2 CLIP+text",
+   "n_class_pairs": 24,
+   "true_jaccard": 0.15101721766522577,
+   "abs_error": 0.22711948176317728
+  },
+  {
+   "pair_type": "B same-family/diff-habitat",
+   "method": "B6 plain CLIP",
+   "n_class_pairs": 24,
+   "true_jaccard": 0.15101721766522577,
+   "abs_error": 0.23525495688118667
+  },
+  {
+   "pair_type": "B same-family/diff-habitat",
+   "method": "B3 separate",
+   "n_class_pairs": 24,
+   "true_jaccard": 0.15101721766522577,
+   "abs_error": 0.1190841484896464
+  },
+  {
+   "pair_type": "B same-family/diff-habitat",
+   "method": "B4 CSN",
+   "n_class_pairs": 24,
+   "true_jaccard": 0.15101721766522577,
+   "abs_error": 0.11774507853792798
+  }
+ ],
+ "E2b": [
+  {
+   "method": "SSE-treeSC",
+   "prefix": "order@8",
+   "same-order AUC": 0.9501450950919634,
+   "same-family AUC": 0.9454768801106813,
+   "same-genus AUC": 0.943205990304527
+  },
+  {
+   "method": "SSE-treeSC",
+   "prefix": "family@32",
+   "same-order AUC": 0.9174248319270367,
+   "same-family AUC": 0.9981384479584677,
+   "same-genus AUC": 0.9890802381864147
+  },
+  {
+   "method": "SSE-treeSC",
+   "prefix": "genus@64",
+   "same-order AUC": 0.8744908250944631,
+   "same-family AUC": 0.994948828908046,
+   "same-genus AUC": 0.9979384159296993
+  },
+  {
+   "method": "SSE-tree",
+   "prefix": "order@8",
+   "same-order AUC": 0.9506132732285075,
+   "same-family AUC": 0.9501977679104273,
+   "same-genus AUC": 0.9456642658837588
+  },
+  {
+   "method": "SSE-tree",
+   "prefix": "family@32",
+   "same-order AUC": 0.9320120550896316,
+   "same-family AUC": 0.9966949785582996,
+   "same-genus AUC": 0.9886758529678932
+  },
+  {
+   "method": "SSE-tree",
+   "prefix": "genus@64",
+   "same-order AUC": 0.9030444419781569,
+   "same-family AUC": 0.9982188476976968,
+   "same-genus AUC": 0.9966744587819482
+  },
+  {
+   "method": "B1 labels",
+   "prefix": "family view",
+   "same-order AUC": 0.953586217108843,
+   "same-family AUC": 0.9838180517574907,
+   "same-genus AUC": 0.9767268662336124
+  },
+  {
+   "method": "B1-soft",
+   "prefix": "family view",
+   "same-order AUC": 0.8079174329161437,
+   "same-family AUC": 0.992979586285064,
+   "same-genus AUC": 0.9775413152548982
+  },
+  {
+   "method": "B2 CLIP+text",
+   "prefix": "family view",
+   "same-order AUC": 0.6247972657100279,
+   "same-family AUC": 0.7942348500985279,
+   "same-genus AUC": 0.8645478442202541
+  },
+  {
+   "method": "B6 plain CLIP",
+   "prefix": "family view",
+   "same-order AUC": 0.6250755197340216,
+   "same-family AUC": 0.8162025321166804,
+   "same-genus AUC": 0.9249475760369718
+  },
+  {
+   "method": "B3 separate",
+   "prefix": "order@8",
+   "same-order AUC": 0.9556611930715955,
+   "same-family AUC": 0.9495817119914828,
+   "same-genus AUC": 0.9450285609141522
+  },
+  {
+   "method": "B3 separate",
+   "prefix": "family@32",
+   "same-order AUC": 0.9300507126566554,
+   "same-family AUC": 0.9979679718853879,
+   "same-genus AUC": 0.9883689710486889
+  },
+  {
+   "method": "B3 separate",
+   "prefix": "genus@64",
+   "same-order AUC": 0.8877860967924602,
+   "same-family AUC": 0.9985380537966974,
+   "same-genus AUC": 0.9975804504491723
+  },
+  {
+   "method": "B4 CSN",
+   "prefix": "order@8",
+   "same-order AUC": 0.951798999812433,
+   "same-family AUC": 0.9519338573363045,
+   "same-genus AUC": 0.948559826848383
+  },
+  {
+   "method": "B4 CSN",
+   "prefix": "family@32",
+   "same-order AUC": 0.9385604751096515,
+   "same-family AUC": 0.9980045508011753,
+   "same-genus AUC": 0.9888673417286893
+  },
+  {
+   "method": "B4 CSN",
+   "prefix": "genus@64",
+   "same-order AUC": 0.9111347116677954,
+   "same-family AUC": 0.998524186200914,
+   "same-genus AUC": 0.9976592443091138
+  }
+ ],
+ "E5b": [
+  {
+   "method": "SSE-treeSC",
+   "spearman_on_label-different_pairs": 0.9120523271981306
+  },
+  {
+   "method": "SSE-tree",
+   "spearman_on_label-different_pairs": 0.914089497574252
+  },
+  {
+   "method": "B1 labels",
+   "spearman_on_label-different_pairs": 0.47091122559956444
+  },
+  {
+   "method": "B1-soft",
+   "spearman_on_label-different_pairs": 0.6385667541332456
+  },
+  {
+   "method": "B2 CLIP+text",
+   "spearman_on_label-different_pairs": 0.19959966640418064
+  },
+  {
+   "method": "B6 plain CLIP",
+   "spearman_on_label-different_pairs": 0.2106823931013585
+  },
+  {
+   "method": "B3 separate",
+   "spearman_on_label-different_pairs": 0.9079403359612713
+  },
+  {
+   "method": "B4 CSN",
+   "spearman_on_label-different_pairs": 0.9053481435337108
+  }
+ ],
+ "E5c": [
+  {
+   "method": "SSE-treeSC",
+   "monotonic_spearman": 0.9999999999999999,
+   "low_bin_true_sim": 0.08422318078198282,
+   "high_bin_true_sim": 0.9115969894760984,
+   "curve": [
+    0.084,
+    0.215,
+    0.361,
+    0.463,
+    0.514,
+    0.555,
+    0.617,
+    0.678,
+    0.786,
+    0.912
+   ]
+  },
+  {
+   "method": "SSE-tree",
+   "monotonic_spearman": 0.9999999999999999,
+   "low_bin_true_sim": 0.0707377151562568,
+   "high_bin_true_sim": 0.9218972874120164,
+   "curve": [
+    0.071,
+    0.201,
+    0.358,
+    0.455,
+    0.506,
+    0.545,
+    0.608,
+    0.675,
+    0.794,
+    0.922
+   ]
+  },
+  {
+   "method": "B1 labels",
+   "monotonic_spearman": 0.8909090909090909,
+   "low_bin_true_sim": 0.3976928964140148,
+   "high_bin_true_sim": 0.6664807313673594,
+   "curve": [
+    0.398,
+    0.268,
+    0.382,
+    0.566,
+    0.581,
+    0.563,
+    0.585,
+    0.615,
+    0.583,
+    0.666
+   ]
+  },
+  {
+   "method": "B1-soft",
+   "monotonic_spearman": 0.9999999999999999,
+   "low_bin_true_sim": 0.14714012069972493,
+   "high_bin_true_sim": 0.8779111852899464,
+   "curve": [
+    0.147,
+    0.313,
+    0.429,
+    0.491,
+    0.507,
+    0.515,
+    0.547,
+    0.624,
+    0.751,
+    0.878
+   ]
+  },
+  {
+   "method": "B2 CLIP+text",
+   "monotonic_spearman": 0.6606060606060605,
+   "low_bin_true_sim": 0.4562315595463875,
+   "high_bin_true_sim": 0.7876828475688362,
+   "curve": [
+    0.456,
+    0.465,
+    0.456,
+    0.439,
+    0.443,
+    0.456,
+    0.481,
+    0.539,
+    0.645,
+    0.788
+   ]
+  },
+  {
+   "method": "B6 plain CLIP",
+   "monotonic_spearman": 0.8424242424242423,
+   "low_bin_true_sim": 0.4827485876461929,
+   "high_bin_true_sim": 0.81054667464485,
+   "curve": [
+    0.483,
+    0.444,
+    0.429,
+    0.436,
+    0.456,
+    0.484,
+    0.518,
+    0.562,
+    0.631,
+    0.811
+   ]
+  },
+  {
+   "method": "B3 separate",
+   "monotonic_spearman": 0.9999999999999999,
+   "low_bin_true_sim": 0.08270474955337005,
+   "high_bin_true_sim": 0.9252644131363206,
+   "curve": [
+    0.083,
+    0.217,
+    0.362,
+    0.461,
+    0.517,
+    0.561,
+    0.628,
+    0.692,
+    0.8,
+    0.925
+   ]
+  },
+  {
+   "method": "B4 CSN",
+   "monotonic_spearman": 0.9999999999999999,
+   "low_bin_true_sim": 0.07671728078228092,
+   "high_bin_true_sim": 0.9181673982141835,
+   "curve": [
+    0.077,
+    0.218,
+    0.35,
+    0.451,
+    0.504,
+    0.54,
+    0.6,
+    0.676,
+    0.802,
+    0.918
+   ]
+  }
+ ],
+ "E2": [
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.9968088609396818
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.5181561936279876
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.4052338326536807
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.9988334957854355
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.5252901419527598
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.41048313306172174
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.9985701541220792
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.9924456493395912
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.7861539275188583
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.9939788485809334
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.995985765147315
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.8094318965302929
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.9902002608480526
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.9805937099768676
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-treeSC",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9957329336813615
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.9948805460575201
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.5203946809458199
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.40932310302905955
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.9984550067110695
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.5291812505591029
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.41792179580263045
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.9986382532766236
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.9904284376540639
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.8021592716905213
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.9978846512453536
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.993806398535516
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.8570210188662719
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.9944707302055232
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.9932669966779172
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-tree",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9913751121099662
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.6793294805698813
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.7753621001575888
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.9265573329956864
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.7075305325537465
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.8694497441326825
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.993924735628629
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.7005394300822516
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.8866444886042413
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.994044167708197
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.7305722674777789
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.8973942083975102
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.9945872066527284
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.7298734258747136
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.8986565368427445
+  },
+  {
+   "split": "seen_test",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9947910339514321
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.4765125325946519
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.4600331878171602
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.49338845296907424
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.5505044069969836
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.5650134136425801
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.6189554426678104
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.605298824838274
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.6770340282947359
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.7487818617738878
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.6280245366245953
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.720527252121304
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.8097797996230472
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.6246477223724994
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.7227250828035973
+  },
+  {
+   "split": "seen_test",
+   "method": "CLIP-PCA",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.8186851319492777
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.9318464937495737
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.7250597566139235
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.7390673870964819
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.9445739165949396
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.8817779508654635
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.8912149351114208
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.9083111932971832
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.9822763674737015
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.9720123194310173
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.9290267085672533
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.9918250829722101
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.9858442538252055
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.9018874358848998
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.9896175837736659
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-treeSC",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9930133782625
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.880945464739554
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.7787326145691496
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.7811070482022427
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.949548799869102
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.9144730722302838
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.9024740478706264
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.9328255462624904
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.9653043191921246
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.9535247553142077
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.9389442375937979
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.987319714114131
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.983780280995322
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.9194184311908401
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.9923425979053144
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-tree",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9916797689218978
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.746574361649541
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.8488175728290187
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.9267100768094917
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.784296758045144
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.9011938247090967
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.9831964864459388
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.7907943816109915
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.9071088363074352
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.9833176295397095
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.8096690509574469
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.9123839379753685
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.9825780702909204
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.813933639582081
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.9216598474022945
+  },
+  {
+   "split": "unseen",
+   "method": "SSE-MRL (genus everywhere)",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9821033550684511
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 4,
+   "level": "order",
+   "mAP": 0.5726169558511891
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 4,
+   "level": "family",
+   "mAP": 0.5687388012007406
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 4,
+   "level": "genus",
+   "mAP": 0.6234290929499214
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 8,
+   "level": "order",
+   "mAP": 0.6368963266065545
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 8,
+   "level": "family",
+   "mAP": 0.6636847048172697
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 8,
+   "level": "genus",
+   "mAP": 0.7220310693127929
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 16,
+   "level": "order",
+   "mAP": 0.6870904595674909
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 16,
+   "level": "family",
+   "mAP": 0.7493654834085791
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 16,
+   "level": "genus",
+   "mAP": 0.7981810956663119
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 32,
+   "level": "order",
+   "mAP": 0.7200094521457759
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 32,
+   "level": "family",
+   "mAP": 0.8062228491835913
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 32,
+   "level": "genus",
+   "mAP": 0.8500612187196246
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 64,
+   "level": "order",
+   "mAP": 0.7506614267726703
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 64,
+   "level": "family",
+   "mAP": 0.8576316792578603
+  },
+  {
+   "split": "unseen",
+   "method": "CLIP-PCA",
+   "prefix_len": 64,
+   "level": "genus",
+   "mAP": 0.9025930944544882
+  }
+ ]
+}

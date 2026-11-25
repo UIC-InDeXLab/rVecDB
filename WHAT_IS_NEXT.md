@@ -1,10 +1,11 @@
 # What is next
 
-Last updated: 2026-11-09. Background: `AGENTS.md`, `experiment-plan.md`, `REPORT.md`.
+Last updated: 2026-11-25. Submission experiments done → `results/SUBMISSION_EXPERIMENTS.md`. Background: `AGENTS.md`, `experiment-plan.md`, `REPORT.md`.
 
 ## Main tasks
 
-### 1. Use CLIP for text too, not only images
+### 1. Use CLIP for text too, not only images — ✅ partly done (2026-11-25)
+- Done: text references on AwA2 (species name via CLIP text → SSE projector), F1 0.71 vs 0.49 raw CLIP. MovieLens with CLIP text not done.
 - Today MovieLens uses `BAAI/bge-base-en-v1.5`, because CLIP's text side cuts text at ~77 tokens.
 - Goal: use the CLIP text side as well. For example, run text queries against image SSEs, and/or do a MovieLens run with CLIP text.
 - Agree on the exact setup with the user before running anything.

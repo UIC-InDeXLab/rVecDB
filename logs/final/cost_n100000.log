@@ -1,0 +1,15 @@
+{'method': 'SSE-768', 'N': 100000, 'vectors per object': 1, 'floats per object': 770, 'storage GB (float32)': 0.308, 'Q1 scan ms': 14.022475574165583, 'habitat HNSW build s (16 thr)': 0.21206763293594122, 'habitat index dims': 32, 'habitat index GB': 0.0384, 'habitat top-10 HNSW ms': 0.013680197298526764}
+{'method': 'SSE-128', 'N': 100000, 'vectors per object': 1, 'floats per object': 130, 'storage GB (float32)': 0.052, 'Q1 scan ms': 4.614383913576603, 'habitat HNSW build s (16 thr)': 0.21143787633627653, 'habitat index dims': 32, 'habitat index GB': 0.0384, 'habitat top-10 HNSW ms': 0.013796612620353699}
+{'method': 'B3 separate', 'N': 100000, 'vectors per object': 6, 'floats per object': 920, 'storage GB (float32)': 0.368, 'Q1 scan ms': 1.5211873687803745, 'habitat HNSW build s (16 thr)': 0.22439372725784779, 'habitat index dims': 32, 'habitat index GB': 0.0384, 'habitat top-10 HNSW ms': 0.013851094990968704}
+{'method': 'B4 CSN', 'N': 100000, 'vectors per object': 1, 'floats per object': 773, 'storage GB (float32)': 0.3092, 'Q1 scan ms': 26.254940312355757, 'habitat HNSW build s (16 thr)': 1.4549058713018894, 'habitat index dims': 768, 'habitat index GB': 0.3328, 'habitat top-10 HNSW ms': 0.06861286237835884}
+{'method': 'B1 labels', 'N': 100000, 'vectors per object': 1, 'floats per object': 769, 'storage GB (float32)': 0.3076, 'Q1 scan ms': 1.5647877007722855}
+### E7 cost at N = 100,000 (single-threaded queries, median of 50)
+
+| method | N | vectors per object | floats per object | storage GB (float32) | Q1 scan ms | habitat index dims | habitat index GB | habitat HNSW build s (16 thr) | habitat top-10 HNSW ms |
+|---|---|---|---|---|---|---|---|---|---|
+| SSE-768 | 100000 | 1 | 770 | 0.308 | 14.022 | 32 | 0.038 | 0.212 | 0.014 |
+| SSE-128 | 100000 | 1 | 130 | 0.052 | 4.614 | 32 | 0.038 | 0.211 | 0.014 |
+| B3 separate | 100000 | 6 | 920 | 0.368 | 1.521 | 32 | 0.038 | 0.224 | 0.014 |
+| B4 CSN | 100000 | 1 | 773 | 0.309 | 26.255 | 768 | 0.333 | 1.455 | 0.069 |
+| B1 labels | 100000 | 1 | 769 | 0.308 | 1.565 | nan | nan | nan | nan |
+

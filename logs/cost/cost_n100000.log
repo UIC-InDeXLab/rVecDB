@@ -1,0 +1,21 @@
+{'method': 'SSE-768', 'N': 100000, 'vectors per object': 1, 'floats per object': 770, 'storage GB (float32)': 0.308, 'Q1 scan ms': 14.070697594434023, 'habitat HNSW build s (16 thr)': 0.2199293253943324, 'habitat index dims': 32, 'habitat index GB': 0.0384, 'habitat top-10 HNSW ms': 0.013655982911586761}
+{'method': 'SSE-768 (block-columnar)', 'N': 100000, 'vectors per object': 1, 'floats per object': 770, 'storage GB (float32)': 0.308, 'Q1 scan ms': 1.7916890792548656}
+{'method': 'SSE-128', 'N': 100000, 'vectors per object': 1, 'floats per object': 130, 'storage GB (float32)': 0.052, 'Q1 scan ms': 4.520032089203596, 'habitat HNSW build s (16 thr)': 0.25656627397984266, 'habitat index dims': 32, 'habitat index GB': 0.0384, 'habitat top-10 HNSW ms': 0.01380033791065216}
+{'method': 'SSE-128 (block-columnar)', 'N': 100000, 'vectors per object': 1, 'floats per object': 130, 'storage GB (float32)': 0.052, 'Q1 scan ms': 3.2015745528042316}
+{'method': 'B3 separate', 'N': 100000, 'vectors per object': 6, 'floats per object': 920, 'storage GB (float32)': 0.368, 'Q1 scan ms': 1.890663057565689, 'habitat HNSW build s (16 thr)': 0.23305554129183292, 'habitat index dims': 32, 'habitat index GB': 0.0384, 'habitat top-10 HNSW ms': 0.01634005457162857}
+{'method': 'B4 CSN', 'N': 100000, 'vectors per object': 1, 'floats per object': 773, 'storage GB (float32)': 0.3092, 'Q1 scan ms': 26.867583859711885, 'habitat HNSW build s (16 thr)': 1.5651547843590379, 'habitat index dims': 768, 'habitat index GB': 0.3328, 'habitat top-10 HNSW ms': 0.06837816908955574}
+{'method': 'B4 CSN (active dims materialised)', 'N': 100000, 'vectors per object': 6, 'floats per object': 2755, 'storage GB (float32)': 1.102, 'Q1 scan ms': 35.785057581961155, 'habitat HNSW build s (16 thr)': 0.7944642389193177, 'habitat index dims': 365, 'habitat index GB': 0.1716, 'habitat top-10 HNSW ms': 0.04759663715958595}
+{'method': 'B1 labels', 'N': 100000, 'vectors per object': 1, 'floats per object': 769, 'storage GB (float32)': 0.3076, 'Q1 scan ms': 1.5546674840152264}
+### E7 cost at N = 100,000 (single-threaded queries, median of 50)
+
+| method | N | vectors per object | floats per object | storage GB (float32) | Q1 scan ms | habitat index dims | habitat index GB | habitat HNSW build s (16 thr) | habitat top-10 HNSW ms |
+|---|---|---|---|---|---|---|---|---|---|
+| SSE-768 | 100000 | 1 | 770 | 0.308 | 14.071 | 32 | 0.038 | 0.220 | 0.014 |
+| SSE-768 (block-columnar) | 100000 | 1 | 770 | 0.308 | 1.792 | nan | nan | nan | nan |
+| SSE-128 | 100000 | 1 | 130 | 0.052 | 4.520 | 32 | 0.038 | 0.257 | 0.014 |
+| SSE-128 (block-columnar) | 100000 | 1 | 130 | 0.052 | 3.202 | nan | nan | nan | nan |
+| B3 separate | 100000 | 6 | 920 | 0.368 | 1.891 | 32 | 0.038 | 0.233 | 0.016 |
+| B4 CSN | 100000 | 1 | 773 | 0.309 | 26.868 | 768 | 0.333 | 1.565 | 0.068 |
+| B4 CSN (active dims materialised) | 100000 | 6 | 2755 | 1.102 | 35.785 | 365 | 0.172 | 0.794 | 0.048 |
+| B1 labels | 100000 | 1 | 769 | 0.308 | 1.555 | nan | nan | nan | nan |
+

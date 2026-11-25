@@ -1,0 +1,902 @@
+[
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "B6 plain CLIP",
+  "level": "order",
+  "k": 32,
+  "NMI": 0.4003062058140154,
+  "ARI": 0.09414400950710812
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "B6 plain CLIP",
+  "level": "family",
+  "k": 147,
+  "NMI": 0.49195029346954694,
+  "ARI": 0.13186952128942056
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "B6 plain CLIP",
+  "level": "genus",
+  "k": 648,
+  "NMI": 0.6640369175284189,
+  "ARI": 0.08207352827556863
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "SSE-treeSC",
+  "level": "order",
+  "k": 32,
+  "NMI": 0.5010467566411378,
+  "ARI": 0.16146476719568867
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "SSE-treeSC",
+  "level": "family",
+  "k": 147,
+  "NMI": 0.5493251252426484,
+  "ARI": 0.2017004456994653
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "SSE-treeSC",
+  "level": "genus",
+  "k": 648,
+  "NMI": 0.6968493701581738,
+  "ARI": 0.12377364550492113
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "SSE-tree",
+  "level": "order",
+  "k": 32,
+  "NMI": 0.4502841124478494,
+  "ARI": 0.17810360713764709
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "SSE-tree",
+  "level": "family",
+  "k": 147,
+  "NMI": 0.49289968773541,
+  "ARI": 0.150212041819105
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "SSE-tree",
+  "level": "genus",
+  "k": 648,
+  "NMI": 0.6683239004111098,
+  "ARI": 0.0872857203088884
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "B3 separate",
+  "level": "order",
+  "k": 32,
+  "NMI": 0.4979215807048726,
+  "ARI": 0.15307473468701638
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "B3 separate",
+  "level": "family",
+  "k": 147,
+  "NMI": 0.5481978028518889,
+  "ARI": 0.18448692868272143
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "B3 separate",
+  "level": "genus",
+  "k": 648,
+  "NMI": 0.6959983811490179,
+  "ARI": 0.12392222333470858
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "B4 CSN",
+  "level": "order",
+  "k": 32,
+  "NMI": 0.5237137309601323,
+  "ARI": 0.14680579725358975
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "B4 CSN",
+  "level": "family",
+  "k": 147,
+  "NMI": 0.5714510496084727,
+  "ARI": 0.2072774643262917
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "B4 CSN",
+  "level": "genus",
+  "k": 648,
+  "NMI": 0.7078232363467415,
+  "ARI": 0.1408697281743402
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "B1 labels (predicted)",
+  "level": "order",
+  "k": 17,
+  "NMI": 0.2974180980966788,
+  "ARI": 0.23568026463889824
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "B1 labels (predicted)",
+  "level": "family",
+  "k": 45,
+  "NMI": 0.4640045221592854,
+  "ARI": 0.2383342668422516
+ },
+ {
+  "class": "Aves",
+  "part": "roll-up / drill-down",
+  "method": "B1 labels (predicted)",
+  "level": "genus",
+  "k": 67,
+  "NMI": 0.431176140809691,
+  "ARI": 0.03696411970162451
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x0.5)",
+  "method": "B6 plain CLIP",
+  "level": "order",
+  "k": 16,
+  "NMI": 0.38771119308948465,
+  "ARI": 0.16346569348494425
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x0.5)",
+  "method": "SSE-treeSC",
+  "level": "order",
+  "k": 16,
+  "NMI": 0.5428617869811694,
+  "ARI": 0.3452195957267427
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x0.5)",
+  "method": "SSE-tree",
+  "level": "order",
+  "k": 16,
+  "NMI": 0.4710195032602998,
+  "ARI": 0.3317103652727065
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x0.5)",
+  "method": "B3 separate",
+  "level": "order",
+  "k": 16,
+  "NMI": 0.5235083674558166,
+  "ARI": 0.32275775366350684
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x0.5)",
+  "method": "B4 CSN",
+  "level": "order",
+  "k": 16,
+  "NMI": 0.5680167796355261,
+  "ARI": 0.3460734179121227
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x1)",
+  "method": "B6 plain CLIP",
+  "level": "order",
+  "k": 32,
+  "NMI": 0.4003062058140154,
+  "ARI": 0.09414400950710812
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x1)",
+  "method": "SSE-treeSC",
+  "level": "order",
+  "k": 32,
+  "NMI": 0.5010467566411378,
+  "ARI": 0.16146476719568867
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x1)",
+  "method": "SSE-tree",
+  "level": "order",
+  "k": 32,
+  "NMI": 0.4502841124478494,
+  "ARI": 0.17810360713764709
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x1)",
+  "method": "B3 separate",
+  "level": "order",
+  "k": 32,
+  "NMI": 0.4979215807048726,
+  "ARI": 0.15307473468701638
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x1)",
+  "method": "B4 CSN",
+  "level": "order",
+  "k": 32,
+  "NMI": 0.5237137309601323,
+  "ARI": 0.14680579725358975
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x2)",
+  "method": "B6 plain CLIP",
+  "level": "order",
+  "k": 64,
+  "NMI": 0.41291214727473863,
+  "ARI": 0.06276994555912391
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x2)",
+  "method": "SSE-treeSC",
+  "level": "order",
+  "k": 64,
+  "NMI": 0.469406969040305,
+  "ARI": 0.08900569459076929
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x2)",
+  "method": "SSE-tree",
+  "level": "order",
+  "k": 64,
+  "NMI": 0.43026869932590756,
+  "ARI": 0.09062861933300509
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x2)",
+  "method": "B3 separate",
+  "level": "order",
+  "k": 64,
+  "NMI": 0.4723225351126975,
+  "ARI": 0.08670298566948949
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x2)",
+  "method": "B4 CSN",
+  "level": "order",
+  "k": 64,
+  "NMI": 0.4971301306685907,
+  "ARI": 0.08540379784692208
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x4)",
+  "method": "B6 plain CLIP",
+  "level": "order",
+  "k": 128,
+  "NMI": 0.40354711397342036,
+  "ARI": 0.032215219340616046
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x4)",
+  "method": "SSE-treeSC",
+  "level": "order",
+  "k": 128,
+  "NMI": 0.4456233609000204,
+  "ARI": 0.041800590037188126
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x4)",
+  "method": "SSE-tree",
+  "level": "order",
+  "k": 128,
+  "NMI": 0.4079098161560891,
+  "ARI": 0.039517454403819915
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x4)",
+  "method": "B3 separate",
+  "level": "order",
+  "k": 128,
+  "NMI": 0.44577058784264156,
+  "ARI": 0.04221876449575309
+ },
+ {
+  "class": "Aves",
+  "part": "Order, impact of k (x4)",
+  "method": "B4 CSN",
+  "level": "order",
+  "k": 128,
+  "NMI": 0.4747763933348526,
+  "ARI": 0.04659610711140778
+ },
+ {
+  "class": "Aves",
+  "part": "unseen species",
+  "method": "B6 plain CLIP",
+  "level": "family",
+  "k": 92,
+  "NMI": 0.5607115514951533,
+  "ARI": 0.19945941404857667
+ },
+ {
+  "class": "Aves",
+  "part": "unseen species",
+  "method": "SSE-treeSC",
+  "level": "family",
+  "k": 92,
+  "NMI": 0.6586228385126262,
+  "ARI": 0.3381731880809001
+ },
+ {
+  "class": "Aves",
+  "part": "unseen species",
+  "method": "SSE-tree",
+  "level": "family",
+  "k": 92,
+  "NMI": 0.590887725398922,
+  "ARI": 0.2505752092989634
+ },
+ {
+  "class": "Aves",
+  "part": "unseen species",
+  "method": "B3 separate",
+  "level": "family",
+  "k": 92,
+  "NMI": 0.6609851946983557,
+  "ARI": 0.3458609132682442
+ },
+ {
+  "class": "Aves",
+  "part": "unseen species",
+  "method": "B4 CSN",
+  "level": "family",
+  "k": 92,
+  "NMI": 0.6554440455774253,
+  "ARI": 0.2949413893091799
+ },
+ {
+  "class": "Aves",
+  "part": "unseen species",
+  "method": "B1 labels (predicted)",
+  "level": "family",
+  "k": 40,
+  "NMI": 0.49558100696342894,
+  "ARI": 0.2551393377774648
+ },
+ {
+  "class": "Aves",
+  "part": "unseen species",
+  "method": "B6 plain CLIP",
+  "level": "genus",
+  "k": 224,
+  "NMI": 0.6644173642865175,
+  "ARI": 0.16070139433222067
+ },
+ {
+  "class": "Aves",
+  "part": "unseen species",
+  "method": "SSE-treeSC",
+  "level": "genus",
+  "k": 224,
+  "NMI": 0.7466940777670603,
+  "ARI": 0.2885975180065191
+ },
+ {
+  "class": "Aves",
+  "part": "unseen species",
+  "method": "SSE-tree",
+  "level": "genus",
+  "k": 224,
+  "NMI": 0.6977402765539437,
+  "ARI": 0.20656106317644876
+ },
+ {
+  "class": "Aves",
+  "part": "unseen species",
+  "method": "B3 separate",
+  "level": "genus",
+  "k": 224,
+  "NMI": 0.7471866604437447,
+  "ARI": 0.2856101922206875
+ },
+ {
+  "class": "Aves",
+  "part": "unseen species",
+  "method": "B4 CSN",
+  "level": "genus",
+  "k": 224,
+  "NMI": 0.7463011683123961,
+  "ARI": 0.28283026884671036
+ },
+ {
+  "class": "Aves",
+  "part": "unseen species",
+  "method": "B1 labels (predicted)",
+  "level": "genus",
+  "k": 50,
+  "NMI": 0.4703180572627715,
+  "ARI": 0.06267386791054723
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "B6 plain CLIP",
+  "level": "order",
+  "k": 17,
+  "NMI": 0.44889133096521594,
+  "ARI": 0.186175413445544
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "B6 plain CLIP",
+  "level": "family",
+  "k": 190,
+  "NMI": 0.475024813425113,
+  "ARI": 0.07539202476370548
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "B6 plain CLIP",
+  "level": "genus",
+  "k": 1472,
+  "NMI": 0.7048368790566323,
+  "ARI": 0.04907699548140674
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "SSE-treeSC",
+  "level": "order",
+  "k": 17,
+  "NMI": 0.5377823619639799,
+  "ARI": 0.2470036232002335
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "SSE-treeSC",
+  "level": "family",
+  "k": 190,
+  "NMI": 0.5504177719274465,
+  "ARI": 0.12151630717737534
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "SSE-treeSC",
+  "level": "genus",
+  "k": 1472,
+  "NMI": 0.735777243934371,
+  "ARI": 0.0880434561757638
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "SSE-tree",
+  "level": "order",
+  "k": 17,
+  "NMI": 0.5439399406827541,
+  "ARI": 0.34585667168171896
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "SSE-tree",
+  "level": "family",
+  "k": 190,
+  "NMI": 0.49627251924224924,
+  "ARI": 0.09398967926684948
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "SSE-tree",
+  "level": "genus",
+  "k": 1472,
+  "NMI": 0.7142917928804025,
+  "ARI": 0.060385211774460934
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "B3 separate",
+  "level": "order",
+  "k": 17,
+  "NMI": 0.5623772390908507,
+  "ARI": 0.3221787101694348
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "B3 separate",
+  "level": "family",
+  "k": 190,
+  "NMI": 0.5560164721215685,
+  "ARI": 0.12463747178211429
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "B3 separate",
+  "level": "genus",
+  "k": 1472,
+  "NMI": 0.7384113155522564,
+  "ARI": 0.0935413415929464
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "B4 CSN",
+  "level": "order",
+  "k": 17,
+  "NMI": 0.5692355109984869,
+  "ARI": 0.2949256342957565
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "B4 CSN",
+  "level": "family",
+  "k": 190,
+  "NMI": 0.5621364712044249,
+  "ARI": 0.12343117995636882
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "B4 CSN",
+  "level": "genus",
+  "k": 1472,
+  "NMI": 0.7386061774428958,
+  "ARI": 0.09396817980960466
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "B1 labels (predicted)",
+  "level": "order",
+  "k": 17,
+  "NMI": 0.5237722359304112,
+  "ARI": 0.5734874401396247
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "B1 labels (predicted)",
+  "level": "family",
+  "k": 38,
+  "NMI": 0.4754951935360328,
+  "ARI": 0.2448909495952109
+ },
+ {
+  "class": "Insecta",
+  "part": "roll-up / drill-down",
+  "method": "B1 labels (predicted)",
+  "level": "genus",
+  "k": 72,
+  "NMI": 0.420115432083075,
+  "ARI": 0.01825222965951501
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x0.5)",
+  "method": "B6 plain CLIP",
+  "level": "order",
+  "k": 8,
+  "NMI": 0.4495357977069629,
+  "ARI": 0.28283729128562995
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x0.5)",
+  "method": "SSE-treeSC",
+  "level": "order",
+  "k": 8,
+  "NMI": 0.6211020765897556,
+  "ARI": 0.49274227475153987
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x0.5)",
+  "method": "SSE-tree",
+  "level": "order",
+  "k": 8,
+  "NMI": 0.6161548614289184,
+  "ARI": 0.5054848125855793
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x0.5)",
+  "method": "B3 separate",
+  "level": "order",
+  "k": 8,
+  "NMI": 0.6257064548327407,
+  "ARI": 0.5182610446399305
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x0.5)",
+  "method": "B4 CSN",
+  "level": "order",
+  "k": 8,
+  "NMI": 0.6360332843809674,
+  "ARI": 0.47069650953355596
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x1)",
+  "method": "B6 plain CLIP",
+  "level": "order",
+  "k": 17,
+  "NMI": 0.44889133096521594,
+  "ARI": 0.186175413445544
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x1)",
+  "method": "SSE-treeSC",
+  "level": "order",
+  "k": 17,
+  "NMI": 0.5377823619639799,
+  "ARI": 0.2470036232002335
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x1)",
+  "method": "SSE-tree",
+  "level": "order",
+  "k": 17,
+  "NMI": 0.5439399406827541,
+  "ARI": 0.34585667168171896
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x1)",
+  "method": "B3 separate",
+  "level": "order",
+  "k": 17,
+  "NMI": 0.5623772390908507,
+  "ARI": 0.3221787101694348
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x1)",
+  "method": "B4 CSN",
+  "level": "order",
+  "k": 17,
+  "NMI": 0.5692355109984869,
+  "ARI": 0.2949256342957565
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x2)",
+  "method": "B6 plain CLIP",
+  "level": "order",
+  "k": 34,
+  "NMI": 0.4110839918931643,
+  "ARI": 0.0866746409145741
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x2)",
+  "method": "SSE-treeSC",
+  "level": "order",
+  "k": 34,
+  "NMI": 0.468318053623271,
+  "ARI": 0.12069732817223207
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x2)",
+  "method": "SSE-tree",
+  "level": "order",
+  "k": 34,
+  "NMI": 0.4612436879313024,
+  "ARI": 0.1491653355128457
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x2)",
+  "method": "B3 separate",
+  "level": "order",
+  "k": 34,
+  "NMI": 0.4720329356589047,
+  "ARI": 0.1329466390682213
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x2)",
+  "method": "B4 CSN",
+  "level": "order",
+  "k": 34,
+  "NMI": 0.47868620511578225,
+  "ARI": 0.11861903923603266
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x4)",
+  "method": "B6 plain CLIP",
+  "level": "order",
+  "k": 68,
+  "NMI": 0.3738510181386585,
+  "ARI": 0.04250154394730543
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x4)",
+  "method": "SSE-treeSC",
+  "level": "order",
+  "k": 68,
+  "NMI": 0.4219962482373795,
+  "ARI": 0.06193080166928869
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x4)",
+  "method": "SSE-tree",
+  "level": "order",
+  "k": 68,
+  "NMI": 0.4123695275860605,
+  "ARI": 0.0737817971670172
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x4)",
+  "method": "B3 separate",
+  "level": "order",
+  "k": 68,
+  "NMI": 0.4215136798656743,
+  "ARI": 0.06455244377686535
+ },
+ {
+  "class": "Insecta",
+  "part": "Order, impact of k (x4)",
+  "method": "B4 CSN",
+  "level": "order",
+  "k": 68,
+  "NMI": 0.43150815093667955,
+  "ARI": 0.0602017709423042
+ },
+ {
+  "class": "Insecta",
+  "part": "unseen species",
+  "method": "B6 plain CLIP",
+  "level": "family",
+  "k": 102,
+  "NMI": 0.5027119728434633,
+  "ARI": 0.11461542209292902
+ },
+ {
+  "class": "Insecta",
+  "part": "unseen species",
+  "method": "SSE-treeSC",
+  "level": "family",
+  "k": 102,
+  "NMI": 0.6178844338480705,
+  "ARI": 0.2165448376976329
+ },
+ {
+  "class": "Insecta",
+  "part": "unseen species",
+  "method": "SSE-tree",
+  "level": "family",
+  "k": 102,
+  "NMI": 0.5617080486332766,
+  "ARI": 0.19670724192369343
+ },
+ {
+  "class": "Insecta",
+  "part": "unseen species",
+  "method": "B3 separate",
+  "level": "family",
+  "k": 102,
+  "NMI": 0.6247191012950537,
+  "ARI": 0.21473222256909724
+ },
+ {
+  "class": "Insecta",
+  "part": "unseen species",
+  "method": "B4 CSN",
+  "level": "family",
+  "k": 102,
+  "NMI": 0.6227283112351298,
+  "ARI": 0.2202695617759404
+ },
+ {
+  "class": "Insecta",
+  "part": "unseen species",
+  "method": "B1 labels (predicted)",
+  "level": "family",
+  "k": 34,
+  "NMI": 0.49027511220470066,
+  "ARI": 0.24972301703058022
+ },
+ {
+  "class": "Insecta",
+  "part": "unseen species",
+  "method": "B6 plain CLIP",
+  "level": "genus",
+  "k": 435,
+  "NMI": 0.6630815561419978,
+  "ARI": 0.101296133149215
+ },
+ {
+  "class": "Insecta",
+  "part": "unseen species",
+  "method": "SSE-treeSC",
+  "level": "genus",
+  "k": 435,
+  "NMI": 0.754965716749435,
+  "ARI": 0.2452925648272159
+ },
+ {
+  "class": "Insecta",
+  "part": "unseen species",
+  "method": "SSE-tree",
+  "level": "genus",
+  "k": 435,
+  "NMI": 0.7033678627935811,
+  "ARI": 0.16011990728702993
+ },
+ {
+  "class": "Insecta",
+  "part": "unseen species",
+  "method": "B3 separate",
+  "level": "genus",
+  "k": 435,
+  "NMI": 0.7547027255045436,
+  "ARI": 0.24537869881191646
+ },
+ {
+  "class": "Insecta",
+  "part": "unseen species",
+  "method": "B4 CSN",
+  "level": "genus",
+  "k": 435,
+  "NMI": 0.7545776726248091,
+  "ARI": 0.24345168606495587
+ },
+ {
+  "class": "Insecta",
+  "part": "unseen species",
+  "method": "B1 labels (predicted)",
+  "level": "genus",
+  "k": 58,
+  "NMI": 0.44491187886469374,
+  "ARI": 0.028080074028978504
+ }
+]

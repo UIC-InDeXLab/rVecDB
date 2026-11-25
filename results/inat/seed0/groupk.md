@@ -1,0 +1,104 @@
+### iNat GROUP BY_k
+
+| class | part | method | level | k | NMI | ARI |
+|---|---|---|---|---|---|---|
+| Aves | roll-up / drill-down | B6 plain CLIP | order | 32 | 0.420 | 0.101 |
+| Aves | roll-up / drill-down | B6 plain CLIP | family | 147 | 0.499 | 0.141 |
+| Aves | roll-up / drill-down | B6 plain CLIP | genus | 648 | 0.663 | 0.083 |
+| Aves | roll-up / drill-down | SSE-treeSC | order | 32 | 0.499 | 0.150 |
+| Aves | roll-up / drill-down | SSE-treeSC | family | 147 | 0.548 | 0.193 |
+| Aves | roll-up / drill-down | SSE-treeSC | genus | 648 | 0.699 | 0.128 |
+| Aves | roll-up / drill-down | SSE-tree | order | 32 | 0.436 | 0.171 |
+| Aves | roll-up / drill-down | SSE-tree | family | 147 | 0.488 | 0.143 |
+| Aves | roll-up / drill-down | SSE-tree | genus | 648 | 0.671 | 0.088 |
+| Aves | roll-up / drill-down | B3 separate | order | 32 | 0.506 | 0.174 |
+| Aves | roll-up / drill-down | B3 separate | family | 147 | 0.551 | 0.200 |
+| Aves | roll-up / drill-down | B3 separate | genus | 648 | 0.699 | 0.129 |
+| Aves | roll-up / drill-down | B4 CSN | order | 32 | 0.540 | 0.181 |
+| Aves | roll-up / drill-down | B4 CSN | family | 147 | 0.573 | 0.204 |
+| Aves | roll-up / drill-down | B4 CSN | genus | 648 | 0.708 | 0.137 |
+| Aves | roll-up / drill-down | B1 labels (predicted) | order | 17 | 0.303 | 0.245 |
+| Aves | roll-up / drill-down | B1 labels (predicted) | family | 45 | 0.466 | 0.238 |
+| Aves | roll-up / drill-down | B1 labels (predicted) | genus | 65 | 0.432 | 0.038 |
+| Aves | Order, impact of k (x0.5) | B6 plain CLIP | order | 16 | 0.372 | 0.148 |
+| Aves | Order, impact of k (x0.5) | SSE-treeSC | order | 16 | 0.549 | 0.394 |
+| Aves | Order, impact of k (x0.5) | SSE-tree | order | 16 | 0.450 | 0.304 |
+| Aves | Order, impact of k (x0.5) | B3 separate | order | 16 | 0.545 | 0.351 |
+| Aves | Order, impact of k (x0.5) | B4 CSN | order | 16 | 0.567 | 0.330 |
+| Aves | Order, impact of k (x1) | B6 plain CLIP | order | 32 | 0.420 | 0.101 |
+| Aves | Order, impact of k (x1) | SSE-treeSC | order | 32 | 0.499 | 0.150 |
+| Aves | Order, impact of k (x1) | SSE-tree | order | 32 | 0.436 | 0.171 |
+| Aves | Order, impact of k (x1) | B3 separate | order | 32 | 0.506 | 0.174 |
+| Aves | Order, impact of k (x1) | B4 CSN | order | 32 | 0.540 | 0.181 |
+| Aves | Order, impact of k (x2) | B6 plain CLIP | order | 64 | 0.406 | 0.057 |
+| Aves | Order, impact of k (x2) | SSE-treeSC | order | 64 | 0.469 | 0.085 |
+| Aves | Order, impact of k (x2) | SSE-tree | order | 64 | 0.423 | 0.090 |
+| Aves | Order, impact of k (x2) | B3 separate | order | 64 | 0.470 | 0.081 |
+| Aves | Order, impact of k (x2) | B4 CSN | order | 64 | 0.502 | 0.088 |
+| Aves | Order, impact of k (x4) | B6 plain CLIP | order | 128 | 0.407 | 0.037 |
+| Aves | Order, impact of k (x4) | SSE-treeSC | order | 128 | 0.448 | 0.045 |
+| Aves | Order, impact of k (x4) | SSE-tree | order | 128 | 0.406 | 0.043 |
+| Aves | Order, impact of k (x4) | B3 separate | order | 128 | 0.442 | 0.040 |
+| Aves | Order, impact of k (x4) | B4 CSN | order | 128 | 0.471 | 0.043 |
+| Aves | unseen species | B6 plain CLIP | family | 92 | 0.567 | 0.211 |
+| Aves | unseen species | SSE-treeSC | family | 92 | 0.644 | 0.297 |
+| Aves | unseen species | SSE-tree | family | 92 | 0.587 | 0.238 |
+| Aves | unseen species | B3 separate | family | 92 | 0.661 | 0.349 |
+| Aves | unseen species | B4 CSN | family | 92 | 0.653 | 0.338 |
+| Aves | unseen species | B1 labels (predicted) | family | 40 | 0.498 | 0.255 |
+| Aves | unseen species | B6 plain CLIP | genus | 224 | 0.661 | 0.168 |
+| Aves | unseen species | SSE-treeSC | genus | 224 | 0.745 | 0.282 |
+| Aves | unseen species | SSE-tree | genus | 224 | 0.705 | 0.213 |
+| Aves | unseen species | B3 separate | genus | 224 | 0.747 | 0.282 |
+| Aves | unseen species | B4 CSN | genus | 224 | 0.744 | 0.275 |
+| Aves | unseen species | B1 labels (predicted) | genus | 48 | 0.471 | 0.064 |
+| Insecta | roll-up / drill-down | B6 plain CLIP | order | 17 | 0.443 | 0.163 |
+| Insecta | roll-up / drill-down | B6 plain CLIP | family | 190 | 0.467 | 0.070 |
+| Insecta | roll-up / drill-down | B6 plain CLIP | genus | 1472 | 0.704 | 0.046 |
+| Insecta | roll-up / drill-down | SSE-treeSC | order | 17 | 0.559 | 0.304 |
+| Insecta | roll-up / drill-down | SSE-treeSC | family | 190 | 0.551 | 0.121 |
+| Insecta | roll-up / drill-down | SSE-treeSC | genus | 1472 | 0.737 | 0.087 |
+| Insecta | roll-up / drill-down | SSE-tree | order | 17 | 0.556 | 0.376 |
+| Insecta | roll-up / drill-down | SSE-tree | family | 190 | 0.494 | 0.093 |
+| Insecta | roll-up / drill-down | SSE-tree | genus | 1472 | 0.714 | 0.059 |
+| Insecta | roll-up / drill-down | B3 separate | order | 17 | 0.560 | 0.319 |
+| Insecta | roll-up / drill-down | B3 separate | family | 190 | 0.558 | 0.119 |
+| Insecta | roll-up / drill-down | B3 separate | genus | 1472 | 0.737 | 0.086 |
+| Insecta | roll-up / drill-down | B4 CSN | order | 17 | 0.560 | 0.278 |
+| Insecta | roll-up / drill-down | B4 CSN | family | 190 | 0.560 | 0.118 |
+| Insecta | roll-up / drill-down | B4 CSN | genus | 1472 | 0.740 | 0.093 |
+| Insecta | roll-up / drill-down | B1 labels (predicted) | order | 17 | 0.526 | 0.579 |
+| Insecta | roll-up / drill-down | B1 labels (predicted) | family | 38 | 0.477 | 0.246 |
+| Insecta | roll-up / drill-down | B1 labels (predicted) | genus | 72 | 0.421 | 0.018 |
+| Insecta | Order, impact of k (x0.5) | B6 plain CLIP | order | 8 | 0.423 | 0.260 |
+| Insecta | Order, impact of k (x0.5) | SSE-treeSC | order | 8 | 0.625 | 0.519 |
+| Insecta | Order, impact of k (x0.5) | SSE-tree | order | 8 | 0.681 | 0.828 |
+| Insecta | Order, impact of k (x0.5) | B3 separate | order | 8 | 0.624 | 0.540 |
+| Insecta | Order, impact of k (x0.5) | B4 CSN | order | 8 | 0.710 | 0.806 |
+| Insecta | Order, impact of k (x1) | B6 plain CLIP | order | 17 | 0.443 | 0.163 |
+| Insecta | Order, impact of k (x1) | SSE-treeSC | order | 17 | 0.559 | 0.304 |
+| Insecta | Order, impact of k (x1) | SSE-tree | order | 17 | 0.556 | 0.376 |
+| Insecta | Order, impact of k (x1) | B3 separate | order | 17 | 0.560 | 0.319 |
+| Insecta | Order, impact of k (x1) | B4 CSN | order | 17 | 0.560 | 0.278 |
+| Insecta | Order, impact of k (x2) | B6 plain CLIP | order | 34 | 0.405 | 0.088 |
+| Insecta | Order, impact of k (x2) | SSE-treeSC | order | 34 | 0.483 | 0.148 |
+| Insecta | Order, impact of k (x2) | SSE-tree | order | 34 | 0.475 | 0.176 |
+| Insecta | Order, impact of k (x2) | B3 separate | order | 34 | 0.484 | 0.149 |
+| Insecta | Order, impact of k (x2) | B4 CSN | order | 34 | 0.494 | 0.146 |
+| Insecta | Order, impact of k (x4) | B6 plain CLIP | order | 68 | 0.375 | 0.043 |
+| Insecta | Order, impact of k (x4) | SSE-treeSC | order | 68 | 0.424 | 0.063 |
+| Insecta | Order, impact of k (x4) | SSE-tree | order | 68 | 0.418 | 0.076 |
+| Insecta | Order, impact of k (x4) | B3 separate | order | 68 | 0.423 | 0.067 |
+| Insecta | Order, impact of k (x4) | B4 CSN | order | 68 | 0.430 | 0.057 |
+| Insecta | unseen species | B6 plain CLIP | family | 102 | 0.504 | 0.129 |
+| Insecta | unseen species | SSE-treeSC | family | 102 | 0.628 | 0.244 |
+| Insecta | unseen species | SSE-tree | family | 102 | 0.551 | 0.171 |
+| Insecta | unseen species | B3 separate | family | 102 | 0.627 | 0.235 |
+| Insecta | unseen species | B4 CSN | family | 102 | 0.628 | 0.240 |
+| Insecta | unseen species | B1 labels (predicted) | family | 34 | 0.493 | 0.252 |
+| Insecta | unseen species | B6 plain CLIP | genus | 435 | 0.666 | 0.105 |
+| Insecta | unseen species | SSE-treeSC | genus | 435 | 0.755 | 0.232 |
+| Insecta | unseen species | SSE-tree | genus | 435 | 0.702 | 0.157 |
+| Insecta | unseen species | B3 separate | genus | 435 | 0.756 | 0.239 |
+| Insecta | unseen species | B4 CSN | genus | 435 | 0.755 | 0.239 |
+| Insecta | unseen species | B1 labels (predicted) | genus | 56 | 0.446 | 0.028 |

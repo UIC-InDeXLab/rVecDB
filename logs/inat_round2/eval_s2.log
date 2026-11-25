@@ -1,9 +1,9 @@
-| 11-06 08:14:15 | evaluate/inat-E2 | started |
-| 11-06 08:17:44 | evaluate/inat-E2 | done |
-| 11-06 08:17:44 | evaluate/inat-E2b | started |
-| 11-06 08:18:02 | evaluate/inat-E2b | done |
-| 11-06 08:18:02 | evaluate/inat-E3 | started |
-| 11-06 08:20:43 | evaluate/inat-E3 | done |
+| 11-25 09:10:35 | evaluate/inat-E2 | started |
+| 11-25 09:18:38 | evaluate/inat-E2 | done |
+| 11-25 09:18:38 | evaluate/inat-E2b | started |
+| 11-25 09:19:00 | evaluate/inat-E2b | done |
+| 11-25 09:19:00 | evaluate/inat-E3 | started |
+| 11-25 09:22:12 | evaluate/inat-E3 | done |
 # iNat results (seed 2)
 
 ### E2 — taxonomy prefix length vs level (mAP)

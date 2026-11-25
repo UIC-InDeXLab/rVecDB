@@ -1,0 +1,17 @@
+### Habitat filter with a text vs image reference (6000 test images, top 25% = true)
+
+| method | slice | n | F1 | AP |
+|---|---|---|---|---|
+| SSE, text reference | all species | 50 | 0.703 | 0.780 |
+| SSE, text reference | unseen species | 10 | 0.589 | 0.667 |
+| SSE, text reference | seen species | 40 | 0.732 | 0.808 |
+| SSE, image reference | all species | 50 | 0.788 | 0.870 |
+| SSE, image reference | unseen species | 10 | 0.727 | 0.824 |
+| SSE, image reference | seen species | 40 | 0.804 | 0.882 |
+| CLIP, text reference | all species | 50 | 0.492 | 0.548 |
+| CLIP, text reference | unseen species | 10 | 0.531 | 0.624 |
+| CLIP, text reference | seen species | 40 | 0.482 | 0.528 |
+| CLIP, image reference | all species | 50 | 0.492 | 0.549 |
+| CLIP, image reference | unseen species | 10 | 0.593 | 0.675 |
+| CLIP, image reference | seen species | 40 | 0.467 | 0.517 |
+

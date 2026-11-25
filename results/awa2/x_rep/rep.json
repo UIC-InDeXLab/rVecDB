@@ -1,0 +1,138 @@
+[
+ {
+  "group": 2,
+  "size": 2647,
+  "habitat (true avg, top 3)": "ground, fields, plains",
+  "top species": "pig (329), persian+cat (329), rat (153), horse (150)",
+  "unseen species share": 0.3494522100491122,
+  "REP": [
+   {
+    "img": 25681,
+    "cls": "pig",
+    "count": 766
+   },
+   {
+    "img": 25028,
+    "cls": "persian+cat",
+    "count": 627
+   },
+   {
+    "img": 8408,
+    "cls": "deer",
+    "count": 622
+   },
+   {
+    "img": 36228,
+    "cls": "zebra",
+    "count": 338
+   },
+   {
+    "img": 5363,
+    "cls": "collie",
+    "count": 294
+   }
+  ]
+ },
+ {
+  "group": 0,
+  "size": 1336,
+  "habitat (true avg, top 3)": "ground, jungle, bush",
+  "top species": "giant+panda (407), leopard (323), hippopotamus (254), elephant (94)",
+  "unseen species share": 0.7410179640718563,
+  "REP": [
+   {
+    "img": 20548,
+    "cls": "leopard",
+    "count": 419
+   },
+   {
+    "img": 12676,
+    "cls": "giant+panda",
+    "count": 410
+   },
+   {
+    "img": 17261,
+    "cls": "hippopotamus",
+    "count": 328
+   },
+   {
+    "img": 9950,
+    "cls": "elephant",
+    "count": 94
+   },
+   {
+    "img": 20644,
+    "cls": "leopard",
+    "count": 85
+   }
+  ]
+ },
+ {
+  "group": 3,
+  "size": 1169,
+  "habitat (true avg, top 3)": "water, ocean, arctic",
+  "top species": "seal (461), humpback+whale (314), dolphin (95), polar+bear (85)",
+  "unseen species share": 0.7219846022241232,
+  "REP": [
+   {
+    "img": 19875,
+    "cls": "humpback+whale",
+    "count": 342
+   },
+   {
+    "img": 30543,
+    "cls": "seal",
+    "count": 305
+   },
+   {
+    "img": 30041,
+    "cls": "seal",
+    "count": 244
+   },
+   {
+    "img": 26536,
+    "cls": "polar+bear",
+    "count": 164
+   },
+   {
+    "img": 9230,
+    "cls": "dolphin",
+    "count": 114
+   }
+  ]
+ },
+ {
+  "group": 1,
+  "size": 848,
+  "habitat (true avg, top 3)": "forest, tree, jungle",
+  "top species": "chimpanzee (334), raccoon (141), squirrel (113), gorilla (80)",
+  "unseen species share": 0.5672169811320755,
+  "REP": [
+   {
+    "img": 4087,
+    "cls": "chimpanzee",
+    "count": 246
+   },
+   {
+    "img": 28295,
+    "cls": "raccoon",
+    "count": 246
+   },
+   {
+    "img": 4606,
+    "cls": "chimpanzee",
+    "count": 191
+   },
+   {
+    "img": 33899,
+    "cls": "squirrel",
+    "count": 117
+   },
+   {
+    "img": 2122,
+    "cls": "bobcat",
+    "count": 48
+   }
+  ]
+ }
+]

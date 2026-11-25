@@ -6,7 +6,8 @@ import numpy as np
 
 from .awa2 import ROOT
 
-RES = ROOT / "results/awa2"
+import os
+RES = ROOT / os.environ.get("SSE_RES", "results/awa2")
 
 
 def collect(pattern):

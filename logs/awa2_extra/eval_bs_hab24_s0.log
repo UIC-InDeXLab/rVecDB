@@ -1,0 +1,2 @@
+VALIDATION MODE — val-unseen classes: [np.str_('antelope'), np.str_('beaver'), np.str_('mole'), np.str_('otter'), np.str_('walrus')]
+{'tag': 'bs_hab24_s0', 'hab_dim': 24, 'diet_dim': 16, 'habitat_spearman': 0.6656614350859718, 'diet_spearman': 0.8373711546408805, 'habitat_filter_F1': 0.6620583687227508}

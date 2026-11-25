@@ -1082,3 +1082,975 @@
 | 11-20 13:52:34 | openalex/join_s0 | done (35 s) |
 | 11-20 13:52:34 | openalex/join_s2 | done (35 s) |
 | 11-20 13:52:34 | openalex/ALL | finished — results/openalex/seed*/results.md, e8.md, e6_physical.md |
+| 11-20 10:53:17 | openalex-encode | started (specter2, 205948 texts) |
+| 11-20 10:56:17 | openalex-encode | done |
+| 11-20 10:59:13 | openalex-E2 | started |
+| 11-20 10:59:13 | openalex-E2 | started |
+| 11-20 10:59:13 | openalex-E2 | started |
+| 11-20 11:03:49 | openalex-E2 | done |
+| 11-20 11:03:49 | openalex-E2b | started |
+| 11-20 11:03:54 | openalex-E2 | done |
+| 11-20 11:03:54 | openalex-E2b | started |
+| 11-20 11:04:05 | openalex-E2 | done |
+| 11-20 11:04:05 | openalex-E2b | started |
+| 11-20 11:04:07 | openalex-E2b | done |
+| 11-20 11:04:07 | openalex-E3 | started |
+| 11-20 11:04:10 | openalex-E2b | done |
+| 11-20 11:04:10 | openalex-E3 | started |
+| 11-20 11:04:21 | openalex-E2b | done |
+| 11-20 11:04:21 | openalex-E3 | started |
+| 11-20 11:06:41 | openalex-E3 | done |
+| 11-20 11:06:47 | openalex-E3 | done |
+| 11-20 11:06:50 | openalex-E3 | done |
+| 11-20 11:07:13 | openalex-E8 | level domain done |
+| 11-20 11:07:13 | openalex-E8 | level domain done |
+| 11-20 11:07:13 | openalex-E8 | level domain done |
+| 11-20 11:07:20 | openalex-E8 | level field done |
+| 11-20 11:07:20 | openalex-E8 | level field done |
+| 11-20 11:07:20 | openalex-E8 | level field done |
+| 11-20 11:07:27 | openalex-E8 | level subfield done |
+| 11-20 11:07:27 | openalex-E8 | level subfield done |
+| 11-20 11:07:27 | openalex-E8 | level subfield done |
+| 11-20 11:07:34 | openalex-E8 | level topic done |
+| 11-20 11:07:35 | openalex-E8 | level topic done |
+| 11-20 11:07:35 | openalex-E8 | level topic done |
+| 11-20 11:08:05 | openalex-E6 | Physical Sciences connected B6 plain encoder done |
+| 11-20 11:08:06 | openalex-E6 | Physical Sciences connected B6 plain encoder done |
+| 11-20 11:08:06 | openalex-E6 | Physical Sciences connected B6 plain encoder done |
+| 11-20 11:08:15 | openalex-E6 | Physical Sciences connected SSE-treeSC done |
+| 11-20 11:08:16 | openalex-E6 | Physical Sciences connected SSE-treeSC done |
+| 11-20 11:08:16 | openalex-E6 | Physical Sciences connected SSE-treeSC done |
+| 11-20 11:08:26 | openalex-E6 | Physical Sciences connected SSE-tree done |
+| 11-20 11:08:26 | openalex-E6 | Physical Sciences connected SSE-tree done |
+| 11-20 11:08:26 | openalex-E6 | Physical Sciences connected SSE-tree done |
+| 11-20 11:08:36 | openalex-E6 | Physical Sciences connected SSE (yes/no levels) done |
+| 11-20 11:08:37 | openalex-E6 | Physical Sciences connected SSE (yes/no levels) done |
+| 11-20 11:08:37 | openalex-E6 | Physical Sciences connected SSE (yes/no levels) done |
+| 11-20 11:08:46 | openalex-E6 | Physical Sciences connected B3 separate (graded+contrastive) done |
+| 11-20 11:08:47 | openalex-E6 | Physical Sciences connected B3 separate (graded+contrastive) done |
+| 11-20 11:08:47 | openalex-E6 | Physical Sciences connected B3 separate (graded+contrastive) done |
+| 11-20 11:08:56 | openalex-E6 | Physical Sciences connected B4 CSN (graded+contrastive) done |
+| 11-20 11:08:57 | openalex-E6 | Physical Sciences connected B4 CSN (graded+contrastive) done |
+| 11-20 11:08:57 | openalex-E6 | Physical Sciences connected B4 CSN (graded+contrastive) done |
+| 11-20 11:09:00 | openalex-E6 | Physical Sciences center B6 plain encoder done |
+| 11-20 11:09:01 | openalex-E6 | Physical Sciences center B6 plain encoder done |
+| 11-20 11:09:02 | openalex-E6 | Physical Sciences center B6 plain encoder done |
+| 11-20 11:09:04 | openalex-E6 | Physical Sciences center SSE-treeSC done |
+| 11-20 11:09:05 | openalex-E6 | Physical Sciences center SSE-treeSC done |
+| 11-20 11:09:05 | openalex-E6 | Physical Sciences center SSE-treeSC done |
+| 11-20 11:09:08 | openalex-E6 | Physical Sciences center SSE-tree done |
+| 11-20 11:09:09 | openalex-E6 | Physical Sciences center SSE-tree done |
+| 11-20 11:09:09 | openalex-E6 | Physical Sciences center SSE-tree done |
+| 11-20 11:09:11 | openalex-E6 | Physical Sciences center SSE (yes/no levels) done |
+| 11-20 11:09:13 | openalex-E6 | Physical Sciences center SSE (yes/no levels) done |
+| 11-20 11:09:13 | openalex-E6 | Physical Sciences center SSE (yes/no levels) done |
+| 11-20 11:09:14 | openalex-E6 | Physical Sciences center B3 separate (graded+contrastive) done |
+| 11-20 11:09:17 | openalex-E6 | Physical Sciences center B3 separate (graded+contrastive) done |
+| 11-20 11:09:17 | openalex-E6 | Physical Sciences center B3 separate (graded+contrastive) done |
+| 11-20 11:09:19 | openalex-E6 | Physical Sciences center B4 CSN (graded+contrastive) done |
+| 11-20 11:09:21 | openalex-E6 | Physical Sciences center B4 CSN (graded+contrastive) done |
+| 11-20 11:09:21 | openalex-E6 | Physical Sciences center B4 CSN (graded+contrastive) done |
+| 11-20 11:37:49 | openalex-E2 | started |
+| 11-20 11:37:49 | openalex-E2 | started |
+| 11-20 11:37:49 | openalex-E2 | started |
+| 11-20 11:41:09 | openalex-E2 | done |
+| 11-20 11:41:09 | openalex-E2b | started |
+| 11-20 11:41:10 | openalex-E2 | done |
+| 11-20 11:41:10 | openalex-E2b | started |
+| 11-20 11:41:23 | openalex-E2b | done |
+| 11-20 11:41:23 | openalex-E3 | started |
+| 11-20 11:41:23 | openalex-E2b | done |
+| 11-20 11:41:23 | openalex-E3 | started |
+| 11-20 11:41:24 | openalex-E2 | done |
+| 11-20 11:41:24 | openalex-E2b | started |
+| 11-20 11:41:37 | openalex-E2b | done |
+| 11-20 11:41:37 | openalex-E3 | started |
+| 11-20 11:43:49 | openalex-E3 | done |
+| 11-20 11:43:52 | openalex-E3 | done |
+| 11-20 11:44:06 | openalex-E3 | done |
+| 11-20 11:44:26 | openalex-E8 | level domain done |
+| 11-20 11:44:26 | openalex-E8 | level domain done |
+| 11-20 11:44:26 | openalex-E8 | level domain done |
+| 11-20 11:44:34 | openalex-E8 | level field done |
+| 11-20 11:44:34 | openalex-E8 | level field done |
+| 11-20 11:44:34 | openalex-E8 | level field done |
+| 11-20 11:44:43 | openalex-E8 | level subfield done |
+| 11-20 11:44:43 | openalex-E8 | level subfield done |
+| 11-20 11:44:43 | openalex-E8 | level subfield done |
+| 11-20 11:45:04 | openalex-E6 | Physical Sciences connected B6 plain encoder done |
+| 11-20 11:45:04 | openalex-E6 | Physical Sciences connected B6 plain encoder done |
+| 11-20 11:45:04 | openalex-E6 | Physical Sciences connected B6 plain encoder done |
+| 11-20 11:45:11 | openalex-E6 | Physical Sciences connected SSE-treeSC done |
+| 11-20 11:45:12 | openalex-E6 | Physical Sciences connected SSE-treeSC done |
+| 11-20 11:45:12 | openalex-E6 | Physical Sciences connected SSE-treeSC done |
+| 11-20 11:45:19 | openalex-E6 | Physical Sciences connected SSE-tree done |
+| 11-20 11:45:19 | openalex-E6 | Physical Sciences connected SSE-tree done |
+| 11-20 11:45:19 | openalex-E6 | Physical Sciences connected SSE-tree done |
+| 11-20 11:45:27 | openalex-E6 | Physical Sciences connected SSE (yes/no levels) done |
+| 11-20 11:45:27 | openalex-E6 | Physical Sciences connected SSE (yes/no levels) done |
+| 11-20 11:45:28 | openalex-E6 | Physical Sciences connected SSE (yes/no levels) done |
+| 11-20 11:45:34 | openalex-E6 | Physical Sciences connected B3 separate (graded+contrastive) done |
+| 11-20 11:45:35 | openalex-E6 | Physical Sciences connected B3 separate (graded+contrastive) done |
+| 11-20 11:45:35 | openalex-E6 | Physical Sciences connected B3 separate (graded+contrastive) done |
+| 11-20 11:45:42 | openalex-E6 | Physical Sciences connected B4 CSN (graded+contrastive) done |
+| 11-20 11:45:43 | openalex-E6 | Physical Sciences connected B4 CSN (graded+contrastive) done |
+| 11-20 11:45:43 | openalex-E6 | Physical Sciences connected B4 CSN (graded+contrastive) done |
+| 11-20 11:45:45 | openalex-E6 | Physical Sciences center B6 plain encoder done |
+| 11-20 11:45:46 | openalex-E6 | Physical Sciences center B6 plain encoder done |
+| 11-20 11:45:46 | openalex-E6 | Physical Sciences center B6 plain encoder done |
+| 11-20 11:45:47 | openalex-E6 | Physical Sciences center SSE-treeSC done |
+| 11-20 11:45:48 | openalex-E6 | Physical Sciences center SSE-treeSC done |
+| 11-20 11:45:48 | openalex-E6 | Physical Sciences center SSE-treeSC done |
+| 11-20 11:45:50 | openalex-E6 | Physical Sciences center SSE-tree done |
+| 11-20 11:45:51 | openalex-E6 | Physical Sciences center SSE-tree done |
+| 11-20 11:45:51 | openalex-E6 | Physical Sciences center SSE-tree done |
+| 11-20 11:45:52 | openalex-E6 | Physical Sciences center SSE (yes/no levels) done |
+| 11-20 11:45:53 | openalex-E6 | Physical Sciences center SSE (yes/no levels) done |
+| 11-20 11:45:54 | openalex-E6 | Physical Sciences center SSE (yes/no levels) done |
+| 11-20 11:45:55 | openalex-E6 | Physical Sciences center B3 separate (graded+contrastive) done |
+| 11-20 11:45:55 | openalex-E6 | Physical Sciences center B3 separate (graded+contrastive) done |
+| 11-20 11:45:57 | openalex-E6 | Physical Sciences center B3 separate (graded+contrastive) done |
+| 11-20 11:45:58 | openalex-E6 | Physical Sciences center B4 CSN (graded+contrastive) done |
+| 11-20 11:45:58 | openalex-E6 | Physical Sciences center B4 CSN (graded+contrastive) done |
+| 11-20 11:46:00 | openalex-E6 | Physical Sciences center B4 CSN (graded+contrastive) done |
+| 11-20 11:50:55 | openalex-E2 | started |
+| 11-20 11:50:55 | openalex-E2 | started |
+| 11-20 11:50:55 | openalex-E2 | started |
+| 11-20 11:54:14 | openalex-E2 | done |
+| 11-20 11:54:14 | openalex-E2b | started |
+| 11-20 11:54:14 | openalex-E2 | done |
+| 11-20 11:54:14 | openalex-E2b | started |
+| 11-20 11:54:23 | openalex-E2b | done |
+| 11-20 11:54:23 | openalex-E2s | started |
+| 11-20 11:54:23 | openalex-E2b | done |
+| 11-20 11:54:23 | openalex-E2s | started |
+| 11-20 11:54:24 | openalex-E2 | done |
+| 11-20 11:54:24 | openalex-E2b | started |
+| 11-20 11:54:33 | openalex-E2b | done |
+| 11-20 11:54:33 | openalex-E2s | started |
+| 11-20 11:58:34 | openalex-E2s | done |
+| 11-20 11:58:34 | openalex-E3 | started |
+| 11-20 11:58:46 | openalex-E2s | done |
+| 11-20 11:58:46 | openalex-E3 | started |
+| 11-20 11:58:52 | openalex-E2s | done |
+| 11-20 11:58:52 | openalex-E3 | started |
+| 11-20 12:00:01 | openalex-E3 | done |
+| 11-20 12:00:10 | openalex-E3 | done |
+| 11-20 12:00:13 | openalex-E3 | done |
+| 11-20 12:00:32 | openalex-E8 | level domain done |
+| 11-20 12:00:32 | openalex-E8 | level domain done |
+| 11-20 12:00:32 | openalex-E8 | level domain done |
+| 11-20 12:00:40 | openalex-E8 | level field done |
+| 11-20 12:00:40 | openalex-E8 | level field done |
+| 11-20 12:00:40 | openalex-E8 | level field done |
+| 11-20 12:00:49 | openalex-E8 | level subfield done |
+| 11-20 12:00:49 | openalex-E8 | level subfield done |
+| 11-20 12:00:49 | openalex-E8 | level subfield done |
+| 11-20 12:01:51 | openalex-E2 | started |
+| 11-20 12:01:51 | openalex-E2 | started |
+| 11-20 12:01:51 | openalex-E2 | started |
+| 11-20 12:05:06 | openalex-E2 | done |
+| 11-20 12:05:06 | openalex-E2b | started |
+| 11-20 12:05:13 | openalex-E2 | done |
+| 11-20 12:05:13 | openalex-E2b | started |
+| 11-20 12:05:15 | openalex-E2b | done |
+| 11-20 12:05:15 | openalex-E2s | started |
+| 11-20 12:05:20 | openalex-E2 | done |
+| 11-20 12:05:20 | openalex-E2b | started |
+| 11-20 12:05:22 | openalex-E2b | done |
+| 11-20 12:05:22 | openalex-E2s | started |
+| 11-20 12:05:28 | openalex-E2b | done |
+| 11-20 12:05:28 | openalex-E2s | started |
+| 11-20 13:40:55 | openalex-E2 | started |
+| 11-20 13:42:59 | openalex-E2 | started |
+| 11-20 13:42:59 | openalex-E2 | started |
+| 11-20 13:42:59 | openalex-E2 | started |
+| 11-20 13:46:18 | openalex-E2 | done |
+| 11-20 13:46:18 | openalex-E2b | started |
+| 11-20 13:46:20 | openalex-E2 | done |
+| 11-20 13:46:20 | openalex-E2b | started |
+| 11-20 13:46:27 | openalex-E2b | done |
+| 11-20 13:46:27 | openalex-E2s | started |
+| 11-20 13:46:28 | openalex-E2 | done |
+| 11-20 13:46:28 | openalex-E2b | started |
+| 11-20 13:46:29 | openalex-E2b | done |
+| 11-20 13:46:29 | openalex-E2s | started |
+| 11-20 13:46:39 | openalex-E2b | done |
+| 11-20 13:46:39 | openalex-E2s | started |
+| 11-20 13:50:18 | openalex-E2s | done |
+| 11-20 13:50:18 | openalex-E3 | started |
+| 11-20 13:50:22 | openalex-E2s | done |
+| 11-20 13:50:22 | openalex-E3 | started |
+| 11-20 13:50:34 | openalex-E2s | done |
+| 11-20 13:50:34 | openalex-E3 | started |
+| 11-20 13:51:39 | openalex-E3 | done |
+| 11-20 13:51:49 | openalex-E3 | done |
+| 11-20 13:51:58 | openalex-E3 | done |
+| 11-20 13:52:16 | openalex-E8 | level domain done |
+| 11-20 13:52:16 | openalex-E8 | level domain done |
+| 11-20 13:52:16 | openalex-E8 | level domain done |
+| 11-20 13:52:25 | openalex-E8 | level field done |
+| 11-20 13:52:25 | openalex-E8 | level field done |
+| 11-20 13:52:25 | openalex-E8 | level field done |
+| 11-20 13:52:33 | openalex-E8 | level subfield done |
+| 11-20 13:52:33 | openalex-E8 | level subfield done |
+| 11-20 13:52:33 | openalex-E8 | level subfield done |
+| 11-25 08:42:49 | data/awa2 | started |
+| 11-25 08:42:49 | data/inat_val | started |
+| 11-25 08:42:49 | data/inat_val_json | started |
+| 11-25 08:42:49 | data/inat_val_json | done (0 s) |
+| 11-25 08:44:51 | data/inat_val | done (122 s) |
+| 11-25 08:45:48 | oa_extra/ALL | started |
+| 11-25 08:45:48 | oa_extra/profile | started |
+| 11-25 08:46:11 | oa_extra/profile | done (23 s) |
+| 11-25 08:46:11 | oa_extra/joinkeys_s0 | started |
+| 11-25 08:46:17 | openalex-E9 | author SSE aligned trained (seed 0) |
+| 11-25 08:46:18 | openalex-E9 | author SSE independent trained (seed 0) |
+| 11-25 08:46:21 | oa_extra/joinkeys_s0 | done (10 s) |
+| 11-25 08:46:21 | oa_extra/ALL | finished — results/openalex/seed*/e9_joinkeys.md, e10_sweep.md, e11_groupk.md |
+| 11-25 08:46:53 | oa_extra/ALL | started |
+| 11-25 08:46:53 | oa_extra/joinkeys_s0 | started |
+| 11-25 08:46:59 | openalex-E9 | author SSE aligned trained (seed 0) |
+| 11-25 08:47:00 | openalex-E9 | author SSE independent trained (seed 0) |
+| 11-25 08:47:02 | oa_extra/joinkeys_s0 | done (9 s) |
+| 11-25 08:47:02 | oa_extra/sweep_s0 | started |
+| 11-25 08:47:07 | oa_extra/sweep_s0 | done (5 s) |
+| 11-25 08:47:07 | oa_extra/groupk_s0 | started |
+| 11-25 08:47:18 | openalex-E11 | impact of k field done (seed 0) |
+| 11-25 08:47:35 | openalex-E11 | impact of k subfield done (seed 0) |
+| 11-25 08:47:39 | oa_extra/groupk_s0 | done (32 s) |
+| 11-25 08:47:39 | oa_extra/joinkeys_s1 | started |
+| 11-25 08:47:44 | openalex-E9 | author SSE aligned trained (seed 1) |
+| 11-25 08:47:45 | openalex-E9 | author SSE independent trained (seed 1) |
+| 11-25 08:47:47 | oa_extra/joinkeys_s1 | done (8 s) |
+| 11-25 08:47:47 | oa_extra/sweep_s1 | started |
+| 11-25 08:47:52 | oa_extra/sweep_s1 | done (5 s) |
+| 11-25 08:47:52 | oa_extra/groupk_s1 | started |
+| 11-25 08:48:02 | openalex-E11 | impact of k field done (seed 1) |
+| 11-25 08:48:19 | openalex-E11 | impact of k subfield done (seed 1) |
+| 11-25 08:48:24 | oa_extra/groupk_s1 | done (32 s) |
+| 11-25 08:48:24 | oa_extra/joinkeys_s2 | started |
+| 11-25 08:48:28 | openalex-E9 | author SSE aligned trained (seed 2) |
+| 11-25 08:48:29 | openalex-E9 | author SSE independent trained (seed 2) |
+| 11-25 08:48:31 | oa_extra/joinkeys_s2 | done (7 s) |
+| 11-25 08:48:31 | oa_extra/sweep_s2 | started |
+| 11-25 08:48:36 | oa_extra/sweep_s2 | done (5 s) |
+| 11-25 08:48:36 | oa_extra/groupk_s2 | started |
+| 11-25 08:48:45 | openalex-E11 | impact of k field done (seed 2) |
+| 11-25 08:49:03 | openalex-E11 | impact of k subfield done (seed 2) |
+| 11-25 08:49:06 | oa_extra/groupk_s2 | done (30 s) |
+| 11-25 08:49:06 | oa_extra/ALL | finished — results/openalex/seed*/e9_joinkeys.md, e10_sweep.md, e11_groupk.md |
+| 11-25 08:49:57 | inat/ALL | started |
+| 11-25 08:49:57 | inat/prep | started |
+| 11-25 08:52:36 | awa2_extra/ALL | started |
+| 11-25 08:53:02 | evaluate/inat-clip | 10240/100000 images |
+| 11-25 08:53:23 | evaluate/inat-clip | 20480/100000 images |
+| 11-25 08:53:45 | evaluate/inat-clip | 30720/100000 images |
+| 11-25 08:54:06 | evaluate/inat-clip | 40960/100000 images |
+| 11-25 08:54:23 | data/awa2 | done (694 s) |
+| 11-25 08:54:23 | data/ALL | finished |
+| 11-25 08:54:27 | evaluate/inat-clip | 51200/100000 images |
+| 11-25 08:54:36 | awa2_extra/extract | started |
+| 11-25 08:54:51 | evaluate/inat-clip | 61440/100000 images |
+| 11-25 08:55:24 | evaluate/inat-clip | 71680/100000 images |
+| 11-25 08:55:55 | awa2_extra/extract | done (79 s) |
+| 11-25 08:55:56 | awa2_extra/extract_text | started |
+| 11-25 08:55:56 | evaluate/inat-clip | 81920/100000 images |
+| 11-25 08:56:03 | awa2_extra/extract_text | done (7 s) |
+| 11-25 08:56:03 | awa2_extra/train_tree_s0 | started |
+| 11-25 08:56:10 | awa2_extra/train_tree_s0 | done (7 s) |
+| 11-25 08:56:10 | awa2_extra/train_treesc_s0 | started |
+| 11-25 08:56:20 | evaluate/inat-clip | 92160/100000 images |
+| 11-25 08:56:21 | awa2_extra/train_treesc_s0 | done (11 s) |
+| 11-25 08:56:21 | awa2_extra/train_mrl_s0 | started |
+| 11-25 08:56:31 | awa2_extra/train_mrl_s0 | done (10 s) |
+| 11-25 08:56:31 | awa2_extra/train_b3tree_s0 | started |
+| 11-25 08:56:38 | evaluate/inat-clip | done 100000/100000 images |
+| 11-25 08:56:39 | inat/prep | done (402 s) |
+| 11-25 08:56:39 | inat/train_tree_s0 | started |
+| 11-25 08:56:41 | awa2_extra/train_b3tree_s0 | done (10 s) |
+| 11-25 08:56:41 | awa2_extra/train_csntree_s0 | started |
+| 11-25 08:56:46 | inat/train_tree_s0 | done (7 s) |
+| 11-25 08:56:46 | inat/train_main_s0 | started |
+| 11-25 08:56:48 | awa2_extra/train_csntree_s0 | done (7 s) |
+| 11-25 08:56:48 | awa2_extra/train_treesc128_s0 | started |
+| 11-25 08:56:55 | inat/train_main_s0 | done (9 s) |
+| 11-25 08:56:55 | inat/train_mrl_s0 | started |
+| 11-25 08:56:56 | awa2_extra/train_treesc128_s0 | done (8 s) |
+| 11-25 08:56:56 | awa2_extra/train_treesc256_s0 | started |
+| 11-25 08:57:03 | inat/train_mrl_s0 | done (8 s) |
+| 11-25 08:57:03 | inat/train_b3_s0 | started |
+| 11-25 08:57:05 | awa2_extra/train_treesc256_s0 | done (9 s) |
+| 11-25 08:57:05 | awa2_extra/train_tree_s1 | started |
+| 11-25 08:57:10 | inat/train_b3_s0 | done (7 s) |
+| 11-25 08:57:10 | inat/train_csn_s0 | started |
+| 11-25 08:57:11 | awa2_extra/train_tree_s1 | done (6 s) |
+| 11-25 08:57:11 | awa2_extra/train_treesc_s1 | started |
+| 11-25 08:57:18 | inat/train_csn_s0 | done (8 s) |
+| 11-25 08:57:18 | inat/train_tree_s1 | started |
+| 11-25 08:57:20 | awa2_extra/train_treesc_s1 | done (9 s) |
+| 11-25 08:57:20 | awa2_extra/train_mrl_s1 | started |
+| 11-25 08:57:24 | inat/train_tree_s1 | done (6 s) |
+| 11-25 08:57:24 | inat/train_main_s1 | started |
+| 11-25 08:57:27 | awa2_extra/train_mrl_s1 | done (7 s) |
+| 11-25 08:57:27 | awa2_extra/train_b3tree_s1 | started |
+| 11-25 08:57:32 | inat/train_main_s1 | done (8 s) |
+| 11-25 08:57:32 | inat/train_mrl_s1 | started |
+| 11-25 08:57:35 | awa2_extra/train_b3tree_s1 | done (8 s) |
+| 11-25 08:57:35 | awa2_extra/train_csntree_s1 | started |
+| 11-25 08:57:41 | inat/train_mrl_s1 | done (9 s) |
+| 11-25 08:57:41 | inat/train_b3_s1 | started |
+| 11-25 08:57:42 | awa2_extra/train_csntree_s1 | done (7 s) |
+| 11-25 08:57:42 | awa2_extra/train_treesc128_s1 | started |
+| 11-25 08:57:48 | inat/train_b3_s1 | done (7 s) |
+| 11-25 08:57:48 | inat/train_csn_s1 | started |
+| 11-25 08:57:50 | awa2_extra/train_treesc128_s1 | done (8 s) |
+| 11-25 08:57:50 | awa2_extra/train_treesc256_s1 | started |
+| 11-25 08:57:56 | inat/train_csn_s1 | done (8 s) |
+| 11-25 08:57:56 | inat/train_tree_s2 | started |
+| 11-25 08:57:58 | awa2_extra/train_treesc256_s1 | done (8 s) |
+| 11-25 08:57:58 | awa2_extra/train_tree_s2 | started |
+| 11-25 08:58:02 | inat/train_tree_s2 | done (6 s) |
+| 11-25 08:58:02 | inat/train_main_s2 | started |
+| 11-25 08:58:04 | awa2_extra/train_tree_s2 | done (6 s) |
+| 11-25 08:58:04 | awa2_extra/train_treesc_s2 | started |
+| 11-25 08:58:11 | inat/train_main_s2 | done (9 s) |
+| 11-25 08:58:11 | inat/train_mrl_s2 | started |
+| 11-25 08:58:13 | awa2_extra/train_treesc_s2 | done (9 s) |
+| 11-25 08:58:13 | awa2_extra/train_mrl_s2 | started |
+| 11-25 08:58:19 | inat/train_mrl_s2 | done (8 s) |
+| 11-25 08:58:19 | inat/train_b3_s2 | started |
+| 11-25 08:58:21 | awa2_extra/train_mrl_s2 | done (8 s) |
+| 11-25 08:58:21 | awa2_extra/train_b3tree_s2 | started |
+| 11-25 08:58:26 | inat/train_b3_s2 | done (7 s) |
+| 11-25 08:58:26 | inat/train_csn_s2 | started |
+| 11-25 08:58:29 | awa2_extra/train_b3tree_s2 | done (8 s) |
+| 11-25 08:58:29 | awa2_extra/train_csntree_s2 | started |
+| 11-25 08:58:35 | inat/train_csn_s2 | done (9 s) |
+| 11-25 08:58:35 | inat/eval_s0 | started |
+| 11-25 08:58:35 | inat/eval_s1 | started |
+| 11-25 08:58:35 | inat/eval_s2 | started |
+| 11-25 08:58:36 | awa2_extra/train_csntree_s2 | done (7 s) |
+| 11-25 08:58:36 | awa2_extra/train_treesc128_s2 | started |
+| 11-25 08:58:42 | evaluate/inat-E2 | started |
+| 11-25 08:58:42 | evaluate/inat-E2 | started |
+| 11-25 08:58:42 | evaluate/inat-E2 | started |
+| 11-25 08:58:46 | awa2_extra/train_treesc128_s2 | done (10 s) |
+| 11-25 08:58:46 | awa2_extra/train_treesc256_s2 | started |
+| 11-25 08:59:06 | awa2_extra/train_treesc256_s2 | done (20 s) |
+| 11-25 08:59:06 | awa2_extra/eval_s0 | started |
+| 11-25 08:59:06 | awa2_extra/eval_s2 | started |
+| 11-25 08:59:06 | awa2_extra/eval_s1 | started |
+| 11-25 08:59:09 | evaluate[x_eval_seed0]/train-B1-classifiers | started |
+| 11-25 08:59:09 | evaluate[x_eval_seed2]/train-B1-classifiers | started |
+| 11-25 08:59:09 | evaluate[x_eval_seed1]/train-B1-classifiers | started |
+| 11-25 08:59:14 | evaluate[x_eval_seed2]/train-B1-classifiers | done (5 s) |
+| 11-25 08:59:14 | evaluate[x_eval_seed0]/train-B1-classifiers | done (5 s) |
+| 11-25 08:59:14 | evaluate[x_eval_seed1]/train-B1-classifiers | done (5 s) |
+| 11-25 08:59:16 | evaluate[x_eval_seed2]/E1 | started |
+| 11-25 08:59:16 | evaluate[x_eval_seed0]/E1 | started |
+| 11-25 08:59:16 | evaluate[x_eval_seed1]/E1 | started |
+| 11-25 08:59:25 | evaluate[x_eval_seed2]/E1 | done (9 s) |
+| 11-25 08:59:25 | evaluate[x_eval_seed2]/E3-SSE-treeSC | started |
+| 11-25 08:59:25 | evaluate[x_eval_seed0]/E1 | done (9 s) |
+| 11-25 08:59:25 | evaluate[x_eval_seed0]/E3-SSE-treeSC | started |
+| 11-25 08:59:25 | evaluate[x_eval_seed1]/E1 | done (9 s) |
+| 11-25 08:59:25 | evaluate[x_eval_seed1]/E3-SSE-treeSC | started |
+| 11-25 08:59:51 | evaluate[x_eval_seed0]/E3-SSE-treeSC | done (26 s) |
+| 11-25 08:59:51 | evaluate[x_eval_seed0]/E3-SSE-tree | started |
+| 11-25 08:59:55 | evaluate[x_eval_seed1]/E3-SSE-treeSC | done (30 s) |
+| 11-25 08:59:55 | evaluate[x_eval_seed1]/E3-SSE-tree | started |
+| 11-25 08:59:56 | evaluate[x_eval_seed2]/E3-SSE-treeSC | done (31 s) |
+| 11-25 08:59:56 | evaluate[x_eval_seed2]/E3-SSE-tree | started |
+| 11-25 09:00:16 | evaluate[x_eval_seed0]/E3-SSE-tree | done (24 s) |
+| 11-25 09:00:16 | evaluate[x_eval_seed0]/E3-SSE-treeSC-256 | started |
+| 11-25 09:00:19 | evaluate[x_eval_seed2]/E3-SSE-tree | done (24 s) |
+| 11-25 09:00:19 | evaluate[x_eval_seed2]/E3-SSE-treeSC-256 | started |
+| 11-25 09:00:20 | evaluate[x_eval_seed1]/E3-SSE-tree | done (25 s) |
+| 11-25 09:00:20 | evaluate[x_eval_seed1]/E3-SSE-treeSC-256 | started |
+| 11-25 09:00:32 | evaluate[x_eval_seed0]/E3-SSE-treeSC-256 | done (16 s) |
+| 11-25 09:00:32 | evaluate[x_eval_seed0]/E3-SSE-treeSC-128 | started |
+| 11-25 09:00:38 | evaluate[x_eval_seed2]/E3-SSE-treeSC-256 | done (18 s) |
+| 11-25 09:00:38 | evaluate[x_eval_seed2]/E3-SSE-treeSC-128 | started |
+| 11-25 09:00:39 | evaluate[x_eval_seed1]/E3-SSE-treeSC-256 | done (19 s) |
+| 11-25 09:00:39 | evaluate[x_eval_seed1]/E3-SSE-treeSC-128 | started |
+| 11-25 09:00:46 | evaluate[x_eval_seed0]/E3-SSE-treeSC-128 | done (15 s) |
+| 11-25 09:00:46 | evaluate[x_eval_seed0]/E4 | started |
+| 11-25 09:00:52 | evaluate[x_eval_seed2]/E3-SSE-treeSC-128 | done (15 s) |
+| 11-25 09:00:52 | evaluate[x_eval_seed2]/E4 | started |
+| 11-25 09:00:55 | evaluate[x_eval_seed1]/E3-SSE-treeSC-128 | done (16 s) |
+| 11-25 09:00:55 | evaluate[x_eval_seed1]/E4 | started |
+| 11-25 09:04:43 | evaluate/inat-E2 | done |
+| 11-25 09:04:43 | evaluate/inat-E2b | started |
+| 11-25 09:04:50 | evaluate/inat-E2 | done |
+| 11-25 09:04:50 | evaluate/inat-E2b | started |
+| 11-25 09:04:59 | evaluate/inat-E2b | done |
+| 11-25 09:04:59 | evaluate/inat-E3 | started |
+| 11-25 09:04:59 | evaluate/inat-E2 | done |
+| 11-25 09:04:59 | evaluate/inat-E2b | started |
+| 11-25 09:05:03 | evaluate/inat-E2b | done |
+| 11-25 09:05:03 | evaluate/inat-E3 | started |
+| 11-25 09:05:12 | evaluate/inat-E2b | done |
+| 11-25 09:05:12 | evaluate/inat-E3 | started |
+| 11-25 09:07:05 | evaluate/inat-E3 | done |
+| 11-25 09:07:07 | inat/eval_s0 | done (512 s) |
+| 11-25 09:07:13 | evaluate/inat-E3 | done |
+| 11-25 09:07:14 | inat/eval_s1 | done (519 s) |
+| 11-25 09:07:27 | evaluate/inat-E3 | done |
+| 11-25 09:07:28 | inat/eval_s2 | done (533 s) |
+| 11-25 09:07:28 | inat/e6_s0 | started |
+| 11-25 09:07:28 | inat/e6_s2 | started |
+| 11-25 09:07:28 | inat/e6_s1 | started |
+| 11-25 09:07:59 | evaluate/inat-E6 | Aves connected B6 plain CLIP done |
+| 11-25 09:07:59 | evaluate/inat-E6 | Aves connected B6 plain CLIP done |
+| 11-25 09:08:00 | evaluate/inat-E6 | Aves connected B6 plain CLIP done |
+| 11-25 09:08:15 | evaluate/inat-E6 | Aves connected SSE (yes/no levels) done |
+| 11-25 09:08:15 | evaluate/inat-E6 | Aves connected SSE (yes/no levels) done |
+| 11-25 09:08:15 | evaluate/inat-E6 | Aves connected SSE (yes/no levels) done |
+| 11-25 09:08:19 | final/ALL | started (waiting for inat round2) |
+| 11-25 09:08:29 | evaluate/inat-E6 | Aves connected SSE-tree done |
+| 11-25 09:08:30 | evaluate/inat-E6 | Aves connected SSE-tree done |
+| 11-25 09:08:30 | evaluate/inat-E6 | Aves connected SSE-tree done |
+| 11-25 09:08:36 | evaluate/inat-E6 | Aves center B6 plain CLIP done |
+| 11-25 09:08:37 | evaluate/inat-E6 | Aves center B6 plain CLIP done |
+| 11-25 09:08:38 | evaluate/inat-E6 | Aves center B6 plain CLIP done |
+| 11-25 09:08:42 | evaluate/inat-E6 | Aves center SSE (yes/no levels) done |
+| 11-25 09:08:43 | evaluate/inat-E6 | Aves center SSE (yes/no levels) done |
+| 11-25 09:08:44 | evaluate/inat-E6 | Aves center SSE (yes/no levels) done |
+| 11-25 09:08:47 | evaluate/inat-E6 | Aves center SSE-tree done |
+| 11-25 09:08:48 | inat/e6_s1 | done (80 s) |
+| 11-25 09:08:49 | evaluate/inat-E6 | Aves center SSE-tree done |
+| 11-25 09:08:49 | evaluate/inat-E6 | Aves center SSE-tree done |
+| 11-25 09:08:49 | inat/e6_s0 | done (81 s) |
+| 11-25 09:08:50 | inat/e6_s2 | done (82 s) |
+| 11-25 09:08:50 | inat/ALL | finished — results/inat/seed*/results.md, e6.md |
+| 11-25 09:08:50 | inat2/ALL | started (treeSC for SSE, B3, CSN) |
+| 11-25 09:08:50 | inat2/train_treesc_s0 | started |
+| 11-25 09:08:51 | evaluate[x_eval_seed0]/E4 | done (485 s) |
+| 11-25 09:08:51 | evaluate[x_eval_seed0]/E4-leakage | started |
+| 11-25 09:08:55 | evaluate[x_eval_seed2]/E4 | done (482 s) |
+| 11-25 09:08:55 | evaluate[x_eval_seed2]/E4-leakage | started |
+| 11-25 09:08:59 | evaluate[x_eval_seed1]/E4 | done (485 s) |
+| 11-25 09:08:59 | evaluate[x_eval_seed1]/E4-leakage | started |
+| 11-25 09:09:00 | inat2/train_treesc_s0 | done (10 s) |
+| 11-25 09:09:00 | inat2/train_b3sc_s0 | started |
+| 11-25 09:09:11 | inat2/train_b3sc_s0 | done (11 s) |
+| 11-25 09:09:11 | inat2/train_csnsc_s0 | started |
+| 11-25 09:09:23 | inat2/train_csnsc_s0 | done (12 s) |
+| 11-25 09:09:23 | inat2/train_treesc_s1 | started |
+| 11-25 09:09:33 | inat2/train_treesc_s1 | done (10 s) |
+| 11-25 09:09:33 | inat2/train_b3sc_s1 | started |
+| 11-25 09:09:44 | inat2/train_b3sc_s1 | done (11 s) |
+| 11-25 09:09:44 | inat2/train_csnsc_s1 | started |
+| 11-25 09:09:57 | inat2/train_csnsc_s1 | done (13 s) |
+| 11-25 09:09:57 | inat2/train_treesc_s2 | started |
+| 11-25 09:10:06 | inat2/train_treesc_s2 | done (9 s) |
+| 11-25 09:10:06 | inat2/train_b3sc_s2 | started |
+| 11-25 09:10:17 | inat2/train_b3sc_s2 | done (11 s) |
+| 11-25 09:10:17 | inat2/train_csnsc_s2 | started |
+| 11-25 09:10:29 | inat2/train_csnsc_s2 | done (12 s) |
+| 11-25 09:10:29 | inat2/eval_s1 | started |
+| 11-25 09:10:29 | inat2/eval_s2 | started |
+| 11-25 09:10:29 | inat2/eval_s0 | started |
+| 11-25 09:10:31 | evaluate[x_eval_seed0]/E4-leakage | done (99 s) |
+| 11-25 09:10:31 | evaluate[x_eval_seed0]/E2b | started |
+| 11-25 09:10:34 | evaluate[x_eval_seed2]/E4-leakage | done (99 s) |
+| 11-25 09:10:34 | evaluate[x_eval_seed2]/E2b | started |
+| 11-25 09:10:35 | evaluate/inat-E2 | started |
+| 11-25 09:10:36 | evaluate/inat-E2 | started |
+| 11-25 09:10:36 | evaluate/inat-E2 | started |
+| 11-25 09:10:37 | evaluate[x_eval_seed0]/E2b | done (7 s) |
+| 11-25 09:10:37 | evaluate[x_eval_seed0]/E5b | started |
+| 11-25 09:10:38 | evaluate[x_eval_seed0]/E5b | done (1 s) |
+| 11-25 09:10:38 | evaluate[x_eval_seed0]/E5c | started |
+| 11-25 09:10:39 | evaluate[x_eval_seed1]/E4-leakage | done (99 s) |
+| 11-25 09:10:39 | evaluate[x_eval_seed1]/E2b | started |
+| 11-25 09:10:41 | evaluate[x_eval_seed2]/E2b | done (6 s) |
+| 11-25 09:10:41 | evaluate[x_eval_seed2]/E5b | started |
+| 11-25 09:10:42 | evaluate[x_eval_seed2]/E5b | done (1 s) |
+| 11-25 09:10:42 | evaluate[x_eval_seed2]/E5c | started |
+| 11-25 09:10:46 | evaluate[x_eval_seed1]/E2b | done (7 s) |
+| 11-25 09:10:46 | evaluate[x_eval_seed1]/E5b | started |
+| 11-25 09:10:46 | evaluate[x_eval_seed1]/E5b | done (1 s) |
+| 11-25 09:10:46 | evaluate[x_eval_seed1]/E5c | started |
+| 11-25 09:10:51 | evaluate[x_eval_seed0]/E5c | done (13 s) |
+| 11-25 09:10:55 | evaluate[x_eval_seed2]/E5c | done (13 s) |
+| 11-25 09:11:06 | evaluate[x_eval_seed1]/E5c | done (19 s) |
+| 11-25 09:11:16 | evaluate[x_eval_seed0]/E2 | started |
+| 11-25 09:11:17 | evaluate[x_eval_seed2]/E2 | started |
+| 11-25 09:11:17 | evaluate[x_eval_seed1]/E2 | started |
+| 11-25 09:11:47 | evaluate[x_eval_seed0]/E2 | done (31 s) |
+| 11-25 09:11:48 | awa2_extra/eval_s0 | done (762 s) |
+| 11-25 09:11:48 | evaluate[x_eval_seed2]/E2 | done (31 s) |
+| 11-25 09:11:49 | evaluate[x_eval_seed1]/E2 | done (31 s) |
+| 11-25 09:11:49 | awa2_extra/eval_s2 | done (763 s) |
+| 11-25 09:11:50 | awa2_extra/eval_s1 | done (764 s) |
+| 11-25 09:11:50 | awa2_extra/q2_s0 | started |
+| 11-25 09:11:50 | awa2_extra/q2_s1 | started |
+| 11-25 09:11:50 | awa2_extra/q2_s2 | started |
+| 11-25 09:18:38 | evaluate/inat-E2 | done |
+| 11-25 09:18:38 | evaluate/inat-E2b | started |
+| 11-25 09:18:44 | evaluate/inat-E2 | done |
+| 11-25 09:18:44 | evaluate/inat-E2b | started |
+| 11-25 09:18:56 | evaluate/inat-E2 | done |
+| 11-25 09:18:56 | evaluate/inat-E2b | started |
+| 11-25 09:19:00 | evaluate/inat-E2b | done |
+| 11-25 09:19:00 | evaluate/inat-E3 | started |
+| 11-25 09:19:06 | evaluate/inat-E2b | done |
+| 11-25 09:19:06 | evaluate/inat-E3 | started |
+| 11-25 09:19:16 | evaluate/inat-E2b | done |
+| 11-25 09:19:16 | evaluate/inat-E3 | started |
+| 11-25 09:22:12 | evaluate/inat-E3 | done |
+| 11-25 09:22:13 | inat2/eval_s2 | done (704 s) |
+| 11-25 09:22:17 | evaluate/inat-E3 | done |
+| 11-25 09:22:18 | inat2/eval_s1 | done (709 s) |
+| 11-25 09:22:23 | evaluate/inat-E3 | done |
+| 11-25 09:22:25 | inat2/eval_s0 | done (716 s) |
+| 11-25 09:22:25 | inat2/ALL | finished — results/inat/seed*/results.md |
+| 11-25 09:22:56 | awa2_extra/q2_s2 | done (666 s) |
+| 11-25 09:22:59 | awa2_extra/q2_s1 | done (669 s) |
+| 11-25 09:23:19 | final/inat_groupk_s0 | started |
+| 11-25 09:23:21 | awa2_extra/q2_s0 | done (691 s) |
+| 11-25 09:23:21 | awa2_extra/groupk_s0 | started |
+| 11-25 09:23:28 | evaluate/inat-groupk | Aves done (seed 0) |
+| 11-25 09:23:29 | awa2_extra/groupk_s0 | done (8 s) |
+| 11-25 09:23:29 | awa2_extra/agg_s0 | started |
+| 11-25 09:23:34 | evaluate/inat-groupk | Insecta done (seed 0) |
+| 11-25 09:23:35 | final/inat_groupk_s0 | done (16 s) |
+| 11-25 09:23:35 | final/inat_groupk_s1 | started |
+| 11-25 09:23:40 | awa2_extra/agg_s0 | done (11 s) |
+| 11-25 09:23:40 | awa2_extra/textq_s0 | started |
+| 11-25 09:23:43 | awa2_extra/textq_s0 | done (3 s) |
+| 11-25 09:23:43 | awa2_extra/groupk_s1 | started |
+| 11-25 09:23:43 | evaluate/inat-groupk | Aves done (seed 1) |
+| 11-25 09:23:49 | evaluate/inat-groupk | Insecta done (seed 1) |
+| 11-25 09:23:50 | final/inat_groupk_s1 | done (15 s) |
+| 11-25 09:23:50 | final/inat_groupk_s2 | started |
+| 11-25 09:23:51 | awa2_extra/groupk_s1 | done (8 s) |
+| 11-25 09:23:51 | awa2_extra/agg_s1 | started |
+| 11-25 09:23:59 | evaluate/inat-groupk | Aves done (seed 2) |
+| 11-25 09:24:01 | awa2_extra/agg_s1 | done (10 s) |
+| 11-25 09:24:01 | awa2_extra/textq_s1 | started |
+| 11-25 09:24:05 | awa2_extra/textq_s1 | done (4 s) |
+| 11-25 09:24:05 | awa2_extra/groupk_s2 | started |
+| 11-25 09:24:05 | evaluate/inat-groupk | Insecta done (seed 2) |
+| 11-25 09:24:06 | final/inat_groupk_s2 | done (16 s) |
+| 11-25 09:24:06 | final/ALL | waiting for awa2_extra |
+| 11-25 09:24:11 | awa2_extra/groupk_s2 | done (6 s) |
+| 11-25 09:24:11 | awa2_extra/agg_s2 | started |
+| 11-25 09:24:20 | awa2_extra/agg_s2 | done (9 s) |
+| 11-25 09:24:20 | awa2_extra/textq_s2 | started |
+| 11-25 09:24:23 | awa2_extra/textq_s2 | done (3 s) |
+| 11-25 09:24:23 | awa2_extra/rep | started |
+| 11-25 09:24:25 | awa2_extra/rep | done (2 s) |
+| 11-25 09:24:25 | awa2_extra/train_bs_hab1_s0 | started |
+| 11-25 09:24:31 | awa2_extra/train_bs_hab1_s0 | done (6 s) |
+| 11-25 09:24:31 | awa2_extra/eval_bs_hab1_s0 | started |
+| 11-25 09:24:33 | awa2_extra/eval_bs_hab1_s0 | done (2 s) |
+| 11-25 09:24:33 | awa2_extra/train_bs_hab2_s0 | started |
+| 11-25 09:24:39 | awa2_extra/train_bs_hab2_s0 | done (6 s) |
+| 11-25 09:24:39 | awa2_extra/eval_bs_hab2_s0 | started |
+| 11-25 09:24:41 | awa2_extra/eval_bs_hab2_s0 | done (2 s) |
+| 11-25 09:24:41 | awa2_extra/train_bs_hab3_s0 | started |
+| 11-25 09:24:46 | awa2_extra/train_bs_hab3_s0 | done (5 s) |
+| 11-25 09:24:46 | awa2_extra/eval_bs_hab3_s0 | started |
+| 11-25 09:24:48 | awa2_extra/eval_bs_hab3_s0 | done (2 s) |
+| 11-25 09:24:48 | awa2_extra/train_bs_hab4_s0 | started |
+| 11-25 09:24:54 | awa2_extra/train_bs_hab4_s0 | done (6 s) |
+| 11-25 09:24:54 | awa2_extra/eval_bs_hab4_s0 | started |
+| 11-25 09:24:56 | awa2_extra/eval_bs_hab4_s0 | done (2 s) |
+| 11-25 09:24:56 | awa2_extra/train_bs_hab6_s0 | started |
+| 11-25 09:25:02 | awa2_extra/train_bs_hab6_s0 | done (6 s) |
+| 11-25 09:25:02 | awa2_extra/eval_bs_hab6_s0 | started |
+| 11-25 09:25:04 | awa2_extra/eval_bs_hab6_s0 | done (2 s) |
+| 11-25 09:25:04 | awa2_extra/train_bs_hab8_s0 | started |
+| 11-25 09:25:10 | awa2_extra/train_bs_hab8_s0 | done (6 s) |
+| 11-25 09:25:10 | awa2_extra/eval_bs_hab8_s0 | started |
+| 11-25 09:25:12 | awa2_extra/eval_bs_hab8_s0 | done (2 s) |
+| 11-25 09:25:12 | awa2_extra/train_bs_hab12_s0 | started |
+| 11-25 09:25:17 | awa2_extra/train_bs_hab12_s0 | done (5 s) |
+| 11-25 09:25:17 | awa2_extra/eval_bs_hab12_s0 | started |
+| 11-25 09:25:19 | awa2_extra/eval_bs_hab12_s0 | done (2 s) |
+| 11-25 09:25:19 | awa2_extra/train_bs_hab16_s0 | started |
+| 11-25 09:25:25 | awa2_extra/train_bs_hab16_s0 | done (6 s) |
+| 11-25 09:25:25 | awa2_extra/eval_bs_hab16_s0 | started |
+| 11-25 09:25:27 | awa2_extra/eval_bs_hab16_s0 | done (2 s) |
+| 11-25 09:25:27 | awa2_extra/train_bs_hab24_s0 | started |
+| 11-25 09:25:33 | awa2_extra/train_bs_hab24_s0 | done (6 s) |
+| 11-25 09:25:33 | awa2_extra/eval_bs_hab24_s0 | started |
+| 11-25 09:25:35 | awa2_extra/eval_bs_hab24_s0 | done (2 s) |
+| 11-25 09:25:35 | awa2_extra/train_bs_hab32_s0 | started |
+| 11-25 09:25:40 | awa2_extra/train_bs_hab32_s0 | done (5 s) |
+| 11-25 09:25:40 | awa2_extra/eval_bs_hab32_s0 | started |
+| 11-25 09:25:42 | awa2_extra/eval_bs_hab32_s0 | done (2 s) |
+| 11-25 09:25:42 | awa2_extra/train_bs_hab48_s0 | started |
+| 11-25 09:25:48 | awa2_extra/train_bs_hab48_s0 | done (6 s) |
+| 11-25 09:25:48 | awa2_extra/eval_bs_hab48_s0 | started |
+| 11-25 09:25:50 | awa2_extra/eval_bs_hab48_s0 | done (2 s) |
+| 11-25 09:25:50 | awa2_extra/train_bs_hab64_s0 | started |
+| 11-25 09:25:56 | awa2_extra/train_bs_hab64_s0 | done (6 s) |
+| 11-25 09:25:56 | awa2_extra/eval_bs_hab64_s0 | started |
+| 11-25 09:25:58 | awa2_extra/eval_bs_hab64_s0 | done (2 s) |
+| 11-25 09:25:58 | awa2_extra/train_bs_hab96_s0 | started |
+| 11-25 09:26:04 | awa2_extra/train_bs_hab96_s0 | done (6 s) |
+| 11-25 09:26:04 | awa2_extra/eval_bs_hab96_s0 | started |
+| 11-25 09:26:06 | awa2_extra/eval_bs_hab96_s0 | done (2 s) |
+| 11-25 09:26:06 | awa2_extra/train_bs_hab128_s0 | started |
+| 11-25 09:26:11 | awa2_extra/train_bs_hab128_s0 | done (5 s) |
+| 11-25 09:26:11 | awa2_extra/eval_bs_hab128_s0 | started |
+| 11-25 09:26:14 | awa2_extra/eval_bs_hab128_s0 | done (3 s) |
+| 11-25 09:26:14 | awa2_extra/train_bs_diet1_s0 | started |
+| 11-25 09:26:20 | awa2_extra/train_bs_diet1_s0 | done (6 s) |
+| 11-25 09:26:20 | awa2_extra/eval_bs_diet1_s0 | started |
+| 11-25 09:26:22 | awa2_extra/eval_bs_diet1_s0 | done (2 s) |
+| 11-25 09:26:22 | awa2_extra/train_bs_diet2_s0 | started |
+| 11-25 09:26:27 | awa2_extra/train_bs_diet2_s0 | done (5 s) |
+| 11-25 09:26:27 | awa2_extra/eval_bs_diet2_s0 | started |
+| 11-25 09:26:29 | awa2_extra/eval_bs_diet2_s0 | done (2 s) |
+| 11-25 09:26:29 | awa2_extra/train_bs_diet3_s0 | started |
+| 11-25 09:26:35 | awa2_extra/train_bs_diet3_s0 | done (6 s) |
+| 11-25 09:26:35 | awa2_extra/eval_bs_diet3_s0 | started |
+| 11-25 09:26:37 | awa2_extra/eval_bs_diet3_s0 | done (2 s) |
+| 11-25 09:26:37 | awa2_extra/train_bs_diet4_s0 | started |
+| 11-25 09:26:43 | awa2_extra/train_bs_diet4_s0 | done (6 s) |
+| 11-25 09:26:43 | awa2_extra/eval_bs_diet4_s0 | started |
+| 11-25 09:26:45 | awa2_extra/eval_bs_diet4_s0 | done (2 s) |
+| 11-25 09:26:45 | awa2_extra/train_bs_diet6_s0 | started |
+| 11-25 09:26:50 | awa2_extra/train_bs_diet6_s0 | done (5 s) |
+| 11-25 09:26:50 | awa2_extra/eval_bs_diet6_s0 | started |
+| 11-25 09:26:52 | awa2_extra/eval_bs_diet6_s0 | done (2 s) |
+| 11-25 09:26:52 | awa2_extra/train_bs_diet8_s0 | started |
+| 11-25 09:26:58 | awa2_extra/train_bs_diet8_s0 | done (6 s) |
+| 11-25 09:26:58 | awa2_extra/eval_bs_diet8_s0 | started |
+| 11-25 09:27:00 | awa2_extra/eval_bs_diet8_s0 | done (2 s) |
+| 11-25 09:27:00 | awa2_extra/train_bs_diet12_s0 | started |
+| 11-25 09:27:06 | awa2_extra/train_bs_diet12_s0 | done (6 s) |
+| 11-25 09:27:06 | awa2_extra/eval_bs_diet12_s0 | started |
+| 11-25 09:27:08 | awa2_extra/eval_bs_diet12_s0 | done (2 s) |
+| 11-25 09:27:08 | awa2_extra/train_bs_diet16_s0 | started |
+| 11-25 09:27:14 | awa2_extra/train_bs_diet16_s0 | done (6 s) |
+| 11-25 09:27:14 | awa2_extra/eval_bs_diet16_s0 | started |
+| 11-25 09:27:15 | awa2_extra/eval_bs_diet16_s0 | done (1 s) |
+| 11-25 09:27:15 | awa2_extra/train_bs_diet24_s0 | started |
+| 11-25 09:27:21 | awa2_extra/train_bs_diet24_s0 | done (6 s) |
+| 11-25 09:27:21 | awa2_extra/eval_bs_diet24_s0 | started |
+| 11-25 09:27:23 | awa2_extra/eval_bs_diet24_s0 | done (2 s) |
+| 11-25 09:27:23 | awa2_extra/train_bs_diet32_s0 | started |
+| 11-25 09:27:29 | awa2_extra/train_bs_diet32_s0 | done (6 s) |
+| 11-25 09:27:29 | awa2_extra/eval_bs_diet32_s0 | started |
+| 11-25 09:27:31 | awa2_extra/eval_bs_diet32_s0 | done (2 s) |
+| 11-25 09:27:31 | awa2_extra/train_bs_diet64_s0 | started |
+| 11-25 09:27:36 | awa2_extra/train_bs_diet64_s0 | done (5 s) |
+| 11-25 09:27:36 | awa2_extra/eval_bs_diet64_s0 | started |
+| 11-25 09:27:38 | awa2_extra/eval_bs_diet64_s0 | done (2 s) |
+| 11-25 09:27:38 | awa2_extra/train_bs_hab1_s1 | started |
+| 11-25 09:27:44 | awa2_extra/train_bs_hab1_s1 | done (6 s) |
+| 11-25 09:27:44 | awa2_extra/eval_bs_hab1_s1 | started |
+| 11-25 09:27:46 | awa2_extra/eval_bs_hab1_s1 | done (2 s) |
+| 11-25 09:27:46 | awa2_extra/train_bs_hab2_s1 | started |
+| 11-25 09:27:52 | awa2_extra/train_bs_hab2_s1 | done (6 s) |
+| 11-25 09:27:52 | awa2_extra/eval_bs_hab2_s1 | started |
+| 11-25 09:27:54 | awa2_extra/eval_bs_hab2_s1 | done (2 s) |
+| 11-25 09:27:54 | awa2_extra/train_bs_hab3_s1 | started |
+| 11-25 09:27:59 | awa2_extra/train_bs_hab3_s1 | done (5 s) |
+| 11-25 09:27:59 | awa2_extra/eval_bs_hab3_s1 | started |
+| 11-25 09:28:01 | awa2_extra/eval_bs_hab3_s1 | done (2 s) |
+| 11-25 09:28:01 | awa2_extra/train_bs_hab4_s1 | started |
+| 11-25 09:28:07 | awa2_extra/train_bs_hab4_s1 | done (6 s) |
+| 11-25 09:28:07 | awa2_extra/eval_bs_hab4_s1 | started |
+| 11-25 09:28:09 | awa2_extra/eval_bs_hab4_s1 | done (2 s) |
+| 11-25 09:28:09 | awa2_extra/train_bs_hab6_s1 | started |
+| 11-25 09:28:15 | awa2_extra/train_bs_hab6_s1 | done (6 s) |
+| 11-25 09:28:15 | awa2_extra/eval_bs_hab6_s1 | started |
+| 11-25 09:28:17 | awa2_extra/eval_bs_hab6_s1 | done (2 s) |
+| 11-25 09:28:17 | awa2_extra/train_bs_hab8_s1 | started |
+| 11-25 09:28:23 | awa2_extra/train_bs_hab8_s1 | done (6 s) |
+| 11-25 09:28:23 | awa2_extra/eval_bs_hab8_s1 | started |
+| 11-25 09:28:25 | awa2_extra/eval_bs_hab8_s1 | done (2 s) |
+| 11-25 09:28:25 | awa2_extra/train_bs_hab12_s1 | started |
+| 11-25 09:28:30 | awa2_extra/train_bs_hab12_s1 | done (5 s) |
+| 11-25 09:28:30 | awa2_extra/eval_bs_hab12_s1 | started |
+| 11-25 09:28:32 | awa2_extra/eval_bs_hab12_s1 | done (2 s) |
+| 11-25 09:28:32 | awa2_extra/train_bs_hab16_s1 | started |
+| 11-25 09:28:38 | awa2_extra/train_bs_hab16_s1 | done (6 s) |
+| 11-25 09:28:38 | awa2_extra/eval_bs_hab16_s1 | started |
+| 11-25 09:28:40 | awa2_extra/eval_bs_hab16_s1 | done (2 s) |
+| 11-25 09:28:40 | awa2_extra/train_bs_hab24_s1 | started |
+| 11-25 09:28:46 | awa2_extra/train_bs_hab24_s1 | done (6 s) |
+| 11-25 09:28:46 | awa2_extra/eval_bs_hab24_s1 | started |
+| 11-25 09:28:48 | awa2_extra/eval_bs_hab24_s1 | done (2 s) |
+| 11-25 09:28:48 | awa2_extra/train_bs_hab32_s1 | started |
+| 11-25 09:28:53 | awa2_extra/train_bs_hab32_s1 | done (5 s) |
+| 11-25 09:28:53 | awa2_extra/eval_bs_hab32_s1 | started |
+| 11-25 09:28:55 | awa2_extra/eval_bs_hab32_s1 | done (2 s) |
+| 11-25 09:28:55 | awa2_extra/train_bs_hab48_s1 | started |
+| 11-25 09:29:01 | awa2_extra/train_bs_hab48_s1 | done (6 s) |
+| 11-25 09:29:01 | awa2_extra/eval_bs_hab48_s1 | started |
+| 11-25 09:29:03 | awa2_extra/eval_bs_hab48_s1 | done (2 s) |
+| 11-25 09:29:03 | awa2_extra/train_bs_hab64_s1 | started |
+| 11-25 09:29:09 | awa2_extra/train_bs_hab64_s1 | done (6 s) |
+| 11-25 09:29:09 | awa2_extra/eval_bs_hab64_s1 | started |
+| 11-25 09:29:11 | awa2_extra/eval_bs_hab64_s1 | done (2 s) |
+| 11-25 09:29:11 | awa2_extra/train_bs_hab96_s1 | started |
+| 11-25 09:29:16 | awa2_extra/train_bs_hab96_s1 | done (5 s) |
+| 11-25 09:29:16 | awa2_extra/eval_bs_hab96_s1 | started |
+| 11-25 09:29:18 | awa2_extra/eval_bs_hab96_s1 | done (2 s) |
+| 11-25 09:29:18 | awa2_extra/train_bs_hab128_s1 | started |
+| 11-25 09:29:24 | awa2_extra/train_bs_hab128_s1 | done (6 s) |
+| 11-25 09:29:24 | awa2_extra/eval_bs_hab128_s1 | started |
+| 11-25 09:29:26 | awa2_extra/eval_bs_hab128_s1 | done (2 s) |
+| 11-25 09:29:26 | awa2_extra/train_bs_diet1_s1 | started |
+| 11-25 09:29:32 | awa2_extra/train_bs_diet1_s1 | done (6 s) |
+| 11-25 09:29:32 | awa2_extra/eval_bs_diet1_s1 | started |
+| 11-25 09:29:34 | awa2_extra/eval_bs_diet1_s1 | done (2 s) |
+| 11-25 09:29:34 | awa2_extra/train_bs_diet2_s1 | started |
+| 11-25 09:29:40 | awa2_extra/train_bs_diet2_s1 | done (6 s) |
+| 11-25 09:29:40 | awa2_extra/eval_bs_diet2_s1 | started |
+| 11-25 09:29:42 | awa2_extra/eval_bs_diet2_s1 | done (2 s) |
+| 11-25 09:29:42 | awa2_extra/train_bs_diet3_s1 | started |
+| 11-25 09:29:47 | awa2_extra/train_bs_diet3_s1 | done (5 s) |
+| 11-25 09:29:47 | awa2_extra/eval_bs_diet3_s1 | started |
+| 11-25 09:29:49 | awa2_extra/eval_bs_diet3_s1 | done (2 s) |
+| 11-25 09:29:49 | awa2_extra/train_bs_diet4_s1 | started |
+| 11-25 09:29:55 | awa2_extra/train_bs_diet4_s1 | done (6 s) |
+| 11-25 09:29:55 | awa2_extra/eval_bs_diet4_s1 | started |
+| 11-25 09:29:57 | awa2_extra/eval_bs_diet4_s1 | done (2 s) |
+| 11-25 09:29:57 | awa2_extra/train_bs_diet6_s1 | started |
+| 11-25 09:30:03 | awa2_extra/train_bs_diet6_s1 | done (6 s) |
+| 11-25 09:30:03 | awa2_extra/eval_bs_diet6_s1 | started |
+| 11-25 09:30:05 | awa2_extra/eval_bs_diet6_s1 | done (2 s) |
+| 11-25 09:30:05 | awa2_extra/train_bs_diet8_s1 | started |
+| 11-25 09:30:10 | awa2_extra/train_bs_diet8_s1 | done (5 s) |
+| 11-25 09:30:10 | awa2_extra/eval_bs_diet8_s1 | started |
+| 11-25 09:30:12 | awa2_extra/eval_bs_diet8_s1 | done (2 s) |
+| 11-25 09:30:12 | awa2_extra/train_bs_diet12_s1 | started |
+| 11-25 09:30:18 | awa2_extra/train_bs_diet12_s1 | done (6 s) |
+| 11-25 09:30:18 | awa2_extra/eval_bs_diet12_s1 | started |
+| 11-25 09:30:20 | awa2_extra/eval_bs_diet12_s1 | done (2 s) |
+| 11-25 09:30:20 | awa2_extra/train_bs_diet16_s1 | started |
+| 11-25 09:30:26 | awa2_extra/train_bs_diet16_s1 | done (6 s) |
+| 11-25 09:30:26 | awa2_extra/eval_bs_diet16_s1 | started |
+| 11-25 09:30:27 | awa2_extra/eval_bs_diet16_s1 | done (1 s) |
+| 11-25 09:30:28 | awa2_extra/train_bs_diet24_s1 | started |
+| 11-25 09:30:33 | awa2_extra/train_bs_diet24_s1 | done (5 s) |
+| 11-25 09:30:33 | awa2_extra/eval_bs_diet24_s1 | started |
+| 11-25 09:30:35 | awa2_extra/eval_bs_diet24_s1 | done (2 s) |
+| 11-25 09:30:35 | awa2_extra/train_bs_diet32_s1 | started |
+| 11-25 09:30:41 | awa2_extra/train_bs_diet32_s1 | done (6 s) |
+| 11-25 09:30:41 | awa2_extra/eval_bs_diet32_s1 | started |
+| 11-25 09:30:43 | awa2_extra/eval_bs_diet32_s1 | done (2 s) |
+| 11-25 09:30:43 | awa2_extra/train_bs_diet64_s1 | started |
+| 11-25 09:30:48 | awa2_extra/train_bs_diet64_s1 | done (5 s) |
+| 11-25 09:30:48 | awa2_extra/eval_bs_diet64_s1 | started |
+| 11-25 09:30:50 | awa2_extra/eval_bs_diet64_s1 | done (2 s) |
+| 11-25 09:30:50 | awa2_extra/train_bs_hab1_s2 | started |
+| 11-25 09:30:56 | awa2_extra/train_bs_hab1_s2 | done (6 s) |
+| 11-25 09:30:56 | awa2_extra/eval_bs_hab1_s2 | started |
+| 11-25 09:30:58 | awa2_extra/eval_bs_hab1_s2 | done (2 s) |
+| 11-25 09:30:58 | awa2_extra/train_bs_hab2_s2 | started |
+| 11-25 09:31:04 | awa2_extra/train_bs_hab2_s2 | done (6 s) |
+| 11-25 09:31:04 | awa2_extra/eval_bs_hab2_s2 | started |
+| 11-25 09:31:06 | awa2_extra/eval_bs_hab2_s2 | done (2 s) |
+| 11-25 09:31:06 | awa2_extra/train_bs_hab3_s2 | started |
+| 11-25 09:31:11 | awa2_extra/train_bs_hab3_s2 | done (5 s) |
+| 11-25 09:31:11 | awa2_extra/eval_bs_hab3_s2 | started |
+| 11-25 09:31:13 | awa2_extra/eval_bs_hab3_s2 | done (2 s) |
+| 11-25 09:31:13 | awa2_extra/train_bs_hab4_s2 | started |
+| 11-25 09:31:19 | awa2_extra/train_bs_hab4_s2 | done (6 s) |
+| 11-25 09:31:19 | awa2_extra/eval_bs_hab4_s2 | started |
+| 11-25 09:31:21 | awa2_extra/eval_bs_hab4_s2 | done (2 s) |
+| 11-25 09:31:21 | awa2_extra/train_bs_hab6_s2 | started |
+| 11-25 09:31:27 | awa2_extra/train_bs_hab6_s2 | done (6 s) |
+| 11-25 09:31:27 | awa2_extra/eval_bs_hab6_s2 | started |
+| 11-25 09:31:29 | awa2_extra/eval_bs_hab6_s2 | done (2 s) |
+| 11-25 09:31:29 | awa2_extra/train_bs_hab8_s2 | started |
+| 11-25 09:31:34 | awa2_extra/train_bs_hab8_s2 | done (5 s) |
+| 11-25 09:31:34 | awa2_extra/eval_bs_hab8_s2 | started |
+| 11-25 09:31:36 | awa2_extra/eval_bs_hab8_s2 | done (2 s) |
+| 11-25 09:31:36 | awa2_extra/train_bs_hab12_s2 | started |
+| 11-25 09:31:42 | awa2_extra/train_bs_hab12_s2 | done (6 s) |
+| 11-25 09:31:42 | awa2_extra/eval_bs_hab12_s2 | started |
+| 11-25 09:31:44 | awa2_extra/eval_bs_hab12_s2 | done (2 s) |
+| 11-25 09:31:44 | awa2_extra/train_bs_hab16_s2 | started |
+| 11-25 09:31:50 | awa2_extra/train_bs_hab16_s2 | done (6 s) |
+| 11-25 09:31:50 | awa2_extra/eval_bs_hab16_s2 | started |
+| 11-25 09:31:52 | awa2_extra/eval_bs_hab16_s2 | done (2 s) |
+| 11-25 09:31:52 | awa2_extra/train_bs_hab24_s2 | started |
+| 11-25 09:31:57 | awa2_extra/train_bs_hab24_s2 | done (5 s) |
+| 11-25 09:31:57 | awa2_extra/eval_bs_hab24_s2 | started |
+| 11-25 09:31:59 | awa2_extra/eval_bs_hab24_s2 | done (2 s) |
+| 11-25 09:31:59 | awa2_extra/train_bs_hab32_s2 | started |
+| 11-25 09:32:05 | awa2_extra/train_bs_hab32_s2 | done (6 s) |
+| 11-25 09:32:05 | awa2_extra/eval_bs_hab32_s2 | started |
+| 11-25 09:32:07 | awa2_extra/eval_bs_hab32_s2 | done (2 s) |
+| 11-25 09:32:07 | awa2_extra/train_bs_hab48_s2 | started |
+| 11-25 09:32:13 | awa2_extra/train_bs_hab48_s2 | done (6 s) |
+| 11-25 09:32:13 | awa2_extra/eval_bs_hab48_s2 | started |
+| 11-25 09:32:14 | awa2_extra/eval_bs_hab48_s2 | done (1 s) |
+| 11-25 09:32:14 | awa2_extra/train_bs_hab64_s2 | started |
+| 11-25 09:32:20 | awa2_extra/train_bs_hab64_s2 | done (6 s) |
+| 11-25 09:32:20 | awa2_extra/eval_bs_hab64_s2 | started |
+| 11-25 09:32:22 | awa2_extra/eval_bs_hab64_s2 | done (2 s) |
+| 11-25 09:32:22 | awa2_extra/train_bs_hab96_s2 | started |
+| 11-25 09:32:28 | awa2_extra/train_bs_hab96_s2 | done (6 s) |
+| 11-25 09:32:28 | awa2_extra/eval_bs_hab96_s2 | started |
+| 11-25 09:32:30 | awa2_extra/eval_bs_hab96_s2 | done (2 s) |
+| 11-25 09:32:30 | awa2_extra/train_bs_hab128_s2 | started |
+| 11-25 09:32:36 | awa2_extra/train_bs_hab128_s2 | done (6 s) |
+| 11-25 09:32:36 | awa2_extra/eval_bs_hab128_s2 | started |
+| 11-25 09:32:38 | awa2_extra/eval_bs_hab128_s2 | done (2 s) |
+| 11-25 09:32:38 | awa2_extra/train_bs_diet1_s2 | started |
+| 11-25 09:32:44 | awa2_extra/train_bs_diet1_s2 | done (6 s) |
+| 11-25 09:32:44 | awa2_extra/eval_bs_diet1_s2 | started |
+| 11-25 09:32:46 | awa2_extra/eval_bs_diet1_s2 | done (2 s) |
+| 11-25 09:32:46 | awa2_extra/train_bs_diet2_s2 | started |
+| 11-25 09:32:51 | awa2_extra/train_bs_diet2_s2 | done (5 s) |
+| 11-25 09:32:51 | awa2_extra/eval_bs_diet2_s2 | started |
+| 11-25 09:32:53 | awa2_extra/eval_bs_diet2_s2 | done (2 s) |
+| 11-25 09:32:53 | awa2_extra/train_bs_diet3_s2 | started |
+| 11-25 09:32:59 | awa2_extra/train_bs_diet3_s2 | done (6 s) |
+| 11-25 09:32:59 | awa2_extra/eval_bs_diet3_s2 | started |
+| 11-25 09:33:01 | awa2_extra/eval_bs_diet3_s2 | done (2 s) |
+| 11-25 09:33:01 | awa2_extra/train_bs_diet4_s2 | started |
+| 11-25 09:33:06 | awa2_extra/train_bs_diet4_s2 | done (5 s) |
+| 11-25 09:33:06 | awa2_extra/eval_bs_diet4_s2 | started |
+| 11-25 09:33:08 | awa2_extra/eval_bs_diet4_s2 | done (2 s) |
+| 11-25 09:33:08 | awa2_extra/train_bs_diet6_s2 | started |
+| 11-25 09:33:14 | awa2_extra/train_bs_diet6_s2 | done (6 s) |
+| 11-25 09:33:14 | awa2_extra/eval_bs_diet6_s2 | started |
+| 11-25 09:33:16 | awa2_extra/eval_bs_diet6_s2 | done (2 s) |
+| 11-25 09:33:16 | awa2_extra/train_bs_diet8_s2 | started |
+| 11-25 09:33:22 | awa2_extra/train_bs_diet8_s2 | done (6 s) |
+| 11-25 09:33:22 | awa2_extra/eval_bs_diet8_s2 | started |
+| 11-25 09:33:24 | awa2_extra/eval_bs_diet8_s2 | done (2 s) |
+| 11-25 09:33:24 | awa2_extra/train_bs_diet12_s2 | started |
+| 11-25 09:33:29 | awa2_extra/train_bs_diet12_s2 | done (5 s) |
+| 11-25 09:33:29 | awa2_extra/eval_bs_diet12_s2 | started |
+| 11-25 09:33:31 | awa2_extra/eval_bs_diet12_s2 | done (2 s) |
+| 11-25 09:33:31 | awa2_extra/train_bs_diet16_s2 | started |
+| 11-25 09:33:37 | awa2_extra/train_bs_diet16_s2 | done (6 s) |
+| 11-25 09:33:37 | awa2_extra/eval_bs_diet16_s2 | started |
+| 11-25 09:33:39 | awa2_extra/eval_bs_diet16_s2 | done (2 s) |
+| 11-25 09:33:39 | awa2_extra/train_bs_diet24_s2 | started |
+| 11-25 09:33:45 | awa2_extra/train_bs_diet24_s2 | done (6 s) |
+| 11-25 09:33:45 | awa2_extra/eval_bs_diet24_s2 | started |
+| 11-25 09:33:47 | awa2_extra/eval_bs_diet24_s2 | done (2 s) |
+| 11-25 09:33:47 | awa2_extra/train_bs_diet32_s2 | started |
+| 11-25 09:33:53 | awa2_extra/train_bs_diet32_s2 | done (6 s) |
+| 11-25 09:33:53 | awa2_extra/eval_bs_diet32_s2 | started |
+| 11-25 09:33:54 | awa2_extra/eval_bs_diet32_s2 | done (1 s) |
+| 11-25 09:33:54 | awa2_extra/train_bs_diet64_s2 | started |
+| 11-25 09:34:00 | awa2_extra/train_bs_diet64_s2 | done (6 s) |
+| 11-25 09:34:00 | awa2_extra/eval_bs_diet64_s2 | started |
+| 11-25 09:34:02 | awa2_extra/eval_bs_diet64_s2 | done (2 s) |
+| 11-25 09:34:02 | awa2_extra/blocksummary | started |
+| 11-25 09:34:04 | awa2_extra/blocksummary | done (2 s) |
+| 11-25 09:34:04 | awa2_extra/eva_extract | started |
+| 11-25 09:35:31 | awa2_extra/eva_extract | done (87 s) |
+| 11-25 09:35:31 | awa2_extra/eva_train_tree_s0 | started |
+| 11-25 09:35:35 | awa2_extra/eva_train_tree_s0 | done (4 s) |
+| 11-25 09:35:35 | awa2_extra/eva_train_treesc_s0 | started |
+| 11-25 09:35:42 | awa2_extra/eva_train_treesc_s0 | done (7 s) |
+| 11-25 09:35:42 | awa2_extra/eva_train_mrl_s0 | started |
+| 11-25 09:35:48 | awa2_extra/eva_train_mrl_s0 | done (6 s) |
+| 11-25 09:35:48 | awa2_extra/eva_train_b3tree_s0 | started |
+| 11-25 09:35:55 | awa2_extra/eva_train_b3tree_s0 | done (7 s) |
+| 11-25 09:35:55 | awa2_extra/eva_train_csntree_s0 | started |
+| 11-25 09:36:00 | awa2_extra/eva_train_csntree_s0 | done (5 s) |
+| 11-25 09:36:00 | awa2_extra/eva_train_tree_s1 | started |
+| 11-25 09:36:05 | awa2_extra/eva_train_tree_s1 | done (5 s) |
+| 11-25 09:36:05 | awa2_extra/eva_train_treesc_s1 | started |
+| 11-25 09:36:11 | awa2_extra/eva_train_treesc_s1 | done (6 s) |
+| 11-25 09:36:11 | awa2_extra/eva_train_mrl_s1 | started |
+| 11-25 09:36:17 | awa2_extra/eva_train_mrl_s1 | done (6 s) |
+| 11-25 09:36:17 | awa2_extra/eva_train_b3tree_s1 | started |
+| 11-25 09:36:25 | awa2_extra/eva_train_b3tree_s1 | done (8 s) |
+| 11-25 09:36:25 | awa2_extra/eva_train_csntree_s1 | started |
+| 11-25 09:36:30 | awa2_extra/eva_train_csntree_s1 | done (5 s) |
+| 11-25 09:36:30 | awa2_extra/eva_train_tree_s2 | started |
+| 11-25 09:36:35 | awa2_extra/eva_train_tree_s2 | done (5 s) |
+| 11-25 09:36:35 | awa2_extra/eva_train_treesc_s2 | started |
+| 11-25 09:36:41 | awa2_extra/eva_train_treesc_s2 | done (6 s) |
+| 11-25 09:36:41 | awa2_extra/eva_train_mrl_s2 | started |
+| 11-25 09:36:47 | awa2_extra/eva_train_mrl_s2 | done (6 s) |
+| 11-25 09:36:47 | awa2_extra/eva_train_b3tree_s2 | started |
+| 11-25 09:36:54 | awa2_extra/eva_train_b3tree_s2 | done (7 s) |
+| 11-25 09:36:54 | awa2_extra/eva_train_csntree_s2 | started |
+| 11-25 09:36:59 | awa2_extra/eva_train_csntree_s2 | done (5 s) |
+| 11-25 09:36:59 | awa2_extra/eva_eval_s0 | started |
+| 11-25 09:36:59 | awa2_extra/eva_eval_s1 | started |
+| 11-25 09:36:59 | awa2_extra/eva_eval_s2 | started |
+| 11-25 09:37:01 | evaluate[seed0]/train-B1-classifiers | started |
+| 11-25 09:37:01 | evaluate[seed1]/train-B1-classifiers | started |
+| 11-25 09:37:01 | evaluate[seed2]/train-B1-classifiers | started |
+| 11-25 09:37:04 | evaluate[seed2]/train-B1-classifiers | done (4 s) |
+| 11-25 09:37:05 | evaluate[seed1]/train-B1-classifiers | done (4 s) |
+| 11-25 09:37:05 | evaluate[seed0]/train-B1-classifiers | done (4 s) |
+| 11-25 09:37:05 | evaluate[seed2]/E1 | started |
+| 11-25 09:37:05 | evaluate[seed1]/E1 | started |
+| 11-25 09:37:05 | evaluate[seed0]/E1 | started |
+| 11-25 09:37:10 | evaluate[seed2]/E1 | done (5 s) |
+| 11-25 09:37:10 | evaluate[seed2]/E3-SSE-treeSC | started |
+| 11-25 09:37:10 | evaluate[seed1]/E1 | done (6 s) |
+| 11-25 09:37:10 | evaluate[seed1]/E3-SSE-treeSC | started |
+| 11-25 09:37:11 | evaluate[seed0]/E1 | done (6 s) |
+| 11-25 09:37:11 | evaluate[seed0]/E3-SSE-treeSC | started |
+| 11-25 09:37:30 | evaluate[seed2]/E3-SSE-treeSC | done (20 s) |
+| 11-25 09:37:30 | evaluate[seed2]/E3-SSE-tree | started |
+| 11-25 09:37:31 | evaluate[seed0]/E3-SSE-treeSC | done (21 s) |
+| 11-25 09:37:31 | evaluate[seed0]/E3-SSE-tree | started |
+| 11-25 09:37:34 | evaluate[seed1]/E3-SSE-treeSC | done (24 s) |
+| 11-25 09:37:34 | evaluate[seed1]/E3-SSE-tree | started |
+| 11-25 09:37:48 | evaluate[seed2]/E3-SSE-tree | done (18 s) |
+| 11-25 09:37:48 | evaluate[seed2]/E4 | started |
+| 11-25 09:37:50 | evaluate[seed0]/E3-SSE-tree | done (18 s) |
+| 11-25 09:37:50 | evaluate[seed0]/E4 | started |
+| 11-25 09:37:53 | evaluate[seed1]/E3-SSE-tree | done (19 s) |
+| 11-25 09:37:53 | evaluate[seed1]/E4 | started |
+| 11-25 09:42:57 | evaluate[seed2]/E4 | done (308 s) |
+| 11-25 09:42:57 | evaluate[seed2]/E4-leakage | started |
+| 11-25 09:43:00 | evaluate[seed0]/E4 | done (310 s) |
+| 11-25 09:43:00 | evaluate[seed0]/E4-leakage | started |
+| 11-25 09:43:03 | evaluate[seed1]/E4 | done (310 s) |
+| 11-25 09:43:03 | evaluate[seed1]/E4-leakage | started |
+| 11-25 09:44:25 | evaluate[seed2]/E4-leakage | done (88 s) |
+| 11-25 09:44:25 | evaluate[seed2]/E2b | started |
+| 11-25 09:44:26 | evaluate[seed0]/E4-leakage | done (86 s) |
+| 11-25 09:44:26 | evaluate[seed0]/E2b | started |
+| 11-25 09:44:29 | evaluate[seed2]/E2b | done (5 s) |
+| 11-25 09:44:29 | evaluate[seed2]/E5b | started |
+| 11-25 09:44:29 | evaluate[seed1]/E4-leakage | done (86 s) |
+| 11-25 09:44:29 | evaluate[seed1]/E2b | started |
+| 11-25 09:44:30 | evaluate[seed2]/E5b | done (1 s) |
+| 11-25 09:44:30 | evaluate[seed2]/E5c | started |
+| 11-25 09:44:31 | evaluate[seed0]/E2b | done (5 s) |
+| 11-25 09:44:31 | evaluate[seed0]/E5b | started |
+| 11-25 09:44:31 | evaluate[seed0]/E5b | done (1 s) |
+| 11-25 09:44:31 | evaluate[seed0]/E5c | started |
+| 11-25 09:44:34 | evaluate[seed1]/E2b | done (5 s) |
+| 11-25 09:44:34 | evaluate[seed1]/E5b | started |
+| 11-25 09:44:35 | evaluate[seed1]/E5b | done (1 s) |
+| 11-25 09:44:35 | evaluate[seed1]/E5c | started |
+| 11-25 09:44:40 | evaluate[seed2]/E5c | done (10 s) |
+| 11-25 09:44:40 | evaluate[seed0]/E5c | done (9 s) |
+| 11-25 09:44:41 | evaluate[seed2]/E2 | started |
+| 11-25 09:44:41 | evaluate[seed0]/E2 | started |
+| 11-25 09:44:44 | evaluate[seed1]/E5c | done (9 s) |
+| 11-25 09:44:45 | evaluate[seed1]/E2 | started |
+| 11-25 09:44:58 | evaluate[seed2]/E2 | done (17 s) |
+| 11-25 09:44:59 | evaluate[seed0]/E2 | done (17 s) |
+| 11-25 09:44:59 | awa2_extra/eva_eval_s2 | done (480 s) |
+| 11-25 09:44:59 | awa2_extra/eva_eval_s0 | done (480 s) |
+| 11-25 09:45:02 | evaluate[seed1]/E2 | done (17 s) |
+| 11-25 09:45:02 | awa2_extra/eva_eval_s1 | done (483 s) |
+| 11-25 09:45:02 | awa2_extra/ALL | finished — results/awa2/x_*, results/awa2/x_blocksize.md, results/awa2_eva/ |
+| 11-25 09:45:07 | final/cost_n100000 | started |
+| 11-25 09:45:15 | final/cost_n100000 | done (8 s) |
+| 11-25 09:45:15 | final/cost_n1000000 | started |
+| 11-25 09:46:45 | final/cost_n1000000 | done (90 s) |
+| 11-25 09:46:45 | final/ALL | finished — results/inat/seed*/groupk.md, results/awa2/x_cost/ |
+| 11-25 09:46:48 | cost/cost_n100000 | started |
+| 11-25 09:47:00 | cost/cost_n100000 | done (12 s) |
+| 11-25 09:47:00 | cost/cost_n1000000 | started |
+| 11-25 09:49:00 | cost/cost_n1000000 | done (120 s) |
+| 11-25 09:49:00 | cost/ALL | finished — results/awa2/x_cost/ |

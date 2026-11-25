@@ -1,0 +1,7 @@
+VALIDATION MODE — val-unseen classes: [np.str_('antelope'), np.str_('beaver'), np.str_('mole'), np.str_('otter'), np.str_('walrus')]
+ep   0  loss 10.0008  ret 0.0016  facet 0.1967  prefix 19.6049
+ep  10  loss 6.9129  ret 0.0003  facet 0.0123  prefix 13.8007
+ep  20  loss 6.8742  ret 0.0001  facet 0.0103  prefix 13.7275
+ep  30  loss 6.9012  ret 0.0001  facet 0.0075  prefix 13.7871
+ep  39  loss 6.8655  ret 0.0001  facet 0.0071  prefix 13.7165
+saved emb_bs_hab64_s0 torch.Size([37322, 768])

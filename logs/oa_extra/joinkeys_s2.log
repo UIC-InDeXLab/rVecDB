@@ -1,0 +1,37 @@
+| 11-25 08:48:28 | openalex-E9 | author SSE aligned trained (seed 2) |
+| 11-25 08:48:29 | openalex-E9 | author SSE independent trained (seed 2) |
+### E9 — trained shared join keys: Papers (SPECTER2) VecJOIN Authors (bge), 1540 held-out authors
+
+| method | split | level | P@10 | credit_text@10 | credit_coact@10 |
+|---|---|---|---|---|---|
+| SSE aligned | seen_test | domain | 0.790 | nan | nan |
+| SSE independent | seen_test | domain | 0.155 | nan | nan |
+| B1 labels | seen_test | domain | 0.689 | nan | nan |
+| Raw encoders (SPECTER2 vs bge) | seen_test | domain | 0.300 | nan | nan |
+| Random | seen_test | domain | 0.276 | nan | nan |
+| SSE aligned | seen_test | field | 0.472 | nan | nan |
+| SSE independent | seen_test | field | 0.054 | nan | nan |
+| B1 labels | seen_test | field | 0.400 | nan | nan |
+| Raw encoders (SPECTER2 vs bge) | seen_test | field | 0.047 | nan | nan |
+| Random | seen_test | field | 0.040 | nan | nan |
+| SSE aligned | seen_test | subfield | 0.251 | 0.352 | 0.244 |
+| SSE independent | seen_test | subfield | 0.007 | 0.075 | 0.020 |
+| B1 labels | seen_test | subfield | 0.179 | 0.257 | 0.166 |
+| Raw encoders (SPECTER2 vs bge) | seen_test | subfield | 0.010 | 0.078 | 0.024 |
+| Random | seen_test | subfield | 0.008 | 0.072 | 0.021 |
+| SSE aligned | unseen | domain | 0.802 | nan | nan |
+| SSE independent | unseen | domain | 0.142 | nan | nan |
+| B1 labels | unseen | domain | 0.665 | nan | nan |
+| Raw encoders (SPECTER2 vs bge) | unseen | domain | 0.314 | nan | nan |
+| Random | unseen | domain | 0.285 | nan | nan |
+| SSE aligned | unseen | field | 0.493 | nan | nan |
+| SSE independent | unseen | field | 0.044 | nan | nan |
+| B1 labels | unseen | field | 0.397 | nan | nan |
+| Raw encoders (SPECTER2 vs bge) | unseen | field | 0.046 | nan | nan |
+| Random | unseen | field | 0.041 | nan | nan |
+| SSE aligned | unseen | subfield | 0.249 | 0.353 | 0.244 |
+| SSE independent | unseen | subfield | 0.007 | 0.075 | 0.020 |
+| B1 labels | unseen | subfield | 0.176 | 0.263 | 0.167 |
+| Raw encoders (SPECTER2 vs bge) | unseen | subfield | 0.009 | 0.083 | 0.025 |
+| Random | unseen | subfield | 0.009 | 0.074 | 0.021 |
+

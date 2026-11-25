@@ -1,0 +1,86 @@
+[
+ {
+  "method": "SSE, text reference",
+  "slice": "all species",
+  "n": 50,
+  "F1": 0.706353178662022,
+  "AP": 0.7847221317546567
+ },
+ {
+  "method": "SSE, text reference",
+  "slice": "unseen species",
+  "n": 10,
+  "F1": 0.5885010389518726,
+  "AP": 0.6764943481717957
+ },
+ {
+  "method": "SSE, text reference",
+  "slice": "seen species",
+  "n": 40,
+  "F1": 0.7358162135895595,
+  "AP": 0.8117790776503717
+ },
+ {
+  "method": "SSE, image reference",
+  "slice": "all species",
+  "n": 50,
+  "F1": 0.7928351700682118,
+  "AP": 0.8770308620507465
+ },
+ {
+  "method": "SSE, image reference",
+  "slice": "unseen species",
+  "n": 10,
+  "F1": 0.731990741747954,
+  "AP": 0.8295565830297786
+ },
+ {
+  "method": "SSE, image reference",
+  "slice": "seen species",
+  "n": 40,
+  "F1": 0.8080462771482761,
+  "AP": 0.8888994318059884
+ },
+ {
+  "method": "CLIP, text reference",
+  "slice": "all species",
+  "n": 50,
+  "F1": 0.49174285258946,
+  "AP": 0.5475924084263992
+ },
+ {
+  "method": "CLIP, text reference",
+  "slice": "unseen species",
+  "n": 10,
+  "F1": 0.5305423439780202,
+  "AP": 0.6241640013379471
+ },
+ {
+  "method": "CLIP, text reference",
+  "slice": "seen species",
+  "n": 40,
+  "F1": 0.48204297974232,
+  "AP": 0.5284495101985122
+ },
+ {
+  "method": "CLIP, image reference",
+  "slice": "all species",
+  "n": 50,
+  "F1": 0.4849520672595413,
+  "AP": 0.5404186406460849
+ },
+ {
+  "method": "CLIP, image reference",
+  "slice": "unseen species",
+  "n": 10,
+  "F1": 0.5725647180133334,
+  "AP": 0.6598597341685337
+ },
+ {
+  "method": "CLIP, image reference",
+  "slice": "seen species",
+  "n": 40,
+  "F1": 0.4630489045710934,
+  "AP": 0.5105583672654728
+ }
+]

@@ -1,0 +1,70 @@
+### GROUP BY_k on AwA2 (6000 test images)
+
+| part | method | level | k | k_true | NMI | ARI |
+|---|---|---|---|---|---|---|
+| habitat, impact of k | SSE | habitat | 2 | 4 | 0.476 | 0.384 |
+| habitat, impact of k | SSE-treeSC | habitat | 2 | 4 | 0.477 | 0.385 |
+| habitat, impact of k | B3 separate | habitat | 2 | 4 | 0.481 | 0.387 |
+| habitat, impact of k | B4 CSN | habitat | 2 | 4 | 0.498 | 0.392 |
+| habitat, impact of k | B6 plain CLIP | habitat | 2 | 4 | 0.409 | 0.328 |
+| habitat, impact of k | SSE | habitat | 3 | 4 | 0.717 | 0.759 |
+| habitat, impact of k | SSE-treeSC | habitat | 3 | 4 | 0.716 | 0.762 |
+| habitat, impact of k | B3 separate | habitat | 3 | 4 | 0.719 | 0.765 |
+| habitat, impact of k | B4 CSN | habitat | 3 | 4 | 0.718 | 0.764 |
+| habitat, impact of k | B6 plain CLIP | habitat | 3 | 4 | 0.531 | 0.495 |
+| habitat, impact of k | SSE | habitat | 4 | 4 | 0.613 | 0.649 |
+| habitat, impact of k | SSE-treeSC | habitat | 4 | 4 | 0.613 | 0.649 |
+| habitat, impact of k | B3 separate | habitat | 4 | 4 | 0.605 | 0.641 |
+| habitat, impact of k | B4 CSN | habitat | 4 | 4 | 0.627 | 0.662 |
+| habitat, impact of k | B6 plain CLIP | habitat | 4 | 4 | 0.524 | 0.488 |
+| habitat, impact of k | SSE | habitat | 6 | 4 | 0.677 | 0.647 |
+| habitat, impact of k | SSE-treeSC | habitat | 6 | 4 | 0.676 | 0.645 |
+| habitat, impact of k | B3 separate | habitat | 6 | 4 | 0.680 | 0.647 |
+| habitat, impact of k | B4 CSN | habitat | 6 | 4 | 0.682 | 0.651 |
+| habitat, impact of k | B6 plain CLIP | habitat | 6 | 4 | 0.496 | 0.359 |
+| habitat, impact of k | SSE | habitat | 8 | 4 | 0.622 | 0.411 |
+| habitat, impact of k | SSE-treeSC | habitat | 8 | 4 | 0.622 | 0.411 |
+| habitat, impact of k | B3 separate | habitat | 8 | 4 | 0.664 | 0.497 |
+| habitat, impact of k | B4 CSN | habitat | 8 | 4 | 0.665 | 0.478 |
+| habitat, impact of k | B6 plain CLIP | habitat | 8 | 4 | 0.564 | 0.382 |
+| habitat, impact of k | SSE | habitat | 12 | 4 | 0.615 | 0.346 |
+| habitat, impact of k | SSE-treeSC | habitat | 12 | 4 | 0.613 | 0.345 |
+| habitat, impact of k | B3 separate | habitat | 12 | 4 | 0.585 | 0.324 |
+| habitat, impact of k | B4 CSN | habitat | 12 | 4 | 0.572 | 0.296 |
+| habitat, impact of k | B6 plain CLIP | habitat | 12 | 4 | 0.478 | 0.209 |
+| habitat, impact of k | SSE | habitat | 16 | 4 | 0.601 | 0.299 |
+| habitat, impact of k | SSE-treeSC | habitat | 16 | 4 | 0.601 | 0.299 |
+| habitat, impact of k | B3 separate | habitat | 16 | 4 | 0.609 | 0.306 |
+| habitat, impact of k | B4 CSN | habitat | 16 | 4 | 0.595 | 0.296 |
+| habitat, impact of k | B6 plain CLIP | habitat | 16 | 4 | 0.527 | 0.225 |
+| habitat, impact of k | B1 labels (predicted yes/no pattern) | habitat | 27 | 4 | 0.412 | 0.168 |
+| roll-up / drill-down | SSE | order | 10 | 10 | 0.777 | 0.650 |
+| roll-up / drill-down | SSE | family | 27 | 27 | 0.874 | 0.700 |
+| roll-up / drill-down | SSE | genus | 40 | 40 | 0.852 | 0.649 |
+| roll-up / drill-down | SSE-treeSC | order | 10 | 10 | 0.813 | 0.764 |
+| roll-up / drill-down | SSE-treeSC | family | 27 | 27 | 0.880 | 0.733 |
+| roll-up / drill-down | SSE-treeSC | genus | 40 | 40 | 0.870 | 0.661 |
+| roll-up / drill-down | B3 separate | order | 10 | 10 | 0.838 | 0.716 |
+| roll-up / drill-down | B3 separate | family | 27 | 27 | 0.895 | 0.769 |
+| roll-up / drill-down | B3 separate | genus | 40 | 40 | 0.882 | 0.681 |
+| roll-up / drill-down | B4 CSN | order | 10 | 10 | 0.818 | 0.735 |
+| roll-up / drill-down | B4 CSN | family | 27 | 27 | 0.896 | 0.739 |
+| roll-up / drill-down | B4 CSN | genus | 40 | 40 | 0.868 | 0.642 |
+| roll-up / drill-down | B6 plain CLIP | order | 10 | 10 | 0.548 | 0.243 |
+| roll-up / drill-down | B6 plain CLIP | family | 27 | 27 | 0.825 | 0.621 |
+| roll-up / drill-down | B6 plain CLIP | genus | 40 | 40 | 0.842 | 0.590 |
+| roll-up / drill-down | B1 labels (predicted) | order | 10 | 10 | 0.886 | 0.892 |
+| roll-up / drill-down | B1 labels (predicted) | family | 23 | 27 | 0.875 | 0.795 |
+| roll-up / drill-down | B1 labels (predicted) | genus | 32 | 40 | 0.877 | 0.756 |
+| unseen species | SSE | family | 9 | 9 | 0.911 | 0.805 |
+| unseen species | SSE-treeSC | family | 9 | 9 | 0.910 | 0.803 |
+| unseen species | B3 separate | family | 9 | 9 | 0.911 | 0.805 |
+| unseen species | B4 CSN | family | 9 | 9 | 0.910 | 0.804 |
+| unseen species | B6 plain CLIP | family | 9 | 9 | 0.872 | 0.715 |
+| unseen species | B1 labels (predicted) | family | 21 | 9 | 0.861 | 0.851 |
+| unseen species | SSE | genus | 10 | 10 | 0.940 | 0.871 |
+| unseen species | SSE-treeSC | genus | 10 | 10 | 0.936 | 0.872 |
+| unseen species | B3 separate | genus | 10 | 10 | 0.940 | 0.885 |
+| unseen species | B4 CSN | genus | 10 | 10 | 0.950 | 0.920 |
+| unseen species | B6 plain CLIP | genus | 10 | 10 | 0.952 | 0.923 |
+| unseen species | B1 labels (predicted) | genus | 28 | 10 | 0.861 | 0.818 |

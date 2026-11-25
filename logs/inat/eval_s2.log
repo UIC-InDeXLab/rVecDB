@@ -1,9 +1,9 @@
-| 11-06 08:07:06 | evaluate/inat-E2 | started |
-| 11-06 08:09:58 | evaluate/inat-E2 | done |
-| 11-06 08:09:58 | evaluate/inat-E2b | started |
-| 11-06 08:10:08 | evaluate/inat-E2b | done |
-| 11-06 08:10:08 | evaluate/inat-E3 | started |
-| 11-06 08:11:36 | evaluate/inat-E3 | done |
+| 11-25 08:58:42 | evaluate/inat-E2 | started |
+| 11-25 09:04:59 | evaluate/inat-E2 | done |
+| 11-25 09:04:59 | evaluate/inat-E2b | started |
+| 11-25 09:05:12 | evaluate/inat-E2b | done |
+| 11-25 09:05:12 | evaluate/inat-E3 | started |
+| 11-25 09:07:27 | evaluate/inat-E3 | done |
 # iNat results (seed 2)
 
 ### E2 — taxonomy prefix length vs level (mAP)
@@ -52,12 +52,12 @@
 | SSE (yes/no levels) | order | 0.970 | 0.947 | 0.964 |
 | SSE (yes/no levels) | family | 0.930 | 0.959 | 0.981 |
 | SSE (yes/no levels) | genus | 0.859 | 0.913 | 0.987 |
-| B3 separate | order | 0.947 | 0.906 | 0.946 |
-| B3 separate | family | 0.934 | 0.897 | 0.944 |
-| B3 separate | genus | 0.920 | 0.883 | 0.936 |
-| B4 CSN | order | 0.947 | 0.897 | 0.937 |
-| B4 CSN | family | 0.937 | 0.892 | 0.929 |
-| B4 CSN | genus | 0.923 | 0.875 | 0.920 |
+| B3 separate (graded) | order | 0.947 | 0.906 | 0.946 |
+| B3 separate (graded) | family | 0.934 | 0.897 | 0.944 |
+| B3 separate (graded) | genus | 0.920 | 0.883 | 0.936 |
+| B4 CSN (graded) | order | 0.947 | 0.897 | 0.937 |
+| B4 CSN (graded) | family | 0.937 | 0.892 | 0.929 |
+| B4 CSN (graded) | genus | 0.923 | 0.875 | 0.920 |
 | B1 labels | all levels | 0.885 | 0.918 | 0.933 |
 | B6 plain CLIP | full | 0.822 | 0.877 | 0.909 |
 
@@ -67,4 +67,5 @@
 |---|---|---|---|
 | SSE-tree | 0.871 | 0.105 | 0.105 |
 | SSE (yes/no levels) | 0.678 | 0.105 | 0.126 |
+| SSE-MRL (genus everywhere) | 0.693 | 0.105 | 0.125 |
 

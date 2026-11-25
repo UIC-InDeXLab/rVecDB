@@ -1,0 +1,3 @@
+PCA                              group silhouette in 2-D 0.512   species-distance Spearman 0.926
+t-SNE perplexity 50 (current)    group silhouette in 2-D 0.290   species-distance Spearman 0.672
+t-SNE perplexity 500             group silhouette in 2-D 0.538   species-distance Spearman 0.840

@@ -26,12 +26,12 @@ from .awa2 import load_meta, CACHE
 from .taxonomy_awa2 import LEVELS
 
 
-def layout(dim):
-    """Block layout. Facet blocks are fixed; the residual ("rest") absorbs the remainder."""
-    tax, hab, diet = 64, 32, 16
+def layout(dim, tax=64, hab=32, diet=16):
+    """Block layout. Facet blocks are fixed; the residual ("rest") absorbs the remainder.
+    Defaults = the paper's layout; other sizes are used by the block-size allocation study (sse.awa2_extra)."""
     return {
         "tax": (0, tax), "habitat": (tax, tax + hab), "diet": (tax + hab, tax + hab + diet),
-        "rest": (tax + hab + diet, dim), "prefix": {"order": 8, "family": 32, "genus": 64},
+        "rest": (tax + hab + diet, dim), "prefix": {"order": max(1, tax // 8), "family": max(1, tax // 2), "genus": tax},
     }
 
 
@@ -90,6 +90,9 @@ def main():
     ap.add_argument("--w_prefix", type=float, default=0.5)
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--name", default="", help="output tag (default: <variant>_<dim>)")
+    ap.add_argument("--tax", type=int, default=64, help="taxonomy block size (prefixes tax/8, tax/2, tax)")
+    ap.add_argument("--hab", type=int, default=32, help="habitat block size")
+    ap.add_argument("--diet", type=int, default=16, help="diet block size")
     args = ap.parse_args()
     torch.manual_seed(args.seed)
     dev = "cuda"
@@ -111,7 +114,7 @@ def main():
     }
 
     train = torch.tensor(np.flatnonzero(img_df.split.values == "train"))
-    L = layout(args.dim)
+    L = layout(args.dim, args.tax, args.hab, args.diet)
     model = Projector(768, args.dim).to(dev)
     opt = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=1e-4)
     steps = args.epochs * (len(train) // args.bs)
@@ -152,6 +155,7 @@ def main():
         E = torch.cat([model(X[i:i + 8192].to(dev)).cpu() for i in range(0, len(X), 8192)])
     name = "emb_" + (args.name or f"{args.variant}_{args.dim}")
     np.save(CACHE / f"{name}.npy", E.numpy().astype(np.float32))
+    torch.save(model.state_dict(), CACHE / f"{name}.pt")          # projector weights (used for text references)
     (CACHE / f"{name}.json").write_text(json.dumps({"args": vars(args), "layout": L}, indent=1))
     print("saved", name, E.shape)
 

@@ -1,0 +1,6 @@
+B3 habitat  d= 32 final loss 0.0021
+B3 diet     d= 16 final loss 0.0041
+B3 order    d=  8 final loss 0.0305
+B3 family   d= 32 final loss 0.0194
+B3 genus    d= 64 final loss 0.0215
+saved cache/awa2_eva/b3tree_s1.npz

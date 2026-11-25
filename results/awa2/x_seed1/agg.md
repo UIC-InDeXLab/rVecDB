@@ -1,0 +1,10 @@
+### Q5 aggregates per Order: AVG/MAX habitat similarity to a reference (300 references, 9 Orders)
+
+| method | Spearman AVG | Spearman MAX | top Order correct (AVG) | Order membership acc |
+|---|---|---|---|---|
+| SSE | 0.774 | 0.868 | 0.670 | 0.932 |
+| SSE-treeSC | 0.771 | 0.867 | 0.670 | 0.934 |
+| B3 separate | 0.761 | 0.849 | 0.663 | 0.933 |
+| B4 CSN | 0.770 | 0.867 | 0.623 | 0.936 |
+| B6 plain CLIP | 0.530 | 0.695 | 0.570 | 0.847 |
+| B1 labels | 0.549 | 0.638 | 0.650 | 0.938 |

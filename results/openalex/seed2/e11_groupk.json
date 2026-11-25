@@ -1,0 +1,632 @@
+[
+ {
+  "part": "impact of k",
+  "method": "B6 plain encoder",
+  "level": "field",
+  "k": 6,
+  "k/true": 0.25,
+  "NMI": 0.35112440899946723,
+  "ARI": 0.13991140931955823
+ },
+ {
+  "part": "impact of k",
+  "method": "SSE-treeSC",
+  "level": "field",
+  "k": 6,
+  "k/true": 0.25,
+  "NMI": 0.4374564905505634,
+  "ARI": 0.18495512501671915
+ },
+ {
+  "part": "impact of k",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "field",
+  "k": 6,
+  "k/true": 0.25,
+  "NMI": 0.43281064983480644,
+  "ARI": 0.18160682103913817
+ },
+ {
+  "part": "impact of k",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "field",
+  "k": 6,
+  "k/true": 0.25,
+  "NMI": 0.432080163963789,
+  "ARI": 0.1819684486096573
+ },
+ {
+  "part": "impact of k",
+  "method": "B1 labels (fixed groups)",
+  "level": "field",
+  "k": 26,
+  "k/true": NaN,
+  "NMI": 0.5218658426410107,
+  "ARI": 0.36481308879150864
+ },
+ {
+  "part": "impact of k",
+  "method": "B6 plain encoder",
+  "level": "field",
+  "k": 13,
+  "k/true": 0.5,
+  "NMI": 0.4529944511292556,
+  "ARI": 0.23564258222695061
+ },
+ {
+  "part": "impact of k",
+  "method": "SSE-treeSC",
+  "level": "field",
+  "k": 13,
+  "k/true": 0.5,
+  "NMI": 0.5410766460090295,
+  "ARI": 0.34155842596499003
+ },
+ {
+  "part": "impact of k",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "field",
+  "k": 13,
+  "k/true": 0.5,
+  "NMI": 0.5432732598070265,
+  "ARI": 0.3368314737536536
+ },
+ {
+  "part": "impact of k",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "field",
+  "k": 13,
+  "k/true": 0.5,
+  "NMI": 0.5386956209518645,
+  "ARI": 0.33890186504873465
+ },
+ {
+  "part": "impact of k",
+  "method": "B1 labels (fixed groups)",
+  "level": "field",
+  "k": 26,
+  "k/true": NaN,
+  "NMI": 0.5218658426410107,
+  "ARI": 0.36481308879150864
+ },
+ {
+  "part": "impact of k",
+  "method": "B6 plain encoder",
+  "level": "field",
+  "k": 26,
+  "k/true": 1,
+  "NMI": 0.4794390593146244,
+  "ARI": 0.2768256435533764
+ },
+ {
+  "part": "impact of k",
+  "method": "SSE-treeSC",
+  "level": "field",
+  "k": 26,
+  "k/true": 1,
+  "NMI": 0.5852380658198642,
+  "ARI": 0.44561981404618656
+ },
+ {
+  "part": "impact of k",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "field",
+  "k": 26,
+  "k/true": 1,
+  "NMI": 0.5824600074715426,
+  "ARI": 0.4450960940808629
+ },
+ {
+  "part": "impact of k",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "field",
+  "k": 26,
+  "k/true": 1,
+  "NMI": 0.5832267031133087,
+  "ARI": 0.4437647668734416
+ },
+ {
+  "part": "impact of k",
+  "method": "B1 labels (fixed groups)",
+  "level": "field",
+  "k": 26,
+  "k/true": NaN,
+  "NMI": 0.5218658426410107,
+  "ARI": 0.36481308879150864
+ },
+ {
+  "part": "impact of k",
+  "method": "B6 plain encoder",
+  "level": "field",
+  "k": 52,
+  "k/true": 2,
+  "NMI": 0.4952930364200674,
+  "ARI": 0.23928725073444643
+ },
+ {
+  "part": "impact of k",
+  "method": "SSE-treeSC",
+  "level": "field",
+  "k": 52,
+  "k/true": 2,
+  "NMI": 0.5690855576376788,
+  "ARI": 0.36149782592573004
+ },
+ {
+  "part": "impact of k",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "field",
+  "k": 52,
+  "k/true": 2,
+  "NMI": 0.5670123269663812,
+  "ARI": 0.3588884942542369
+ },
+ {
+  "part": "impact of k",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "field",
+  "k": 52,
+  "k/true": 2,
+  "NMI": 0.5685085682356757,
+  "ARI": 0.3566062760496496
+ },
+ {
+  "part": "impact of k",
+  "method": "B1 labels (fixed groups)",
+  "level": "field",
+  "k": 26,
+  "k/true": NaN,
+  "NMI": 0.5218658426410107,
+  "ARI": 0.36481308879150864
+ },
+ {
+  "part": "impact of k",
+  "method": "B6 plain encoder",
+  "level": "field",
+  "k": 104,
+  "k/true": 4,
+  "NMI": 0.4943058412171047,
+  "ARI": 0.16981931910708106
+ },
+ {
+  "part": "impact of k",
+  "method": "SSE-treeSC",
+  "level": "field",
+  "k": 104,
+  "k/true": 4,
+  "NMI": 0.5482009055544231,
+  "ARI": 0.22960536042032884
+ },
+ {
+  "part": "impact of k",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "field",
+  "k": 104,
+  "k/true": 4,
+  "NMI": 0.5450085812201027,
+  "ARI": 0.22313031947617581
+ },
+ {
+  "part": "impact of k",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "field",
+  "k": 104,
+  "k/true": 4,
+  "NMI": 0.5491822237058618,
+  "ARI": 0.2320268485906426
+ },
+ {
+  "part": "impact of k",
+  "method": "B1 labels (fixed groups)",
+  "level": "field",
+  "k": 26,
+  "k/true": NaN,
+  "NMI": 0.5218658426410107,
+  "ARI": 0.36481308879150864
+ },
+ {
+  "part": "impact of k",
+  "method": "B6 plain encoder",
+  "level": "subfield",
+  "k": 61,
+  "k/true": 0.25,
+  "NMI": 0.5374193666418672,
+  "ARI": 0.22799532908025844
+ },
+ {
+  "part": "impact of k",
+  "method": "SSE-treeSC",
+  "level": "subfield",
+  "k": 61,
+  "k/true": 0.25,
+  "NMI": 0.5934220794299957,
+  "ARI": 0.34020762803479176
+ },
+ {
+  "part": "impact of k",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "subfield",
+  "k": 61,
+  "k/true": 0.25,
+  "NMI": 0.5917289195513484,
+  "ARI": 0.290107676196238
+ },
+ {
+  "part": "impact of k",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "subfield",
+  "k": 61,
+  "k/true": 0.25,
+  "NMI": 0.5914879928561037,
+  "ARI": 0.30121635586411377
+ },
+ {
+  "part": "impact of k",
+  "method": "B1 labels (fixed groups)",
+  "level": "subfield",
+  "k": 68,
+  "k/true": NaN,
+  "NMI": 0.4670742500578687,
+  "ARI": 0.14956072201756548
+ },
+ {
+  "part": "impact of k",
+  "method": "B6 plain encoder",
+  "level": "subfield",
+  "k": 122,
+  "k/true": 0.5,
+  "NMI": 0.5687826312334898,
+  "ARI": 0.2186716155655652
+ },
+ {
+  "part": "impact of k",
+  "method": "SSE-treeSC",
+  "level": "subfield",
+  "k": 122,
+  "k/true": 0.5,
+  "NMI": 0.6081559748255665,
+  "ARI": 0.2668193679034175
+ },
+ {
+  "part": "impact of k",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "subfield",
+  "k": 122,
+  "k/true": 0.5,
+  "NMI": 0.6137098485857028,
+  "ARI": 0.3036705876577982
+ },
+ {
+  "part": "impact of k",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "subfield",
+  "k": 122,
+  "k/true": 0.5,
+  "NMI": 0.6060538445946384,
+  "ARI": 0.275478802720749
+ },
+ {
+  "part": "impact of k",
+  "method": "B1 labels (fixed groups)",
+  "level": "subfield",
+  "k": 68,
+  "k/true": NaN,
+  "NMI": 0.4670742500578687,
+  "ARI": 0.14956072201756548
+ },
+ {
+  "part": "impact of k",
+  "method": "B6 plain encoder",
+  "level": "subfield",
+  "k": 243,
+  "k/true": 1,
+  "NMI": 0.5879867035163528,
+  "ARI": 0.17582531265385007
+ },
+ {
+  "part": "impact of k",
+  "method": "SSE-treeSC",
+  "level": "subfield",
+  "k": 243,
+  "k/true": 1,
+  "NMI": 0.6174513522563636,
+  "ARI": 0.21198219154389547
+ },
+ {
+  "part": "impact of k",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "subfield",
+  "k": 243,
+  "k/true": 1,
+  "NMI": 0.615675777248285,
+  "ARI": 0.20964202506793303
+ },
+ {
+  "part": "impact of k",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "subfield",
+  "k": 243,
+  "k/true": 1,
+  "NMI": 0.6156658994283304,
+  "ARI": 0.2069334373626783
+ },
+ {
+  "part": "impact of k",
+  "method": "B1 labels (fixed groups)",
+  "level": "subfield",
+  "k": 68,
+  "k/true": NaN,
+  "NMI": 0.4670742500578687,
+  "ARI": 0.14956072201756548
+ },
+ {
+  "part": "impact of k",
+  "method": "B6 plain encoder",
+  "level": "subfield",
+  "k": 486,
+  "k/true": 2,
+  "NMI": 0.5973723763533868,
+  "ARI": 0.12112525568343759
+ },
+ {
+  "part": "impact of k",
+  "method": "SSE-treeSC",
+  "level": "subfield",
+  "k": 486,
+  "k/true": 2,
+  "NMI": 0.6183692076759009,
+  "ARI": 0.14241539530108632
+ },
+ {
+  "part": "impact of k",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "subfield",
+  "k": 486,
+  "k/true": 2,
+  "NMI": 0.6211526401071805,
+  "ARI": 0.14454114667107007
+ },
+ {
+  "part": "impact of k",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "subfield",
+  "k": 486,
+  "k/true": 2,
+  "NMI": 0.6176150748105732,
+  "ARI": 0.13539429866524866
+ },
+ {
+  "part": "impact of k",
+  "method": "B1 labels (fixed groups)",
+  "level": "subfield",
+  "k": 68,
+  "k/true": NaN,
+  "NMI": 0.4670742500578687,
+  "ARI": 0.14956072201756548
+ },
+ {
+  "part": "impact of k",
+  "method": "B6 plain encoder",
+  "level": "subfield",
+  "k": 972,
+  "k/true": 4,
+  "NMI": 0.6031240441100345,
+  "ARI": 0.08001489871338355
+ },
+ {
+  "part": "impact of k",
+  "method": "SSE-treeSC",
+  "level": "subfield",
+  "k": 972,
+  "k/true": 4,
+  "NMI": 0.6199491711698387,
+  "ARI": 0.08779670408116366
+ },
+ {
+  "part": "impact of k",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "subfield",
+  "k": 972,
+  "k/true": 4,
+  "NMI": 0.6215818206309427,
+  "ARI": 0.09239773293039641
+ },
+ {
+  "part": "impact of k",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "subfield",
+  "k": 972,
+  "k/true": 4,
+  "NMI": 0.621050468800919,
+  "ARI": 0.08772865709043086
+ },
+ {
+  "part": "impact of k",
+  "method": "B1 labels (fixed groups)",
+  "level": "subfield",
+  "k": 68,
+  "k/true": NaN,
+  "NMI": 0.4670742500578687,
+  "ARI": 0.14956072201756548
+ },
+ {
+  "part": "roll-up",
+  "method": "B6 plain encoder",
+  "level": "domain",
+  "k": 4,
+  "k/true": 1.0,
+  "NMI": 0.36497531666187627,
+  "ARI": 0.3214633192515582
+ },
+ {
+  "part": "roll-up",
+  "method": "B6 plain encoder",
+  "level": "field",
+  "k": 26,
+  "k/true": 1.0,
+  "NMI": 0.4477841640908315,
+  "ARI": 0.23187259734004495
+ },
+ {
+  "part": "roll-up",
+  "method": "B6 plain encoder",
+  "level": "subfield",
+  "k": 243,
+  "k/true": 1.0,
+  "NMI": 0.5527794386550494,
+  "ARI": 0.1496278193182986
+ },
+ {
+  "part": "roll-up",
+  "method": "SSE-treeSC",
+  "level": "domain",
+  "k": 4,
+  "k/true": 1.0,
+  "NMI": 0.579048960043726,
+  "ARI": 0.6519419927946414
+ },
+ {
+  "part": "roll-up",
+  "method": "SSE-treeSC",
+  "level": "field",
+  "k": 26,
+  "k/true": 1.0,
+  "NMI": 0.5684217092439582,
+  "ARI": 0.42554574883955226
+ },
+ {
+  "part": "roll-up",
+  "method": "SSE-treeSC",
+  "level": "subfield",
+  "k": 243,
+  "k/true": 1.0,
+  "NMI": 0.5937487967247495,
+  "ARI": 0.19167787500981337
+ },
+ {
+  "part": "roll-up",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "domain",
+  "k": 4,
+  "k/true": 1.0,
+  "NMI": 0.5834072963793049,
+  "ARI": 0.6528568849661741
+ },
+ {
+  "part": "roll-up",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "field",
+  "k": 26,
+  "k/true": 1.0,
+  "NMI": 0.5649168971973938,
+  "ARI": 0.42008526988758726
+ },
+ {
+  "part": "roll-up",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "subfield",
+  "k": 243,
+  "k/true": 1.0,
+  "NMI": 0.5942681185653905,
+  "ARI": 0.19380497661979923
+ },
+ {
+  "part": "roll-up",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "domain",
+  "k": 4,
+  "k/true": 1.0,
+  "NMI": 0.5808173499738671,
+  "ARI": 0.6545084232927302
+ },
+ {
+  "part": "roll-up",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "field",
+  "k": 26,
+  "k/true": 1.0,
+  "NMI": 0.5669766622603641,
+  "ARI": 0.4222808445569642
+ },
+ {
+  "part": "roll-up",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "subfield",
+  "k": 243,
+  "k/true": 1.0,
+  "NMI": 0.5935383320720424,
+  "ARI": 0.19063645135996873
+ },
+ {
+  "part": "roll-up",
+  "method": "B1 labels (fixed groups)",
+  "level": "domain",
+  "k": 4,
+  "k/true": NaN,
+  "NMI": 0.44066276375096397,
+  "ARI": 0.5011676876206101
+ },
+ {
+  "part": "roll-up",
+  "method": "B1 labels (fixed groups)",
+  "level": "field",
+  "k": 26,
+  "k/true": NaN,
+  "NMI": 0.5218658426410107,
+  "ARI": 0.36481308879150864
+ },
+ {
+  "part": "roll-up",
+  "method": "B1 labels (fixed groups)",
+  "level": "subfield",
+  "k": 68,
+  "k/true": NaN,
+  "NMI": 0.4670742500578687,
+  "ARI": 0.14956072201756548
+ },
+ {
+  "part": "unseen topics",
+  "method": "B6 plain encoder",
+  "level": "subfield",
+  "k": 182,
+  "k/true": 1.0,
+  "NMI": 0.6923481963669605,
+  "ARI": 0.2870341416508246
+ },
+ {
+  "part": "unseen topics",
+  "method": "SSE-treeSC",
+  "level": "subfield",
+  "k": 182,
+  "k/true": 1.0,
+  "NMI": 0.6876035563396278,
+  "ARI": 0.3161595879331844
+ },
+ {
+  "part": "unseen topics",
+  "method": "B3 separate (graded+contrastive)",
+  "level": "subfield",
+  "k": 182,
+  "k/true": 1.0,
+  "NMI": 0.6845762705168362,
+  "ARI": 0.31321841352730395
+ },
+ {
+  "part": "unseen topics",
+  "method": "B4 CSN (graded+contrastive)",
+  "level": "subfield",
+  "k": 182,
+  "k/true": 1.0,
+  "NMI": 0.6863877546132687,
+  "ARI": 0.3072564190296392
+ },
+ {
+  "part": "unseen topics",
+  "method": "B1 labels (fixed groups)",
+  "level": "subfield",
+  "k": 57,
+  "k/true": NaN,
+  "NMI": 0.5105602990510042,
+  "ARI": 0.2047819450060665
+ }
+]

@@ -3,6 +3,8 @@
 Usage: .venv/bin/python -m sse.extract
 Writes cache/awa2/clip_img.npy (N x 768, float16, L2-normalised) and cache/awa2/clip_text.npz
 """
+import os
+
 import numpy as np
 import torch
 from torch.utils.data import DataLoader
@@ -30,9 +32,13 @@ def main():
     img_df, cls_df = load_meta()
     print(img_df.split.value_counts().to_dict())
     dev = "cuda"
-    model, _, preprocess = open_clip.create_model_and_transforms("ViT-L-14", pretrained="openai")
+    # default = the paper's encoder; CLIP_MODEL=EVA02-L-14 CLIP_PRETRAINED=merged2b_s4b_b131k SSE_CACHE=cache/awa2_eva
+    # gives the EVA-CLIP features (same 768-d output) for the encoder study
+    name, pre = os.environ.get("CLIP_MODEL", "ViT-L-14"), os.environ.get("CLIP_PRETRAINED", "openai")
+    model, _, preprocess = open_clip.create_model_and_transforms(name, pretrained=pre)
     model = model.to(dev).eval().half()
-    tok = open_clip.get_tokenizer("ViT-L-14")
+    tok = open_clip.get_tokenizer(name)
+    print("encoder", name, pre, flush=True)
 
     out = CACHE / "clip_img.npy"
     if not out.exists():
@@ -55,6 +61,8 @@ def main():
         names = sorted(cls_df[lvl].unique())
         text[lvl] = enc([f"a photo of an animal of the {lvl} {n}." for n in names])
         text[lvl + "_names"] = np.array(names)
+    names = list(cls_df.cls.str.replace("+", " "))
+    text["species"] = enc([f"a photo of a {n}." for n in names])          # text references (sse.awa2_extra textq)
     np.savez(CACHE / "clip_text.npz", **text)
     print("saved", out)
 

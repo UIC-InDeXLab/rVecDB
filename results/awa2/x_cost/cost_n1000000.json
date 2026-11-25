@@ -1,0 +1,86 @@
+[
+ {
+  "method": "SSE-768",
+  "N": 1000000,
+  "vectors per object": 1,
+  "floats per object": 770,
+  "storage GB (float32)": 3.08,
+  "Q1 scan ms": 135.82044281065464,
+  "habitat HNSW build s (16 thr)": 3.435995333828032,
+  "habitat index dims": 32,
+  "habitat index GB": 0.384,
+  "habitat top-10 HNSW ms": 0.020410865545272827
+ },
+ {
+  "method": "SSE-768 (block-columnar)",
+  "N": 1000000,
+  "vectors per object": 1,
+  "floats per object": 770,
+  "storage GB (float32)": 3.08,
+  "Q1 scan ms": 32.441224437206984
+ },
+ {
+  "method": "SSE-128",
+  "N": 1000000,
+  "vectors per object": 1,
+  "floats per object": 130,
+  "storage GB (float32)": 0.52,
+  "Q1 scan ms": 60.56152703240514,
+  "habitat HNSW build s (16 thr)": 3.7892126897349954,
+  "habitat index dims": 32,
+  "habitat index GB": 0.384,
+  "habitat top-10 HNSW ms": 0.023600179702043533
+ },
+ {
+  "method": "SSE-128 (block-columnar)",
+  "N": 1000000,
+  "vectors per object": 1,
+  "floats per object": 130,
+  "storage GB (float32)": 0.52,
+  "Q1 scan ms": 31.391476280987263
+ },
+ {
+  "method": "B3 separate",
+  "N": 1000000,
+  "vectors per object": 6,
+  "floats per object": 920,
+  "storage GB (float32)": 3.68,
+  "Q1 scan ms": 24.37691856175661,
+  "habitat HNSW build s (16 thr)": 3.769912851974368,
+  "habitat index dims": 32,
+  "habitat index GB": 0.384,
+  "habitat top-10 HNSW ms": 0.02231355756521225
+ },
+ {
+  "method": "B4 CSN",
+  "N": 1000000,
+  "vectors per object": 1,
+  "floats per object": 773,
+  "storage GB (float32)": 3.092,
+  "Q1 scan ms": 279.76814983412623,
+  "habitat HNSW build s (16 thr)": 17.697566397488117,
+  "habitat index dims": 768,
+  "habitat index GB": 3.328,
+  "habitat top-10 HNSW ms": 0.06008567288517952
+ },
+ {
+  "method": "B4 CSN (active dims materialised)",
+  "N": 1000000,
+  "vectors per object": 6,
+  "floats per object": 2755,
+  "storage GB (float32)": 11.02,
+  "Q1 scan ms": 386.6469147615135,
+  "habitat HNSW build s (16 thr)": 10.046120088547468,
+  "habitat index dims": 365,
+  "habitat index GB": 1.716,
+  "habitat top-10 HNSW ms": 0.04363059997558594
+ },
+ {
+  "method": "B1 labels",
+  "N": 1000000,
+  "vectors per object": 1,
+  "floats per object": 769,
+  "storage GB (float32)": 3.076,
+  "Q1 scan ms": 18.775145523250103
+ }
+]

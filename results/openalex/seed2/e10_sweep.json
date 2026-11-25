@@ -1,0 +1,569 @@
+[
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.0,
+  "out_per_paper": 1405.416,
+  "precision": 0.30743281704491765,
+  "recall": 0.9993246415627609,
+  "F1": 0.47020996539845106
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.05,
+  "out_per_paper": 1335.04,
+  "precision": 0.3234067893096836,
+  "recall": 0.9986076514410345,
+  "F1": 0.48858240027882716
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.1,
+  "out_per_paper": 1253.342,
+  "precision": 0.34402740832111267,
+  "recall": 0.9972731246660792,
+  "F1": 0.5115770552973385
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.15,
+  "out_per_paper": 1167.218,
+  "precision": 0.3685275586908358,
+  "recall": 0.9948862414221383,
+  "F1": 0.5378308444523909
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.2,
+  "out_per_paper": 1081.14,
+  "precision": 0.3962308304197421,
+  "recall": 0.9907901462428561,
+  "F1": 0.5660788250832671
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.25,
+  "out_per_paper": 997.846,
+  "precision": 0.4262661773460033,
+  "recall": 0.9837752074067393,
+  "F1": 0.5948053745990971
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.3,
+  "out_per_paper": 917.299,
+  "precision": 0.4588623774799711,
+  "recall": 0.973519935794691,
+  "F1": 0.6237324604234246
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.35,
+  "out_per_paper": 841.392,
+  "precision": 0.4930721946488676,
+  "recall": 0.959534002678305,
+  "F1": 0.6514078453077711
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.4,
+  "out_per_paper": 770.793,
+  "precision": 0.528758045285829,
+  "recall": 0.9426407902618864,
+  "F1": 0.6774898683130035
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.45,
+  "out_per_paper": 704.427,
+  "precision": 0.5652807175193455,
+  "recall": 0.9209830628430278,
+  "F1": 0.7005673871163539
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.5,
+  "out_per_paper": 641.175,
+  "precision": 0.6020852341404452,
+  "recall": 0.89286548571455,
+  "F1": 0.7191957806803299
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.55,
+  "out_per_paper": 579.908,
+  "precision": 0.6395497216799906,
+  "recall": 0.8577977301480469,
+  "F1": 0.732768201400613
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.6,
+  "out_per_paper": 519.242,
+  "precision": 0.677606973241764,
+  "recall": 0.8137652851886031,
+  "F1": 0.7394706837395768
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.65,
+  "out_per_paper": 458.895,
+  "precision": 0.7166279867943647,
+  "recall": 0.7606039369696297,
+  "F1": 0.7379613983829598
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.7,
+  "out_per_paper": 396.177,
+  "precision": 0.7581131665896809,
+  "recall": 0.6946639744844032,
+  "F1": 0.7250030173558307
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.75,
+  "out_per_paper": 328.583,
+  "precision": 0.803392141407194,
+  "recall": 0.6105540945918129,
+  "F1": 0.6938232147879088
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.8,
+  "out_per_paper": 256.025,
+  "precision": 0.856767893760375,
+  "recall": 0.5073375843908937,
+  "F1": 0.6372975705561399
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.85,
+  "out_per_paper": 179.564,
+  "precision": 0.9183745071395157,
+  "recall": 0.38140867743077,
+  "F1": 0.5389760543332783
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.9,
+  "out_per_paper": 101.331,
+  "precision": 0.9729006917922453,
+  "recall": 0.2280144230658035,
+  "F1": 0.36944391355345946
+ },
+ {
+  "method": "SSE aligned",
+  "level": "domain",
+  "tau": 0.95,
+  "out_per_paper": 17.665,
+  "precision": 0.9950750070761393,
+  "recall": 0.0406556527732484,
+  "F1": 0.07811958367034941
+ },
+ {
+  "method": "B1 labels (equality)",
+  "level": "domain",
+  "tau": NaN,
+  "out_per_paper": 441.461,
+  "precision": 0.7041822493946238,
+  "recall": 0.7190000069386141,
+  "F1": 0.7115139890870473
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.0,
+  "out_per_paper": 1366.634,
+  "precision": 0.04261784793880439,
+  "recall": 0.9992108288013176,
+  "F1": 0.08174897871674469
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.05,
+  "out_per_paper": 1247.008,
+  "precision": 0.046653269265313456,
+  "recall": 0.9980785396901646,
+  "F1": 0.08913986625266127
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.1,
+  "out_per_paper": 1109.552,
+  "precision": 0.0522985853749982,
+  "recall": 0.9955223112422584,
+  "F1": 0.09937654184088417
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.15,
+  "out_per_paper": 968.597,
+  "precision": 0.059608898231152896,
+  "recall": 0.9905299456158109,
+  "F1": 0.11245065177634128
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.2,
+  "out_per_paper": 834.051,
+  "precision": 0.06857134635651776,
+  "recall": 0.9811799825009865,
+  "F1": 0.1281843243606697
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.25,
+  "out_per_paper": 709.864,
+  "precision": 0.07927715731464055,
+  "recall": 0.965465182109832,
+  "F1": 0.14652289322569853
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.3,
+  "out_per_paper": 595.95,
+  "precision": 0.09205470257571945,
+  "recall": 0.9411724339069121,
+  "F1": 0.16770629693430078
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.35,
+  "out_per_paper": 491.678,
+  "precision": 0.10754192784708691,
+  "recall": 0.9071351369898265,
+  "F1": 0.19228790091041825
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.4,
+  "out_per_paper": 398.128,
+  "precision": 0.12557268014306958,
+  "recall": 0.8576918458028101,
+  "F1": 0.21907159461632675
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.45,
+  "out_per_paper": 314.921,
+  "precision": 0.1475766938375021,
+  "recall": 0.7973202491036044,
+  "F1": 0.2490554915463144
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.5,
+  "out_per_paper": 242.139,
+  "precision": 0.17274375462028008,
+  "recall": 0.7175968021410558,
+  "F1": 0.2784560693410734
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.55,
+  "out_per_paper": 179.438,
+  "precision": 0.20194719067310157,
+  "recall": 0.6216781897098939,
+  "F1": 0.3048623000332314
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.6,
+  "out_per_paper": 126.389,
+  "precision": 0.23701429713028824,
+  "recall": 0.5139220092984954,
+  "F1": 0.32441330315468003
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.65,
+  "out_per_paper": 82.761,
+  "precision": 0.28061526564444605,
+  "recall": 0.3984285199608846,
+  "F1": 0.32930166607585964
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.7,
+  "out_per_paper": 48.272,
+  "precision": 0.33421030825323167,
+  "recall": 0.27677606409442607,
+  "F1": 0.3027937050140295
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.75,
+  "out_per_paper": 23.953,
+  "precision": 0.39748674487538094,
+  "recall": 0.1633412822316389,
+  "F1": 0.23153619804965833
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.8,
+  "out_per_paper": 9.005,
+  "precision": 0.4632981676846197,
+  "recall": 0.07157439654137145,
+  "F1": 0.12399322376437721
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.85,
+  "out_per_paper": 1.807,
+  "precision": 0.5605976757055894,
+  "recall": 0.01737892226663693,
+  "F1": 0.03371272630457934
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.9,
+  "out_per_paper": 0.038,
+  "precision": 0.7631578947368421,
+  "recall": 0.0004975209730823998,
+  "F1": 0.0009943936770277916
+ },
+ {
+  "method": "SSE aligned",
+  "level": "field",
+  "tau": 0.95,
+  "out_per_paper": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "F1": 0.0
+ },
+ {
+  "method": "B1 labels (equality)",
+  "level": "field",
+  "tau": NaN,
+  "out_per_paper": 51.437,
+  "precision": 0.4383809320139199,
+  "recall": 0.38684829041500113,
+  "F1": 0.41100559575670303
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.0,
+  "out_per_paper": 1199.499,
+  "precision": 0.01037683232749673,
+  "recall": 0.998235624348384,
+  "F1": 0.020540146274489097
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.05,
+  "out_per_paper": 1027.183,
+  "precision": 0.012076718559399834,
+  "recall": 0.9948672708316625,
+  "F1": 0.023863754410129542
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.1,
+  "out_per_paper": 857.922,
+  "precision": 0.01439757926711286,
+  "recall": 0.990616729489133,
+  "F1": 0.02838264641982741
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.15,
+  "out_per_paper": 704.954,
+  "precision": 0.017435180167783997,
+  "recall": 0.9857245970005614,
+  "F1": 0.03426430432255448
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.2,
+  "out_per_paper": 571.233,
+  "precision": 0.021292537370915195,
+  "recall": 0.9754591386638864,
+  "F1": 0.041675375448430876
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.25,
+  "out_per_paper": 456.442,
+  "precision": 0.02622896227779214,
+  "recall": 0.9601411500521293,
+  "F1": 0.05106299489668615
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.3,
+  "out_per_paper": 358.406,
+  "precision": 0.03260548093502899,
+  "recall": 0.9372042665811212,
+  "F1": 0.0630185372430064
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.35,
+  "out_per_paper": 275.637,
+  "precision": 0.04107939064784481,
+  "recall": 0.9080920683294571,
+  "F1": 0.07860301416839635
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.4,
+  "out_per_paper": 206.731,
+  "precision": 0.051917709487208016,
+  "recall": 0.8607747213088459,
+  "F1": 0.09792883211678832
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.45,
+  "out_per_paper": 149.207,
+  "precision": 0.06661215626612692,
+  "recall": 0.7970968000641591,
+  "F1": 0.12294960290952275
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.5,
+  "out_per_paper": 102.732,
+  "precision": 0.08664291554724915,
+  "recall": 0.7138503488651856,
+  "F1": 0.15452990859454346
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.55,
+  "out_per_paper": 66.749,
+  "precision": 0.1131702347600713,
+  "recall": 0.6058224396503328,
+  "F1": 0.19071423161402712
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.6,
+  "out_per_paper": 40.062,
+  "precision": 0.1503419699465828,
+  "recall": 0.48303793407650975,
+  "F1": 0.22931221564409587
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.65,
+  "out_per_paper": 21.747,
+  "precision": 0.19942980641007954,
+  "recall": 0.3478226000481193,
+  "F1": 0.25350713116670565
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.7,
+  "out_per_paper": 10.15,
+  "precision": 0.2697536945812808,
+  "recall": 0.2195845697329377,
+  "F1": 0.2420973517838985
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.75,
+  "out_per_paper": 3.838,
+  "precision": 0.3671182907764461,
+  "recall": 0.11300024059667976,
+  "F1": 0.1728092230330533
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.8,
+  "out_per_paper": 0.995,
+  "precision": 0.521608040201005,
+  "recall": 0.041623225599486724,
+  "F1": 0.07709447415329768
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.85,
+  "out_per_paper": 0.127,
+  "precision": 0.7244094488188977,
+  "recall": 0.007378298179485123,
+  "F1": 0.014607812003810734
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.9,
+  "out_per_paper": 0.002,
+  "precision": 1.0,
+  "recall": 0.00016039778651054615,
+  "F1": 0.00032074412637318576
+ },
+ {
+  "method": "SSE aligned",
+  "level": "subfield",
+  "tau": 0.95,
+  "out_per_paper": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "F1": 0.0
+ },
+ {
+  "method": "B1 labels (equality)",
+  "level": "subfield",
+  "tau": NaN,
+  "out_per_paper": 25.433,
+  "precision": 0.17949121220461606,
+  "recall": 0.3661079477103216,
+  "F1": 0.24088438604822965
+ }
+]

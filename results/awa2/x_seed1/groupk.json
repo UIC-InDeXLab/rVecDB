@@ -1,0 +1,596 @@
+[
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE",
+  "level": "habitat",
+  "k": 2,
+  "k_true": 4,
+  "NMI": 0.475719812342537,
+  "ARI": 0.3839719805466799
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE-treeSC",
+  "level": "habitat",
+  "k": 2,
+  "k_true": 4,
+  "NMI": 0.476952971200427,
+  "ARI": 0.3849759281325118
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B3 separate",
+  "level": "habitat",
+  "k": 2,
+  "k_true": 4,
+  "NMI": 0.48131874521694384,
+  "ARI": 0.38742270381744925
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B4 CSN",
+  "level": "habitat",
+  "k": 2,
+  "k_true": 4,
+  "NMI": 0.49814575652225024,
+  "ARI": 0.3921776921567208
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B6 plain CLIP",
+  "level": "habitat",
+  "k": 2,
+  "k_true": 4,
+  "NMI": 0.40873782911048867,
+  "ARI": 0.3277036494933888
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE",
+  "level": "habitat",
+  "k": 3,
+  "k_true": 4,
+  "NMI": 0.7166533350228377,
+  "ARI": 0.7593931029868471
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE-treeSC",
+  "level": "habitat",
+  "k": 3,
+  "k_true": 4,
+  "NMI": 0.7163899179931068,
+  "ARI": 0.7619305513531033
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B3 separate",
+  "level": "habitat",
+  "k": 3,
+  "k_true": 4,
+  "NMI": 0.7190100375780565,
+  "ARI": 0.7650332153838069
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B4 CSN",
+  "level": "habitat",
+  "k": 3,
+  "k_true": 4,
+  "NMI": 0.7179212457556774,
+  "ARI": 0.7644240256080401
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B6 plain CLIP",
+  "level": "habitat",
+  "k": 3,
+  "k_true": 4,
+  "NMI": 0.5314811629593197,
+  "ARI": 0.49541106263706425
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE",
+  "level": "habitat",
+  "k": 4,
+  "k_true": 4,
+  "NMI": 0.6134663199169255,
+  "ARI": 0.6493887931205572
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE-treeSC",
+  "level": "habitat",
+  "k": 4,
+  "k_true": 4,
+  "NMI": 0.6127710362117815,
+  "ARI": 0.6485333771491484
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B3 separate",
+  "level": "habitat",
+  "k": 4,
+  "k_true": 4,
+  "NMI": 0.6052996738663948,
+  "ARI": 0.6407260527881671
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B4 CSN",
+  "level": "habitat",
+  "k": 4,
+  "k_true": 4,
+  "NMI": 0.6271211763957943,
+  "ARI": 0.6620357458434333
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B6 plain CLIP",
+  "level": "habitat",
+  "k": 4,
+  "k_true": 4,
+  "NMI": 0.5239277805067009,
+  "ARI": 0.48848985526774036
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE",
+  "level": "habitat",
+  "k": 6,
+  "k_true": 4,
+  "NMI": 0.6766246197804406,
+  "ARI": 0.6467294612104052
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE-treeSC",
+  "level": "habitat",
+  "k": 6,
+  "k_true": 4,
+  "NMI": 0.6755067598490605,
+  "ARI": 0.6445170540409034
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B3 separate",
+  "level": "habitat",
+  "k": 6,
+  "k_true": 4,
+  "NMI": 0.6795214591631887,
+  "ARI": 0.6471981423039758
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B4 CSN",
+  "level": "habitat",
+  "k": 6,
+  "k_true": 4,
+  "NMI": 0.6818541422543151,
+  "ARI": 0.651230693529261
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B6 plain CLIP",
+  "level": "habitat",
+  "k": 6,
+  "k_true": 4,
+  "NMI": 0.4959023192826607,
+  "ARI": 0.35852840737049807
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE",
+  "level": "habitat",
+  "k": 8,
+  "k_true": 4,
+  "NMI": 0.6215891654320949,
+  "ARI": 0.411233350003065
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE-treeSC",
+  "level": "habitat",
+  "k": 8,
+  "k_true": 4,
+  "NMI": 0.6217783218603466,
+  "ARI": 0.4113392441263191
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B3 separate",
+  "level": "habitat",
+  "k": 8,
+  "k_true": 4,
+  "NMI": 0.6641145891460852,
+  "ARI": 0.4972988998594322
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B4 CSN",
+  "level": "habitat",
+  "k": 8,
+  "k_true": 4,
+  "NMI": 0.6651241122876441,
+  "ARI": 0.47757236887800186
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B6 plain CLIP",
+  "level": "habitat",
+  "k": 8,
+  "k_true": 4,
+  "NMI": 0.5638293234051962,
+  "ARI": 0.382280320457691
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE",
+  "level": "habitat",
+  "k": 12,
+  "k_true": 4,
+  "NMI": 0.6152444182132486,
+  "ARI": 0.3457198754005992
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE-treeSC",
+  "level": "habitat",
+  "k": 12,
+  "k_true": 4,
+  "NMI": 0.6134636811961585,
+  "ARI": 0.3452293070813206
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B3 separate",
+  "level": "habitat",
+  "k": 12,
+  "k_true": 4,
+  "NMI": 0.5851908153586933,
+  "ARI": 0.3235051953969254
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B4 CSN",
+  "level": "habitat",
+  "k": 12,
+  "k_true": 4,
+  "NMI": 0.571913812736753,
+  "ARI": 0.296418380257155
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B6 plain CLIP",
+  "level": "habitat",
+  "k": 12,
+  "k_true": 4,
+  "NMI": 0.47799427147680706,
+  "ARI": 0.20894603181283575
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE",
+  "level": "habitat",
+  "k": 16,
+  "k_true": 4,
+  "NMI": 0.6007885809459794,
+  "ARI": 0.29903114425902133
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "SSE-treeSC",
+  "level": "habitat",
+  "k": 16,
+  "k_true": 4,
+  "NMI": 0.6014028322496241,
+  "ARI": 0.29943346771048823
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B3 separate",
+  "level": "habitat",
+  "k": 16,
+  "k_true": 4,
+  "NMI": 0.609338084080209,
+  "ARI": 0.3062562154472318
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B4 CSN",
+  "level": "habitat",
+  "k": 16,
+  "k_true": 4,
+  "NMI": 0.5946124699689225,
+  "ARI": 0.2956745665810883
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B6 plain CLIP",
+  "level": "habitat",
+  "k": 16,
+  "k_true": 4,
+  "NMI": 0.5270007003476731,
+  "ARI": 0.2254122837729584
+ },
+ {
+  "part": "habitat, impact of k",
+  "method": "B1 labels (predicted yes/no pattern)",
+  "level": "habitat",
+  "k": 27,
+  "k_true": 4,
+  "NMI": 0.41238792724831097,
+  "ARI": 0.16824970038843973
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "SSE",
+  "level": "order",
+  "k": 10,
+  "k_true": 10,
+  "NMI": 0.7773221009182724,
+  "ARI": 0.6498840612319007
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "SSE",
+  "level": "family",
+  "k": 27,
+  "k_true": 27,
+  "NMI": 0.8740717198566357,
+  "ARI": 0.6999076162491147
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "SSE",
+  "level": "genus",
+  "k": 40,
+  "k_true": 40,
+  "NMI": 0.8519730654234575,
+  "ARI": 0.6488354773228303
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "SSE-treeSC",
+  "level": "order",
+  "k": 10,
+  "k_true": 10,
+  "NMI": 0.8133111038107317,
+  "ARI": 0.7643490687591278
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "SSE-treeSC",
+  "level": "family",
+  "k": 27,
+  "k_true": 27,
+  "NMI": 0.8800768333268804,
+  "ARI": 0.7326361605927708
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "SSE-treeSC",
+  "level": "genus",
+  "k": 40,
+  "k_true": 40,
+  "NMI": 0.8703357739475293,
+  "ARI": 0.6610636577193765
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "B3 separate",
+  "level": "order",
+  "k": 10,
+  "k_true": 10,
+  "NMI": 0.8382369232800813,
+  "ARI": 0.7164680771758758
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "B3 separate",
+  "level": "family",
+  "k": 27,
+  "k_true": 27,
+  "NMI": 0.8951536065040366,
+  "ARI": 0.7686300040420156
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "B3 separate",
+  "level": "genus",
+  "k": 40,
+  "k_true": 40,
+  "NMI": 0.8818119595008569,
+  "ARI": 0.6811944126103958
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "B4 CSN",
+  "level": "order",
+  "k": 10,
+  "k_true": 10,
+  "NMI": 0.8179444346462549,
+  "ARI": 0.7350875250250711
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "B4 CSN",
+  "level": "family",
+  "k": 27,
+  "k_true": 27,
+  "NMI": 0.8957190624656963,
+  "ARI": 0.7388866664503005
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "B4 CSN",
+  "level": "genus",
+  "k": 40,
+  "k_true": 40,
+  "NMI": 0.8679821249876114,
+  "ARI": 0.6420248503829616
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "B6 plain CLIP",
+  "level": "order",
+  "k": 10,
+  "k_true": 10,
+  "NMI": 0.5483428916776615,
+  "ARI": 0.24338110086510364
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "B6 plain CLIP",
+  "level": "family",
+  "k": 27,
+  "k_true": 27,
+  "NMI": 0.8246790992992418,
+  "ARI": 0.6208687269726929
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "B6 plain CLIP",
+  "level": "genus",
+  "k": 40,
+  "k_true": 40,
+  "NMI": 0.8415570492353385,
+  "ARI": 0.5900256323527552
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "B1 labels (predicted)",
+  "level": "order",
+  "k": 10,
+  "k_true": 10,
+  "NMI": 0.88604242605299,
+  "ARI": 0.8921527327309472
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "B1 labels (predicted)",
+  "level": "family",
+  "k": 23,
+  "k_true": 27,
+  "NMI": 0.8754803749489332,
+  "ARI": 0.794771588099277
+ },
+ {
+  "part": "roll-up / drill-down",
+  "method": "B1 labels (predicted)",
+  "level": "genus",
+  "k": 32,
+  "k_true": 40,
+  "NMI": 0.8765124751290777,
+  "ARI": 0.7560907716668599
+ },
+ {
+  "part": "unseen species",
+  "method": "SSE",
+  "level": "family",
+  "k": 9,
+  "k_true": 9,
+  "NMI": 0.9111973980443251,
+  "ARI": 0.804711192874236
+ },
+ {
+  "part": "unseen species",
+  "method": "SSE-treeSC",
+  "level": "family",
+  "k": 9,
+  "k_true": 9,
+  "NMI": 0.9104409786507133,
+  "ARI": 0.8032849756036268
+ },
+ {
+  "part": "unseen species",
+  "method": "B3 separate",
+  "level": "family",
+  "k": 9,
+  "k_true": 9,
+  "NMI": 0.9110795921286058,
+  "ARI": 0.8053292978352189
+ },
+ {
+  "part": "unseen species",
+  "method": "B4 CSN",
+  "level": "family",
+  "k": 9,
+  "k_true": 9,
+  "NMI": 0.9099582329077237,
+  "ARI": 0.8040911142669308
+ },
+ {
+  "part": "unseen species",
+  "method": "B6 plain CLIP",
+  "level": "family",
+  "k": 9,
+  "k_true": 9,
+  "NMI": 0.8717157717822505,
+  "ARI": 0.7153687677992266
+ },
+ {
+  "part": "unseen species",
+  "method": "B1 labels (predicted)",
+  "level": "family",
+  "k": 21,
+  "k_true": 9,
+  "NMI": 0.8605375028256801,
+  "ARI": 0.8508984670988918
+ },
+ {
+  "part": "unseen species",
+  "method": "SSE",
+  "level": "genus",
+  "k": 10,
+  "k_true": 10,
+  "NMI": 0.9399023036311791,
+  "ARI": 0.8712698232114978
+ },
+ {
+  "part": "unseen species",
+  "method": "SSE-treeSC",
+  "level": "genus",
+  "k": 10,
+  "k_true": 10,
+  "NMI": 0.9358312902688203,
+  "ARI": 0.8723071343903248
+ },
+ {
+  "part": "unseen species",
+  "method": "B3 separate",
+  "level": "genus",
+  "k": 10,
+  "k_true": 10,
+  "NMI": 0.9401961083882094,
+  "ARI": 0.8849905925328889
+ },
+ {
+  "part": "unseen species",
+  "method": "B4 CSN",
+  "level": "genus",
+  "k": 10,
+  "k_true": 10,
+  "NMI": 0.9496313875442077,
+  "ARI": 0.9197720143055136
+ },
+ {
+  "part": "unseen species",
+  "method": "B6 plain CLIP",
+  "level": "genus",
+  "k": 10,
+  "k_true": 10,
+  "NMI": 0.9518293157561315,
+  "ARI": 0.9228273307783683
+ },
+ {
+  "part": "unseen species",
+  "method": "B1 labels (predicted)",
+  "level": "genus",
+  "k": 28,
+  "k_true": 10,
+  "NMI": 0.8606336240284155,
+  "ARI": 0.8178706318624326
+ }
+]
